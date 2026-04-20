@@ -1,0 +1,6 @@
+Email,Username,First Name,Last Name,Role,Password,Billing Address 1,Billing Address 2,Billing City,Billing State,Billing Postcode,Billing Country,Billing Phone,Shipping Address 1,Shipping Address 2,Shipping City,Shipping State,Shipping Postcode,Shipping Country
+john.doe@example.com,johndoe,John,Doe,customer,Welcome@123,123 Main Street,Suite 400,New York,NY,10001,US,+1-212-555-0101,123 Main Street,Suite 400,New York,NY,10001,US
+jane.smith@example.com,janesmith,Jane,Smith,customer,Welcome@456,456 Oak Avenue,,Los Angeles,CA,90210,US,+1-310-555-0202,456 Oak Avenue,,Los Angeles,CA,90210,US
+robert.jones@example.com,robertjones,Robert,Jones,customer,Welcome@789,789 Pine Road,Building C,Chicago,IL,60601,US,+1-312-555-0303,789 Pine Road,Building C,Chicago,IL,60601,US
+maria.garcia@example.com,mariagarcia,Maria,Garcia,customer,Welcome@321,321 Elm Street,,Miami,FL,33101,US,+1-305-555-0404,1500 NW 1st Ave,,Miami,FL,33101,US
+alex.wilson@example.com,alexwilson,Alex,Wilson,customer,Welcome@654,654 Maple Drive,Floor 2,Seattle,WA,98101,US,+1-206-555-0505,654 Maple Drive,Floor 2,Seattle,WA,98101,US
