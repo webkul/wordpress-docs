@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <id>1</id>
+    <type>simple</type>
+    <sku>WK-TEE-001</sku>
+    <name>Classic Cotton T-Shirt</name>
+    <published>1</published>
+    <featured>0</featured>
+    <short_description>Soft breathable cotton tee for everyday wear</short_description>
+    <description>Premium 100% organic cotton t-shirt with a relaxed fit. Pre-shrunk fabric ensures lasting comfort. Available in multiple colors. Machine washable.</description>
+    <regular_price>29.99</regular_price>
+    <sale_price>24.99</sale_price>
+    <categories>Clothing > Men's > T-Shirts</categories>
+    <tags>cotton,casual,basics</tags>
+    <images>
+      <image>https://example.com/images/classic-tee-front.jpg</image>
+      <image>https://example.com/images/classic-tee-back.jpg</image>
+    </images>
+    <stock>150</stock>
+    <weight_kg>0.2</weight_kg>
+    <length_cm></length_cm>
+    <width_cm></width_cm>
+    <height_cm></height_cm>
+    <virtual>0</virtual>
+  </product>
+
+  <product>
+    <id>2</id>
+    <type>simple</type>
+    <sku>WK-MUG-002</sku>
+    <name>Ceramic Coffee Mug</name>
+    <published>1</published>
+    <featured>1</featured>
+    <short_description>Handcrafted 12oz ceramic coffee mug</short_description>
+    <description>Beautifully glazed ceramic mug perfect for your morning coffee or tea. Dishwasher and microwave safe. Comfortable handle with a wide base for stability.</description>
+    <regular_price>18.50</regular_price>
+    <sale_price></sale_price>
+    <categories>Home &amp; Kitchen > Drinkware</categories>
+    <tags>ceramic,coffee,kitchen</tags>
+    <images>
+      <image>https://example.com/images/ceramic-mug.jpg</image>
+    </images>
+    <stock>300</stock>
+    <weight_kg>0.35</weight_kg>
+    <length_cm>10</length_cm>
+    <width_cm>8</width_cm>
+    <height_cm>8</height_cm>
+    <virtual>0</virtual>
+  </product>
+
+  <product>
+    <id>3</id>
+    <type>simple</type>
+    <sku>WK-BOOK-003</sku>
+    <name>WordPress Development Handbook</name>
+    <published>1</published>
+    <featured>0</featured>
+    <short_description>Complete guide to WordPress plugin and theme development</short_description>
+    <description>A comprehensive 450-page guide covering everything from basic plugin architecture to advanced REST API integration. Includes real-world examples and best practices for modern WordPress development.</description>
+    <regular_price>45.00</regular_price>
+    <sale_price>39.99</sale_price>
+    <categories>Books > Technology</categories>
+    <tags>wordpress,development,programming</tags>
+    <images>
+      <image>https://example.com/images/wp-handbook-cover.jpg</image>
+    </images>
+    <stock>80</stock>
+    <weight_kg>0.6</weight_kg>
+    <length_cm>24</length_cm>
+    <width_cm>17</width_cm>
+    <height_cm>2</height_cm>
+    <virtual>0</virtual>
+  </product>
+
+  <product>
+    <id>4</id>
+    <type>variable</type>
+    <sku>WK-POLO-004</sku>
+    <name>Performance Polo Shirt</name>
+    <published>1</published>
+    <featured>1</featured>
+    <short_description>Moisture-wicking polo shirt for active lifestyles</short_description>
+    <description>Engineered with advanced moisture-wicking fabric to keep you cool and dry. Features a classic polo collar with a modern athletic fit. UV protection rated UPF 30+.</description>
+    <regular_price>49.99</regular_price>
+    <sale_price></sale_price>
+    <categories>Clothing > Men's > Shirts</categories>
+    <tags>polo,athletic,performance</tags>
+    <images>
+      <image>https://example.com/images/polo-navy.jpg</image>
+      <image>https://example.com/images/polo-black.jpg</image>
+    </images>
+    <stock>0</stock>
+    <weight_kg>0.25</weight_kg>
+    <virtual>0</virtual>
+    <attributes>
+      <attribute name="Color" terms="Navy|Black|White"/>
+      <attribute name="Size" terms="S|M|L|XL"/>
+    </attributes>
+    <default_attributes>
+      <attribute name="Color">Navy</attribute>
+      <attribute name="Size">M</attribute>
+    </default_attributes>
+    <variations>
+      <variation>
+        <id>5</id>
+        <sku>WK-POLO-004-NVY-S</sku>
+        <name>Performance Polo Shirt - Navy / S</name>
+        <regular_price>49.99</regular_price>
+        <sale_price></sale_price>
+        <stock>25</stock>
+        <weight_kg>0.25</weight_kg>
+        <image>https://example.com/images/polo-navy.jpg</image>
+        <attributes>
+          <attribute name="Color">Navy</attribute>
+          <attribute name="Size">S</attribute>
+        </attributes>
+        <description>Navy Small variant</description>
+      </variation>
+      <variation>
+        <id>6</id>
+        <sku>WK-POLO-004-NVY-M</sku>
+        <name>Performance Polo Shirt - Navy / M</name>
+        <regular_price>49.99</regular_price>
+        <sale_price></sale_price>
+        <stock>40</stock>
+        <weight_kg>0.25</weight_kg>
+        <image>https://example.com/images/polo-navy.jpg</image>
+        <attributes>
+          <attribute name="Color">Navy</attribute>
+          <attribute name="Size">M</attribute>
+        </attributes>
+        <description>Navy Medium variant</description>
+      </variation>
+      <variation>
+        <id>7</id>
+        <sku>WK-POLO-004-BLK-L</sku>
+        <name>Performance Polo Shirt - Black / L</name>
+        <regular_price>54.99</regular_price>
+        <sale_price>49.99</sale_price>
+        <stock>30</stock>
+        <weight_kg>0.25</weight_kg>
+        <image>https://example.com/images/polo-black.jpg</image>
+        <attributes>
+          <attribute name="Color">Black</attribute>
+          <attribute name="Size">L</attribute>
+        </attributes>
+        <description>Black Large variant</description>
+      </variation>
+    </variations>
+  </product>
+
+  <product>
+    <id>8</id>
+    <type>variable</type>
+    <sku>WK-SNKR-005</sku>
+    <name>Urban Runner Sneakers</name>
+    <published>1</published>
+    <featured>0</featured>
+    <short_description>Lightweight running sneakers with cushioned sole</short_description>
+    <description>Designed for urban runners who demand comfort and style. Features a breathable mesh upper, responsive cushioning, and durable rubber outsole. Perfect for daily runs or casual wear.</description>
+    <regular_price>89.99</regular_price>
+    <sale_price>79.99</sale_price>
+    <categories>Clothing > Shoes</categories>
+    <tags>sneakers,running,footwear</tags>
+    <images>
+      <image>https://example.com/images/sneakers-grey.jpg</image>
+      <image>https://example.com/images/sneakers-side.jpg</image>
+    </images>
+    <stock>0</stock>
+    <weight_kg>0.7</weight_kg>
+    <length_cm>32</length_cm>
+    <width_cm>22</width_cm>
+    <height_cm>14</height_cm>
+    <virtual>0</virtual>
+    <attributes>
+      <attribute name="Color" terms="Grey|Black|White"/>
+      <attribute name="Size" terms="8|9|10|11|12"/>
+    </attributes>
+    <default_attributes>
+      <attribute name="Color">Grey</attribute>
+      <attribute name="Size">10</attribute>
+    </default_attributes>
+    <variations>
+      <variation>
+        <id>9</id>
+        <sku>WK-SNKR-005-GRY-10</sku>
+        <name>Urban Runner Sneakers - Grey / 10</name>
+        <regular_price>89.99</regular_price>
+        <sale_price>79.99</sale_price>
+        <stock>20</stock>
+        <weight_kg>0.7</weight_kg>
+        <length_cm>32</length_cm>
+        <width_cm>22</width_cm>
+        <height_cm>14</height_cm>
+        <image>https://example.com/images/sneakers-grey.jpg</image>
+        <attributes>
+          <attribute name="Color">Grey</attribute>
+          <attribute name="Size">10</attribute>
+        </attributes>
+        <description>Grey size 10</description>
+      </variation>
+      <variation>
+        <id>10</id>
+        <sku>WK-SNKR-005-BLK-9</sku>
+        <name>Urban Runner Sneakers - Black / 9</name>
+        <regular_price>89.99</regular_price>
+        <sale_price></sale_price>
+        <stock>15</stock>
+        <weight_kg>0.7</weight_kg>
+        <length_cm>32</length_cm>
+        <width_cm>22</width_cm>
+        <height_cm>14</height_cm>
+        <image>https://example.com/images/sneakers-black.jpg</image>
+        <attributes>
+          <attribute name="Color">Black</attribute>
+          <attribute name="Size">9</attribute>
+        </attributes>
+        <description>Black size 9</description>
+      </variation>
+      <variation>
+        <id>11</id>
+        <sku>WK-SNKR-005-WHT-11</sku>
+        <name>Urban Runner Sneakers - White / 11</name>
+        <regular_price>94.99</regular_price>
+        <sale_price>84.99</sale_price>
+        <stock>10</stock>
+        <weight_kg>0.7</weight_kg>
+        <length_cm>32</length_cm>
+        <width_cm>22</width_cm>
+        <height_cm>14</height_cm>
+        <image>https://example.com/images/sneakers-white.jpg</image>
+        <attributes>
+          <attribute name="Color">White</attribute>
+          <attribute name="Size">11</attribute>
+        </attributes>
+        <description>White size 11</description>
+      </variation>
+    </variations>
+  </product>
+
+  <product>
+    <id>12</id>
+    <type>grouped</type>
+    <sku>WK-GIFTSET-006</sku>
+    <name>Home Office Starter Kit</name>
+    <published>1</published>
+    <featured>1</featured>
+    <short_description>Everything you need for a productive home office</short_description>
+    <description>Curated collection of essential home office items. Purchase the complete set for convenience or select individual items. Includes a ceramic mug, desk organizer, and LED desk lamp.</description>
+    <regular_price></regular_price>
+    <sale_price></sale_price>
+    <categories>Home &amp; Kitchen</categories>
+    <tags>bundle,office,gift</tags>
+    <images>
+      <image>https://example.com/images/office-kit.jpg</image>
+    </images>
+    <virtual>0</virtual>
+    <grouped_products>WK-MUG-002,WK-DESKLAMP-013,WK-DESKORG-014</grouped_products>
+  </product>
+
+  <product>
+    <id>13</id>
+    <type>external</type>
+    <sku>WK-COURSE-007</sku>
+    <name>Advanced WooCommerce Masterclass</name>
+    <published>1</published>
+    <featured>0</featured>
+    <short_description>Online video course covering advanced WooCommerce customization</short_description>
+    <description>48-hour comprehensive online course with lifetime access. Covers custom plugin development, REST API integration, payment gateway creation, and performance optimization. Includes downloadable resources and certificate.</description>
+    <regular_price>199.00</regular_price>
+    <sale_price>149.00</sale_price>
+    <categories>Books > Technology > Courses</categories>
+    <tags>course,woocommerce,elearning</tags>
+    <images>
+      <image>https://example.com/images/woo-course-thumb.jpg</image>
+    </images>
+    <virtual>0</virtual>
+    <external_url>https://courses.example.com/woocommerce-advanced</external_url>
+    <button_text>Enroll Now</button_text>
+  </product>
+
+  <product>
+    <id>14</id>
+    <type>virtual</type>
+    <sku>WK-CONSULT-008</sku>
+    <name>1-Hour WordPress Consultation</name>
+    <published>1</published>
+    <featured>0</featured>
+    <short_description>One-on-one expert WordPress consultation session</short_description>
+    <description>Book a 60-minute private consultation with a senior WordPress developer. Get expert advice on plugin architecture, performance optimization, security hardening, or migration planning. Session conducted via Zoom.</description>
+    <regular_price>125.00</regular_price>
+    <sale_price></sale_price>
+    <categories>Services</categories>
+    <tags>consultation,wordpress,expert</tags>
+    <images>
+      <image>https://example.com/images/consultation-icon.jpg</image>
+    </images>
+    <stock>50</stock>
+    <virtual>1</virtual>
+  </product>
+
+  <product>
+    <id>15</id>
+    <type>simple</type>
+    <sku>WK-DLPDF-009</sku>
+    <name>Social Media Marketing Templates Pack</name>
+    <published>1</published>
+    <featured>0</featured>
+    <short_description>50 customizable social media templates</short_description>
+    <description>Professional social media template pack with 50 fully customizable designs for Instagram, Facebook, Twitter, and LinkedIn. Includes Canva and Photoshop source files. Commercial license included.</description>
+    <regular_price>35.00</regular_price>
+    <sale_price>29.99</sale_price>
+    <categories>Digital Products</categories>
+    <tags>templates,marketing,social-media</tags>
+    <images>
+      <image>https://example.com/images/social-templates-preview.jpg</image>
+    </images>
+    <stock>999</stock>
+    <virtual>1</virtual>
+    <downloadable>1</downloadable>
+    <downloads>
+      <download>
+        <name>Marketing Templates Pack</name>
+        <url>https://example.com/downloads/social-templates-v2.zip</url>
+      </download>
+    </downloads>
+    <download_limit>3</download_limit>
+    <download_expiry>365</download_expiry>
+  </product>
+</products>

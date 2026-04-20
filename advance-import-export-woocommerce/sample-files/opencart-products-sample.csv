@@ -1,0 +1,6 @@
+product_id,name,model,sku,quantity,price,special,category,description,image,weight,length,width,height,status,manufacturer
+1,"Smartphone Pro Max","PHONE-001","OC-PHONE-001",50,899.99,799.99,"Electronics/Phones","Latest smartphone with 6.7 inch AMOLED display and 5G connectivity.","/images/phone.jpg",0.2,16,7.5,0.8,1,"TechCorp"
+2,"Wireless Earbuds","AUDIO-001","OC-EAR-001",200,49.99,,"Electronics/Audio","True wireless earbuds with ambient sound mode and 24h battery.","/images/earbuds.jpg",0.05,6,4,3,1,"SoundMax"
+3,"Gaming Mouse","MOUSE-001","OC-MOUSE-001",150,34.99,29.99,"Computers/Peripherals","Ergonomic gaming mouse with 16000 DPI sensor and RGB lighting.","/images/mouse.jpg",0.12,13,7,4,1,"GamePro"
+4,"USB-C Hub","HUB-001","OC-HUB-001",100,39.99,,"Computers/Accessories","7-in-1 USB-C hub with HDMI, USB 3.0, SD card reader, and PD charging.","/images/hub.jpg",0.08,11,5,1.5,1,"ConnectAll"
+5,"Mechanical Keyboard","KB-001","OC-KB-001",75,79.99,69.99,"Computers/Peripherals","Compact 75% mechanical keyboard with hot-swappable switches.","/images/keyboard.jpg",0.6,32,12,4,1,"KeyMaster"
