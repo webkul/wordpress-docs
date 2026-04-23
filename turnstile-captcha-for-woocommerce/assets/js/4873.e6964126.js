@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkturnstile_captcha_for_woocommerce=self.webpackChunkturnstile_captcha_for_woocommerce||[]).push([[4873],{4873(e,c,r){r.d(c,{createArchitectureServices:()=>t.b});var t=r(5572);r(8548),r(9218),r(6259),r(8517),r(8840)}}]);

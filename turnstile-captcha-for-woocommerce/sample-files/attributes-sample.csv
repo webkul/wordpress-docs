@@ -1,0 +1,6 @@
+Name,Slug,Type,Terms
+Color,color,select,Red|Blue|Green|Black|White|Navy|Grey
+Size,size,select,S|M|L|XL|XXL
+Material,material,select,Cotton|Polyester|Leather|Ceramic|Wood
+Brand,brand,select,Webkul|Nike|Adidas|Generic|Premium Collection
+Shoe Size,shoe-size,select,6|7|8|9|10|11|12|13
