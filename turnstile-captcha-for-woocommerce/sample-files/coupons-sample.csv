@@ -1,6 +1,0 @@
-Code,Type,Amount,Expiry Date,Usage Limit,Usage Limit Per User,Min Spend,Max Spend,Individual Use,Exclude Sale Items,Product SKUs,Exclude Product SKUs,Categories,Free Shipping,Description
-WELCOME10,percent,10,2026-12-31,1000,1,25.00,,yes,no,,,Clothing,no,10% off for new customers on clothing orders over $25
-SUMMER25,percent,25,2026-09-30,500,2,50.00,500.00,yes,yes,,,Clothing|Home & Kitchen,no,25% summer sale discount on non-sale items
-FREESHIP,percent,0,2026-12-31,0,0,75.00,,no,no,,,,yes,Free shipping on orders over $75
-FLAT15,fixed_cart,15,2026-06-30,200,1,100.00,,yes,no,,,,no,$15 off orders over $100
-BOOKWORM,fixed_product,5,2026-12-31,0,3,0.00,,no,no,WK-BOOK-003|WK-COURSE-007,,Books,no,$5 off per book or course purchased
