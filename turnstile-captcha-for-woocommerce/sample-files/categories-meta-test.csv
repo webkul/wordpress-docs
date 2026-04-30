@@ -1,7 +1,0 @@
-Name,Slug,Parent,Description,Display Type,Image,meta:_yoast_wpseo_title,meta:_yoast_wpseo_metadesc,meta:brand_color
-Electronics,electronics,,"All electronic gadgets and devices",default,https://example.com/electronics.jpg,"Electronics - Buy Online","Shop the best electronics at great prices",#0066cc
-Phones,phones,Electronics,"Mobile phones and smartphones",products,https://example.com/phones.jpg,"Best Phones 2026","Find the best mobile phones here",#ff0000
-Laptops,laptops,Electronics,"Laptop computers and notebooks",subcategories,https://example.com/laptops.jpg,"Buy Laptops Online","Shop laptops from top brands",#333333
-Accessories,accessories,Electronics,"Phone and laptop accessories",products,,"Accessories - Shop Now",,#00cc66
-Clothing,clothing,,"Fashion and apparel",default,https://example.com/clothing.jpg,"Clothing Store","Buy trendy clothing online",
-"Men's",mens,Clothing,"Men's clothing and wear",products,,,,
