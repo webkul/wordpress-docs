@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwp_wallet_system_doc=self.webpackChunkwp_wallet_system_doc||[]).push([[832],{832(e,s,a){a.d(s,{createTreemapServices:()=>c.b});var c=a(7311);a(8548),a(9218),a(6259),a(8517),a(8840)}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwp_wallet_system_doc=self.webpackChunkwp_wallet_system_doc||[]).push([[4477],{4477(e,s,c){c.d(s,{createPacketServices:()=>t.b});var t=c(1965);c(8548),c(9218),c(6259),c(8517),c(8840)}}]);
