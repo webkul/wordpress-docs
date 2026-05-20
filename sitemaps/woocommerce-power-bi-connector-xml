@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/introduction.html</loc>
+  <lastmod>2026-05-20T15:44:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/quick-start.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/features.html</loc>
+  <lastmod>2026-05-20T15:44:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/installation.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/azure-ad-setup.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/power-bi-setup.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/setup-wizard.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/settings.html</loc>
+  <lastmod>2026-05-20T15:44:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/access-control.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/dashboard.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/reports.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/alerts.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/workspaces-datasets-tables.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/sync.html</loc>
+  <lastmod>2026-05-20T15:44:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/data-load-profiles.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/query-builder.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/export-center.html</loc>
+  <lastmod>2026-05-20T15:44:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/logs.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/rest-api.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/troubleshooting.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/faq.html</loc>
+  <lastmod>2026-05-20T15:44:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-power-bi-connector/glossary.html</loc>
+  <lastmod>2026-05-20T15:44:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

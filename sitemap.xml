@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+
+   <sitemap>
+      <loc>https://wpdoc.webkul.com/sitemaps/advance-import-export-woocommerce.xml</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://wpdoc.webkul.com/sitemaps/auctions-for-woocommerce.xml</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://wpdoc.webkul.com/sitemaps/turnstile-captcha-for-woocommerce.xml</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://wpdoc.webkul.com/sitemaps/wallet-system.xml</loc>
+   </sitemap>
+    <sitemap>
+      <loc>https://wpdoc.webkul.com/sitemaps/woocommerce-power-bi-connector-xml</loc>
+   </sitemap>
+
+
+</sitemapindex>
