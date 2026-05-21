@@ -25,9 +25,16 @@
    <sitemap>
       <loc>https://wpdoc.webkul.com/sitemaps/woocommerce-marketplace.xml</loc>
    </sitemap>
-
     <sitemap>
       <loc>https://wpdoc.webkul.com/sitemaps/woocommerce-ebay-connector.xml</loc>
    </sitemap>
+   <sitemap>
+      <loc>https://wpdoc.webkul.com/sitemaps/woocommerce-shopify-connector.xml</loc>
+   </sitemap>
+    <sitemap>
+      <loc>https://wpdoc.webkul.com/sitemaps/unopim-connector.xml</loc>
+   </sitemap>
+
+   
 
 </sitemapindex>
