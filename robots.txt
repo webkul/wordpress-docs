@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /search/
+Disallow: /*?s=
+Disallow: /*?replytocom=
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /author/
+Disallow: /trackback/
+
+Sitemap: https://wpdoc.webkul.com/sitemap.xml
