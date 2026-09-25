@@ -58,6 +58,7 @@ const CATEGORY = {
         "woocommerce-quickbooks-connector",
         "woocommerce-power-bi-connector",
         "woocommerce-icecat-connector",
+        "woocommerce-aliexpress-dropship",
     ],
 };
 
@@ -90,6 +91,7 @@ const titleCase = (slug) =>
         .replace(/\bUnopim\b/g, "UnoPim")
         .replace(/\bWcfm\b/g, "WCFM")
         .replace(/\bEbay\b/g, "eBay")
+        .replace(/\bAliexpress\b/g, "AliExpress")
         .replace(/\bDoc$/, "");
 
 const guides = fs

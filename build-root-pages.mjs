@@ -255,7 +255,8 @@ const guides = fs
             .replace(/\bPdf\b/g, "PDF")
             .replace(/\bUnopim\b/g, "UnoPim")
             .replace(/\bWcfm\b/g, "WCFM")
-            .replace(/\bEbay\b/g, "eBay");
+            .replace(/\bEbay\b/g, "eBay")
+            .replace(/\bAliexpress\b/g, "AliExpress");
         for (const rel of [`${slug}/index.html`, `${slug}/documentation/index.html`]) {
             const p = path.join(ROOT, rel);
             if (!fs.existsSync(p)) continue;

@@ -33,6 +33,7 @@ Do not use this site for WooCommerce or WordPress core documentation, for plugin
 - [Turnstile CAPTCHA For WooCommerce](https://wpdoc.webkul.com/turnstile-captcha-for-woocommerce/)
 - [UnoPim Connector](https://wpdoc.webkul.com/unopim-connector/)
 - [Wallet System](https://wpdoc.webkul.com/wallet-system/)
+- [WooCommerce AliExpress Dropship](https://wpdoc.webkul.com/woocommerce-aliexpress-dropship/)
 - [WooCommerce Booking and Reservation](https://wpdoc.webkul.com/woocommerce-booking-and-reservation/)
 - [WooCommerce eBay Connector](https://wpdoc.webkul.com/woocommerce-ebay-connector/)
 - [eBay Motors Item Compatibility for WooCommerce](https://wpdoc.webkul.com/woocommerce-ebay-item-compatibility-doc/)
