@@ -47,6 +47,7 @@ const CATEGORY = {
         "tranzila-payment-for-woocommerce-pos",
         "woocommerce-pos-avalara-tax",
         "kitchen-and-customer-screen-for-restaurant-pos",
+        "woocommerce-pos-linkly-terminal-connector",
     ],
     connectors: [
         "bagisto-connector",

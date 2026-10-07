@@ -43,6 +43,7 @@ Do not use this site for WooCommerce or WordPress core documentation, for plugin
 - [WooCommerce Multi Vendor Printify Integration](https://wpdoc.webkul.com/woocommerce-multi-vendor-printify-integration/)
 - [Woo PDF Invoices & Packing Slips](https://wpdoc.webkul.com/woocommerce-pdf-invoices-packing-slips/)
 - [WooCommerce POS Avalara Tax Integration](https://wpdoc.webkul.com/woocommerce-pos-avalara-tax/)
+- [WooCommerce POS Linkly Terminal Connector](https://wpdoc.webkul.com/woocommerce-pos-linkly-terminal-connector/)
 - [WooCommerce Power BI Connector](https://wpdoc.webkul.com/woocommerce-power-bi-connector/)
 - [WooCommerce Pre-Order](https://wpdoc.webkul.com/woocommerce-pre-order/)
 - [QuickBooks Connector](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/)
