@@ -1,0 +1,1 @@
+var e=`/pos-for-woocommerce/images/woocommerce-pos/appearance-newest-cart-item-first.webp`;export{e as t};

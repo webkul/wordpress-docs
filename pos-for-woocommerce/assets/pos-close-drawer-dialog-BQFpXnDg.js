@@ -1,0 +1,1 @@
+var e=`/pos-for-woocommerce/images/woocommerce-pos/pos-close-drawer-dialog.webp`;export{e as t};

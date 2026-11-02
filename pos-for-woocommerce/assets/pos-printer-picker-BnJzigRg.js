@@ -1,0 +1,1 @@
+var e=`/pos-for-woocommerce/images/woocommerce-pos/pos-printer-picker.webp`;export{e as t};
