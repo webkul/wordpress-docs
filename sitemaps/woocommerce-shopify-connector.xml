@@ -143,4 +143,22 @@
   <priority>0.80</priority>
 </url>
 
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-shopify-connector/shopify-connector/order-status-mapping.html</loc>
+  <lastmod>2026-11-03T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-shopify-connector/shopify-connector/product-status-mapping.html</loc>
+  <lastmod>2026-11-03T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://wpdoc.webkul.com/woocommerce-shopify-connector/shopify-connector/help-center.html</loc>
+  <lastmod>2026-11-03T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 </urlset>
