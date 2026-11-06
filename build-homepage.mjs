@@ -48,6 +48,7 @@ const CATEGORY = {
         "woocommerce-pos-avalara-tax",
         "kitchen-and-customer-screen-for-restaurant-pos",
         "woocommerce-pos-linkly-terminal-connector",
+        "woocommerce-pos-happy-hour-discount",
     ],
     connectors: [
         "bagisto-connector",
