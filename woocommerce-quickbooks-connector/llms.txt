@@ -1,0 +1,51 @@
+# WooCommerce QuickBooks Connector Documentation
+
+> Official documentation for Webkul's WooCommerce QuickBooks Connector plugin, which links a WooCommerce store directly with Intuit QuickBooks Online to synchronize customers, products, stock levels, orders, payments, fees, refunds, and taxes.
+
+**When to use this documentation.** Use this site when you need to:
+
+- Install and activate the WooCommerce QuickBooks Connector on WordPress.
+- Obtain Intuit Developer credentials (OAuth 2.0 Client ID & Client Secret) and register Redirect URIs.
+- Complete the 4-step guided Setup Wizard to connect your store to an Intuit QuickBooks Online company.
+- Monitor synchronization health, audit sync logs, inspect raw JSON payloads, and retry failed records.
+- View real-time synchronization metrics, KPIs, system health, and financial snapshots on the QuickBooks Dashboard.
+- Access the 6 core embedded QuickBooks financial reports (Profit & Loss, Balance Sheet, Cash Flow, Sales by Product, Sales by Customer, A/R Aging) inside WordPress admin.
+- Configure real-time bidirectional product sync, 2-way stock sync, and category filters.
+- Automate order export by order status (Sales Receipt, Invoice, Estimate, Credit Memo), penny-rounding reconciliation, and fee account mapping.
+- Map WooCommerce payment gateways to QuickBooks payment methods, bank deposit accounts, and configure Webkul POS split-payment routing.
+- Map tax classes to QuickBooks tax codes with default fallback.
+- Configure automated sync failure email alerts and digest intervals.
+- Troubleshoot QuickBooks API errors (such as Error 6240 duplicate customer name, expired OAuth tokens, or tax mismatch).
+
+Do not use this site for QuickBooks Desktop, third-party cloud accounting bridges, or non-WooCommerce platforms.
+
+**How to consume this site.** Every documentation page is available as static HTML at `https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/<page>.html`. The complete single-file documentation corpus for LLMs and AI agents is available at [llms-full.txt](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/llms-full.txt). Machine-readable sitemap: [sitemap.xml](https://wpdoc.webkul.com/sitemaps/woocommerce-quickbooks-connector.xml).
+
+## Documentation Pages
+
+- [Overview](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/overview.html): Architecture, prerequisites, system requirements (WordPress 6.7–7.1, WooCommerce 10.0–11.3, PHP 8.2–8.5, HPOS, Action Scheduler), and core concepts.
+- [Features](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/features.html): Complete feature inventory covering connection, data synchronization, accounting controls, reports, and automation.
+- [Plugin Comparison](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/comparison.html): Why Webkul is superior to MyWorks Sync, Webgility, and Connex (one-time license model vs recurring monthly SaaS, zero-cloud data privacy, unlimited order sync, POS split tender support, and embedded reports).
+- [Installation](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/installation.html): Uploading, installing, activating, and licensing the connector.
+- [Get Intuit Credentials](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/intuit-credentials.html): Step-by-step developer portal guide for creating an Intuit App, generating OAuth 2.0 keys, and copying Redirect URIs.
+- [Setup Wizard](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/setup-wizard.html): Four-step onboarding wizard covering Welcome, Environment (Sandbox/Production), Credentials, and Live Connection Test.
+- [Connection Settings](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/connection.html): Live connection management, Company ID, token status, re-authorization, disconnect, and credential deletion.
+- [Dashboard & Intelligence](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/dashboard.html): Real-time sync KPIs, 7-day activity charts, system health, needs attention queue, and live financial snapshot from QuickBooks.
+- [General Settings](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/general-settings.html): Accounts & Tax mapping (Asset, Expense, Income, Deposit accounts), Import/Export batch sizes, and matching rules.
+- [Auto Sync Settings](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/auto-sync.html): Real-time product export/import, two-way stock synchronization, order auto-export status multi-select, and refund receipts.
+- [Export Order Settings](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/export-order-settings.html): Document formats, transaction dates, penny-rounding reconciliation, order fee accounts, and Class & Department mapping tables.
+- [Customers](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/customers.html): Exporting and importing customers, searchable mapping dropdowns, and duplicate name disambiguation.
+- [Products](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/products.html): Manual product export, variable product handling, staged import list, and category mapping.
+- [Orders](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/orders.html): Order sync status pills, manual export, order edit screen meta box, order table QuickBooks column, and search by order ID.
+- [Payment Methods](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/payment-methods.html): Gateway mapping, payment timing, deposit accounts, transaction fees & VAT, and Webkul POS split-payment routing.
+- [Taxes](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/taxes.html): Mapping WooCommerce tax classes to QuickBooks tax codes, fallback tax codes, and clearing mappings.
+- [Financial Reports](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/reports.html): 6 live QuickBooks reports embedded in wp-admin (Profit & Loss, Balance Sheet, Cash Flow, Sales by Product, Sales by Customer, A/R Aging) with Cash/Accrual toggles and CSV export.
+- [Sync Monitor](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/sync-monitor.html): Operational monitoring suite with Overview trends, Activity audit trail with raw JSON inspector, and WooCommerce system log reader.
+- [FAQ & Notes](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/faq-notes.html): Frequently asked questions, Intuit API troubleshooting, Error 6240 resolution, and token refresh recovery.
+- [Changelog & Version History](https://wpdoc.webkul.com/woocommerce-quickbooks-connector/quickbooks-connector/changelog.html): Complete release history, feature additions, improvements, and fixes from v1.0.0 to v4.0.0.
+
+## Support & Assistance
+
+- [Webkul Support Desk](https://webkul.uvdesk.com/): Open a support ticket for technical assistance.
+- [Product Page](https://store.webkul.com/woocommerce-quickbooks-integration.html): Purchase, licensing, and feature overview.
+- [Video Walkthrough](https://youtu.be/Dooh7fHQ3V4): Step-by-step video tutorial.

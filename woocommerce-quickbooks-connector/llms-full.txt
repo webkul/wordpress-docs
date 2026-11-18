@@ -1,0 +1,408 @@
+# WooCommerce QuickBooks Connector — Full Documentation
+
+> Complete technical and operational guide for Webkul's WooCommerce QuickBooks Connector plugin. This document provides end-to-end instructions for connecting WooCommerce to Intuit QuickBooks Online, configuring account mappings, synchronizing customers, products, stock levels, orders, payments, taxes, and refunds, and accessing embedded QuickBooks financial reports and operational monitors within WordPress admin.
+
+URL: https://wpdoc.webkul.com/woocommerce-quickbooks-connector/
+Repository Version: v4.0.0
+Tested Compatibility: WordPress 6.7–7.1, WooCommerce 10.0–11.3 (HPOS & Cart/Checkout Blocks), PHP 8.2–8.5
+
+---
+
+## Table of Contents
+
+1. [Overview & Architecture](#overview--architecture)
+2. [Plugin Features](#plugin-features)
+3. [Competitor Comparison & Webkul Superiority](#competitor-comparison--webkul-superiority)
+4. [Installation & Requirements](#installation--requirements)
+5. [Getting Intuit Developer Credentials](#getting-intuit-developer-credentials)
+6. [Setup Wizard](#setup-wizard)
+7. [Connection Settings & OAuth 2.0](#connection-settings--oauth-20)
+8. [QuickBooks Dashboard & Intelligence](#quickbooks-dashboard--intelligence)
+9. [General Settings & Account Mappings](#general-settings--account-mappings)
+10. [Auto Sync & Real-Time Automation](#auto-sync--real-time-automation)
+11. [Export Order Settings & Reconciliation](#export-order-settings--reconciliation)
+12. [Customer Synchronization](#customer-synchronization)
+13. [Product Synchronization & Stock Management](#product-synchronization--stock-management)
+14. [Order Synchronization & Status Handling](#order-synchronization--status-handling)
+15. [Payment Methods & POS Split Payments](#payment-methods--pos-split-payments)
+16. [Tax Mappings & Fallback Rules](#tax-mappings--fallback-rules)
+17. [Embedded Financial Reports](#embedded-financial-reports)
+18. [Sync Monitor & Operational Auditing](#sync-monitor--operational-auditing)
+19. [Troubleshooting & FAQ](#troubleshooting--faq)
+20. [Changelog & Version History](#changelog--version-history)
+
+---
+
+<!-- source: overview.html -->
+## 1. Overview & Architecture
+
+### What the Connector Does
+The Webkul WooCommerce QuickBooks Connector integrates WooCommerce with Intuit QuickBooks Online. Built natively as a WordPress plugin (`wp-content/plugins/woocommerce-quick-book-online-connector`), it executes all API calls and synchronization jobs directly from your WordPress server to Intuit's REST API without routing data through third-party cloud intermediaries.
+
+### Key Architectural Characteristics
+- **Direct Server-to-Server Connection:** Communication is established directly between your hosting server and `https://quickbooks.api.intuit.com` using standard OAuth 2.0 with cryptographic signature verification.
+- **High-Performance Order Storage (HPOS):** Fully compatible with WooCommerce HPOS (custom order tables `wp_wc_orders` and `wp_wc_order_operational_data`), bypassing the legacy `wp_posts` table for high-volume stores.
+- **Action Scheduler Queue:** Background synchronization tasks, webhook ingest, scheduled batch deposits, and automated retries execute via WooCommerce Action Scheduler, eliminating fragile reliance on WP-Cron.
+- **Smart Transient Caching:** Remote QuickBooks account lists, tax codes, and financial reports are cached in WordPress transients with configurable time-to-live (TTL), minimizing API overhead and preventing Intuit rate limits (throttled at 500 requests/minute).
+
+### System Requirements
+| Component | Minimum | Recommended / Tested |
+| :--- | :--- | :--- |
+| WordPress | 6.7 | 6.7 – 7.1 |
+| WooCommerce | 10.0 | 10.0 – 11.3 (HPOS Enabled) |
+| PHP | 8.2 | 8.2 – 8.5 |
+| MySQL / MariaDB | 8.0 / 10.5 | 8.0+ / 10.5+ |
+| cURL Extension | With OpenSSL 1.1.1+ | OpenSSL 3.0+ (TLS 1.2 / TLS 1.3) |
+| Action Scheduler | Included in WooCommerce | Default High-Performance Runner |
+
+---
+
+<!-- source: features.html -->
+## 2. Plugin Features
+
+- **OAuth 2.0 Direct Authentication:** Connect to Sandbox or Production Intuit companies using your own Developer App keys. Includes one-click credential deletion and safe disconnect.
+- **4-Step Setup Wizard:** Step-by-step onboarding verifying environment, app keys, and live API connectivity before saving settings.
+- **Executive Dashboard:** Visual KPIs (Orders, Customers, Products, Sync Success %), 7-day activity timeline, Needs Attention error queue, Sync Coverage gauges, and real-time Financial Snapshot (Revenue, Expenses, Net Income).
+- **Embedded Financial Reports in wp-admin:** Live Profit & Loss, Balance Sheet, Cash Flow, Sales by Product, Sales by Customer, and A/R Aging reports with Cash/Accrual toggles and CSV export.
+- **Automated Two-Way Synchronization:** Real-time product creation/update hooks, bidirectional stock level sync, and automated order status listeners.
+- **Flexible Order Export Formats:** Export orders as Sales Receipts, Invoices, Estimates, or Credit Memos. Automated refund receipt creation and order cancellation voiding.
+- **Accounting Precision & Reconciliation:** Automated penny-rounding discrepancy balancing lines, order fee account mapping, and custom statement memos.
+- **Webkul POS Split-Payment Routing:** Native support for multi-tender POS transactions (e.g. cash + credit card) with split clearing accounts (`pos_split`).
+- **Scheduled Batch Bank Deposits:** Automated scheduled bank deposits clearing Undeposited Funds into merchant bank accounts for BACS, Cheque, COD, Credit Card, and POS payments.
+- **Sync Monitor Suite:** Comprehensive operational monitoring with 7-day success/error charts, audit activity table with raw JSON request/response inspector, and direct WooCommerce system log viewer.
+- **Automated Failure Email Alerts:** Instant or scheduled digest notifications sent to store administrators when synchronization failures occur.
+
+---
+
+<!-- source: comparison.html -->
+## 3. Competitor Comparison & Webkul Superiority
+
+### Why Webkul WooCommerce QuickBooks Connector is the Superior Choice
+
+E-commerce merchants frequently evaluate Webkul against SaaS-based connectors like **MyWorks Sync**, **Webgility**, and **Connex**. The following analysis details why Webkul offers distinct commercial, security, and functional superiority.
+
+### Commercial Superiority: One-Time License Ownership vs Recurring SaaS Overhead
+SaaS connectors charge mandatory recurring monthly or annual subscriptions and penalize growing stores with order volume caps and forced tier upgrades. Webkul is licensed on a one-time purchase basis (lifetime license) with no mandatory recurring monthly subscription fees to keep your synchronization running.
+
+| Commercial Dimension | Webkul QuickBooks Connector | MyWorks Sync | Webgility | Connex |
+| :--- | :--- | :--- | :--- | :--- |
+| **License Model** | **One-Time Purchase (Lifetime License)** | Recurring Monthly/Annual SaaS | Recurring Monthly/Annual SaaS | Recurring Monthly/Annual SaaS |
+| **Ongoing Monthly Rent** | **None (No mandatory monthly fees)** | Mandatory recurring subscription | Mandatory recurring subscription | Mandatory recurring subscription |
+| **Order Volume Limits** | **Unlimited (No caps or overages)** | Capped per tier (overages apply) | Capped per tier | Capped per tier |
+| **Growth Penalties** | **Zero (Scales freely with your store)** | Forced tier upgrades as volume increases | Forced tier upgrades | Forced tier upgrades |
+| **Multi-Store Licensing** | Single store transparent license | Extra monthly fee per store | Higher tier required | Higher tier required |
+
+*Merchant Benefit:* By choosing a one-time license model without order caps or ongoing monthly fees, merchants eliminate ongoing software overhead and protect their profit margins as transaction volume expands.
+
+### Architectural & Security Superiority: Zero Cloud Middleman
+| Security Dimension | Webkul QuickBooks Connector | SaaS Competitors |
+| :--- | :--- | :--- |
+| **Data Transmission Path** | **Direct Server-to-Server** (WordPress → Intuit) | Multi-hop (WordPress → SaaS Cloud → Intuit) |
+| **Third-Party Data Storage** | **Zero (No cloud database)** | Customer financial records stored on vendor cloud |
+| **OAuth Key Ownership** | **Merchant owns private Intuit App keys** | Vendor-managed shared proxy app |
+| **GDPR & CCPA Compliance** | **Full sovereignty** (Data never leaves your stack) | Third-party subprocessor data risks |
+| **Single Point of Failure** | None (Independent of third-party outages) | Vendor cloud outage halts all synchronization |
+
+### Functional & Operational Superiority
+- **Embedded Executive Reports:** Webkul embeds 6 full QuickBooks reports (P&L, Balance Sheet, Cash Flow, Customer Sales, Product Sales, A/R Aging) directly inside WordPress admin. Competitors force store owners to log into QuickBooks or third-party web portals.
+- **Native POS Split-Payment Reconciliation:** Only Webkul natively supports WooCommerce Point of Sale (POS) split tender transactions, routing multi-tender payments to dedicated clearing accounts.
+- **Penny-Rounding Balancing Engine:** Automatically generates reconciling balancing lines for fractional tax differences, ensuring zero sync rejects due to penny discrepancies.
+- **WooCommerce Native Resilience:** Built on WooCommerce Action Scheduler with automatic 3x retries and exponential backoff, rather than relying on external sync daemons or brittle desktop agents.
+
+---
+
+<!-- source: installation.html -->
+## 4. Installation & Requirements
+
+### Installation Procedure
+1. Download the plugin ZIP archive from the Webkul Store or CodeCanyon purchase portal.
+2. In WordPress admin, navigate to **Plugins > Add New Plugin > Upload Plugin**.
+3. Select `woocommerce-quick-book-online-connector.zip` and click **Install Now**.
+4. Once uploaded, click **Activate Plugin**.
+5. The menu item **Webkul WC Addons > QuickBooks Connector** will appear in the admin navigation.
+
+---
+
+<!-- source: intuit-credentials.html -->
+## 5. Getting Intuit Developer Credentials
+
+### Step-by-Step Intuit Developer Setup
+1. Log into the [Intuit Developer Portal](https://developer.intuit.com/).
+2. Click **Dashboard** in the top navigation and select **Create an app**.
+3. Select the **QuickBooks Online and Payments** platform.
+4. Name your application (e.g. `MyStore QuickBooks Bridge`) and select the **com.intuit.quickbooks.accounting** scope.
+5. In the app management sidebar, navigate to **Keys & OAuth**:
+   - Locate the **Development Keys** for testing with QuickBooks Sandbox.
+   - Locate the **Production Keys** for live store synchronization.
+6. Copy the **Client ID** and **Client Secret**.
+7. In the **Redirect URIs** section, add the two exact URIs provided in the connector:
+   - `https://your-domain.com/wp-admin/admin.php?page=wkquick-book-main&tab=connection`
+   - `https://your-domain.com/wp-admin/admin.php?page=wkquick-book-setup-wizard`
+8. Click **Save** in the Intuit Developer Portal.
+
+---
+
+<!-- source: setup-wizard.html -->
+## 6. Setup Wizard
+
+The 4-step Setup Wizard (`admin.php?page=wkquick-book-setup-wizard`) guides new stores through initial configuration:
+- **Step 1: Welcome & Pre-Flight Checks:** Verifies PHP version, cURL OpenSSL support, and WooCommerce active status.
+- **Step 2: Environment Selection:** Toggle between **Sandbox** (testing) and **Production** (live accounting).
+- **Step 3: Enter App Credentials:** Paste Client ID and Client Secret, displaying verified Redirect URIs.
+- **Step 4: Connect & Authorize:** Click **Connect to QuickBooks** to initiate OAuth 2.0 flow with Intuit. Upon return, the wizard tests the connection, fetches the Company Name and Realm ID, and redirects to the Dashboard.
+
+---
+
+<!-- source: connection.html -->
+## 7. Connection Settings & OAuth 2.0
+
+Located at **Webkul WC Addons > QuickBooks Connector > Connection Settings**:
+- **Environment:** Select Sandbox or Production.
+- **OAuth Status:** Shows current authorization state (Connected / Disconnected).
+- **Company Name & Realm ID:** Displays connected Intuit Company Name and Intuit Realm ID.
+- **Token Lifecycle:** Access tokens are valid for 60 minutes; refresh tokens are valid for 101 days. The connector automatically refreshes access tokens in the background before expiration.
+- **Connection Actions:**
+  - **Test Connection:** Validates current API tokens against `CompanyInfo` endpoint.
+  - **Re-Authorize:** Re-runs OAuth consent flow to renew tokens.
+  - **Disconnect:** Revokes tokens and clears local authentication state.
+  - **Delete Credentials:** Completely purges Client ID, Client Secret, and tokens from `wp_options`.
+
+---
+
+<!-- source: dashboard.html -->
+## 8. QuickBooks Dashboard & Intelligence
+
+Located at **Webkul WC Addons > QuickBooks Connector > Dashboard** (`tab=dashboard`):
+- **Connection Status Card:** Connected Company, Realm ID, Sandbox/Production badge, and token status.
+- **Executive KPIs:** Total Orders Synced, Total Customers Synced, Total Products Synced, Sync Success Rate (%), and Pending Queue Count.
+- **7-Day Activity Chart:** Daily bar chart depicting sync operations, successful exports, and errors over the preceding 7 days.
+- **Needs Attention Queue:** High-priority panel listing failed synchronization jobs with error message excerpts, timestamps, and one-click **Retry** and **View in Sync Monitor** buttons.
+- **Synchronization Coverage:** Visual percentage indicators showing the proportion of WooCommerce products, customers, and orders synchronized with QuickBooks.
+- **Auto Sync Status Widget:** Real-time indicator of background hooks and Action Scheduler job status.
+- **System Health:** Evaluates PHP version, WooCommerce HPOS mode, cURL OpenSSL compliance, and transient cache validity.
+- **Live Financial Snapshot:** Asynchronously queries QuickBooks API over AJAX for:
+  - **Total Revenue (Period)**
+  - **Total Expenses (Period)**
+  - **Net Operating Income (Period)**
+  - **Accounts Receivable Balance**
+- **Refresh Control:** One-click **Refresh from QuickBooks** button invalidates cached transients and re-queries live data.
+
+---
+
+<!-- source: general-settings.html -->
+## 9. General Settings & Account Mappings
+
+Located at **Webkul WC Addons > QuickBooks Connector > General Settings**:
+- **Default Accounts:**
+  - **Income Account:** Sales / Revenue account for product line items (e.g. `Sales of Product Income`).
+  - **Expense Account:** Cost of Goods Sold or expense account for product purchases (e.g. `Cost of Goods Sold`).
+  - **Asset Account:** Inventory Asset account for tracked inventory items (e.g. `Inventory Asset`).
+  - **Deposit Account:** Default bank or clearing account for customer payments (e.g. `Undeposited Funds` or `Checking`).
+- **Batch Processing Limits:**
+  - **Import Batch Size:** Number of records fetched per API page during manual import (default: 50).
+  - **Export Batch Size:** Number of records processed per batch during manual export (default: 50).
+- **Matching Rules:** Match existing customers and products by Email, SKU, or Name to prevent duplicate records in QuickBooks.
+
+---
+
+<!-- source: auto-sync.html -->
+## 10. Auto Sync & Real-Time Automation
+
+Located at **Webkul WC Addons > QuickBooks Connector > Auto Sync**:
+- **Product Auto Export:** Automatically exports products to QuickBooks when published or updated in WooCommerce.
+- **Product Auto Import:** Webhook/listener updating WooCommerce products when modified in QuickBooks.
+- **Two-Way Stock Sync:** Bidirectional inventory synchronization keeping stock quantities identical across both platforms.
+- **Order Auto Export Status:** Multi-select checkboxes specifying which WooCommerce order statuses trigger automatic export to QuickBooks (`Processing`, `Completed`, `On Hold`).
+- **Automated Refund Receipts:** Generates matching Refund Receipts or Credit Memos in QuickBooks when refunds are issued in WooCommerce.
+- **Order Cancellation Voiding:** Voids or cancels corresponding transactions in QuickBooks when orders are cancelled in WooCommerce.
+- **Scheduled Batch Bank Deposits:** Action Scheduler job automatically grouping payments in Undeposited Funds into daily/weekly bank deposits.
+- **Failure Email Alerts:** Configures notification emails (`vikas.kumar662@webkul.in`) and digest frequencies (Immediate, Daily Digest, Weekly Digest) for synchronization failures.
+
+---
+
+<!-- source: export-order-settings.html -->
+## 11. Export Order Settings & Reconciliation
+
+Located at **Webkul WC Addons > QuickBooks Connector > Export Order Settings**:
+- **Export Format:** Choose between **Sales Receipt** (paid orders), **Invoice** (unpaid/net terms orders), or **Estimate**.
+- **Transaction Date:** Base transaction date on Order Creation Date or Order Completion Date.
+- **Penny-Rounding Balancing:** Automatically inserts a balancing line item for fractional penny discrepancies caused by differing WooCommerce and QuickBooks rounding algorithms.
+- **Order Fee Account:** Maps custom WooCommerce fees (handling fees, rush delivery, packaging) to a designated QuickBooks Income account.
+- **Class & Department Tracking:**
+  - **Product Category to Class Mapping:** Assigns QuickBooks Classes based on WooCommerce product categories.
+  - **Country to Class/Department Mapping:** Assigns QuickBooks Classes or Departments based on shipping or billing country.
+
+---
+
+<!-- source: customers.html -->
+## 12. Customer Synchronization
+
+Located at **Webkul WC Addons > QuickBooks Connector > Customers**:
+- **Export Customers:** Push WooCommerce customers to QuickBooks Online as Customer entities.
+- **Import Customers:** Pull QuickBooks customers into WooCommerce as WordPress customer users.
+- **Mapping Table:** Searchable table listing WooCommerce User ID, Display Name, Email, QuickBooks Customer ID, and Sync Date.
+- **Duplicate Handling:** QuickBooks enforces unique customer display names. If a duplicate name occurs, the connector appends a unique identifier or disambiguates by email address to prevent Error 6240.
+
+---
+
+<!-- source: products.html -->
+## 13. Product Synchronization & Stock Management
+
+Located at **Webkul WC Addons > QuickBooks Connector > Products**:
+- **Product Types Supported:** Simple Products, Variable Products (synced as parent products with child variants or sub-items), Grouped Products, and Virtual/Downloadable items.
+- **Export Products:** Pushes product title, description, SKU, regular price, sale price, tax status, and inventory quantity.
+- **Two-Way Stock Sync:** Real-time stock decrement on order placement and stock level adjustments synchronized bidirectionally.
+- **Category Filter:** Filter export batches by WooCommerce product categories.
+
+---
+
+<!-- source: orders.html -->
+## 14. Order Synchronization & Status Handling
+
+Located at **Webkul WC Addons > QuickBooks Connector > Orders**:
+- **Order Table Status Pills:** Shows sync status directly on WooCommerce Orders list:
+  - `Synced (Green)`: Successfully exported to QuickBooks with link to QuickBooks transaction.
+  - `Pending (Yellow)`: Queued for synchronization in Action Scheduler.
+  - `Failed (Red)`: Synchronization encountered an error; hover reveals error message.
+- **Order Edit Screen Meta Box:** Dedicated QuickBooks meta box displaying QuickBooks Transaction ID, Document Number, Export Type, Sync Timestamp, and manual **Sync Now** button.
+- **Refund Synchronization:** Automatically posts Refund Receipts linked to the original Sales Receipt or Invoice.
+
+---
+
+<!-- source: payment-methods.html -->
+## 15. Payment Methods & POS Split Payments
+
+Located at **Webkul WC Addons > QuickBooks Connector > Payment Methods**:
+- **Gateway Mapping:** Maps each WooCommerce payment gateway (Direct Bank Transfer/BACS, Check Payments, Cash on Delivery, Stripe, PayPal) to:
+  - QuickBooks Payment Method
+  - QuickBooks Deposit Account (Bank Account or Undeposited Funds)
+- **Payment Timing:** Trigger payment record on order receipt (`Processing`) or upon order completion (`Completed`).
+- **Gateway Fee Accounting:** Automatically logs gateway processing fees (e.g. Stripe 2.9% + 30¢) into designated Expense accounts.
+- **Webkul POS Split-Payment Routing:** Native support for multi-tender transactions placed via Webkul WooCommerce POS. A transaction split between Cash and Card multi-tenders generates synchronized payment records routing each portion to its respective clearing account (`pos_split`).
+- **Automated Deposit Scheduling:** Crons automatically sweep Undeposited Funds into specified bank accounts per payment method.
+
+---
+
+<!-- source: taxes.html -->
+## 16. Tax Mappings & Fallback Rules
+
+Located at **Webkul WC Addons > QuickBooks Connector > Taxes**:
+- **Tax Class Mapping:** Maps WooCommerce tax classes (Standard Rate, Reduced Rate, Zero Rate) to QuickBooks Tax Codes.
+- **Tax Agency & Tax Rates:** Supports Automated Sales Tax (AST) and manual Tax Code structures in QuickBooks Online.
+- **Fallback Tax Code:** Designated fallback tax code applied when an order item lacks an explicit tax rate match.
+- **Zero-Tax Handling:** Maps tax-exempt customers or zero-rate orders to QuickBooks Tax-Exempt / Out of Scope codes.
+
+---
+
+<!-- source: reports.html -->
+## 17. Embedded Financial Reports
+
+Located at **Webkul WC Addons > QuickBooks Connector > Reports** (`tab=reports`):
+The connector embeds 6 core QuickBooks financial reports directly inside WordPress admin, allowing merchants to review financial performance without leaving WooCommerce:
+1. **Profit & Loss (`ProfitAndLoss`):** Summarizes Income, Cost of Goods Sold, Gross Profit, Expenses, and Net Income for selected date ranges.
+2. **Balance Sheet (`BalanceSheet`):** Displays Assets, Liabilities, and Owner Equity as of a specific date.
+3. **Cash Flow Statement (`CashFlow`):** Details cash inflows and outflows from Operating, Investing, and Financing activities.
+4. **Sales by Product (`ItemSales`):** Detailed breakdown of sales revenue, quantity sold, and average price per item, with direct links to edit corresponding WooCommerce products.
+5. **Sales by Customer (`CustomerSales`):** Revenue generated per customer, order frequency, and balance, with links to WooCommerce customer profiles.
+6. **Accounts Receivable (A/R) Aging (`AgedReceivables`):** Categorizes outstanding unpaid invoices by aging buckets: Current, 1–30 days, 31–60 days, 61–90 days, and 91+ days overdue.
+
+### Report Controls & Performance
+- **Cash vs Accrual Basis:** Instant toggle switching report calculation between Cash Basis and Accrual Basis.
+- **Date Range Filters:** Today, This Week, This Month, This Quarter, This Year, Last Month, Last Quarter, Last Year, and Custom Date Range.
+- **CSV Export:** One-click export downloading accountant-ready spreadsheet CSV files.
+- **Transient Caching:** Report responses are cached in WordPress transients; an on-screen **Refresh** button flushes the cache and fetches fresh Intuit data.
+
+---
+
+<!-- source: sync-monitor.html -->
+## 18. Sync Monitor & Operational Auditing
+
+Located at **Webkul WC Addons > QuickBooks Connector > Sync Monitor**:
+- **Overview Sub-Tab:** Visual 7-day synchronization health chart, operational statistics (Total Exports, Successes, Failures), and queue backlog counter.
+- **Activity Sub-Tab:** Searchable audit trail table recording every synchronization event:
+  - Timestamp & Timezone
+  - Entity Type (Customer, Product, Order, Payment, Refund)
+  - WooCommerce Entity ID
+  - QuickBooks Entity ID
+  - Status (Success, Failed, Pending)
+  - Raw JSON Inspector: Modal displaying the exact JSON payload sent to Intuit and the exact response received.
+  - Action Controls: Individual record **Retry** and **Purge** buttons.
+- **System Logs Sub-Tab:** Direct viewer for WooCommerce system logs (`quickbooks-*.log`), providing detailed stack traces and debugging entries without requiring FTP or server terminal access.
+
+---
+
+<!-- source: faq-notes.html -->
+## 19. Troubleshooting & FAQ
+
+### Frequently Encountered Issues & Solutions
+
+#### Q: How to resolve QuickBooks Error 6240: "Duplicate Document Number Error"?
+**A:** QuickBooks Online requires document numbers (DocNumber) to be unique if "Warn on duplicate check/bill number" is enabled.
+1. Navigate to **QuickBooks Online > Gear Icon > Account and Settings > Sales > Sales form content**.
+2. If "Custom transaction numbers" is enabled, ensure your WooCommerce order numbering prefix or sequence does not collide with manual QuickBooks invoices.
+3. In connector settings (**Export Order Settings**), enable **Order ID Prefix** (e.g. `WC-`) to keep WooCommerce order numbers distinct.
+
+#### Q: How to resolve QuickBooks Error 6000: "A business validation error has occurred"?
+**A:** This generic Intuit validation error occurs when a required field is missing or mapped improperly:
+1. Open **Sync Monitor > Activity** and click **View JSON** on the failed record.
+2. Check the response body for the specific field error. Common causes include unmapped Tax Codes or missing Customer Email addresses.
+3. Verify that General Settings has default Income and Expense accounts selected.
+
+#### Q: What happens when the OAuth 2.0 token expires?
+**A:** Access tokens expire after 60 minutes. The connector automatically uses the long-lived refresh token (valid for 101 days) to fetch a new access token without user intervention. If the refresh token expires or is revoked, navigate to **Connection Settings** and click **Re-Authorize**.
+
+#### Q: How does the Action Scheduler handle network dropouts?
+**A:** If an API call fails due to a network timeout or temporary Intuit downtime (HTTP 502/503/504), the Action Scheduler automatically reschedules the job for retry up to 3 times with exponential backoff before marking it as failed in the Needs Attention queue.
+
+---
+
+<!-- source: changelog.html -->
+## 20. Changelog & Version History
+
+### Version 4.0.0 (Release Date: November 18, 2026)
+- **Added:** Real-time bidirectional stock synchronization updating inventory between WooCommerce and QuickBooks Online.
+- **Added:** Granular field-level sync controls with "Details to Export" and "Details to Import" settings.
+- **Added:** Advanced Class & Department Mapping tabs with Product Category to Class and Country to Class/Department resolution rules.
+- **Added:** Dedicated QuickBooks Dashboard tab featuring sync KPIs, 7-day activity chart, and financial snapshot widgets.
+- **Added:** Embedded QuickBooks Financial Reports tab providing in-admin Profit & Loss, Balance Sheet, Cash Flow, Item Sales, Customer Sales, and A/R Aging.
+- **Added:** Comprehensive Sync Monitor suite with Overview trends, Activity audit trail with raw JSON inspector, and log viewer.
+- **Added:** Webkul POS split-payment support with dedicated clearing account routing (`pos_split`).
+- **Added:** Automated sync failure email alerts with configurable recipient and digest frequencies.
+- **Improved:** Replaced all WP-Cron background operations with WooCommerce Action Scheduler with 3x retry resiliency.
+- **Improved:** Full compatibility with WooCommerce High-Performance Order Storage (HPOS) and Cart/Checkout Blocks.
+- **Optimized:** Implemented transient caching for Intuit API accounts and tax codes, reducing API requests by up to 75%.
+- **Fixed:** Resolved duplicate customer name collision (Error 6240) by appending unique email identifiers during conflict.
+
+### Version 3.0.2 (July 25, 2026)
+- **Improved:** Enhanced OAuth token refresh error recovery with automated background renewal.
+- **Fixed:** Corrected line item rounding discrepancies when exporting orders with multiple tax rates.
+
+### Version 3.0.1 (April 10, 2026)
+- **Added:** Support for exporting WooCommerce order custom fee lines to designated QuickBooks Income accounts.
+- **Fixed:** Resolved tax code lookup failure when store currency differs from default QuickBooks currency.
+
+### Version 3.0.0 (January 15, 2026)
+- **Added:** 4-Step Setup Wizard for streamlined onboarding.
+- **Added:** Support for exporting orders as Estimates and Credit Memos in addition to Invoices and Sales Receipts.
+- **Improved:** Modernized user interface aligning with standard WordPress admin design patterns.
+
+### Version 2.2.0 (September 05, 2025)
+- **Added:** Automatic scheduled bank deposits clearing Undeposited Funds for selected payment gateways.
+- **Fixed:** Resolved variable product child variant stock decrement issue during order export.
+
+### Version 2.1.0 (May 18, 2025)
+- **Added:** Support for syncing refunded orders as QuickBooks Refund Receipts.
+- **Improved:** Enhanced customer matching rules supporting email, phone, and billing name combinations.
+
+### Version 2.0.0 (January 10, 2025)
+- **Added:** Migration to Intuit OAuth 2.0 authentication standard.
+- **Added:** Direct server-to-server API communication removing external cloud proxies.
+
+### Version 1.0.6 (August 20, 2024)
+- **Improved:** Enhanced batch processing for stores exporting large order volumes.
+
+### Version 1.0.2 (March 14, 2024)
+- **Fixed:** Resolved character encoding issue in customer shipping addresses.
+
+### Version 1.0.0 (October 08, 2023)
+- **Initial Release:** First public release of WooCommerce QuickBooks Online Connector.
