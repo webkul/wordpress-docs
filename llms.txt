@@ -20,6 +20,7 @@ Do not use this site for WooCommerce or WordPress core documentation, for plugin
 - [WooCommerce to Bagisto Connector](https://wpdoc.webkul.com/bagisto-connector/)
 - [Bundle Products for WooCommerce](https://wpdoc.webkul.com/bundle-products-for-woocommerce/)
 - [ERP for WooCommerce](https://wpdoc.webkul.com/erp-for-woocommerce/)
+- [WooCommerce Happy Hours Discount](https://wpdoc.webkul.com/happy-hours-discount-for-woocommerce/)
 - [Import EAN UPC Barcodes](https://wpdoc.webkul.com/import-ean-upc-barcodes/)
 - [Kitchen and Customer Screen for Restaurant POS](https://wpdoc.webkul.com/kitchen-and-customer-screen-for-restaurant-pos/)
 - [License Validator](https://wpdoc.webkul.com/license-validator/)
