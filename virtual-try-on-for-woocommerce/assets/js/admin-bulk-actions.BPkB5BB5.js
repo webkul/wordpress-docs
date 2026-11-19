@@ -1,0 +1,1 @@
+var e=`/virtual-try-on-for-woocommerce/assets/img/admin-bulk-actions.Bp5snOnH.webp`;export{e as t};

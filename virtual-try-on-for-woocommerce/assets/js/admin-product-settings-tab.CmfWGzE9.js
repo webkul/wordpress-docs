@@ -1,0 +1,1 @@
+var e=`/virtual-try-on-for-woocommerce/assets/img/admin-product-settings-tab.DdYYCNpD.webp`;export{e as t};

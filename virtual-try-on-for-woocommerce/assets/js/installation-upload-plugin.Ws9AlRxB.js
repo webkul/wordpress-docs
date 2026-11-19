@@ -1,0 +1,1 @@
+var e=`/virtual-try-on-for-woocommerce/assets/img/installation-upload-plugin.6B78zyJ0.webp`;export{e as t};

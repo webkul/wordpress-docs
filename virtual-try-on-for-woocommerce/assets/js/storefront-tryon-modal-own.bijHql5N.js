@@ -1,0 +1,1 @@
+var e=`/virtual-try-on-for-woocommerce/assets/img/storefront-tryon-button.BfbsEVcU.webp`,t=`/virtual-try-on-for-woocommerce/assets/img/storefront-tryon-modal-ai.Bg_OPm7G.webp`,n=`/virtual-try-on-for-woocommerce/assets/img/storefront-tryon-modal-own.5if4qG_v.webp`;export{t as n,e as r,n as t};

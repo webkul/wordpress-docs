@@ -1,0 +1,1 @@
+var e=`/virtual-try-on-for-woocommerce/assets/img/admin-general-settings.q3g_3lG0.webp`,t=`/virtual-try-on-for-woocommerce/assets/img/admin-provider-custom.Batop0Jx.webp`;export{e as n,t};
