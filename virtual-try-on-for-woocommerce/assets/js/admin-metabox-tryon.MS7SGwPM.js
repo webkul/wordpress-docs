@@ -1,0 +1,1 @@
+var e=`/virtual-try-on-for-woocommerce/assets/img/admin-metabox-tryon.fXZH4Lkx.webp`;export{e as t};

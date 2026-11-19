@@ -33,6 +33,7 @@ Do not use this site for WooCommerce or WordPress core documentation, for plugin
 - [Tranzila Payment for Woo POS](https://wpdoc.webkul.com/tranzila-payment-for-woocommerce-pos/)
 - [Turnstile CAPTCHA For WooCommerce](https://wpdoc.webkul.com/turnstile-captcha-for-woocommerce/)
 - [UnoPim Connector](https://wpdoc.webkul.com/unopim-connector/)
+- [Virtual Try On For WooCommerce](https://wpdoc.webkul.com/virtual-try-on-for-woocommerce/)
 - [Wallet System](https://wpdoc.webkul.com/wallet-system/)
 - [WooCommerce AliExpress Dropship](https://wpdoc.webkul.com/woocommerce-aliexpress-dropship/)
 - [WooCommerce Booking and Reservation](https://wpdoc.webkul.com/woocommerce-booking-and-reservation/)
