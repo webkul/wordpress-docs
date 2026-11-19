@@ -71,7 +71,7 @@ const read = (slug) => {
         if (!fs.existsSync(abs)) continue;
         const h = fs.readFileSync(abs, "utf8");
         const t = h.match(/<title>([^<]*)<\/title>/);
-        const d = h.match(/<meta name="description" content="([^"]*)"/);
+        const d = h.match(/<meta\s+name="description"[\s\S]*?content="([^"]*)"/i);
         return {
             title: t ? t[1].split("|")[0].trim() : "",
             desc: d ? d[1].trim() : "",
