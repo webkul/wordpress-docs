@@ -1,0 +1,1 @@
+var e=`/woocommerce-wcfm-marketplace-shopify-connector/assets/img/manage-account-missing-scope.CHskYK3O.webp`;export{e as t};
