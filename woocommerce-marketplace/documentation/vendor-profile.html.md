@@ -5,158 +5,223 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-pr
 
 # Vendor Profile
 
-The **Vendor Profile** displays important information about a vendor and helps customers understand the vendor’s store, policies, and credibility.
+The **Vendor Profile** displays essential information about a vendor's shop, helping buyers learn about the store, view products, review store policies, and verify vendor credibility.
+
+In the modern seller dashboard, vendor profile management is handled on the **Store Edit** page (`/seller/vendor-profile/`). Unlike older tab-based layouts, the new setup organizes all profile configurations into a **single, scrollable two-column card layout**. Vendors can view and manage their entire store configuration in one unified workspace without clicking between tabs.
+
+::: tip Using the classic layout?
+If your marketplace uses the older **My Account** tabbed layout (**My Account → My Profile**), please refer to the [Classic Vendor Profile](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/classic-vendor-profile.html) guide. You can switch between layouts using the dashboard view options configured by the marketplace administrator.
+:::
 
 ---
 
-## Vendor Profile Overview
+## Store Edit Layout Overview
 
-- After successful registration, the vendor must complete their profile under **Vendor Profile**.
-- The profile contains essential vendor and shop-related information divided into multiple tabs for easier navigation.
+Vendors can access their profile editor directly from the seller dashboard sidebar by clicking **Store Edit** (`/seller/vendor-profile/`).
 
-<a class="doc-image-link" href="./assets/profile.png"><img src="./assets/profile.png" alt="Vendor Profile Settings" /></a>
-
-## 1. General Tab
-The **General** tab contains the vendor's basic information:
-- **Personal Details**: Username, First Name, Last Name, and E-Mail.
-- **Read-only Applied Commission**: Vendors can view their currently applied commission rate (falling back to the global default if no specific commission is set).
-
-<a class="doc-image-link" href="./assets/general.png"><img src="./assets/general.png" alt="Seller Profile General Tab" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-overview.png"><img src="./assets/seller-store-edit-overview.png" alt="Store Edit Page Overview" /></a>
 
 ---
 
-## 2. Shop Tab
-The **Shop** tab allows the vendor to configure their store details, policies, and SEO settings.
-- Vendors can define their shop title, description, and contact information.
+## Main Column Cards
 
-<a class="doc-image-link" href="./assets/shop.png"><img src="./assets/shop.png" alt="Seller Profile Shop Tab" /></a>
+The main column contains the core store configurations, media assets, business hours, compliance verification, storefront layout selection, and search engine optimization.
 
 ---
 
-## 3. Images Tab
-Vendors can upload various images to brand their store from the **Images** tab.
-- Allowed file types typically include: `jpg, jpeg, png, webp, gif`.
-- **User Image**: The vendor's personal avatar.
-- **Shop Logo**: The logo representing the store.
-- **Fulfillment Image**: An image or badge displayed for order fulfillment.
-- **Banner Image**: A large banner for the store. Vendors can choose whether to display it by checking the "Show banner on vendor page" option.
+### 1. Images Card
 
-<a class="doc-image-link" href="./assets/vendor-and-store-image.png"><img src="./assets/vendor-and-store-image.png" alt="Seller Profile Images Tab" /></a>
+The **Images** card manages the visual branding of the vendor's store across both the seller dashboard and customer-facing pages.
 
----
+<a class="doc-image-link" href="./assets/seller-store-edit-images-card.png"><img src="./assets/seller-store-edit-images-card.png" alt="Store Edit Images Card" /></a>
 
-## 4. Social Profile Tab
-Vendors can link their social media accounts to their store to build trust and increase engagement.
-- Available optional fields include: **Facebook**, **Instagram**, **X (Formerly Twitter)**, **LinkedIn**, **Youtube**, and **Pinterest**.
-- These links will be displayed on the vendor's public store page.
-
-<a class="doc-image-link" href="./assets/social-profile.png"><img src="./assets/social-profile.png" alt="Seller Profile Social Tab" /></a>
+- **Allowed File Formats**: Supports `jpg`, `jpeg`, `png`, `webp`, and `gif`.
+- **User Image**: The personal profile avatar of the vendor. Includes **Upload** and **Remove** buttons with instant image preview.
+- **Shop Logo**: The official brand logo for the store, visible on the vendor's storefront, product pages, and invoice headers.
+- **Panel Header**: A dropdown setting that configures the branding area in the top-left corner of the seller dashboard:
+  - **Logo with shop name**: Displays both the store logo and the store name together.
+  - **Logo only**: Displays only the logo image in the top-left navigation panel.
+- **Banner Image**: A wide header banner displayed across the top of the vendor's public store page.
+  - **Show banner on vendor page**: Checkbox toggle to show or hide the banner on the public storefront.
+  - Includes **Upload** and **Remove** controls to update or clear the banner image anytime.
 
 ---
 
-## 5. Store Hours Tab
+### 2. Shop Configuration Card
 
-Vendors can set a weekly schedule from the **Store Hours** tab with per-day Open/Closed toggles and multiple time slots per day.
+The **Shop** card contains store contact details, payout preferences, analytics tracking, tax compliance, geographical location, and public store policies.
 
-<a class="doc-image-link" href="./assets/seller-profile-store-hour.png"><img src="./assets/seller-profile-store-hour.png" alt="Store Hours Settings" /></a>
+#### Store Information & Payouts:
+- **Shop Name**: The public display name of the store.
+- **Shop Slug**: The URL slug representing the store (for example, `/vendor/aurora-athletics`). This field is read-only after initial creation to protect permanent store links and SEO indexing.
+- **Phone Number**: Customer service or store contact telephone number (accepts 4 to 15 characters).
+- **Payment Information**: Vendor payout details (such as direct bank account numbers, SWIFT/IBAN codes, or PayPal address) used by the admin to disburse earnings after deducting commission.
 
-<a class="doc-image-link" href="./assets/seller-profile-store-hour-2.png"><img src="./assets/seller-profile-store-hour-2.png" alt="Store Hours Profile View" /></a>
+#### Google Analytics Tracking:
+Vendors can track customer traffic and engagement on their own store pages:
+- **Google Analytics Account ID**: Enter your Google Analytics Measurement ID (e.g., `G-XXXXXXXXXX`).
+- **Enable Tracking Events**:
+  - **Enable view item event**: Fires when a customer views any product belonging to the vendor.
+  - **Enable purchase event**: Fires when a customer completes an order containing the vendor's products.
 
-### Features of Store Hours:
-- The schedule is displayed on the vendor profile page and on a hover tooltip when the store is closed.
-- **Optional Blocking**: An admin setting can optionally block purchases while the store is closed.
-- **Closed Notices**: Custom admin-configurable messages can be shown on the listing button and single product notice.
-- **Hide Products**: When the store is closed, products can optionally be hidden from the shop, archive, and search, while remaining visible on the vendor profile.
+#### Tax System Compliance:
+- **Choose Tax System**: Select the applicable tax registration authority from the dropdown:
+  - **GSTIN** (Goods and Services Tax Identification Number)
+  - **SSN** (Social Security Number)
+  - **VAT** (Value Added Tax)
+- **Tax Identification Number**: Input field corresponding to the selected tax system (e.g., GSTIN number, VAT registration, or SSN). This ID is displayed on store receipts and verified by the marketplace.
 
----
+#### Store Address & Interactive Location Map:
+- **Country**: Dropdown list to choose the country of operation.
+- **Shop Address**: Street address and office/building number.
+- **Interactive Map**: Vendors can search their location or drag the map pin to mark their physical shop.
+- **Shop Latitude & Longitude**: Automatically populated by the map pin, ensuring the store appears accurately on marketplace store locator maps.
+- **City, State, and Postal Code**: Specific regional address details.
 
-## 6. KYC Tab
-
-The **KYC** (Know Your Customer) tab allows vendors to upload their identity documents for admin verification.
-- For detailed information, see the full [Vendor KYC Verification](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-kyc.html) documentation.
-
-<a class="doc-image-link" href="./assets/seller-kyc-page.png"><img src="./assets/seller-kyc-page.png" alt="Seller Profile KYC Tab" /></a>
-
----
-
-## 7. Profile View Tab
-
-Vendors can choose how their public store page looks from a dedicated **Profile View** tab.
-- **Live Preview**: The page features a live preview that updates instantly as you switch between styles.
-- **Storefront**: Features a modern store page with an info sidebar (contact details, store hours, map) and a product gallery.
-- **Spotlight**: Features a full-width hero banner with your products front and center, and an "About this Vendor" panel.
-
-<a class="doc-image-link" href="./assets/profile-view.png"><img src="./assets/profile-view.png" alt="Profile View Selection" /></a>
-
----
-
-## Vendor Dashboard Access
-
-- If the admin enables the **admin-like dashboard** for vendors:
-  - Vendors can see the **Admin Dashboard** option in the left-side account panel.
-
-<a class="doc-image-link" href="./assets/vendor-dashboard.webp"><img src="./assets/vendor-dashboard.webp" alt="Vendor Admin Dashboard Menu" /></a>
+#### Store Policies & Bio:
+Each policy section includes a rich-text / WYSIWYG editor allowing text formatting, links, and bullet points:
+- **About Shop**: A detailed description of the store, brand story, craftsmanship, or specialty shown in the "About this Vendor" section on the storefront.
+- **Return Policy**: Guidelines and timelines for product returns, warranty claims, and refunds.
+- **Shipping Policy**: Information on handling times, domestic/international carriers, and delivery expectations.
+- **Privacy Policy**: How customer personal data is handled and protected by the vendor.
 
 ---
 
-## Google Analytics for Vendors
+### 3. Store Hours Card
 
-- Vendors can add their **own Google Analytics Account ID**.
-- Vendors can enable tracking events such as:
-  - **View Item**
-  - **Purchase Event**
+The **Store Hours** card allows vendors to define their weekly operating schedule and control whether buyers can purchase products outside business hours.
 
-<a class="doc-image-link" href="./assets/account-id.webp"><img src="./assets/account-id.webp" alt="Vendor Google Analytics Settings" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-store-hours-card.png"><img src="./assets/seller-store-edit-store-hours-card.png" alt="Store Edit Store Hours Card" /></a>
 
----
-## Tax System Settings
+#### General Store Hours Controls:
+- **Enable Store Hours**: Switch toggle to turn the store schedule on or off. When active, opening hours appear on the vendor's store page.
+- **Disable Purchase During OFF Time**: Switch toggle to block the "Add to Cart" button on the vendor's products whenever the store is closed.
+- **Store Off Time Message**: A customizable notice displayed to shoppers on store and product pages when the shop is closed (e.g., *"Our workshop is currently closed. Orders placed outside operating hours will be processed the next business morning."*). Basic HTML formatting is supported.
 
-After configuring **Google Analytics**, vendors can set up their **tax information** directly from the vendor profile edit page.
-
-<a class="doc-image-link" href="./assets/profile-profile.webp"><img src="./assets/profile-profile.webp" alt="Vendor Tax System Settings" /></a>
-
-### Key Points
-
-- Vendors can select their applicable **Tax System** from the dropdown, such as:
-  - **GSTIN**
-  - **SSN**
-  - **VAT**
-- Based on the selected tax system:
-  - A corresponding **Tax Identification Number** field appears (e.g., GSTIN number) on the vendor’s public profile page.
-- Vendors can enter and save their tax details securely
+#### Weekly Schedule:
+- Each day from **Monday to Sunday** has an independent **Open / Closed** toggle.
+- For open days, vendors can define operating time slots (**Start Time** and **End Time**).
+- Vendors can click **+ Add Slot** to set split shifts or multiple open intervals within the same day (such as morning and evening hours).
 
 ---
 
-## Vendor Policies
+### 4. KYC Verification Card
 
-- Vendors can add and manage the following policies:
-  - **Return Policy**
-  - **Shipping Policy**
-  - **Privacy Policy**
-- These policies are displayed on the vendor’s public profile page.
+The **KYC** (Know Your Customer) card provides identity and compliance verification with the marketplace administration.
+
+<a class="doc-image-link" href="./assets/seller-store-edit-kyc-card.png"><img src="./assets/seller-store-edit-kyc-card.png" alt="Store Edit KYC Verification Card" /></a>
+
+- **Verification Status Badge**: Displays the current verification state of the vendor's documents:
+  - **Not uploaded**: No documents have been submitted yet.
+  - **Pending**: Document is uploaded and awaiting administrator review.
+  - **Approved**: Document is verified by the admin.
+  - **Rejected**: Document was not accepted (the vendor must re-upload a valid file).
+- **KYC Document Type**: Dropdown selection specifying the type of submitted proof:
+  - **Business License**
+  - **Government ID**
+  - **Utility Bill**
+- **KYC Document File**: File upload input. Supported document formats include `pdf`, `jpg`, `jpeg`, and `png`.
 
 ---
 
-## Admin-like Vendor Dashboard View
+### 5. Profile View Card
 
-- If the vendor selects the **admin-like view**:
-  - The vendor profile layout changes to match the admin-style dashboard.
+The **Profile View** card lets vendors customize how their public storefront is styled and laid out for shoppers, with an embedded **Live Preview**.
 
-<a class="doc-image-link" href="./assets/admin-view.webp"><img src="./assets/admin-view.webp" alt="Vendor Admin View Profile" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-profile-view-card.png"><img src="./assets/seller-store-edit-profile-view-card.png" alt="Store Edit Profile View Card" /></a>
 
-<!-- <a class="doc-image-link" href="./assets/prof.webp"><img src="./assets/prof.webp" alt="Vendor Profile Admin Layout" /></a> -->
+#### Storefront Layout Options:
+- **Storefront**: A clean, structured store layout featuring a dedicated information sidebar displaying store hours, contact details, map location, and a grid product gallery.
+- **Spotlight**: A visually driven layout with a full-width hero banner, prominent product showcases front and center, and an expanded "About this Vendor" story section.
+
+#### Live Preview:
+- Directly underneath the options, an embedded **Live Preview frame** loads the vendor's store page in real time. Switching between **Storefront** and **Spotlight** instantly updates the live frame so vendors can verify their design before saving.
+
+---
+
+### 6. SEO Information Card
+
+The **SEO Information** card optimizes how the vendor's shop appears on search engines (like Google, Bing) and AI search summaries.
+
+<a class="doc-image-link" href="./assets/seller-store-edit-seo-card.png"><img src="./assets/seller-store-edit-seo-card.png" alt="Store Edit SEO Information Card" /></a>
+
+- **Live Search Snippet Preview**: A real-time Google search result preview box showing the page title, clean store URL (`/vendor/[slug]`), and meta description as searchers will see it in search engine result pages (SERPs).
+- **Meta Title**: The title tag shown in search engine results and browser tabs. Recommended length is 50–60 characters.
+- **Meta Keywords**: Keywords describing the vendor's store, categories, and specialty products. Multiple keywords must be separated by commas (e.g., `running shoes, trail footwear, sports apparel`).
+- **Meta Description**: A concise summary of the store and offerings (recommended 150–160 characters). A well-crafted description improves click-through rates from search results.
+
+---
+
+## Sidebar Column Cards
+
+The right column of the Store Edit page displays personal vendor details, connected social media channels, and administrative permissions.
+
+---
+
+### 7. General Card
+
+The **General** card contains basic personal profile details for the vendor account.
+
+<a class="doc-image-link" href="./assets/seller-store-edit-general-card.png"><img src="./assets/seller-store-edit-general-card.png" alt="Store Edit General Details Card" /></a>
+
+- **Username**: The account login handle (read-only; set during initial registration).
+- **First Name**: The vendor's first name.
+- **Last Name**: The vendor's last name.
+- **E-Mail**: The primary email address for notifications, order alerts, and account communications.
+
+---
+
+### 8. Social Profile Card
+
+The **Social Profile** card connects the vendor's external social media presences to their marketplace store page.
+
+<a class="doc-image-link" href="./assets/seller-store-edit-social-card.png"><img src="./assets/seller-store-edit-social-card.png" alt="Store Edit Social Profile Card" /></a>
+
+Vendors can enter full profile URLs (`https://...`) for the following platforms:
+- **Facebook Profile ID**
+- **Instagram Profile ID**
+- **X (Formerly Twitter) Profile ID**
+- **Linkedin Profile ID**
+- **Youtube Profile**
+- **Pinterest Profile**
+
+Connected profiles appear as clickable social media icons on the public vendor storefront.
+
+---
+
+### 9. Shop Information Card (Read-Only Admin Settings)
+
+The **Shop Information** card provides a clear, read-only summary of the marketplace permissions, commission rate, and capabilities assigned to the vendor by the administrator.
+
+<a class="doc-image-link" href="./assets/seller-store-edit-shop-info-card.png"><img src="./assets/seller-store-edit-shop-info-card.png" alt="Store Edit Shop Information Card" /></a>
+
+- **Applied Commission**: The current commission percentage deducted by the marketplace on the vendor's sales (e.g., `12%`). If no vendor-specific rate is set, the global marketplace rate applies.
+- **Allowed Categories**: Tags/chips showing which product categories the vendor is authorized to list products under (e.g., *Sports & Outdoors*, *Clothing*, *Accessories*).
+- **Allowed Product Types**: Tags/chips listing permitted product types (e.g., *Simple product*, *Grouped product*, *External/Affiliate product*, *Variable product*).
+- **Payment Methods**: Payout channels enabled by the admin for disbursing seller earnings (e.g., *Direct bank transfer*, *Check payments*, *Cash on delivery*).
+- **Shipping Methods**: Shipping carriers and delivery options permitted for the vendor (e.g., *Flat rate*, *Free shipping*, *Store Pickup*).
+
+::: note Read-Only Permissions
+The settings in the Shop Information card are configured by the marketplace admin. If you need additional categories, product types, or custom commission rates, contact the marketplace administrator.
+:::
+
+---
+
+## Saving Profile Changes
+
+Once you have updated your store information across any of the cards:
+1. Review the entered details and live previews.
+2. Click the **Save** button located at the **top-right** corner of the Store Edit page.
+3. A success confirmation notice confirms that all updated fields have been saved.
 
 ---
 
 ## Vendor Purchase Restriction
 
+To ensure marketplace trust, prevent fraudulent transactions, and comply with review integrity:
 - Vendors are **restricted from purchasing their own products**.
-- This helps prevent:
-  - Fake orders
-  - Fake reviews
-
-- **Edit Product link** added on the vendor’s own product view page
-  - Allows vendors to quickly edit their products from the frontend
+- If a logged-in vendor views one of their own products on the storefront, the standard "Add to Cart" button is disabled or replaced with an **Edit Product** link.
+- The **Edit Product** shortcut allows vendors to quickly jump straight from the customer storefront into the seller catalog editor.
 
 <a class="doc-image-link" href="./assets/seller-restriction.webp"><img src="./assets/seller-restriction.webp" alt="Vendor Purchase Restriction" /></a>
 
@@ -164,21 +229,51 @@ After configuring **Google Analytics**, vendors can set up their **tax informati
 
 ## Vendor Profile – Frontend View
 
-The vendor profile is displayed on the frontend with the following sections:
+When shoppers visit a vendor's public store link (`/vendor/[shop-slug]`), they see the fully branded storefront based on the chosen profile layout (**Storefront** or **Spotlight**):
 
-### Vendor Profile Page
+<a class="doc-image-link" href="./assets/seller-public-storefront-view.png"><img src="./assets/seller-public-storefront-view.png" alt="Public Vendor Storefront View" /></a>
 
-- Displays vendor shop details and branding.
-- Shows detailed information about the vendor’s shop.
-
-<a class="doc-image-link" href="./assets/seller-profile.webp"><img src="./assets/seller-profile.webp" alt="Vendor Profile Frontend" /></a>
-
----
-
-### Policies Section
-
-- Displays the vendor’s return, shipping, and privacy policies.
-
-<a class="doc-image-link" href="./assets/seller-profile-policies-section.webp"><img src="./assets/seller-profile-policies-section.webp" alt="Vendor Profile Policies" /></a>
+### Public Storefront Elements:
+- **Store Banner & Logo**: Branded header imagery and store logo.
+- **Vendor Badges**: Verified maker, on-time delivery, and excellence badges assigned by the administrator.
+- **Deals in Categories**: Interactive category badges highlighting product lines offered by the store.
+- **Store Location & Hours**: Physical street address, interactive map, and real-time open/closed status.
+- **About this Vendor**: Store biography and brand story.
+- **Store Policies**: Dedicated tabs displaying the vendor's Return Policy, Shipping Policy, and Privacy Policy.
+- **Product Catalog**: Paginated grid of all published products with search, sorting, and price filtering.
+- **Customer Reviews & Inquiry**: Review submission form, average customer rating, and "Ask a Question" / "Report Vendor" links.
 
 ---
+
+## Frequently Asked Questions (FAQ)
+
+<details>
+<summary><strong>Can I change my Shop Slug after setting up my store?</strong></summary>
+
+In the Store Edit interface, the **Shop Slug** field is read-only after creation. This protects your store URL (`/vendor/[slug]`), prevents broken backlinks, and maintains search engine rankings. If you need an exceptional change to your store slug, request a slug update from the marketplace administrator.
+</details>
+
+<details>
+<summary><strong>Where do I find my applied commission rate?</strong></summary>
+
+Your current commission rate is displayed in the **Shop Information** card in the right sidebar column of the Store Edit page. This rate is set by the marketplace administrator.
+</details>
+
+<details>
+<summary><strong>What happens to my products when Store Hours are closed?</strong></summary>
+
+If the **Disable Purchase During OFF Time** toggle is enabled, customers cannot add your items to their cart while your store is closed. A friendly off-time notice (configured in your **Store Off Time Message** field) is displayed on your store and product pages.
+</details>
+
+<details>
+<summary><strong>What file formats are accepted for Images and KYC documents?</strong></summary>
+
+- **Store Images** (User avatar, Shop logo, Banner): `jpg`, `jpeg`, `png`, `webp`, and `gif`.
+- **KYC Verification Documents**: `pdf`, `jpg`, `jpeg`, and `png`.
+</details>
+
+<details>
+<summary><strong>Do I need to save each section individually?</strong></summary>
+
+No. The new Store Edit layout features a unified **Save** button in the top-right corner of the page. Clicking this button saves changes across all cards at once.
+</details>

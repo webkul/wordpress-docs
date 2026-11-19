@@ -25,4 +25,4 @@ Go to **Settings → Permalinks**, choose **Post Name**, and save. This prevents
 If the license won't activate, see [License activation failed](../troubleshooting/license-activation-failed.html), or [open a ticket](https://webkul.uvdesk.com/).
 :::
 
-**Related:** [Requirements](./requirements.html) · [Update permalinks](./update-permalinks.html) · [License Activation Guide](https://wpdoc.webkul.com/license-validator/)
+**Related:** [Requirements](./requirements.html) · [Update permalinks](./update-permalinks.html) · [License Management & Activation](https://wpdoc.webkul.com/documentation/admin-license.html)

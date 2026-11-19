@@ -18,4 +18,4 @@ The form collects email, password, name, **Shop Name**, **Shop URL** (checked li
 Shop URL rejected for every value? See [Shop URL "Already Exists"](../troubleshooting/shop-url-already-exists.html).
 :::
 
-**Related:** [Commission basics](./commission-basics.html) · [Vendor dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard-menu.html)
+**Related:** [Commission basics](./commission-basics.html) · [Vendor dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html)

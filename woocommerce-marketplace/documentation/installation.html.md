@@ -77,7 +77,7 @@ Once installed:
 
 <a class="doc-image-link" href="./assets/license-wizard.webp"><img src="./assets/license-wizard.webp" alt="Activate License" /></a>
 
-- **[License Activation Guide](https://wpdoc.webkul.com/license-validator/)** – Step-by-step instructions on activating your plugin license.
+- **[License Activation Guide](./admin-license.html)** – Detailed step-by-step instructions on generating and activating your plugin license.
 
 ---
 

@@ -31,7 +31,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/customer-help-center/
       <p class="hc-card__desc">Sell, manage products, and get paid.</p>
       <nav class="hc-card__links" aria-label="Vendor links">
         <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-registration-process.html">Register as a vendor</a>
-        <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard-menu.html">Vendor dashboard</a>
+        <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html">Vendor dashboard</a>
         <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html">Manage products</a>
         <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-payout-management.html">Payouts</a>
       </nav>

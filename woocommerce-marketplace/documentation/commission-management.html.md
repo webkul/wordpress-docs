@@ -16,7 +16,11 @@ The **Commission Management** feature allows the admin to define how commissions
 - The admin can set a **Fixed Commission** and a **Percentage Commission**.
 - These commission rules apply to **all vendors** by default.
 - Configuration path:
-  - **Marketplace → Settings → Commission**
+  - **Marketplace → Settings → General → Default Commission**
+
+::: info Global Default Commission Configuration
+To configure the platform-wide fallback commission structure (fixed flat amount, percentage rate, or combined model) and discount deductions, visit the [Default Commission Configuration](./configuration-general-settings.html#default-commission) in General Settings.
+:::
 
 ---
 

@@ -5,11 +5,11 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 # Configuration – General Settings
 
-<a class="doc-image-link" href="./assets/general-settings.png"><img src="./assets/general-settings.png" alt="Admin Panel" /></a>
-
 After successfully installing WooCommerce Marketplace, the admin can configure the core marketplace settings such as vendor registration, approval workflow, default vendor capabilities, and overall marketplace behavior from:
 
 **Marketplace > Settings > General**
+
+<a class="doc-image-link" href="./assets/general-settings.png"><img src="./assets/general-settings.png" alt="Admin Panel" /></a>
 
 ---
 
@@ -17,54 +17,90 @@ After successfully installing WooCommerce Marketplace, the admin can configure t
 
 ### Default Commission
 
-The **Default Commission** is applied when no commission is set specifically for a vendor.
-Admins can set a combination of a fixed flat amount and a percentage (e.g., `$0 + 15%`).
+Configures the default commission structure applied to vendor sales when no custom commission is set for an individual vendor:
 
-#### Example
+- **Fixed Flat Amount (`$`)**: A fixed currency amount deducted per sale for the marketplace admin (e.g., `$0`).
+- **Percentage Rate (`%`)**: A percentage deducted from the product price for the marketplace admin (e.g., `12%`).
+- **Combined Commission Model (`$ + %`)**: Admins can combine both fixed and percentage values (e.g., `$2 + 10%`) to create a tiered commission rule.
+- **Fallback Rule**: Applied globally to all vendor products unless a vendor-specific commission override is set.
 
-- Product Price: **$100**
+#### Calculation Examples
 
-If the default commission is **20%**:
-- Vendor receives: **$80**
-- Admin commission: **$20**
+- **Percentage Only (`$0 + 20%`)**:
+  - Product Price: **$100**
+  - Admin Commission: **$20**
+  - Vendor Receives: **$80**
+- **Fixed + Percentage (`$2 + 10%`)**:
+  - Product Price: **$100**
+  - Admin Commission: **$12** ($2 fixed + $10 percentage)
+  - Vendor Receives: **$88**
+
+::: info Commission Management & Order Tracking
+For detailed instructions on viewing commission breakdowns in marketplace orders, tracking admin earnings versus vendor payouts, and configuring custom vendor-specific commission overrides, see the [Commission Management](./commission-management.html) guide.
+:::
 
 ---
 
 ### Deduct Discount From
 
-If a discount is applied by the customer, this option defines how the discount amount is adjusted.
+Defines how promotional discounts or coupons applied by customers at checkout are deducted between the admin and vendor:
 
-Available options:
+- **Both Vendor Total Amount and Admin Commission Amount**:
+  - The discount amount is shared proportionately between the vendor's earnings and the admin's commission based on their commission split.
+- **Vendor Total Amount**:
+  - The entire discount amount is deducted solely from the vendor's total payout.
+  - The admin retains their full commission amount untouched.
+- **Admin Commission Amount**:
+  - The entire discount amount is deducted solely from the admin's commission share.
+  - The vendor receives their full standard earnings.
 
-- Both vendor total amount and admin commission amount
-- Vendor total amount only
-- Admin commission amount only
+::: tip Extra Discount Covered by Admin
+If **Admin Commission Amount** is selected and the customer's discount is higher than the admin's commission, the marketplace admin covers (pays) the remaining difference so the vendor still receives their full earnings.
 
-*Note: If selected from the 'Admin Commission Amount' and the discount amount is more than the commission amount then the difference will also be borne by the admin.*
+**Quick Example:**
+- Product Price: **$100**
+- Admin Commission (10%): **$10**
+- Customer Discount Coupon: **$15**
+- The admin covers the full **$15** discount (absorbing the extra **$5** difference), and the vendor still receives their full **$90** payout.
+:::
 
 ---
 
 ### Auto Approve Vendor
 
-If enabled, vendors will be **automatically approved** after registration.
+Controls the approval workflow for new vendor registrations:
 
-#### Example
-
-- When enabled, any user signing up as a vendor is instantly converted into a vendor.
-- When disabled, admin approval is required before the user becomes a vendor.
+- **Enabled (Checked)**:
+  - Vendors are **automatically approved** immediately upon registration.
+  - New vendors instantly gain access to their seller dashboard, store setup, and product creation features without waiting for admin review.
+- **Disabled (Unchecked)**:
+  - New vendor registrations remain in a **Pending** status.
+  - The marketplace administrator must manually review and approve the vendor account from **Marketplace > Vendors** before the vendor can access seller features.
 
 ---
 
 ### Separate Vendor Dashboard
 
-If enabled, vendors will have a **separate dashboard**, similar to the admin dashboard, for managing their marketplace activities.
+Choose whether vendors manage their store from the **WordPress Admin backend (`/wp-admin/`)** or directly from the **front of your website**:
+
+- **Enabled (Checked)**: Vendors can log into your WordPress admin panel (`/wp-admin/`) and manage their store using dedicated WordPress backend menus.
+- **Disabled (Unchecked)**: Vendors manage their products and orders entirely from the storefront (using **My Account** or the **Seller Panel**). Access to `/wp-admin/` is restricted for vendors.
+
+::: tip Which option should you choose?
+- **Keep Disabled (Recommended):** Best for most marketplaces. Vendors manage everything easily from the website storefront, keeping your WordPress admin dashboard private, clean, and secure.
+- **Enable:** Turn this on only if you specifically want vendors to log into and work inside the WordPress `/wp-admin/` control panel.
+:::
 
 ---
 
 ### Data Delete After Vendor Delete
 
-- If enabled, **all vendor data** will be deleted when the vendor is removed.
-- If disabled, the vendor’s data will be **assigned to the admin** instead.
+Specifies how vendor data and catalog items are handled when a vendor account is deleted by the administrator:
+
+- **Enabled (Checked)**:
+  - **All vendor data is deleted**: Products, listings, and vendor records are permanently deleted when the vendor is removed.
+- **Disabled (Unchecked)**:
+  - **Reassign to Admin**: The vendor’s products and records are preserved and automatically assigned to the marketplace admin instead.
 
 ---
 
@@ -88,6 +124,7 @@ The admin can select which shipping method will apply at checkout:
 
 - Vendor-specific shipping rates will apply to vendor products.
 - Admin shipping applies to admin products.
+- Vendors configure their own delivery zones, rates, classes, and pickup counters in their seller dashboard as explained in the [Vendor Shipping Zone Management](https://wpdoc.webkul.com/documentation/vendor-shipping-zone-management) guide.
 
 ##### Mixed Cart (Admin + Vendor Products)
 
@@ -120,21 +157,30 @@ Select the page to be used as the **Seller Central Page**.
 
 ### Shop Name on Registration
 
-- If set to **Required**, vendors must enter a **Shop Name** during registration.
-- If set to **Optional** and left empty, the module will use the **Vendor Name** as the shop name.
+Controls the visibility and requirement of the **Shop Name** field on the vendor registration form:
+
+- **Required**: Vendors must enter a **Shop Name** during registration.
+- **Optional**: The Shop Name field is optional. If left empty, the module will automatically use the vendor's name instead.
+- **Remove**: Completely removes the Shop Name field from the registration form. When removed, the module automatically uses the vendor's name as the shop name.
 
 ---
 
 ### Shop Slug on Registration
 
-- If set to **Required**, vendors must enter a **Shop URL** during registration.
-- If set to **Optional** and left empty, the module will use the **Shop Slug** as the vendor’s username.
+Controls the visibility and requirement of the **Shop Slug (Store URL)** field on the vendor registration form:
+
+- **Required**: Vendors must enter a **Shop URL** during registration.
+- **Optional**: The Shop Slug field is optional. If left empty, the module will automatically use the vendor's username instead.
+- **Remove**: Completely removes the Shop Slug field from the registration form. When removed, the module automatically uses the vendor's username as the shop URL slug.
 
 ---
 
 ### Vendor Terms & Conditions Page
 
-The admin can select a **Terms & Conditions page** that will be displayed to vendors during registration.
+The admin can select a **Terms & Conditions page** that will be displayed to vendors during registration:
+
+- **`-----Disable Terms and Conditions-----`**: Disables the terms and conditions checkbox on the vendor registration form.
+- **Select Page**: Choose any published WordPress page (e.g., *Terms & Conditions*). A required terms and conditions agreement checkbox linked to this page will appear on the vendor registration form.
 
 ---
 
@@ -147,15 +193,51 @@ The admin can select a **Terms & Conditions page** that will be displayed to ven
 
 ### Vendor KYC Verification Settings
 
-Admins can configure the KYC settings directly from the General tab:
-- **Enable Vendor KYC Verification**: A master toggle to enable or disable the feature globally.
-- **KYC Document Types**: Admins can define the types of documents allowed (e.g., Business License, Government ID, Utility Bill).
-- **Allowed KYC Formats**: Restrict document uploads to specific formats (PDF, JPG, JPEG, PNG, WEBP).
-- **Restrict KYC Document Size**: Optionally define minimum and maximum file size limits (in KB) for the document uploads.
+Admins can configure the KYC (Know Your Customer) document verification settings directly from the General tab:
+
+- **Enable Vendor KYC Verification**: A master checkbox toggle to enable or disable vendor document verification globally. When checked, vendors can upload KYC documents to support the approval of their seller account.
+- **KYC Document Types**: Admins can define the types of documents allowed (e.g., *Business License*, *Government ID*, *Utility Bill*). You can select from suggested types or type and add custom document types.
+- **Allowed KYC Formats**: Restrict document uploads to specific permitted file formats by selecting the checkboxes: **PDF**, **JPG**, **JPEG**, **PNG**, and **WEBP**.
+- **Restrict KYC Document Size**: Optionally enforce minimum and maximum file size limits (in **KB**) for document uploads (e.g., from `10` KB to `2048` KB).
 
 ---
 
-### Admin-configurable Upload Restrictions
+### New Vendor Dashboard
+
+The **New vendor dashboard** setting controls whether vendors access the redesigned, modern vendor dashboard interface:
+
+- **Disabled — every vendor uses the classic dashboard**: All vendors remain on the classic seller dashboard interface.
+- **Optional — each vendor chooses**: Each vendor can individually choose whether to use the classic dashboard or switch to the new redesigned dashboard UI.
+- **Forced — every vendor uses the new dashboard**: Enforces the new modern vendor dashboard interface for all vendors across the marketplace.
+
+::: tip Modern Interface Rollout
+The redesigned vendor dashboard serves the updated UI on existing vendor endpoints. Vendor URLs, add-ons, and permissions remain unchanged; only the dashboard shell and migrated screens provide the modernized experience.
+:::
+
+- **Detailed Guides**: See [Vendor Dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html) and [Seller Panel Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/seller-panel-overview.html).
+
+---
+
+### Seller Panel Page
+
+The **Seller panel page** setting allows admins to designate a dedicated WordPress page that serves the vendor dashboard on its own standalone URLs:
+
+- **`----- Disable the seller panel -----`**: Switches off the standalone seller panel URLs.
+- **Select Page (e.g., Seller Panel)**: Assigns the chosen WordPress page (e.g., *Seller Panel*) to serve as the base for the standalone seller dashboard.
+
+#### Key Features of the Seller Panel
+
+- **Runs beside My Account**: The seller panel operates alongside the standard WooCommerce My Account dashboard rather than replacing it.
+- **Consistent Endpoints**: It serves all vendor endpoints under clean, dedicated slugs (e.g., `/seller/vendor-products/` alongside `/my-account/vendor-products/`, and `/seller/orders/` alongside `/my-account/orders/`).
+- **Direct Link**: When enabled, the live URL to the vendor dashboard (e.g., `https://your-domain/seller/vendor-dashboard/`) is displayed directly beneath the setting for direct access.
+
+<a class="doc-image-link" href="./assets/seller-panel-dashboard.png"><img src="./assets/seller-panel-dashboard.png" alt="Seller Panel Dashboard" /></a>
+
+- **Detailed Guides**: See [Vendor Dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html) and [Seller Panel Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/seller-panel-overview.html).
+
+---
+
+### Admin-Configurable Upload Restrictions
 
 Admins can set global upload restrictions for every vendor image, including:
 - Avatar

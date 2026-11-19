@@ -11,7 +11,7 @@ Entering your key in **Marketplace → Settings** doesn't activate, or returns a
 
 1. Re-copy the **full license key** with no leading or trailing spaces.
 2. Confirm the site **domain matches the license** (staging and live domains are often licensed separately).
-3. Follow the official [License Activation Guide](https://wpdoc.webkul.com/license-validator/) step by step.
+3. Follow our step-by-step [License Management & Activation Guide](https://wpdoc.webkul.com/documentation/admin-license.html) or the official [Webkul License Validator](https://wpdoc.webkul.com/license-validator/).
 4. Still failing? [Open a ticket](https://webkul.uvdesk.com/) with the exact error text.
 
 ::: tip Still need help?

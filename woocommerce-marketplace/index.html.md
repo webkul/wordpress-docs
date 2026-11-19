@@ -58,7 +58,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/
       </div>
       <p>Manage vendors, products, orders, and customer flows.</p>
       <nav aria-label="Run day to day guides">
-        <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard-menu.html">Vendor dashboard</a>
+        <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html">Vendor dashboard</a>
         <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html">Vendor orders</a>
         <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-management-and-product-assignment.html">Vendor &amp; product assignment</a>
         <a href="https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-order-placement.html">Customer order placement</a>
