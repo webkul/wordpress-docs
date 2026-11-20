@@ -15,7 +15,7 @@ The marketplace administrator can access this screen from:
 
 **Direct Admin Navigation URL**: `wp-admin/admin.php?page=wk-marketplace-store-pickup`
 
-<a class="doc-image-link" href="./assets/admin-store-pickup-orders.png"><img src="./assets/admin-store-pickup-orders.png" alt="Admin Store Pickup Orders Management Dashboard" /></a>
+<a class="doc-image-link" href="./assets/admin-seller-store-pickup.webp"><img src="./assets/admin-seller-store-pickup.webp" alt="Admin Store Pickup Orders Management Dashboard" /></a>
 
 ---
 
@@ -76,7 +76,7 @@ The table below provides a detailed breakdown of the data presented in each colu
 
 To help marketplace administrators efficiently navigate large volumes of pickup orders across hundreds of sellers, the Store Pickup Orders interface includes robust search and dual filtering controls.
 
-<a class="doc-image-link" href="./assets/admin-store-pickup-orders.png"><img src="./assets/admin-store-pickup-orders.png" alt="Filtering Store Pickup Orders" /></a>
+<a class="doc-image-link" href="./assets/admin-store-pickup-filter.webp"><img src="./assets/admin-store-pickup-filter.webp" alt="Filtering Store Pickup Orders" /></a>
 
 ### 1. Keyword & Order Search
 The **Search orders** input field is located at the top right of the list table:

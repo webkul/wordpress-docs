@@ -5,9 +5,6 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 # Configuration – Google Analytics
 
-<a class="doc-image-link" href="./assets/google-analytics-map.webp"><img src="./assets/google-analytics-map.webp" alt="Google Analytics and Map" /></a>
-
-
 The **Google Analytics** feature allows the admin and vendors to track website and product performance using Google Analytics (GA-4).
 
 ---
@@ -27,6 +24,8 @@ To configure Google Analytics and Google Map settings for your marketplace:
 1. Log in to your **WordPress Admin Panel**.
 2. In the left navigation menu, go to **Marketplace > Settings**.
 3. Select the **Google Analytics** tab.
+
+<a class="doc-image-link" href="./assets/google-analytics-map.webp"><img src="./assets/google-analytics-map.webp" alt="Google Analytics and Map" /></a>
 
 ---
 

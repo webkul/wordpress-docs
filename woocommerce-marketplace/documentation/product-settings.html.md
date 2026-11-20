@@ -36,6 +36,8 @@ Marketplace > Settings > Product
   - Admin selects which product categories vendors can use while adding products.
   - Vendors can only assign their products to the categories selected by the administrator.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-product.webp"><img src="./assets/marketplace-admin-setting-product.webp" alt="Vendor Product Settings" /></a>
+
 ---
 
 ## Minimum Order Amount Settings
@@ -51,6 +53,8 @@ The administrator can enforce a minimum purchase amount that customers must spen
   - When checked, individual vendors can define their own custom minimum order amount in their seller dashboard.
   - If a vendor leaves their custom amount empty, this global admin default value automatically applies.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-product-min-order.webp"><img src="./assets/marketplace-admin-setting-product-min-order.webp" alt="Minimum Order Amount Settings" /></a>
+
 ---
 
 ## Product Quantity Limit Settings
@@ -62,6 +66,8 @@ Allows the marketplace administrator to place purchase quantity limits on vendor
 - **Default Maximum Quantity**
   - Define the global default maximum number of units of a product that a customer can purchase in a single order (e.g., `5` or `10`).
   - Helps vendors manage high-demand products, limited inventory, or wholesale purchasing restrictions.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-product-qty-limit.webp"><img src="./assets/marketplace-admin-setting-product-qty-limit.webp" alt="Product Quantity Limit Settings" /></a>
 
 ---
 
@@ -82,6 +88,8 @@ Admins can customize the appearance, step-by-step guidance, and layout of the ve
     - **Horizontal Tabs**: Organizes product data sections into horizontal top navigation tabs.
     - **Vertical Tabs**: Displays product data sections in a clean vertical left-hand navigation list.
     - **Stacked Form**: Displays all product sections in a continuous, stacked single-page layout for easy scrolling.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-product-form.webp"><img src="./assets/marketplace-admin-setting-product-form.webp" alt="Product Form Settings - Form Navigation" /></a>
 
 - **Vendor Mode**
   - **Let vendors choose their own product form settings**: When enabled, vendors see a **Settings > Site Setting** option in their seller panel.
@@ -109,6 +117,8 @@ Admins can customize the appearance, step-by-step guidance, and layout of the ve
   - Vendors can configure fulfilment details from their dashboard.
   - Vendor-specific fulfilment details appear on the product page.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-product-full.webp"><img src="./assets/marketplace-admin-setting-product-full.webp" alt="Product Fulfilment Settings" /></a>
+
 ---
 
 ## Vendor Bulk Upload Settings
@@ -128,6 +138,8 @@ Enables vendors to import multiple products at once using CSV files, speeding up
     - **Download image URLs from the file**: Automatically downloads image files from external URLs specified in the CSV file and imports them directly into the WordPress media library.
     - **Only images already in the vendor's media library**: Matches and attaches images that the vendor has already pre-uploaded to their WordPress media library by filename.
     - **No images (added later in the product editor)**: Imports product details without images, allowing sellers to upload photos manually later through the product editor.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-product-fullfilment.webp"><img src="./assets/marketplace-admin-setting-product-fullfilment.webp" alt="Vendor Bulk Upload Settings - Product Images" /></a>
 
 ---
 

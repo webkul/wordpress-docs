@@ -16,7 +16,7 @@ This enables you to build marketplaces similar to:
 - Etsy
 - eBay
 
-<a class="doc-image-link" href="./assets/dashboard.webp"><img src="./assets/dashboard.webp" alt="Admin Panel" /></a>
+<a class="doc-image-link" href="./assets/marketplace-vendor-dashboard.webp"><img src="./assets/marketplace-vendor-dashboard.webp" alt="WooCommerce Marketplace Vendor Dashboard" /></a>
 
 ---
 

@@ -74,7 +74,7 @@ The admin can add a new vendor manually by navigating to:
 
 **Marketplace → Vendors → Add New**
 
-<a class="doc-image-link" href="./assets/vendors-list.webp"><img src="./assets/vendors-list.webp" alt="Vendors List" /></a>
+<a class="doc-image-link" href="./assets/admin-seller-add-news.webp"><img src="./assets/admin-seller-add-news.webp" alt="Add New Vendor" /></a>
 
 ---
 
@@ -174,16 +174,6 @@ Once payment is made:
 
 - Order is marked as **paid**
 - A transaction entry is created under **Transactions**
-
-### Transaction Details Include
-
-- Order ID
-- Amount
-- Transaction Type
-- Payment Method
-- Date Created
-
-<a class="doc-image-link" href="./assets/admin-end-seller-transactions.webp"><img src="./assets/admin-end-seller-transactions.webp" alt="Admin Seller Transactions" /></a>
 
 ---
 

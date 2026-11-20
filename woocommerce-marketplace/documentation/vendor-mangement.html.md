@@ -5,9 +5,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-ma
 
 # Vendor Badge Management
 
-<a class="doc-image-link" href="./assets/vendor-profile-badge-display.webp"><img src="./assets/vendor-profile-badge-display.webp" alt="Vendor Badges Frontend View" /></a>
-
 The **Vendor Badges** feature allows marketplace admins to recognize, reward, and showcase vendor performance. Badges act as trust indicators and are displayed on vendor profile pages to improve buyer confidence.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-vendor-assigned-badge.webp"><img src="./assets/marketplace-admin-setting-vendor-assigned-badge.webp" alt="Marketplace Admin Setting Vendor Assigned Badge" /></a>
 
 ::: tip Why Badges Matter for Marketplace Growth
 Badges serve as verified digital credentials for sellers. Highlighting seller milestones—such as fast shipping, verified craftsmanship, or flawless ratings—helps shoppers make quicker purchasing choices while motivating vendors to keep service standards high.
@@ -19,7 +19,7 @@ Badges serve as verified digital credentials for sellers. Highlighting seller mi
 
 Admins can manage all vendor badges from the marketplace admin panel.
 
-<a class="doc-image-link" href="./assets/badges-settings.webp"><img src="./assets/badges-settings.webp" alt="Badges Settings" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-badge-list.webp"><img src="./assets/marketplace-admin-setting-badge-list.webp" alt="Marketplace Admin Setting Badge List" /></a>
 
 *(Marketplace → Badges section)*
 
@@ -51,7 +51,7 @@ From **Marketplace → Badges**, the administrator can view all configured badge
 
 Administrators managing large catalogs of vendor badges can quickly filter records using built-in search and column sorting.
 
-<a class="doc-image-link" href="./assets/admin-badges-search-filter.png"><img src="./assets/admin-badges-search-filter.png" alt="Search and Filter Badges in Admin Panel" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-badge-operation.webp"><img src="./assets/marketplace-admin-setting-badge-operation.webp" alt="Marketplace Admin Setting Badge Operation" /></a>
 
 1. **Search by Badge Name**:
    - Locate the **Search Box** in the top-right corner above the table.
@@ -81,6 +81,8 @@ Administrators can update or remove multiple badges simultaneously to save time:
 
 In addition to editing vendor profiles, the Badges management table includes a dedicated toolbar for rapid badge assignments:
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-badge-assign-to-vendor.webp"><img src="./assets/marketplace-admin-setting-badge-assign-to-vendor.webp" alt="Marketplace Admin Setting Badge Assign To Vendor" /></a>
+
 - **Select Vendor Dropdown**: A dropdown menu containing all registered vendors in the marketplace (e.g., *Aurora Athletics*, *Volt & Vine*, *Maison Terra*).
 - **Assign Button**: Immediately awards all selected badges to the chosen vendor.
 - **UnAssign Button**: Revokes the selected badges from the chosen vendor.
@@ -93,7 +95,7 @@ Using the **Assign** or **UnAssign** buttons from this toolbar updates the vendo
 
 ## Add New Badge
 
-<a class="doc-image-link" href="./assets/add-badge.webp"><img src="./assets/add-badge.webp" alt="Add New Badges" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-badge-add-new.webp"><img src="./assets/marketplace-admin-setting-badge-add-new.webp" alt="Marketplace Admin Setting Badge Add New" /></a>
 
 
 Admins can create a new badge by filling in the following fields:
@@ -111,8 +113,6 @@ Admins can create a new badge by filling in the following fields:
   - Upload a custom badge icon
 
 This allows full control over how badges appear and function in the marketplace.
-
-<a class="doc-image-link" href="./assets/admin-add-badge-form.png"><img src="./assets/admin-add-badge-form.png" alt="Add Badge Form in Admin Panel" /></a>
 
 ### Badge Form Fields & Requirements
 

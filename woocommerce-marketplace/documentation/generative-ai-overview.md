@@ -56,6 +56,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
   </div>
 </div>
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Marketplace Admin Setting Generative AI Provider" /></a>
+
 ## What you can do
 
 <div class="feature-cards-grid feature--ai">

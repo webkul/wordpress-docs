@@ -43,6 +43,8 @@ The **Assets Visibility** settings allow the admin to control which vendor detai
   - **When unchecked**: Vendor names and store links remain hidden from customers across all shop, cart, checkout, order, and invoice pages. This allows marketplace owners to present a unified, single-brand marketplace experience.
   - **Per-Vendor Override**: Store administrators can also customize this option individually for specific vendors from the vendor edit screen.
 
+<a class="doc-image-link" href="./assets/marketplace-setting-assets-options.webp"><img src="./assets/marketplace-setting-assets-options.webp" alt="WooCommerce Marketplace Assets Settings Options" /></a>
+
 - **Show Legacy Vendor Profile**
   - Enable to display the vendor profile using the legacy layout
   - Disable to use the new optimized layout
@@ -74,6 +76,8 @@ Marketplace administrators can choose which analytical widgets and reporting blo
 - **Recent Orders**
   - Hides the **Recent Orders** quick preview table on the vendor dashboard main page.
   - Vendors can still view and process their orders through the dedicated **Orders** menu if access is permitted.
+
+<a class="doc-image-link" href="./assets/marketplace-setting-assets-hide-vendor.webp"><img src="./assets/marketplace-setting-assets-hide-vendor.webp" alt="Hide Vendor Dashboard Section Settings" /></a>
 
 ---
 

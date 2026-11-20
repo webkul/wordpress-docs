@@ -5,9 +5,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 # Configuration – Seller Central
 
-<a class="doc-image-link" href="./assets/sellercentral.webp"><img src="./assets/sellercentral.webp" alt="Seller Central" /></a>
-
 The **Seller Central** settings allow the admin to configure and customize the **vendor onboarding page** for new sellers.
+
+<a class="doc-image-link" href="./assets/sellercentral.webp"><img src="./assets/sellercentral.webp" alt="Seller Central" /></a>
 
 The admin can access this section from:
 
@@ -82,7 +82,7 @@ The table below outlines each sub-tab, available options, input controls, and th
   - Banner description
   - Banner image
 
-<a class="doc-image-link" href="./assets/seller-central-banner.webp"><img src="./assets/seller-central-banner.webp" alt="Seller Central Banner" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-seller-banner.webp"><img src="./assets/marketplace-admin-setting-seller-banner.webp" alt="Seller Central Banner" /></a>
 
 ### Banner Fields Configuration
 
@@ -117,7 +117,7 @@ Using modern **.webp** or **SVG** image formats is recommended for all logos, he
 - Helps vendors understand available tools and functionality
 - Attracts new vendors by showcasing platform capabilities
 
-<a class="doc-image-link" href="./assets/seller-central-features.webp"><img src="./assets/seller-central-features.webp" alt="Seller Central Features" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-seller-feature.webp"><img src="./assets/marketplace-admin-setting-seller-feature.webp" alt="Seller Central Features" /></a>
 
 ### Features Fields Configuration
 
@@ -143,7 +143,7 @@ The Features tab allows administrators to showcase up to **4 distinct capability
 - Builds trust and credibility for new vendors
 - Encourages vendors to join the marketplace
 
-<a class="doc-image-link" href="./assets/seller-central-reviews.webp"><img src="./assets/seller-central-reviews.webp" alt="Seller Central Reviews" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-seller-reviews.webp"><img src="./assets/marketplace-admin-setting-seller-reviews.webp" alt="Seller Central Reviews" /></a>
 
 ### Reviews Fields Configuration
 
@@ -171,7 +171,7 @@ The Reviews tab displays real-world feedback from active merchants. Social proof
 - Makes vendor onboarding simple and clear
 - Helps reduce confusion during registration
 
-<a class="doc-image-link" href="./assets/seller-central-workflows.webp"><img src="./assets/seller-central-workflows.webp" alt="Seller Central Workflows" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-seller-workflow.webp"><img src="./assets/marketplace-admin-setting-seller-workflow.webp" alt="Seller Central Workflows" /></a>
 
 ### Workflow Fields Configuration
 
@@ -197,7 +197,7 @@ The Workflow tab breaks down the onboarding journey into clear, sequential miles
 - Helps vendors quickly understand the value proposition
 - Encourages vendor registration
 
-<a class="doc-image-link" href="./assets/seller-central-benefits.webp"><img src="./assets/seller-central-benefits.webp" alt="Seller Central Benefits" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-seller-benefits.webp"><img src="./assets/marketplace-admin-setting-seller-benefits.webp" alt="Seller Central Benefits" /></a>
 
 ### Benefits Fields Configuration
 
@@ -224,7 +224,7 @@ The Benefits section details the commercial and operational incentives for selle
 - Controls onboarding options for new sellers
 - Manages how vendors sign up on the marketplace
 
-<a class="doc-image-link" href="./assets/seller-central-registration.webp"><img src="./assets/seller-central-registration.webp" alt="Seller Central Registration" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-seller-registration.webp"><img src="./assets/marketplace-admin-setting-seller-registration.webp" alt="Seller Central Registration" /></a>
 
 ### Registration Fields Configuration
 

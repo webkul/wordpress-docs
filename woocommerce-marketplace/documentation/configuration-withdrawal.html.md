@@ -5,8 +5,6 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 # Configuration – Withdrawal
 
-<a class="doc-image-link" href="./assets/withdrawal-settings.webp"><img src="./assets/withdrawal-settings.webp" alt="Admin Withdrawal Settings" /></a>
-
 The **Withdrawal** feature allows vendors to withdraw their earnings using configured payment methods.
 
 The admin can configure this from:
@@ -17,6 +15,8 @@ The admin can configure this from:
 ```text
 wp-admin/admin.php?page=wk-marketplace-settings&tab=seller_withdrawal
 ```
+
+<a class="doc-image-link" href="./assets/withdrawal-settings.webp"><img src="./assets/withdrawal-settings.webp" alt="Admin Withdrawal Settings" /></a>
 
 ---
 

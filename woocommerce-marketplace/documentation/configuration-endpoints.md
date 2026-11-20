@@ -5,8 +5,6 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 # Configuration – Endpoints
 
-<a class="doc-image-link" href="./assets/endpoints.webp"><img src="./assets/endpoints.webp" alt="Endpoints" /></a>
-
 The **Endpoints** configuration allows the admin to manage dynamic URL segments used across the vendor dashboard and related pages in the WooCommerce Multi-Vendor Marketplace.
 
 ---
@@ -114,7 +112,7 @@ The **Endpoints** configuration allows the admin to manage dynamic URL segments 
 
 At the top of the **Endpoints** settings screen, the administrator can manage whether standard WooCommerce customer navigation items appear alongside vendor management links:
 
-<a class="doc-image-link" href="./assets/endpoint-settings-live.png"><img src="./assets/endpoint-settings-live.png" alt="Customer Endpoint Visibility Settings" /></a>
+<a class="doc-image-link" href="./assets/endpoints.webp"><img src="./assets/endpoints.webp" alt="Customer Endpoint Visibility Settings" /></a>
 
 - **Hide Customer endpoints on all vendor endpoints pages**
   - **Default**: Enabled (Checked)
@@ -171,7 +169,7 @@ The WooCommerce Multi-Vendor Marketplace plugin includes **44 dedicated endpoint
 | 29 | **Bulk Upload** <Badge text="Seller V2" type="warning" /> | `seller-bulk-upload` | CSV/XLS spreadsheet product import workspace with sample file downloads, header mapping, and background batch product creation. See [Bulk Upload](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html). |
 | 30 | **Search Products** <Badge text="Seller V2" type="warning" /> | `seller-search-products` | Real-time search portal enabling vendors to find existing marketplace catalog items by name, SKU, or category to quickly add their own selling offers. See [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html). |
 | 31 | **Sell Catalog Products Bulk** <Badge text="Seller V2" type="warning" /> | `seller-bulk-sell-products` | Batch CSV import utility specifically for Select & Sell, allowing sellers to map and sell dozens of catalog items at once with custom stock and prices. See [Bulk Upload](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html) and [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html). |
-| 32 | **Manage Inventory** <Badge text="Seller V2" type="warning" /> | `seller-manage-inventory` | Centralized stock management dashboard featuring stock status badges, low-stock thresholds, and high-speed inline AJAX stock quantity updates. See [Manage Inventory](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html). |
+| 32 | **Manage Inventory** <Badge text="Seller V2" type="warning" /> | `seller-manage-inventory` | Centralized stock management dashboard featuring stock status badges, low-stock thresholds, and high-speed inline stock quantity updates. See [Manage Inventory](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html). |
 | 33 | **Inventory Variations** <Badge text="Seller V2" type="warning" /> | `seller-manage-inventory-variations` | Granular variation stock manager displaying individual SKUs and stock quantities for all attribute variations of variable products. See [Manage Inventory](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html). |
 | 34 | **Manage Pricing** <Badge text="Seller V2" type="warning" /> | `seller-manage-pricing` | Centralized pricing table allowing vendors to quickly inspect and edit regular prices, sale prices, and schedule discounts directly in bulk or inline. See [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html). |
 | 35 | **Pricing Variations** <Badge text="Seller V2" type="warning" /> | `seller-manage-pricing-variations` | Dedicated pricing management view for variable product child variations, allowing variation-by-variation regular and sale price adjustments. See [Manage Inventory](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html). |
@@ -192,7 +190,7 @@ The WooCommerce Multi-Vendor Marketplace plugin includes **44 dedicated endpoint
 
 ## Detailed Directory of the Newly Added 20 Endpoints
 
-The 20 newly added endpoints represent a major architectural expansion supporting **Select & Sell** catalog sharing and the modern **Seller Panel V2** standalone merchant workspace. Below is an exhaustive breakdown of each newly introduced endpoint, categorized by functional domain:
+The 20 endpoints below provide specialized functionality supporting **Select & Sell** catalog sharing and the modern **Seller Panel V2** standalone merchant workspace. Below is an exhaustive breakdown of each newly introduced endpoint, categorized by functional domain:
 
 ### 1. Select & Sell Endpoints (3 Endpoints)
 
@@ -201,21 +199,18 @@ The **MP Select and Sell** feature allows multiple vendors to attach their offer
 #### 1. Select and Sell (`select-and-sell`)
 - **Default Slug**: `select-and-sell`
 - **Default Title**: `Select and Sell`
-- **Database Option Key**: `_wkmp_select_sell_product_list_endpoint` (Slug) & `_wkmp_select_sell_product_list_endpoint_name` (Title)
 - **Target Page & Capability**: Loads the vendor's Select & Sell management dashboard. Displays a data table of all existing catalog products that the merchant is currently offering. Shows current selling prices, stock levels, product status, and action links to modify terms or view competitor offers.
 - **Reference Guide**: [Admin Select and Sell](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html) and [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html).
 
 #### 2. Add Select and Sell Product (`add-selected-sell-product`)
 - **Default Slug**: `add-selected-sell-product`
 - **Default Title**: `Add Select and Sell Product`
-- **Database Option Key**: `_wkmp_select_sell_add_product_endpoint` (Slug) & `_wkmp_select_sell_add_product_endpoint_name` (Title)
 - **Target Page & Capability**: Onboarding screen loaded when a vendor chooses an existing catalog item to sell. Allows the seller to configure their specific regular price, sale price, stock quantity, stock status, product condition (New, Used, Refurbished), and upload seller-specific gallery images without re-creating product descriptions or taxonomies.
 - **Reference Guide**: [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html).
 
 #### 3. Edit Select and Sell Product (`edit-selected-sell-product`)
 - **Default Slug**: `edit-selected-sell-product`
 - **Default Title**: `Edit Select and Sell Product`
-- **Database Option Key**: `_wkmp_select_sell_edit_product_endpoint` (Slug) & `_wkmp_select_sell_edit_product_endpoint_name` (Title)
 - **Target Page & Capability**: Dedicated editor interface for existing mapped catalog products. Sellers can update price points, modify available stock inventory, adjust promotional sale dates, or update condition descriptions.
 - **Reference Guide**: [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html).
 
@@ -223,33 +218,29 @@ The **MP Select and Sell** feature allows multiple vendors to attach their offer
 
 ### 2. Catalog & Bulk Listing Endpoints (4 Endpoints)
 
-These endpoints provide modern, high-throughput catalog authoring and bulk spreadsheet import tools within the Seller Panel V2.
+These endpoints provide modern catalog authoring and bulk spreadsheet import tools within the Seller Panel V2.
 
 #### 4. List Your Product (`seller-list-product`)
 - **Default Slug**: `seller-list-product`
 - **Default Title**: `List Your Product`
-- **Database Option Key**: `_wkmp_seller_list_product_endpoint` (Slug) & `_wkmp_seller_list_product_endpoint_name` (Title)
 - **Target Page & Capability**: The modern Seller Panel V2 product authoring workflow. Replaces the legacy product form with an intuitive wizard featuring category search trees, GTIN/EAN/UPC barcode validation, Magic AI automated product copywriting, and instant publication controls.
 - **Reference Guide**: [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html) and [Generate Product Content](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generate-product-content.html).
 
 #### 5. Bulk Upload (`seller-bulk-upload`)
 - **Default Slug**: `seller-bulk-upload`
 - **Default Title**: `Bulk Upload`
-- **Database Option Key**: `_wkmp_bulk_upload_endpoint` (Slug) & `_wkmp_bulk_upload_endpoint_name` (Title)
-- **Target Page & Capability**: End-to-end spreadsheet catalog import suite. Vendors can download pre-formatted CSV and XLS template schemas, upload bulk product spreadsheets, map spreadsheet columns to WooCommerce attributes, and execute automated background import jobs with error reporting.
+- **Target Page & Capability**: End-to-end spreadsheet catalog import suite. Vendors can download sample CSV and XLS templates, upload bulk product spreadsheets, map spreadsheet columns to WooCommerce attributes, and execute automated background import jobs with error reporting.
 - **Reference Guide**: [Bulk Upload](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html).
 
 #### 6. Search Products (`seller-search-products`)
 - **Default Slug**: `seller-search-products`
 - **Default Title**: `Search Products`
-- **Database Option Key**: `_wkmp_seller_search_products_endpoint` (Slug) & `_wkmp_seller_search_products_endpoint_name` (Title)
 - **Target Page & Capability**: High-speed catalog search engine within Seller Panel V2. Allows merchants to search the marketplace catalog by product title, SKU, barcode, or category to quickly locate an existing product and click **Sell Yours** to open the Select & Sell assignment workflow.
 - **Reference Guide**: [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html).
 
 #### 7. Sell Catalog Products Bulk (`seller-bulk-sell-products`)
 - **Default Slug**: `seller-bulk-sell-products`
 - **Default Title**: `Sell Catalog Products Bulk`
-- **Database Option Key**: `_wkmp_select_and_sell_bulk_endpoint` (Slug) & `_wkmp_select_and_sell_bulk_endpoint_name` (Title)
 - **Target Page & Capability**: Batch assignment tool for Select & Sell. Vendors upload a CSV mapping existing product IDs or SKUs with their custom prices and stock quantities, attaching their store to dozens or hundreds of existing catalog items in a single batch operation.
 - **Reference Guide**: [Bulk Upload](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html) and [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html).
 
@@ -262,28 +253,24 @@ High-speed operational endpoints designed to let merchants maintain inventory le
 #### 8. Manage Inventory (`seller-manage-inventory`)
 - **Default Slug**: `seller-manage-inventory`
 - **Default Title**: `Manage Inventory`
-- **Database Option Key**: `_wkmp_manage_inventory_endpoint` (Slug) & `_wkmp_manage_inventory_endpoint_name` (Title)
-- **Target Page & Capability**: Dedicated inventory control dashboard with stock status indicators (In Stock, Out of Stock, On Backorder), SKU references, and high-speed inline AJAX stock quantity editing directly inside the table grid.
+- **Target Page & Capability**: Dedicated inventory control dashboard with stock status indicators (In Stock, Out of Stock, On Backorder), SKU references, and inline stock quantity editing directly inside the table grid.
 - **Reference Guide**: [Manage Inventory](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html).
 
 #### 9. Inventory Variations (`seller-manage-inventory-variations`)
 - **Default Slug**: `seller-manage-inventory-variations`
 - **Default Title**: `Inventory Variations`
-- **Database Option Key**: `_wkmp_manage_inventory_variations_endpoint` (Slug) & `_wkmp_manage_inventory_variations_endpoint_name` (Title)
 - **Target Page & Capability**: Granular stock manager for variable products. Expands variable product hierarchies to show every attribute combination (e.g., Size: L, Color: Blue) with individual SKUs and editable stock levels.
 - **Reference Guide**: [Manage Inventory](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html).
 
 #### 10. Manage Pricing (`seller-manage-pricing`)
 - **Default Slug**: `seller-manage-pricing`
 - **Default Title**: `Manage Pricing`
-- **Database Option Key**: `_wkmp_manage_pricing_endpoint` (Slug) & `_wkmp_manage_pricing_endpoint_name` (Title)
 - **Target Page & Capability**: Dedicated pricing management matrix. Allows merchants to audit regular prices, promotional sale prices, and active discounts across simple and parent products with inline editing and bulk price modification utilities.
 - **Reference Guide**: [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html).
 
 #### 11. Pricing Variations (`seller-manage-pricing-variations`)
 - **Default Slug**: `seller-manage-pricing-variations`
 - **Default Title**: `Pricing Variations`
-- **Database Option Key**: `_wkmp_manage_pricing_variations_endpoint` (Slug) & `_wkmp_manage_pricing_variations_endpoint_name` (Title)
 - **Target Page & Capability**: Variation-level pricing console. Enables vendors to configure distinct regular prices, sale prices, and scheduled promotional dates for each individual child variation of a variable product.
 - **Reference Guide**: [Manage Inventory](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html).
 
@@ -296,21 +283,18 @@ These endpoints give vendors visibility into customer satisfaction, store qualit
 #### 12. Account Health (`seller-account-health`)
 - **Default Slug**: `seller-account-health`
 - **Default Title**: `Account Health`
-- **Database Option Key**: `_wkmp_account_health_endpoint` (Slug) & `_wkmp_account_health_endpoint_name` (Title)
 - **Target Page & Capability**: Vendor performance scorecard that computes store standing (Healthy, At Risk, Critical). Tracks Order Defect Rate (ODR), Late Dispatch Rate, Cancellation Rate, and policy compliance with visual gauge meters and performance improvement guidance.
 - **Reference Guide**: [Vendor Account Health](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-account-health.html).
 
 #### 13. Seller Reviews (`seller-reviews`)
 - **Default Slug**: `seller-reviews`
 - **Default Title**: `Seller Reviews`
-- **Database Option Key**: `_wkmp_seller_reviews_endpoint` (Slug) & `_wkmp_seller_reviews_endpoint_name` (Title)
 - **Target Page & Capability**: Store-level customer feedback directory. Displays multi-criteria ratings (Price, Value, Quality), written customer reviews, buyer details, and date filters, helping merchants evaluate customer sentiment regarding fulfillment and service.
 - **Reference Guide**: [Vendor Seller Review](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-seller-review.html).
 
 #### 14. Product Reviews (`seller-product-reviews`)
 - **Default Slug**: `seller-product-reviews`
 - **Default Title**: `Product Reviews`
-- **Database Option Key**: `_wkmp_product_reviews_endpoint` (Slug) & `_wkmp_product_reviews_endpoint_name` (Title)
 - **Target Page & Capability**: Product catalog review feed. Aggregates all verified buyer reviews, star ratings, and feedback comments submitted across products owned by the vendor, with search and filtering by product title or rating score.
 - **Reference Guide**: [Vendor Product Review](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-review.html).
 
@@ -323,28 +307,24 @@ Comprehensive merchant intelligence endpoints providing deep insights into sales
 #### 15. Sales Reporting (`seller-reporting-sales`)
 - **Default Slug**: `seller-reporting-sales`
 - **Default Title**: `Sales Reporting`
-- **Database Option Key**: `_wkmp_reporting_sales_endpoint` (Slug) & `_wkmp_reporting_sales_endpoint_name` (Title)
 - **Target Page & Capability**: Dynamic sales analytics console with interactive trend graphs and summary KPI cards. Displays gross revenue, net vendor commission, total orders, refund totals, tax amounts, and date filters (today, 7 days, 30 days, year-to-date, or custom period) with CSV and PDF export options.
 - **Reference Guide**: [Vendor Sales Reporting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-sales-reporting.html).
 
 #### 16. Products Reporting (`seller-reporting-products`)
 - **Default Slug**: `seller-reporting-products`
 - **Default Title**: `Products Reporting`
-- **Database Option Key**: `_wkmp_reporting_products_endpoint` (Slug) & `_wkmp_reporting_products_endpoint_name` (Title)
 - **Target Page & Capability**: Catalog performance analytics breakdown identifying top-selling items, high-revenue products, units sold, and stock turnover metrics to help vendors optimize their product catalog.
 - **Reference Guide**: [Vendor Products Reporting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-products-reporting.html).
 
 #### 17. Customers Reporting (`seller-reporting-customers`)
 - **Default Slug**: `seller-reporting-customers`
 - **Default Title**: `Customers Reporting`
-- **Database Option Key**: `_wkmp_reporting_customers_endpoint` (Slug) & `_wkmp_reporting_customers_endpoint_name` (Title)
 - **Target Page & Capability**: Customer behavior analytics interface displaying repeat purchase rates, new vs. returning buyer ratios, average buyer lifetime spend, and customer geographic distribution.
 - **Reference Guide**: [Vendor Customer Reporting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-customer-reporting.html).
 
 #### 18. Customers (`seller-customers`)
 - **Default Slug**: `seller-customers`
 - **Default Title**: `Customers`
-- **Database Option Key**: `_wkmp_seller_customers_endpoint` (Slug) & `_wkmp_seller_customers_endpoint_name` (Title)
 - **Target Page & Capability**: Direct merchant CRM directory listing all registered buyers who have purchased products from the vendor. Shows customer name, email address, order count, total revenue generated, and direct links to order histories.
 - **Reference Guide**: [Vendor Customer List](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-customer-list.html).
 
@@ -357,14 +337,12 @@ Preferences and display configuration screens allowing vendors to tailor the Sel
 #### 19. Graph Setting (`seller-graph-setting`)
 - **Default Slug**: `seller-graph-setting`
 - **Default Title**: `Graph Setting`
-- **Database Option Key**: `_wkmp_graph_setting_endpoint` (Slug) & `_wkmp_graph_setting_endpoint_name` (Title)
 - **Target Page & Capability**: Dashboard chart customization screen. Vendors can select chart types (Line chart, Bar chart, or Spline chart) and customize primary, secondary, and accent color palettes for all visual analytics widgets and reporting graphs.
 - **Reference Guide**: [Vendor Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html).
 
 #### 20. Site Setting (`seller-site-setting`)
 - **Default Slug**: `seller-site-setting`
 - **Default Title**: `Site Setting`
-- **Database Option Key**: `_wkmp_site_setting_endpoint` (Slug) & `_wkmp_site_setting_endpoint_name` (Title)
 - **Target Page & Capability**: Seller Panel V2 workflow customization screen. Enables vendors to choose product authoring layouts (Horizontal Tabs, Vertical Tabs, or Stacked Form), toggle the 3-step creation wizard stepper, and track real-time **Listing Completeness** scores.
 - **Reference Guide**: [Vendor Site Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-site-setting.html).
 
@@ -410,10 +388,6 @@ To ensure seamless navigation and prevent routing errors on your marketplace, fo
 
 4. **Consistent Prefixing**
    - Use a clear prefix like `vendor-` for all vendor-specific endpoints. This ensures zero collisions with native customer account pages or other third-party extensions.
-
----
-
-- **Detailed Guides**: See [Product Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-settings.html), [Assets Visibility](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/assets-visibility.html), [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html), and [Commission Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/commission-management.html).
 
 <style>
 /* Responsive & Modern Table Styling for Endpoint Directory */

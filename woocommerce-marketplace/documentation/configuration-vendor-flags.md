@@ -5,9 +5,6 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 # Configuration – Vendor Flags
 
-<a class="doc-image-link" href="./assets/vendor-flags.webp"><img src="./assets/vendor-flags.webp" alt="Vendor Flags" /></a>
-
-
 The **Vendor Flags** feature allows customers to report vendors from their profile page.
 
 The admin can manage this from:
@@ -17,6 +14,8 @@ The admin can manage this from:
 **Direct Admin Navigation Paths**:
 - **Settings Sub-tab**: `wp-admin/admin.php?page=wk-marketplace-settings&tab=seller_flags`
 - **Reasons Sub-tab**: `wp-admin/admin.php?page=wk-marketplace-settings&tab=seller_flags#/reasons`
+
+<a class="doc-image-link" href="./assets/vendor-flags.webp"><img src="./assets/vendor-flags.webp" alt="Vendor Flags" /></a>
 
 ::: tip Profile Compatibility Note
 Allow customers to report flags on the vendor profile. Please note that this feature is available on the legacy vendor profile layout.
@@ -57,6 +56,8 @@ The table below outlines the core configuration settings available on the Vendor
 - **How It Works**:
   - When enabled, a report button or link appears on public vendor store profiles.
   - When disabled, the reporting option is hidden completely from all vendor profiles, preventing new report submissions.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-flag-setting.webp"><img src="./assets/marketplace-admin-setting-flag-setting.webp" alt="Marketplace Admin Setting Flag Setting" /></a>
 
 ---
 
@@ -203,13 +204,3 @@ When a shopper encounters an issue with a vendor:
 3. A modal opens presenting the active predefined reasons.
 4. The customer selects the matching reason (or chooses *Other* and types a custom explanation).
 5. The customer clicks **Submit** to register the report with the marketplace administration.
-
----
-
-## Related Documentation
-
-- [Report / Flag a Vendor (Customer Guide)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-flag-report.html) – Step-by-step buyer guide on how to report a store.
-- [Vendor Profile Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html) – Comprehensive guide to vendor storefront profile settings.
-- [Configuration – Assets Visibility](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/assets-visibility.html) – Manage visible contact info and customer details on vendor profiles.
-- [Configuration – Google Analytics](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-google-analytics.html) – Connect GA-4 tracking and sales reporting.
-- [Configuration – General Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-general-settings.html) – Marketplace commission and vendor approval settings.
