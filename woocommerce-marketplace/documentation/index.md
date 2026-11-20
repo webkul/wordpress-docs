@@ -5,7 +5,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/
 
 # Introduction
 
-The **WooCommerce Multi Vendor Marketplace plugin** is a powerful solution designed to transform a standard WooCommerce store into a fully functional multi-vendor marketplace.
+The **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** is a powerful solution designed to transform a standard WooCommerce store into a fully functional multi-vendor marketplace.
 
 With this plugin, you can allow **multiple independent vendors** to register, create their own shops, upload products, manage orders, and track earnings – all from a dedicated vendor dashboard.
 

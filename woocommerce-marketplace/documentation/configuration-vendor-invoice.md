@@ -5,9 +5,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 # Configuration – Vendor Invoice
 
-<a class="doc-image-link" href="./assets/vendor-invoice.webp"><img src="./assets/vendor-invoice.webp" alt="Vendor Invoice" /></a>
-
 The **Vendor Invoice** feature allows vendors to generate and share invoices for their orders, ensuring transparency between vendors, admin, and customers.
+
+<a class="doc-image-link" href="./assets/admin-invoice.webp"><img src="./assets/admin-invoice.webp" alt="Vendor Invoice" /></a>
 
 The admin can configure this section from:
 

@@ -104,9 +104,6 @@ Admins can customize the appearance, step-by-step guidance, and layout of the ve
 - Vendor-specific fulfilment information is displayed on the product page.
 - When disabled, fulfilment details are managed and shown only by the admin.
 
-<a class="doc-image-link" href="./assets/fulfillment.webp"><img src="./assets/fulfillment.webp" alt="Product Settings" /></a>
-
-
 - Allows buyers to see **who will fulfil product delivery**.
 - **Admin can:**
   - **Enable**: Master toggle to enable product fulfillment details for marketplace vendors.
