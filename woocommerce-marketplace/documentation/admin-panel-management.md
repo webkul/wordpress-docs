@@ -275,4 +275,4 @@ On the storefront single product page, the marketplace displays the assigned ven
 - [MP Select and Sell](https://wpdoc.webkul.com/documentation/admin-select-and-sell) – Manage multi-seller single product catalog listings, Global eligibility, and vendor offers.
 - [Selling Existing Products](https://wpdoc.webkul.com/documentation/selling-existing-products) – Vendor-facing guide for attaching competing offers to existing catalog items.
 - [Vendor Badges](https://wpdoc.webkul.com/documentation/vendor-mangement) – Reward top-performing merchants with trust badges displayed across catalog pages.
-- [Admin Staff Settings](https://wpdoc.webkul.com/documentation/admin-staff-setting) – Delegate product management and Select & Sell capabilities to vendor staff.
+- [Admin Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) – Delegate product management and Select & Sell capabilities to vendor staff.

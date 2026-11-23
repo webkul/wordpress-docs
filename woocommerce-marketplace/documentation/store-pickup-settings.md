@@ -167,7 +167,7 @@ In the global permissions matrix located in **Marketplace > Settings > Staffs** 
 6. The system records the assistant's user ID and timestamp, marks the pickup verified, and allows the assistant to change the order status to **Completed**.
 
 ::: tip Delegatable Permissions Master Whitelist
-Vendors can only delegate Store Pickup permissions to their staff if the marketplace administrator has checked these capabilities in **Marketplace > Settings > Staffs**. For a full walkthrough of staff quotas and whitelist configuration, refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/documentation/admin-staff-setting).
+Vendors can only delegate Store Pickup permissions to their staff if the marketplace administrator has checked these capabilities in **Marketplace > Settings > Staffs**. For a full walkthrough of staff quotas and whitelist configuration, refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html).
 :::
 
 ---

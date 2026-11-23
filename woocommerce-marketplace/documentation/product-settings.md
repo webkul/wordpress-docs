@@ -10,6 +10,8 @@ The **Product Settings** allow the admin to manage how vendors add, edit, and pu
 **Path:**
 Marketplace > Settings > Product
 
+<a class="doc-image-link" href="./assets/admin-setting-product.webp"><img src="./assets/admin-setting-product.webp" alt="Configuration – Product Settings" /></a>
+
 ---
 
 ## Vendor Product Settings

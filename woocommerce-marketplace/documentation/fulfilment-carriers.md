@@ -16,7 +16,7 @@ The marketplace administrator can access and configure this section from:
 **Direct Admin Navigation URL**:
 - `wp-admin/admin.php?page=wk-marketplace-settings&tab=fulfilment_carriers`
 
-<a class="doc-image-link" href="./assets/admin-fulfilment-carriers-settings.png"><img src="./assets/admin-fulfilment-carriers-settings.png" alt="Admin Fulfilment Carriers Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-fulfilment-carriers-settings.webp"><img src="./assets/admin-fulfilment-carriers-settings.webp" alt="Admin Fulfilment Carriers Settings" /></a>
 
 ---
 

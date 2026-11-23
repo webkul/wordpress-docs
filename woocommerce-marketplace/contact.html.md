@@ -5,7 +5,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/contact.html
 
 # Contact
 
-The WooCommerce Multi-Vendor Marketplace plugin is published and supported by **Webkul Software**.
+The **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** is published and supported by **Webkul Software**.
 
 ## Support
 

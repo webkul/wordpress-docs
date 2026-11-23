@@ -5,7 +5,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/video-tutorials.html
 
 # Video Tutorials
 
-Video tutorials for the **Webkul WooCommerce Multi-Vendor Marketplace** plugin. Fifteen walkthroughs from Webkul's YouTube channel show the marketplace being set up and run: backend configuration, vendors adding products, orders and commissions, shipping methods, and the add-ons that extend the plugin. Click any thumbnail to watch it in a full-size player.
+Video tutorials for the **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)**. Fifteen walkthroughs from Webkul's YouTube channel show the marketplace being set up and run: backend configuration, vendors adding products, orders and commissions, shipping methods, and the add-ons that extend the plugin. Click any thumbnail to watch it in a full-size player.
 
 <div class="vt-bar">
   <div class="vt-bar__stats">

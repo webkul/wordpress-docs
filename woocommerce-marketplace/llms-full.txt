@@ -308,7 +308,7 @@ If you have any questions, raise a support ticket:
 
 # Features
 
-The WooCommerce Multi Vendor Marketplace plugin offers a **robust, scalable, and enterprise-ready feature set** that empowers both marketplace owners and vendors. It is designed to handle high traffic, multiple sellers, and complex order workflows with ease.
+The **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** offers a **robust, scalable, and enterprise-ready feature set** that empowers both marketplace owners and vendors. It is designed to handle high traffic, multiple sellers, and complex order workflows with ease.
 
 <a class="doc-image-link" href="./assets/key-features.webp"><img src="./assets/key-features.webp" alt="Key Features" /></a>
 
@@ -1702,7 +1702,7 @@ Grow a thriving, sustainable business on the marketplace:
 
 # Installation
 
-This guide explains how to properly install and activate the **WooCommerce Multi Vendor Marketplace plugin** on your WordPress website.
+This guide explains how to properly install and activate the **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** on your WordPress website.
 
 Follow each step carefully to ensure a smooth setup.
 
@@ -1949,7 +1949,7 @@ To display a list of all vendors with search and product count, use the shortcod
 [wkmp-vendors-list show_search=yes show_heading=1 show_product_count=1]
 ```
 
-<a class="doc-image-link" href="./assets/vendor-list-shortcode-and-count.webp"><img src="./assets/vendor-list-shortcode-and-count.webp" alt="Vendor List Page" /></a>
+<a class="doc-image-link" href="./assets/customer-view-vendor-list.webp"><img src="./assets/customer-view-vendor-list.webp" alt="Vendor List Page" /></a>
 
 </div>
 
@@ -2228,6 +2228,8 @@ The **Product Settings** allow the admin to manage how vendors add, edit, and pu
 
 **Path:**
 Marketplace > Settings > Product
+
+<a class="doc-image-link" href="./assets/admin-setting-product.webp"><img src="./assets/admin-setting-product.webp" alt="Configuration – Product Settings" /></a>
 
 ---
 
@@ -2576,7 +2578,7 @@ The **Endpoints** configuration allows the admin to manage dynamic URL segments 
 
 At the top of the **Endpoints** settings screen, the administrator can manage whether standard WooCommerce customer navigation items appear alongside vendor management links:
 
-<a class="doc-image-link" href="./assets/endpoints.webp"><img src="./assets/endpoints.webp" alt="Customer Endpoint Visibility Settings" /></a>
+<a class="doc-image-link" href="./assets/endpoints.webp"><img src="./assets/endpoints.webp" alt="Endpoints" /></a>
 
 - **Hide Customer endpoints on all vendor endpoints pages**
   - **Default**: Enabled (Checked)
@@ -2591,7 +2593,7 @@ At the top of the **Endpoints** settings screen, the administrator can manage wh
 
 ## Configurable Marketplace Endpoints Directory
 
-The WooCommerce Multi-Vendor Marketplace plugin includes **44 dedicated endpoint configurations** across the Core marketplace platform, Pro features, MP Select & Sell, and Seller Panel V2. Each endpoint section in the admin panel allows configuring a custom **Endpoint slug** (the URL path segment) and a custom **Menu Title** (the label shown in navigation menus). Below is the complete directory of default slugs and target features:
+The **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** includes **44 dedicated endpoint configurations** across the Core marketplace platform, Pro features, MP Select & Sell, and Seller Panel V2. Each endpoint section in the admin panel allows configuring a custom **Endpoint slug** (the URL path segment) and a custom **Menu Title** (the label shown in navigation menus). Below is the complete directory of default slugs and target features:
 
 <div class="wkmp-endpoint-directory-wrapper">
 <div class="wkmp-endpoint-scroll-hint">
@@ -3171,7 +3173,7 @@ The table below provides a quick reference for each setting on the Google Analyt
 - [Click here to learn how to get the Measurement ID](https://wpdoc.webkul.com/documentation/google-analytics.md)
 
 - **Help Tip**: *Google analytics tracking ID to be obtained from Google Analytics Account.*
-- **Measurement ID Format**: Google Analytics 4 IDs start with **`G-`** followed by 10 letters or numbers (such as `G-JF7Q9MCL96`).
+- **Measurement ID Format**: Google Analytics 4 IDs start with **`G-`** followed by 10 letters or numbers (such as `G-XXXXXXXXXX`).
 - **Scope**: Acts as the central tracking ID for the marketplace administrator. All storefront browsing activity, product page visits, and orders are collected in this property.
 - For detailed setup steps, see our guide on [How to Get a Google Analytics Measurement ID](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/google-analytics.html).
 
@@ -4474,7 +4476,7 @@ The marketplace admin can access and configure this section from:
 - **Staff Settings Tab**: `wp-admin/admin.php?page=wk-marketplace-settings&tab=staff`
 - **Vendor Staffs Management List**: `wp-admin/admin.php?page=wk-marketplace-vendor-staffs`
 
-<a class="doc-image-link" href="./assets/admin-staff-settings.png"><img src="./assets/admin-staff-settings.png" alt="Admin Staff Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-staff-settings.webp"><img src="./assets/admin-staff-settings.webp" alt="Admin Staff Settings" /></a>
 
 ---
 
@@ -4493,7 +4495,7 @@ The marketplace admin can access and configure this section from:
 - **Customizable Dashboard Endpoint**: Tailor the front-end dashboard URL slug and menu title for the vendor staff section.
 
 ::: tip Vendor Guide Reference
-To learn how vendors create staff accounts, assign roles, and delegate daily shop responsibilities from their seller dashboard, refer to the [Vendor Staff Guide](https://wpdoc.webkul.com/documentation/vendor-staff).
+To learn how vendors create staff accounts, assign roles, and delegate daily shop responsibilities from their seller dashboard, refer to the [Vendor Staff Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 :::
 
 ---
@@ -4557,56 +4559,56 @@ The matrix is organized into clean functional cards matching the marketplace arc
 
 | Functional Section | Capability Name | Sensitivity & Default Status | Operational Description |
 | :--- | :--- | :--- | :--- |
-| **Seller Dashboard** | Access New Seller Panel | Standard (Checked) | Grants access to log in and use the modernized [Seller Dashboard](https://wpdoc.webkul.com/documentation/seller-panel-overview) interface and primary metrics. |
+| **Seller Dashboard** | Access New Seller Panel | Standard (Checked) | Grants access to log in and use the modernized [Seller Dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/seller-panel-overview.html) interface and primary metrics. |
 | | Performance | Standard (Checked) | Allows staff to view store performance charts, visitor trends, and conversion analytics. |
 | | Reporting | Standard (Checked) | Authorizes viewing detailed sales reporting, top product revenue, and customer metrics. |
 | | Customers | Standard (Checked) | Gives access to view customer contact lists and customer purchase history. |
-| | Magic AI | Standard (Checked) | Authorizes staff to use AI-assisted product and content generation tools. For details, see [Generative AI Overview](https://wpdoc.webkul.com/documentation/generative-ai-overview). |
-| | General Setting | Standard (Checked) | Allows updating core seller profile details, shop address, and contact information. |
-| | Graph Setting | Standard (Checked) | Allows customizing the visual color schemes of sales analytics charts. |
-| | Site Setting | Standard (Checked) | Permits adjusting vendor storefront appearance, banners, and layout options. |
-| **Products** | View products | Standard (Checked) | Allows staff to view the vendor's catalog product list. See [Vendor Product Management](https://wpdoc.webkul.com/documentation/vendor-product-management). |
+| | Magic AI | Standard (Checked) | Authorizes staff to use AI-assisted product and content generation tools. For details, see [Generative AI Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generative-ai-overview.html). |
+| | General Setting | Standard (Checked) | Allows updating core seller profile details, shop address, and contact information. See [Vendor General Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-general-setting.html). |
+| | Graph Setting | Standard (Checked) | Allows customizing the visual color schemes of sales analytics charts. See [Vendor Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html). |
+| | Site Setting | Standard (Checked) | Permits adjusting vendor storefront appearance, banners, and layout options. See [Vendor Site Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-site-setting.html). |
+| **Products** | View products | Standard (Checked) | Allows staff to view the vendor's catalog product list. See [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html). |
 | | Add product | Standard (Checked) | Enables creation of new product listings. |
 | | Edit product | Standard (Checked) | Allows updating existing product details, pricing, inventory, and images. |
 | | Delete product | Standard (Checked) | Permits trashing or permanently deleting vendor products. |
 | | Publish product | Standard (Checked) | Allows direct publishing of products without requiring admin moderation. |
-| | Generate barcodes | Standard (Checked) | Enables generation of product barcode identifiers. See [Product Barcode Guide](https://wpdoc.webkul.com/documentation/product-barcode). |
+| | Generate barcodes | Standard (Checked) | Enables generation of product barcode identifiers. See [Product Barcode Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-barcode.html). |
 | | Print barcodes | Standard (Checked) | Allows downloading and printing barcode labels. |
-| **Select And Sell** | View listing | Standard (Checked) | Grants visibility to search and view existing marketplace products available to claim. See [Admin Select and Sell](https://wpdoc.webkul.com/documentation/admin-select-and-sell) and [Selling Existing Products](https://wpdoc.webkul.com/documentation/selling-existing-products). |
+| **Select And Sell** | View listing | Standard (Checked) | Grants visibility to search and view existing marketplace products available to claim. See [Admin Select and Sell](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html) and [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html). |
 | | Add product | Standard (Checked) | Authorizes staff to assign existing products to the vendor's store catalog. |
 | | Edit product | Standard (Checked) | Allows modifying vendor-specific stock, condition, and pricing on assigned catalog items. |
 | | Delete product | Standard (Checked) | Permits removing assigned products from the vendor's active offerings. |
-| **Bulk Upload** | Normal Products | Standard (Checked) | Authorizes importing and exporting standard marketplace catalog items in bulk via CSV/XML spreadsheets. See [Bulk Upload Guide](https://wpdoc.webkul.com/documentation/bulk-upload). |
+| **Bulk Upload** | Normal Products | Standard (Checked) | Authorizes importing and exporting standard marketplace catalog items in bulk via CSV/XML spreadsheets. See [Bulk Upload Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html). |
 | | Select And Sell | Standard (Checked) | Permits batch claiming and assigning existing catalog products via CSV spreadsheets. |
-| **Orders** | View orders | Standard (Checked) | Grants visibility into customer orders containing the vendor's items. See [Vendor Order Management](https://wpdoc.webkul.com/documentation/vendor-order-management). |
+| **Orders** | View orders | Standard (Checked) | Grants visibility into customer orders containing the vendor's items. See [Vendor Order Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html). |
 | | Change order status | Standard (Checked) | Allows updating fulfillment progress (e.g., Processing to Completed). |
 | | Refund order | Standard (Checked) | Authorizes staff to process customer refund requests. |
-| | Print invoice | Standard (Checked) | Allows printing vendor packaging slips and invoices. See [Configuration – Vendor Invoice](https://wpdoc.webkul.com/documentation/configuration-vendor-invoice). |
-| | Schedule pickups | Standard (Checked) | Permits scheduling carrier collection for dispatched packages. See [Fulfilment Carriers Guide](https://wpdoc.webkul.com/documentation/fulfilment-carriers). |
-| **Transactions** | View transaction list | Standard (Checked) | Allows staff to view payment withdrawal logs and history. See [Vendor Transaction Management](https://wpdoc.webkul.com/documentation/vendor-transaction-management). |
+| | Print invoice | Standard (Checked) | Allows printing vendor packaging slips and invoices. See [Configuration – Vendor Invoice](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-vendor-invoice.html). |
+| | Schedule pickups | Standard (Checked) | Permits scheduling carrier collection for dispatched packages. See [Fulfilment Carriers Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/fulfilment-carriers.html). |
+| **Transactions** | View transaction list | Standard (Checked) | Allows staff to view payment withdrawal logs and history. See [Vendor Transaction Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-transaction-management.html). |
 | | View transaction details | Standard (Checked) | Permits inspecting granular payout breakdown details. |
-| **Vacation** | View vacations | Standard (Checked) | Displays the vendor vacation schedule and history. See [Vendor Vacation Guide](https://wpdoc.webkul.com/documentation/vendor-vacation) and [Admin Vacation Settings](https://wpdoc.webkul.com/documentation/admin-vacation-setting). |
+| **Vacation** | View vacations | Standard (Checked) | Displays the vendor vacation schedule and history. See [Vendor Vacation Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-vacation.html) and [Admin Vacation Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-vacation-setting.html). |
 | | Add vacation | Standard (Checked) | Enables scheduling a new store holiday or temporary closure. |
 | | Edit vacation | Standard (Checked) | Allows modifying holiday dates and storefront closure messages. |
 | | Delete vacation | Standard (Checked) | Permits canceling scheduled vacations. |
-| **Shop Followers** | View followers | Standard (Checked) | Allows viewing customer accounts that follow the store. See [Vendor Shop Followers Guide](https://wpdoc.webkul.com/documentation/vendor-shop-followers). |
+| **Shop Followers** | View followers | Standard (Checked) | Allows viewing customer accounts that follow the store. See [Vendor Shop Followers Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-shop-followers.html). |
 | | Remove followers | Standard (Checked) | Allows removing individual follower entries. |
 | | Send notification to followers | Standard (Checked) | Permits broadcasting promotional updates or store announcements to followers. |
-| **Notifications** | View notifications | Standard (Checked) | Grants access to view low-stock notices, order events, and system alerts. See [Vendor Notification Guide](https://wpdoc.webkul.com/documentation/vendor-notification). |
-| **My Profile** | View profile | Standard (Checked) | Displays public shop details and seller configuration. See [Vendor Profile Guide](https://wpdoc.webkul.com/documentation/vendor-profile). |
+| **Notifications** | View notifications | Standard (Checked) | Grants access to view low-stock notices, order events, and system alerts. See [Vendor Notification Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-notification.html). |
+| **My Profile** | View profile | Standard (Checked) | Displays public shop details and seller configuration. See [Vendor Profile Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html). |
 | | Edit profile | Standard (Checked) | Allows updating banner images, shop descriptions, and contact addresses. |
-| | Edit payment information | <span style="color:#d63638;font-weight:600;">Sensitive (Unchecked)</span> | Allows modifying bank accounts, PayPal emails, or payout destination credentials. See [Vendor Payout Management](https://wpdoc.webkul.com/documentation/vendor-payout-management). |
-| | Manage KYC documents | <span style="color:#d63638;font-weight:600;">Sensitive (Unchecked)</span> | Allows uploading, replacing, or viewing confidential merchant identity verifications. See [Vendor KYC Guide](https://wpdoc.webkul.com/documentation/vendor-kyc). |
-| **Ask Admin** | View query list | Standard (Checked) | Displays existing support query threads between vendor and marketplace admin. See [Ask to Admin Guide](https://wpdoc.webkul.com/documentation/ask-to-admin). |
+| | Edit payment information | <span style="color:#d63638;font-weight:600;">Sensitive (Unchecked)</span> | Allows modifying bank accounts, PayPal emails, or payout destination credentials. See [Vendor Payout Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-payout-management.html). |
+| | Manage KYC documents | <span style="color:#d63638;font-weight:600;">Sensitive (Unchecked)</span> | Allows uploading, replacing, or viewing confidential merchant identity verifications. See [Vendor KYC Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-kyc.html). |
+| **Ask Admin** | View query list | Standard (Checked) | Displays existing support query threads between vendor and marketplace admin. See [Ask to Admin Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/ask-to-admin.html). |
 | | View query thread | Standard (Checked) | Opens detailed back-and-forth query conversations. |
 | | Create new query | Standard (Checked) | Allows initiating a new support inquiry with marketplace administrators. |
 | | Reply to query | Standard (Checked) | Permits sending replies within an existing support inquiry thread. |
-| **Shippings** | View shipping | Standard (Checked) | Displays configured shipping methods, zones, and rates. See [Vendor Shipping Zone Management](https://wpdoc.webkul.com/documentation/vendor-shipping-zone-management). |
+| **Shippings** | View shipping | Standard (Checked) | Displays configured shipping methods, zones, and rates. See [Vendor Shipping Zone Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-shipping-zone-management.html). |
 | | Manage shipping zones | Standard (Checked) | Allows adding, modifying, or deleting regional delivery zones. |
 | | Manage shipping classes | Standard (Checked) | Permits creating and adjusting shipping classes and delivery fees. |
-| **Admin News** | View news list | Standard (Checked) | Grants access to read marketplace announcements and news broadcasts. See [Admin News Guide](https://wpdoc.webkul.com/documentation/admin-news). |
+| **Admin News** | View news list | Standard (Checked) | Grants access to read marketplace announcements and news broadcasts. See [Admin News Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-news.html). |
 | | View news details | Standard (Checked) | Allows reading complete news articles and policy bulletins. |
-| **Store Pickup** *(Modular)* | View store pickup orders | Standard (Checked) | Displays local store collection orders placed by shoppers when the Store Pickup module is active. See [Store Pickup Settings](https://wpdoc.webkul.com/documentation/store-pickup-settings) and [Admin Store Pickup Guide](https://wpdoc.webkul.com/documentation/admin-store-pickup). |
+| **Store Pickup** *(Modular)* | View store pickup orders | Standard (Checked) | Displays local store collection orders placed by shoppers when the Store Pickup module is active. See [Store Pickup Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/store-pickup-settings.html) and [Admin Store Pickup Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-store-pickup.html). |
 | | Send and verify pickup codes | Standard (Checked) | Authorizes validating one-time customer pickup verification PINs at the store collection counter. |
 
 ::: warning Sensitive Capabilities Safeguard
@@ -4644,7 +4646,7 @@ To inspect and manage all vendor assistants, navigate to:
 wp-admin/admin.php?page=wk-marketplace-vendor-staffs
 ```
 
-<a class="doc-image-link" href="./assets/admin-vendor-staffs-list.png"><img src="./assets/admin-vendor-staffs-list.png" alt="Admin Vendor Staffs List" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-staffs-list.webp"><img src="./assets/admin-vendor-staffs-list.webp" alt="Admin Vendor Staffs List" /></a>
 
 ### Vendor Staffs List Features
 
@@ -4682,7 +4684,7 @@ To edit a staff account:
 wp-admin/admin.php?page=wk-marketplace-vendor-staffs&section=edit&staff_id={ID}
 ```
 
-<a class="doc-image-link" href="./assets/admin-vendor-staff-edit.png"><img src="./assets/admin-vendor-staff-edit.png" alt="Edit Vendor Staff" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-staff-edit.webp"><img src="./assets/admin-vendor-staff-edit.webp" alt="Edit Vendor Staff" /></a>
 
 ### Edit Staff Field Breakdown
 
@@ -4715,7 +4717,7 @@ To adjust the endpoint:
 - **Default Menu Title**: `Vendor Staff`
 - **Resolved URL**: `https://example.com/seller/vendor-staff/` (or `https://example.com/my-account/vendor-staff/`)
 
-For more details on managing dashboard URL routing, consult the [Endpoints Configuration Guide](https://wpdoc.webkul.com/documentation/configuration-endpoints).
+For more details on managing dashboard URL routing, consult the [Endpoints Configuration Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-endpoints.html).
 
 ---
 
@@ -4737,7 +4739,7 @@ For more details on managing dashboard URL routing, consult the [Endpoints Confi
    Periodically review the **Marketplace > Vendor Staffs** list to check which assistants have broad capabilities, especially *Refund order* and *Publish product*.
 
 6. **Coordinate with Vendor Guides**:
-   Direct your sellers to the [Vendor Staff Guide](https://wpdoc.webkul.com/documentation/vendor-staff) so they understand how to invite staff, generate strong passwords, and manage permissions from their store management panel.
+   Direct your sellers to the [Vendor Staff Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html) so they understand how to invite staff, generate strong passwords, and manage permissions from their store management panel.
 
 ---
 
@@ -4907,7 +4909,7 @@ In the global permissions matrix located in **Marketplace > Settings > Staffs** 
 6. The system records the assistant's user ID and timestamp, marks the pickup verified, and allows the assistant to change the order status to **Completed**.
 
 ::: tip Delegatable Permissions Master Whitelist
-Vendors can only delegate Store Pickup permissions to their staff if the marketplace administrator has checked these capabilities in **Marketplace > Settings > Staffs**. For a full walkthrough of staff quotas and whitelist configuration, refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/documentation/admin-staff-setting).
+Vendors can only delegate Store Pickup permissions to their staff if the marketplace administrator has checked these capabilities in **Marketplace > Settings > Staffs**. For a full walkthrough of staff quotas and whitelist configuration, refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html).
 :::
 
 ---
@@ -5011,7 +5013,7 @@ The marketplace administrator can access and configure this section from:
 **Direct Admin Navigation URL**:
 - `wp-admin/admin.php?page=wk-marketplace-settings&tab=fulfilment_carriers`
 
-<a class="doc-image-link" href="./assets/admin-fulfilment-carriers-settings.png"><img src="./assets/admin-fulfilment-carriers-settings.png" alt="Admin Fulfilment Carriers Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-fulfilment-carriers-settings.webp"><img src="./assets/admin-fulfilment-carriers-settings.webp" alt="Admin Fulfilment Carriers Settings" /></a>
 
 ---
 
@@ -6007,7 +6009,7 @@ On the storefront single product page, the marketplace displays the assigned ven
 - [MP Select and Sell](https://wpdoc.webkul.com/documentation/admin-select-and-sell) – Manage multi-seller single product catalog listings, Global eligibility, and vendor offers.
 - [Selling Existing Products](https://wpdoc.webkul.com/documentation/selling-existing-products) – Vendor-facing guide for attaching competing offers to existing catalog items.
 - [Vendor Badges](https://wpdoc.webkul.com/documentation/vendor-mangement) – Reward top-performing merchants with trust badges displayed across catalog pages.
-- [Admin Staff Settings](https://wpdoc.webkul.com/documentation/admin-staff-setting) – Delegate product management and Select & Sell capabilities to vendor staff.
+- [Admin Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) – Delegate product management and Select & Sell capabilities to vendor staff.
 
 ---
 
@@ -6342,17 +6344,17 @@ When a customer purchases a product through a vendor's Select and Sell offer, Wo
 No. Only the marketplace administrator and the original author of the master listing can edit master catalog content. Secondary sellers can only configure their own selling price, sale discount, stock quantity, and condition description.
 
 ### Q4. Can vendor staff manage Select and Sell offers?
-Yes. If the marketplace administrator enables the **Select And Sell** capability under **Marketplace > Settings > Vendor Staff**, authorized seller staff members can view and attach offers on behalf of their merchant store. Refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/documentation/admin-staff-setting) for role permission details.
+Yes. If the marketplace administrator enables the **Select And Sell** capability under **Marketplace > Settings > Vendor Staff**, authorized seller staff members can view and attach offers on behalf of their merchant store. Refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) for role permission details.
 
 ---
 
 ## Related Documentation
 
-- [Selling Existing Products (Select & Sell Vendor Guide)](https://wpdoc.webkul.com/documentation/selling-existing-products) – Merchant walkthrough for searching catalog items and creating offers.
-- [Admin Staff Settings](https://wpdoc.webkul.com/documentation/admin-staff-setting) – How to configure Select and Sell capabilities for vendor staff.
-- [Product Detail Page (PDP) Guide](https://wpdoc.webkul.com/documentation/customer-pdp) – How multi-seller options and buy boxes appear to shoppers.
-- [Product Listing Page (PLP) Guide](https://wpdoc.webkul.com/documentation/customer-plp) – Catalog display rules and lowest-price indexing.
-- [Admin Panel Management](https://wpdoc.webkul.com/documentation/admin-panel-management) – Central marketplace catalog and product administration.
+- [Selling Existing Products (Select & Sell Vendor Guide)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html) – Merchant walkthrough for searching catalog items and creating offers.
+- [Admin Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) – How to configure Select and Sell capabilities for vendor staff.
+- [Product Detail Page (PDP) Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-pdp.html) – How multi-seller options and buy boxes appear to shoppers.
+- [Product Listing Page (PLP) Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-plp.html) – Catalog display rules and lowest-price indexing.
+- [Admin Panel Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-panel-management.html) – Central marketplace catalog and product administration.
 
 ---
 
@@ -7826,12 +7828,12 @@ Vendors access announcements from their dedicated vendor panel:
 
 <div class="ai-intro-hero">
   <p class="ai-intro-hero__lead">
-    Sellers describe a product in a few words, add a photo if they like, and Generative AI drafts the listing for them: the name, descriptions, specifications, suggested categories, and SEO fields. It is branded <strong>Magic AI</strong> in the admin panel, runs on the AI provider you choose, and nothing is saved until the seller reviews the suggestions and saves the product.
+    To solve one of the most time-consuming hurdles in multi-vendor e-commerce—creating detailed, consistent, and search-optimized product listings—<a href="https://store.webkul.com/woocommerce-multivendor-marketplace.html" target="_blank" rel="noopener noreferrer"><strong>Webkul WooCommerce Multi-Vendor Marketplace</strong></a> includes a built-in artificial intelligence suite branded as <strong>Magic AI</strong>. Store owners and marketplace sellers can turn rough notes, brief bullet points, or reference photos into polished, publication-ready listings in seconds.
   </p>
 
   <div class="ai-intro-hero__actions">
-    <a class="ai-intro-hero__btn ai-intro-hero__btn--primary" href="./usage-limits.html">
-      <span>Set up Generative AI</span>
+    <a class="ai-intro-hero__btn ai-intro-hero__btn--primary" href="./magic-ai-admin-settings.html">
+      <span>Admin Configuration</span>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
     </a>
     <a class="ai-intro-hero__btn ai-intro-hero__btn--secondary" href="./generate-product-content.html">
@@ -7877,6 +7879,10 @@ Vendors access announcements from their dedicated vendor panel:
 
 <a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Marketplace Admin Setting Generative AI Provider" /></a>
 
+::: tip Non-Destructive & Budget-Safe
+Magic AI operates on a strictly non-destructive model: generated suggestions populate the active editor for review and are never saved or published automatically. Store owners maintain complete authority over AI models, field permissions, and vendor quotas.
+:::
+
 ## What you can do
 
 <div class="feature-cards-grid feature--ai">
@@ -7901,7 +7907,7 @@ Vendors access announcements from their dedicated vendor panel:
     </div>
   </a>
 
-  <a class="feature-card-item" href="./generate-product-content.html#3-optional-add-reference-photos">
+  <a class="feature-card-item" href="./magic-ai-image-enhancer.html">
     <div class="feature-card-item__header">
       <span class="feature-card-item__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path></svg>
@@ -7913,16 +7919,16 @@ Vendors access announcements from their dedicated vendor panel:
         </span>
       </div>
     </div>
-    <span class="feature-card-item__title">Write from Product Photos</span>
-    <span class="feature-card-item__desc">Upload up to 3 reference photos. Multimodal AI inspects the images to identify materials, colorways, ports, and design nuances.</span>
+    <span class="feature-card-item__title">Product Photos & Image Enhancer</span>
+    <span class="feature-card-item__desc">Upload reference photos for vision models to inspect, or upscale and enhance seller product thumbnails with AI models in one click.</span>
     <div class="feature-card-item__chips">
-      <span class="feature-card-chip">GPT-4o Vision</span>
-      <span class="feature-card-chip">Gemini 1.5</span>
+      <span class="feature-card-chip">Vision Models</span>
+      <span class="feature-card-chip">Image Enhancer</span>
       <span class="feature-card-chip">Visual Details</span>
     </div>
   </a>
 
-  <a class="feature-card-item" href="./generate-product-content.html#5-review-refine-suggestions">
+  <a class="feature-card-item" href="./generate-product-content.html#what-fields-can-be-generated">
     <div class="feature-card-item__header">
       <span class="feature-card-item__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg>
@@ -7943,24 +7949,24 @@ Vendors access announcements from their dedicated vendor panel:
     </div>
   </a>
 
-  <a class="feature-card-item" href="./generate-product-content.html#what-can-be-generated">
+  <a class="feature-card-item" href="./magic-ai-admin-content-generation.html">
     <div class="feature-card-item__header">
       <span class="feature-card-item__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
       </span>
       <div class="feature-card-item__meta">
-        <span class="feature-card-item__tag">Organic SEO</span>
+        <span class="feature-card-item__tag">Store Admin</span>
         <span class="feature-card-item__arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"></path></svg>
         </span>
       </div>
     </div>
-    <span class="feature-card-item__title">Search Engine Optimization</span>
-    <span class="feature-card-item__desc">Produce high-converting Google search snippets, SERP titles, and keyword-rich excerpts that drive organic marketplace discovery.</span>
+    <span class="feature-card-item__title">Admin Content Generation</span>
+    <span class="feature-card-item__desc">Empower store administrators with WYSIWYG text generation, product assistant modals, and AI category descriptions in WordPress.</span>
     <div class="feature-card-item__chips">
-      <span class="feature-card-chip">Meta Titles</span>
-      <span class="feature-card-chip">SERP Excerpts</span>
-      <span class="feature-card-chip">Organic CTR</span>
+      <span class="feature-card-chip">WYSIWYG AI</span>
+      <span class="feature-card-chip">Catalog Polish</span>
+      <span class="feature-card-chip">Category Copy</span>
     </div>
   </a>
 
@@ -7970,14 +7976,14 @@ Vendors access announcements from their dedicated vendor panel:
         <svg viewBox="0 0 24 24"><line x1="21" x2="14" y1="4" y2="4"></line><line x1="10" x2="3" y1="4" y2="4"></line><line x1="21" x2="12" y1="12" y2="12"></line><line x1="8" x2="3" y1="12" y2="12"></line><line x1="21" x2="16" y1="20" y2="20"></line><line x1="12" x2="3" y1="20" y2="20"></line><line x1="14" x2="14" y1="2" y2="6"></line><line x1="8" x2="8" y1="10" y2="14"></line><line x1="16" x2="16" y1="18" y2="22"></line></svg>
       </span>
       <div class="feature-card-item__meta">
-        <span class="feature-card-item__tag">Admin Panel</span>
+        <span class="feature-card-item__tag">Governance</span>
         <span class="feature-card-item__arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"></path></svg>
         </span>
       </div>
     </div>
     <span class="feature-card-item__title">Control Usage per Seller</span>
-    <span class="feature-card-item__desc">Define daily or monthly generation quotas per vendor, protect platform budgets from overages, and view live quota meters.</span>
+    <span class="feature-card-item__desc">Define daily, weekly, monthly, or lifetime generation quotas per vendor, protect platform budgets from overages, and track usage meters.</span>
     <div class="feature-card-item__chips">
       <span class="feature-card-chip">Monthly Quotas</span>
       <span class="feature-card-chip">Live Meter</span>
@@ -7985,7 +7991,7 @@ Vendors access announcements from their dedicated vendor panel:
     </div>
   </a>
 
-  <a class="feature-card-item" href="./usage-limits.html#setting-global-limits-for-all-vendors">
+  <a class="feature-card-item" href="./magic-ai-admin-settings.html">
     <div class="feature-card-item__header">
       <span class="feature-card-item__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"></rect><rect width="6" height="6" x="9" y="9" rx="1"></rect><path d="M15 2v2"></path><path d="M15 20v2"></path><path d="M2 15h2"></path><path d="M2 9h2"></path><path d="M20 15h2"></path><path d="M20 9h2"></path><path d="M9 2v2"></path><path d="M9 20v2"></path></svg>
@@ -7998,10 +8004,10 @@ Vendors access announcements from their dedicated vendor panel:
       </div>
     </div>
     <span class="feature-card-item__title">Multi-Provider AI Setup</span>
-    <span class="feature-card-item__desc">Switch Generative AI on, connect leading cloud providers (OpenAI, Gemini, Claude, Groq), or run self-hosted Ollama for free.</span>
+    <span class="feature-card-item__desc">Switch Magic AI on, connect leading cloud providers (OpenAI, Gemini, Claude, Groq), or run self-hosted Ollama for free.</span>
     <div class="feature-card-item__chips">
       <span class="feature-card-chip">Cloud & Local</span>
-      <span class="feature-card-chip">Zero Token Cost</span>
+      <span class="feature-card-chip">WP Connectors</span>
       <span class="feature-card-chip">Ollama Private</span>
     </div>
   </a>
@@ -8024,11 +8030,115 @@ Vendors access announcements from their dedicated vendor panel:
   </li>
 </ol>
 
+---
+
+## Architecture of the Magic AI Documentation
+
+The Magic AI module is organized into three core areas accessible from the left-hand navigation menu:
+
+| Overview & Setup | Admin Settings | Vendor Experience |
+|---|---|---|
+| • Platform Introduction<br>• Master Enable Switch<br>• WordPress Connectors Hub<br>• Encrypted Security Vault | • Configuration Panels<br>• General, Providers, Admin & Marketplace<br>• Admin Product Add/Edit AI<br>• Category Descriptions & Images | • "Create Product with AI" Wizard<br>• Add/Edit Generation Modal<br>• Inline Field Quick Popups<br>• Product Image Enhancer<br>• Usage Limits & Quotas |
+
+---
+
+## Core Business Benefits
+
+- **Accelerates Seller Onboarding & Catalog Growth:** Vendors can create complete product listings from brief descriptions or supplier spec sheets in less than 60 seconds.
+- **Maintains Storewide Catalog Quality:** Built-in prompt engineering ensures consistent grammar, structured attribute extraction, and high-converting marketing descriptions.
+- **Full Commercial Cost Governance:** Store administrators choose which AI models are used, which fields AI can write to, and how many generations vendors receive.
+- **Zero Third-Party SaaS Markups:** Magic AI connects directly to major foundation AI providers (OpenAI, Google Gemini, Anthropic, Groq, DeepSeek, Mistral, xAI) or self-hosted Ollama using your own API credentials.
+
+---
+
+## Navigating to Magic AI in WordPress
+
+To access the Magic AI management console:
+
+1. Log in to your WordPress Administrator Dashboard.
+2. In the left-hand navigation menu, click **Marketplace**.
+3. Under the Marketplace sub-menu, select **Magic AI**.
+
+The management interface opens with a vertical configuration panel containing dedicated settings tabs:
+- **General:** Master activation switch.
+- **Providers:** Connection auto-detection and API keys hub.
+- **Admin Features:** AI tools dedicated to store managers and catalog editors.
+- **Marketplace Features:** Multi-vendor controls, vision photo limits, quotas, and field scope.
+
+---
+
+## The Master Activation Switch
+
+The **General** tab serves as the primary gateway and fail-safe switch for the entire AI ecosystem:
+
+| Setting Name | Control Type | Default State | Functional Purpose |
+|---|---|---|---|
+| **Enabled** | Toggle Switch | Off (Disabled) | Master switch that activates or suspends the Magic AI engine across the entire marketplace. |
+
+### Operational Behavior:
+- **When Switched ON:** Activates the background AI engine, enables editor AI buttons on admin screens, and displays the "Create Product with AI" wizard, modal generator, and Image Enhancer on the seller dashboard.
+- **When Switched OFF (Instant Kill-Switch):** Immediately suspends all outbound AI requests and hides AI buttons across the store. Standard WooCommerce product creation forms remain 100% functional without broken elements or console errors.
+- **Preserved Settings:** Switching the master toggle off **never deletes** your saved API keys, model choices, or vendor limits. Everything remains safely preserved in your database.
+
+---
+
+## AI Connection Methods & Auto-Detection
+
+Magic AI features an automatic connection detection engine that determines whether your environment supports native WordPress connectors or requires standalone API keys:
+
+| Environment | Detected Mode | Behavior & Provider Configuration |
+|---|---|---|
+| **WordPress 7.0+** | **WordPress AI Connectors** | Automatically detects core connectors configured under `Settings > Connectors` for OpenAI, Anthropic, and Google Gemini. Zero duplicate key entry. |
+| **Standard / Earlier WordPress** | **Manual API Keys** | Direct encrypted API keys entered into the dedicated provider fields in the Providers tab. |
+
+### 1. WordPress AI Connectors Mode (Automatic)
+On modern WordPress builds shipping native AI Connectors:
+- Magic AI displays a green status notice: **"WordPress AI Connectors detected"**.
+- Leading foundation providers—**OpenAI**, **Anthropic**, and **Google**—automatically draw their credentials from core WordPress Connectors.
+- Administrators never need to duplicate keys across plugins. If your organization rotates a key in core WordPress settings, Magic AI adopts it immediately.
+
+### 2. Manual API Key Mode (Standalone)
+On standard WordPress environments where core Connectors are not active:
+- Magic AI displays an informational banner: **"Manual API key configuration"**.
+- Enter your provider API keys directly into the corresponding fields in the **Providers** tab.
+
+---
+
+## Supported AI Providers Matrix
+
+Magic AI connects with leading commercial and open-source AI providers:
+
+| Provider | Primary Strengths & Ideal Role | Connection Mode | Key Capabilities |
+|---|---|---|---|
+| **OpenAI** | Industry standard; exceptional creative writing, robust multi-language fluency, and high reliability. | WP Connectors or Manual Key | Text Generation, Product Summaries, Multi-field generation. |
+| **Google (Gemini)** | Outstanding multimodal vision reasoning (reading product photos), generous speed, and high token efficiency. | WP Connectors or Manual Key | Text Generation, Multimodal Vision (Reference Photos), Image Enhancement. |
+| **Anthropic (Claude)** | Natural, nuanced, and brand-safe commercial copy; excellent at following structured technical instructions. | WP Connectors or Manual Key | Text Generation, Long-form Product Descriptions, Technical Specs. |
+| **Groq** | Lightning-fast inference speeds (ultra-low latency); ideal for near-instant seller generation popups. | Manual API Key | High-speed Text Generation (Llama & open models). |
+| **DeepSeek** | Highly cost-effective reasoning and structured output generation. | Manual API Key | Economical Text Generation, Attribute Extraction. |
+| **Mistral AI** | European provider with strong multilingual capabilities and compact, efficient open models. | Manual API Key | Text Generation, Multilingual Listing Translations. |
+| **xAI (Grok)** | Cutting-edge models with up-to-date knowledge and witty, engaging marketing tones. | Manual API Key | Creative Marketing Copy, Product Highlights. |
+| **Ollama** | Self-hosted, private open-source models running locally on your own server or intranet. | Custom Base URL (No external key required) | Private, zero-subscription internal generation. |
+
+---
+
+## Enterprise Security & Credential Vault
+
+Protecting your third-party API credentials is built directly into Magic AI:
+
+- **Encrypted at Rest:** All API credentials are encrypted before being stored in the database.
+- **Masked Browser Display:** Active credentials are never displayed in clear text in the browser (`•••••••• Saved — paste a new key to replace`).
+- **Autofill Safe:** Empty form submissions retain existing saved keys, preventing browser autofill extensions from clearing credentials.
+- **Explicit Removal:** A dedicated **Remove** button is required to delete a saved key, preventing accidental deletion.
+
+---
+
 ## Who uses it
 
-- **Admins** set it up under **WooCommerce Marketplace >> Settings >> Generative AI** and control it per seller on the seller's record. See [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html) and [Product Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-settings.html).
+- **Admins** set it up under **Marketplace >> Magic AI** and control it per seller on the seller's record. See [Admin Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-admin-settings.html) and [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
 - **Sellers** use it on the edit page of the products they own, in the Seller Panel. Team members need the **Generate Content With Magic AI** permission in their role. See [Vendor Staff](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 - **Customers** don't see it. They see the product once the seller has saved it and, if required, you have approved it.
+
+---
 
 ## What it does not do
 
@@ -8042,6 +8152,17 @@ Generative AI fills in the product form when the seller asks for it, and stops t
 ::: warning Note on Model Accuracy
 AI models can occasionally hallucinate details. Sellers should always verify technical specifications, sizing, warranties, and prices before applying and saving suggestions.
 :::
+
+---
+
+## Non-Destructive Workflow Guarantees
+
+Magic AI is strictly an **authoring assistant**:
+1. Generated product titles, descriptions, prices, and attributes are inserted into the **active browser editing form**.
+2. Nothing is saved or published until the user explicitly clicks the standard WooCommerce **Save Product**, **Publish**, or **Update** button.
+3. Vendors and administrators can inspect every generated value, regenerate individual fields, or cancel at any time with zero impact on existing product data.
+
+---
 
 ## Generative AI in the rest of your store
 
@@ -9516,7 +9637,7 @@ When a vendor initiates a vacation, the marketplace automatically reflects the s
 The **Vendor Staff** feature allows vendors to add sub-users (store managers and team assistants) who can log in and manage the store on their behalf. Vendors can grant per-task permissions for each section (view, add, edit, delete, and more) based on the capabilities allowed by the admin.
 
 ::: tip Store Administration Note
-If you are a marketplace administrator looking to configure global staff settings, maximum staff limits per vendor, delegatable permissions, or manage all vendor staff members, please refer to the [Configuration – Staff Settings](https://wpdoc.webkul.com/documentation/admin-staff-setting) guide.
+If you are a marketplace administrator looking to configure global staff settings, maximum staff limits per vendor, delegatable permissions, or manage all vendor staff members, please refer to the [Configuration – Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) guide.
 :::
 
 ---
@@ -9734,7 +9855,7 @@ Vendors access this management interface using the dedicated front-end endpoint:
 https://example.com/seller/vendor-staff/
 ```
 
-*Note: Marketplace administrators can customize this endpoint slug and title under **Marketplace > Settings > Endpoints**. For more details, see [Endpoints Configuration](https://wpdoc.webkul.com/documentation/configuration-endpoints).*
+*Note: Marketplace administrators can customize this endpoint slug and title under **Marketplace > Settings > Endpoints**. For more details, see [Endpoints Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-endpoints.html).*
 
 ---
 
@@ -16883,190 +17004,583 @@ If a product arrived in working condition but did not meet your personal expecta
 
 ---
 
-<!-- source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generate-product-content.html -->
+<!-- source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-admin-settings.html -->
 
-# Generate Product Content
+# Magic AI Admin Configuration
 
-Generative AI (Magic AI) allows vendors to generate a complete, search-optimized WooCommerce product listing from a simple title, brief bullet points, or reference photos in seconds. Vendors can review each generated suggestion, apply the fields they want to the product form, and save the product as usual.
+The administrative configuration center of **Magic AI** is located in your WordPress Dashboard under **Marketplace >> Magic AI**.
 
-::: tip Non-Destructive Workflow
-Magic AI is designed to be completely non-destructive. Generated suggestions are presented inside an interactive modal. Existing product details are not overwritten until the vendor explicitly clicks **Apply Selected**.
+The settings screen is organized into specialized configuration panels accessed through a vertical navigation sidebar:
+
+| Admin Tab | Tab Purpose & Configuration Scope |
+|---|---|
+| **General** | Master marketplace activation toggle for the Magic AI engine. |
+| **Providers** | AI provider connections, API keys, Ollama endpoint, and connector status. |
+| **Admin Features** | Store manager tools (WYSIWYG text generation, product image creator, AI assistant). |
+| **Marketplace Features** | Vendor permissions, text/vision models, usage quotas, inline buttons, and taxonomy scope. |
+
+This modular architecture allows store owners to configure store-level authoring tools independently from the permissions, limits, and field boundaries granted to marketplace vendors.
+
+---
+
+## General (Master Switch)
+
+The **General** tab handles global activation and provides a baseline status check for the Magic AI module.
+
+| Setting Label | Type | Default | Functional Explanation |
+|---|---|---|---|
+| **Enabled** | Toggle Switch | Disabled | The universal on/off switch for the entire Magic AI ecosystem across the marketplace. |
+
+### Practical Operational Notes:
+- **Instant Global Pause:** Toggling this switch off immediately suspends all outgoing AI requests and hides all AI trigger buttons across the store (both admin-facing and vendor-facing).
+- **Safe Maintenance:** You can switch this off during site migrations, provider billing updates, or scheduled maintenance without losing any configured API keys, model selections, or vendor usage limits.
+- **Save Requirement:** Always click **Save Configuration** at the top right to apply any change to this switch.
+
+---
+
+## Providers (API Keys & Connection Hub)
+
+The **Providers** tab is where you manage connections between your marketplace and external artificial intelligence networks.
+
+### Connection Method Auto-Detection
+Magic AI automatically detects your WordPress environment and displays one of two status notices:
+
+1. **WordPress AI Connectors Detected (Green Notice):**
+   - Active on modern WordPress environments (WordPress 7.0+) with core AI Connectors enabled.
+   - Foundation providers—**OpenAI**, **Anthropic**, and **Google**—automatically pull their credentials directly from `WordPress Admin > Settings > Connectors`.
+   - Magic AI displays a **"Connected & configured"** badge beside these providers with a direct **Manage →** link to core settings.
+   - No duplicate API keys need to be entered inside Magic AI for these three services.
+2. **Manual API Key Configuration (Informational Notice):**
+   - Active on standard WordPress installations.
+   - Each provider is configured independently using direct API keys entered in the fields below.
+
+### Supported Providers & Credentials
+
+| Provider | Credentials Format | Best Suited For |
+|---|---|---|
+| **OpenAI** | Standard API Key | High-quality marketing text, product names, short descriptions. |
+| **Anthropic (Claude)** | Standard API Key | Long-form descriptions, structured specifications, brand consistency. |
+| **Google (Gemini)** | Standard API Key | Vision-based generation from product photos, image enhancement, general copy. |
+| **Groq** | Standard API Key | Ultra-fast inference with minimal waiting times during generation. |
+| **xAI (Grok)** | Standard API Key | Modern, creative product highlight generation. |
+| **DeepSeek** | Standard API Key | Budget-friendly text generation and attribute extraction. |
+| **Mistral AI** | Standard API Key | Compact, highly capable multilingual listing translations. |
+| **Ollama** | Local Server Endpoint URL (e.g. `http://localhost:11434`) | Completely private, self-hosted open-source AI models. |
+
+---
+
+## Admin Features (Store Owner AI Suite)
+
+The **Admin Features** tab configures the generative AI tools available to store administrators, editors, and catalog managers when managing products in the WordPress backend.
+
+| Admin Feature Section | Configuration Controls | Key Purpose |
+|---|---|---|
+| **1. Text Generation** | Toggle Switch & Provider Pill Selection | Enables AI copy generation inside WYSIWYG editors across the admin panel. |
+| **2. Image Generation** | Toggle Switch & Provider Pill Selection | Enables AI product and category image creation on admin screens. |
+| **3. Product Page Assistant** | Toggle Switch | Activates the **Generate content** modal on WooCommerce Add/Edit product screens. |
+
+### Settings Breakdown
+
+#### 1. Text Generation
+- **Enabled (Toggle):** Enables AI text creation inside WYSIWYG editors (such as Product Short Description and Full Description) across the admin panel.
+- **Providers (Multi-Select Pill Group):** Select which providers are permitted for admin text generation (Anthropic, DeepSeek, Gemini, Groq, Mistral, OpenAI, xAI).
+- **Smart Fallback Failover:** Magic AI attempts generation using the primary active provider. If that provider is unreachable or encounters a quota error, it automatically falls back to the other selected providers in order.
+
+#### 2. Image Generation
+- **Enabled (Toggle):** Activates the **Generate Image** button on the WordPress editor toolbar for admin product screens.
+- **Providers (Multi-Select Pill Group):** Select which visual image generation providers to enable (Gemini, OpenAI, xAI).
+
+#### 3. Product Page AI Assistant
+- **Enabled (Toggle):** When enabled, an AI Assistant button (**Generate content**) appears near the top of the native WooCommerce Add New Product and Edit Product screens, launching a comprehensive multi-field generation modal.
+
+---
+
+## Marketplace Features (Multi-Vendor Governance)
+
+The **Marketplace Features** tab defines the rules, approved models, quota limits, and field boundaries for all marketplace vendors.
+
+### Section 1: Product Content Generation
+- **Enable (Master Switch):** Master switch for vendor-facing AI generation. When OFF, no vendor can generate product content, regardless of other settings.
+- **Model:** The specific language model used for text-only generation (e.g., `gpt-4o-mini`, `gemini-2.5-flash`, `claude-3-5-haiku`).
+- **Allow Reference Images:** Toggle switch. When enabled, sellers can upload photos of physical items for vision-capable models to inspect and analyze.
+- **Vision Model:** The multimodal model used when vendors attach photos (e.g., `gemini-2.5-flash`, `gpt-4o`).
+- **Maximum Reference Images:** Number input (1 to 10; default is 3). Restricts how many photos a vendor can attach per generation request.
+- **Let Sellers Choose Fields:** Toggle switch. When ON, sellers can select which specific fields they want AI to draft. When OFF, all eligible fields are drafted automatically.
+- **Overwrite Filled Attributes:** Toggle switch. When OFF, AI only drafts into empty fields, protecting text the seller already typed.
+- **Inline Magic AI Buttons:** Multi-select list. Displays dedicated Magic AI buttons beside specific fields (`Product Name`, `Short Description`, `Long Description`) on the vendor form.
+- **Create Product with AI:** Toggle switch. Displays the launcher button beside **Add Product** on the seller Products list page.
+
+### Section 2: Image Enhancement
+- **Enable:** Toggle switch. Activates the **Enhance image with AI** button below product thumbnails on vendor forms.
+- **Image Provider:** Select OpenAI or Gemini for thumbnail enhancement.
+- **Image Model:** Select the specific visual model (e.g., `gpt-image-1`, `gemini-2.5-flash-image`, or Default).
+- **Image API Key:** Optional dedicated API key used exclusively for image enhancements. Stored encrypted.
+
+### Section 3: Limits & Quotas
+- **Per Seller Limit:** Maximum generations allowed per vendor within the chosen timeframe. Leave blank for unlimited generations.
+- **Limit Period:** Dropdown selector choosing the reset cycle: **Monthly** (default), **Weekly**, **Daily**, or **Lifetime**.
+
+### Section 4: Scope & Taxonomy Controls
+- **Select Attributes (Allowed Fields):** Restrict which product fields AI can draft (Name, Short Description, Long Description, Prices, Weight, Dimensions, Brand, Tags).
+- **Suggest Categories:** When ON, AI proposes matching categories from existing store categories.
+- **Suggest Attributes:** Multi-select list. Limits AI attribute suggestions strictly to existing WooCommerce global attributes (e.g., Color, Size).
+
+---
+
+<!-- source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-admin-content-generation.html -->
+
+# Magic AI Admin Content Generation
+
+Store administrators, merchandisers, and catalog managers can generate, polish, and optimize product listings directly within the native WooCommerce catalog workflow on **Add New Product** (`Products > Add New`), **Edit Product** (`Products > Edit`), and **Category** (`Products > Categories`) screens.
+
+| 1. AI Assistant Modal | 2. Inline WYSIWYG Editor AI | 3. AI Product Image Generator |
+|---|---|---|
+| • **"Generate content"** top launch button<br>• Multi-field catalog drafting<br>• Interactive review modal<br>• Selective field application | • **"Magic AI"** button on editor toolbar<br>• Targeted text drafting and copy refinement<br>• Custom prompts per editor<br>• 1-Click editor insertion | • **"Generate Image"** button on editor toolbar<br>• Custom AI artwork creation<br>• Multiple aspect ratios (1:1, 2:3, 3:2)<br>• 1-Click set as Product Featured Image |
+
+---
+
+## 1. The Product Page AI Assistant (Multi-Field Generator)
+
+The **AI Assistant** is a multi-field content drafting engine built right into the WooCommerce product editor.
+
+### Where to Find It
+On the WooCommerce **Add New Product** or **Edit Product** screen, look near the top right of the page (beside the main product title heading) for the blue **Generate content** button.
+
+### Step-by-Step Workflow
+
+1. **Click "Generate content":** Opens the interactive assistant modal.
+2. **Describe Your Product:** Enter notes, bullet points, or raw supplier specifications in the prompt box (up to 2,000 characters).
+3. **Select Target Fields:** Check the field pills you want the AI to draft:
+   - *Product Name*
+   - *Short Description*
+   - *Product Description*
+   - *Regular Price*
+   - *Sale Price*
+4. **Generate:** Click the **Generate** button. The engine drafts values across all selected fields in 5 to 15 seconds.
+5. **Review & Refine:**
+   - Every generated value appears in the review step marked with a **"new"** badge.
+   - Click the **Regenerate** button beside any individual field to request an alternative variation.
+   - Uncheck any field you prefer not to use.
+6. **Apply to Form:** Click **Apply fields**. The chosen values immediately populate the corresponding live WooCommerce form inputs.
+
+::: tip Non-Destructive Drafting
+Applying generated fields writes content only to the active browser form controls. It **never** auto-saves or publishes the product without your consent. You can make manual tweaks and click **Publish** or **Update** when ready.
 :::
 
 ---
 
-## Before You Start
+## 2. Inline WYSIWYG Editor AI (Targeted Text Generation & Refinement)
 
-Ensure the following prerequisites are met before generating product content:
+For moments when you only want to write or refine specific sections of copy without opening the full product assistant, Magic AI places a dedicated button directly on the WordPress editor toolbar.
 
-1. **Admin Enablement**: The marketplace administrator has enabled Generative AI in the marketplace settings and configured a valid AI provider API key.
-2. **Product Ownership**: The product is one created by the vendor. Magic AI is available for the vendor's own catalog items on the Add Product and Edit Product screens.
-3. **Staff Permissions**: If using vendor staff accounts, ensure the user's role includes the `Generate Content with Magic AI` capability. See [Vendor Staff](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
-4. **Active Quota**: The vendor has remaining AI generations for the current billing or limit cycle. See [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
+> **Editor Toolbar Buttons:**  
+> Above the Short Description and Main Description WYSIWYG editors, administrators have two dedicated buttons: **[ Magic AI ]** for text composition/refinement and **[ Generate Image ]** for AI artwork generation.
 
----
+### How to Use the Editor Assistant:
 
-## Step-by-Step: Generating Product Content
-
-### 1. Open the Product Form
-
-From the vendor dashboard, navigate to **Products >> Add New Product**, or click **Edit** on an existing product in your catalog.
-
----
-
-### 2. Enter a Brief Description or Working Title
-
-In the product creation form, provide a short starting prompt or product summary:
-
-- **Working Title**: E.g., `Ergonomic Wireless Noise-Cancelling Headphones with 40h Battery`.
-- **Key Highlights**: Add 2 to 3 bullet points noting materials, intended audience, key technical specs, or unique selling points.
-- The more specific your initial brief, the more accurate the resulting copy will be.
+1. Click the **Magic AI** button located directly above the editor.
+2. The **AI Assistance** popup appears:
+   - **Prompt Field:** Enter instructions for what to write or how to rewrite existing copy.  
+     *Examples:*
+     - *"Write 4 bullet points highlighting waterproof features and durability."*
+     - *"Make this description sound more premium and formal."*
+     - *"Summarize the specifications into a concise closing paragraph."*
+   - **Select Model:** Choose from available text models configured in your Providers tab.
+3. Click **Generate**.
+4. Inspect the generated text preview. Click **Apply** to insert the text directly into the active editor at your cursor position.
 
 ---
 
-### 3. (Optional) Add Reference Photos
+## 3. AI Product Image Generation
 
-If using a vision-capable AI model (such as OpenAI GPT-4o or Google Gemini 1.5 Pro):
+Store managers can create high-resolution product imagery, promotional banners, or conceptual product visuals using AI.
 
-- Click **Upload Reference Photos** in the AI modal to attach up to 3 images of the product.
-- The AI model visually scans the photos to detect colors, textures, ports, buttons, materials, and form factors.
-- These detected visual attributes are automatically blended into the written description and specification tables.
+### How to Generate Product Images:
 
----
-
-### 4. Click "Generate with AI"
-
-Click the **Generate with Magic AI** button located near the product title and description fields:
-
-- A dedicated generation window opens, displaying your remaining monthly generation balance.
-- Click **Generate Content** to send the request to the AI engine.
-- Within 3 to 8 seconds, the generated fields appear formatted and ready for inspection.
+1. Click the **Generate Image** button located on the editor toolbar.
+2. The image generation dialog opens:
+   - **Prompt:** Describe the desired scene, lighting, and product setting in detail (e.g., *"Professional commercial studio shot of a stainless steel insulated water bottle on a wet slate rock, dramatic side lighting, high resolution"*).
+   - **Aspect Ratio:** Choose between **Square (1:1)**, **Portrait (2:3)**, or **Landscape (3:2)**.
+   - **Model:** Select your configured image generation model (e.g., Gemini or OpenAI).
+3. Click **Generate Image**.
+4. Review the generated image preview.
+5. Click **Set as Product Image**. The artwork is automatically downloaded, added to your WordPress Media Library, and assigned as the WooCommerce Featured Image.
 
 ---
 
-### 5. Review & Refine Suggestions
+## 4. Category & Taxonomy AI Integration
 
-The modal displays the generated content organized by product fields:
+Administrators can maintain rich, search-engine-friendly category landing pages:
 
-| Field | Description | Action Available |
-| :--- | :--- | :--- |
-| **Product Title** | Clean, keyword-focused, professional title | Edit inline or Regenerate |
-| **Short Description** | Punchy 2–3 sentence overview for quick buyer scanning | Edit inline or Regenerate |
-| **Full Description** | Comprehensive description formatted with HTML headings, bulleted feature highlights, and care/usage instructions | Edit rich-text or Regenerate |
-| **Specifications Table** | Structured HTML table with technical specifications | Edit inline or Regenerate |
-| **Suggested Categories & Tags** | Matches existing marketplace categories and creates popular search tags | Select or deselect tags |
-| **SEO Meta Fields** | SEO Meta Title and Meta Description for search engine indexing | Edit inline or Regenerate |
-
-- **Field-by-Field Regeneration**: If you want an alternative phrasing for a single section (e.g. only the short description), click the circular **Regenerate Field** icon beside that specific field without re-running the entire prompt.
+- **Category Descriptions:** On the WooCommerce Category editing screens (`Products > Categories`), use the **Magic AI** button on the category description editor to draft engaging collection summaries.
+- **Category Thumbnails:** Use the **Generate Image** tool to create consistent, high-impact header artwork for category landing pages across your marketplace.
 
 ---
 
-### 6. Apply Suggestions & Save
+<!-- source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generate-product-content.html -->
 
-1. Select the checkmarks next to the fields you wish to use.
-2. Click **Apply Selected** to inject the generated text directly into the corresponding WooCommerce product form fields.
-3. Review your regular pricing, sale pricing, inventory stock, and shipping classes as needed.
-4. Click **Save Product** (or **Submit for Review** if admin moderation is active).
+# Generate Product Content
 
----
+Generative AI (branded as **Magic AI**) allows marketplace vendors to create complete, search-optimized WooCommerce product listings from a few brief bullet points, a short working title, or reference photos in seconds.
 
-## What Can Be Generated
+Users can review each generated suggestion, regenerate individual fields if desired, apply the fields they want to the product form, and save the product as usual.
 
-- **Product Titles**: Clean, marketable names free from vendor typos.
-- **Short Summaries**: Catchy excerpts ideal for product grid listings and mobile storefront displays.
-- **Detailed Descriptions**: Engaging long-form copy featuring key benefit breakdowns, compatibility notes, and material care tips.
-- **Bulleted Feature Highlights**: Skimmable bullet points highlighting top benefits.
-- **Taxonomy Recommendations**: Category selections and search tags.
-- **SEO Snippets**: Custom meta descriptions that boost organic click-through rates on Google search results.
+::: tip Non-Destructive Workflow
+Magic AI is designed to be completely non-destructive. Generated suggestions are presented inside an interactive modal. Existing product details are not overwritten until the user explicitly clicks **Apply fields**.
+:::
 
 ---
 
-## When the AI Button Is Unavailable
+## Content Generation Methods
 
-- **Quota Depleted**: The vendor has reached their daily or monthly allocation limit. See [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
-- **Select & Sell Products**: The button is not displayed when listing an offer against an existing marketplace master catalog product using the *Sell as Yours* / *Select & Sell* feature, as those items inherit the established master catalog description.
-- **Missing API Configuration**: The marketplace administrator has not yet entered an active AI provider API key.
+Magic AI provides three flexible ways to generate product content:
+
+| "Create Product with AI" | Add / Edit Form Modal | Inline Field Buttons |
+|---|---|---|
+| • Seller Product List button<br>• Category & type selection<br>• Prompt + reference photos<br>• 1-Click instant product creation | • Add/Edit form top launcher<br>• Multi-field generation<br>• Vision photo analysis<br>• Review with "new" badges | • Buttons beside Name, Short & Long Description<br>• Targeted single-field drafting<br>• Instant modal refinement |
+
+---
+
+## Method 1: "Create Product with AI" (Guided Creation Wizard)
+
+The fastest way for vendors to launch a new product from scratch is using the **Create Product with AI** wizard directly from their product list.
+
+### 1. Launch the Wizard
+From the **Seller Dashboard**, navigate to **Products**. Beside the standard **Add Product** button, click the blue **Create Product with AI** button.
+
+### 2. Select Product Basics
+- **Category:** Choose one or more categories from the marketplace category multiselect list.
+- **Product Type:** Choose your product format:
+  - *Simple Product* (Physical goods)
+  - *Variable Product* (Items with variations like size or color)
+  - *Virtual Product* (Services or digital bookings)
+  - *Downloadable Product* (Software, e-books, files)
+
+### 3. Describe Your Product & Attach Photos
+- **Product Brief:** Enter a concise description or paste rough supplier notes (up to 2,000 characters).  
+  *Example:* `Handcrafted ceramic pour-over coffee dripper, matte speckled ivory glaze, cone shape, fits size 02 filters, dishwasher safe.`
+- **Reference Photos (Optional):** Click to attach up to 3 photos. The vision model scans the images to identify materials, colors, textures, and form factors.
+- **Field Selection:** Toggle interactive pills for the fields you want the AI to draft (Product Name, Short Description, Long Description, Regular Price, Dimensions, Attributes).
+
+### 4. Review & Create
+- Click **Generate**. Review each generated field marked with a **"new"** badge.
+- Click **Regenerate** beside any individual field if you want an alternative draft.
+- Click **Create Product**. The listing is instantly created in your seller catalog.
+
+---
+
+## Method 2: Add/Edit Product Form Assistant
+
+If you are already editing an existing product or prefer using the standard product form:
+
+1. Navigate to **Products >> Add Product** or click **Edit** on an existing item.
+2. Click the prominent **Generate content** button at the top of the form.
+3. Enter your product brief in the prompt area.
+4. (Optional) Upload reference product photos.
+5. Select which fields you want drafted (Title, Short Description, Product Description, Price, SKU, Attributes).
+6. Click **Generate** and review the drafted suggestions in the review list.
+7. Click **Apply fields** to insert the values directly into your active form controls.
+8. Make any manual edits and click **Save Product** or **Update Product**.
+
+---
+
+## Method 3: Inline Field Magic AI Buttons
+
+When you only need help drafting or polishing one specific field:
+
+- **Beside Product Name:** Writes a concise, high-impact title.
+- **Above Short Description:** Composes quick bulleted key benefits.
+- **Above Long Description:** Expands notes into a comprehensive product overview.
+
+Clicking an inline button opens a mini-prompt where you can enter an instruction (e.g., *"Make it sound more athletic"*), review the single output, and click **Apply** to fill that exact field immediately.
+
+---
+
+
+## What Fields Can Be Generated
+
+| Field | Description | Benefit |
+|---|---|---|
+| **Product Name** | Clean, high-converting product title | Eliminates seller typos and ensures brand readability |
+| **Short Description** | Punchy 2–3 sentence overview or skimmable bullet points | Optimizes mobile view and catalog grid click-throughs |
+| **Long Description** | Comprehensive description formatted with feature highlights, care tips, and specs | Answers customer questions and reduces product returns |
+| **Regular & Sale Price** | Market-appropriate retail and promotional pricing | Provides instant pricing benchmarks |
+| **Attributes & Specs** | Global attributes (Color, Size, Material) and physical dimensions | Speeds up catalog filtering and faceted navigation |
+| **Categories & Tags** | Matches existing marketplace categories and search tags | Boosts organic marketplace and Google search discovery |
+
+---
+
+## Prerequisites & Role Capabilities
+
+To use Magic AI content generation:
+1. **Master Enablement:** The store owner must have enabled Magic AI under **Marketplace > Magic AI > General**.
+2. **Active Provider:** At least one valid AI provider must be configured under **Providers**.
+3. **Vendor Quota:** The seller must have remaining AI generations in their current quota cycle. See [Usage Limits & Quotas](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
+4. **Vendor Staff Permission:** Staff members must have the `Generate Content with Magic AI` permission assigned in their role. See [Vendor Staff](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
+
+---
+
+<!-- source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-image-enhancer.html -->
+
+# Product Image Enhancer (Thumbnail AI Tool)
+
+The **Product Image Enhancer** is an artificial intelligence tool engineered specifically for product thumbnails. It transforms ordinary photos into studio-grade e-commerce imagery while preserving the physical authenticity of the product.
+
+| Raw Vendor Photo | AI-Enhanced Thumbnail |
+|---|---|
+| • Dim or uneven home lighting<br>• Distracting messy background<br>• Flat mobile camera angles | • Balanced professional studio lighting<br>• Crisp, pure white or styled scene<br>• High-converting lifestyle presentation |
+
+---
+
+## 1. Accessing the Image Enhancer
+
+The Image Enhancer is located right where sellers manage their product visuals:
+
+1. Log in to your **Seller Dashboard**.
+2. Navigate to **Products** and open any existing product in **Edit** mode, or click **Add Product** to start a new listing.
+3. Upload or select your base product photo in the standard **Product Image** box.
+4. Directly beneath the uploaded image preview, click the dedicated trigger button:  
+   **[ Enhance image with AI ]**
+
+> **Location on Form:**  
+> In the seller **Product Image** panel, directly below the main uploaded product thumbnail preview, vendors see the dedicated **[ Enhance image with AI ]** button.
+
+::: tip Image Upload Required
+You must have a base image uploaded in the thumbnail box before launching the enhancer. If the box is empty, upload your raw product photo first.
+:::
+
+---
+
+## 2. Step-by-Step Enhancement Workflow
+
+Clicking **Enhance image with AI** opens the dedicated side-by-side comparison modal:
+
+| Left Column: Original Image | Right Column: AI Enhanced Preview |
+|---|---|
+| Displays the vendor's untouched starting photo for live visual comparison. | Displays the AI-generated high-resolution enhanced variation based on your prompt. |
+
+### Step 1: Side-by-Side Visual Inspection
+The modal opens with a clear dual-column layout:
+- **Left Column (Original Image):** Displays your untouched base photograph so you can always reference your starting point.
+- **Right Column (AI Enhanced Preview):** Displays the enhanced output once generated.
+
+### Step 2: Formulate Your Enhancement Prompt
+In the prompt field at the bottom of the modal, describe the environment, lighting, or staging you want:
+
+| Desired Look | Recommended Prompt Formula | Example Prompt |
+|---|---|---|
+| **Clean Studio** | *"Place item on a seamless pure white studio background with soft commercial lighting and subtle natural contact shadows."* | *"Pure white background, clean product shot, soft diffuse lighting, studio quality."* |
+| **Modern Lifestyle** | *"Place item naturally on a [surface] in a [setting] with soft ambient daylight."* | *"Place naturally on a rustic oak coffee table in a sunlit living room with subtle out-of-focus background greenery."* |
+| **Luxury / Premium** | *"Set on a [luxurious surface] with dramatic accent lighting and elegant reflections."* | *"Set on a polished dark marble tabletop with warm side lighting and subtle depth of field."* |
+
+### Step 3: Generate the Enhancement
+1. Click the blue **Enhance Image** button.
+2. The AI processes the image and returns a high-resolution preview in the right-hand panel in 10 to 20 seconds.
+3. Review the result. If you want adjustments, tweak your prompt and click **Enhance Image** again.
+
+### Step 4: Apply to Product
+1. When satisfied with the preview, click **Apply to Product**.
+2. The modal closes and automatically replaces the active image preview in your product form with the enhanced version.
+3. Click **Save Product** or **Update Product** on your dashboard to save the listing.
+
+---
+
+## 3. Key Differences: Image Enhancer vs. Content Generator
+
+| Feature Dimension | Product Content Generator | Product Image Enhancer |
+|---|---|---|
+| **Primary Goal** | Drafts text copy (Titles, Summaries, Descriptions, Prices, Attributes). | Upgrades visual product photography and main thumbnail presentation. |
+| **Where to Launch** | Top of Add/Edit form or "Create Product with AI" on Products list. | Button positioned directly below the product thumbnail box. |
+| **Input Format** | Text brief + optional reference photos. | Uploaded original photo + text styling prompt. |
+| **Output Type** | Form field values (text & numbers). | High-resolution optimized product photography. |
+| **Application Mode** | Fills multiple form inputs across the page. | Swaps the featured product image attachment. |
 
 ---
 
 <!-- source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html -->
 
-# AI Usage Limits
+# AI Usage Limits & Quotas
 
-Every request a vendor makes to Generative AI (Magic AI) consumes one generation from their allocated balance. Marketplace administrators have comprehensive controls to define global quota allowances, configure custom per-seller limits, select reset cycles, and monitor token consumption to keep platform costs predictable.
+To keep marketplace operations predictable and protect store owners from unexpected third-party API bills, **Magic AI** includes built-in usage governance.
 
-::: tip Budget Protection
-Setting usage limits protects marketplace owners from unexpected third-party API bills while still giving vendors sufficient capacity to list and refresh their product catalogs quickly.
+Marketplace administrators configure a single, centralized global quota setting that governs how often each vendor can generate AI content across the store.
+
+::: tip Budget Protection & Equal Access
+Configuring usage limits ensures every vendor has predictable access to AI tools to draft their product listings, while preventing runaway costs or API exhaustion.
 :::
 
 ---
 
 ## How Generations Are Counted
 
-Magic AI tracks vendor usage using clear, intuitive rules:
+Magic AI tracks vendor usage using clear, transparent rules:
 
-- **Full Product Generation**: Clicking **Generate** runs a full analysis across title, descriptions, specs, and SEO fields, consuming exactly **1 generation**.
-- **Single-Field Regeneration**: Clicking the inline **Regenerate** button beside an individual field (e.g. asking for a different short description) consumes **1 generation**.
-- **Failed or Dropped Requests**: If a third-party AI service is temporarily unavailable or returns an error, the request is **not counted** against the vendor's balance.
-- **Concurrent Limits**: A vendor can run one active generation at a time to prevent duplicate concurrent API requests.
-- **Reset Schedule**: Generation counts automatically reset to zero at midnight (for **Daily** limits) or on the 1st of each calendar month at 00:00 UTC (for **Monthly** limits).
-
----
-
-## Setting Global Limits for All Vendors
-
-Marketplace administrators can configure global quota policies under **WordPress Admin >> WooCommerce Marketplace >> Settings >> Generative AI**:
-
-1. **Per-Seller Limit**: Enter the maximum number of AI generations permitted per seller within each period (e.g., `50`).
-2. **Limit Period**:
-   - **Daily**: Best for continuous, steady inventory creation.
-   - **Weekly**: Suitable for moderate catalog expansion.
-   - **Monthly**: Recommended standard for marketplace operations.
-3. **Unlimited Generations**: Leave the limit field blank or enter `0` to grant unrestricted AI generations to all sellers.
+- **Full Product Generation:** Running a multi-field generation request (from the modal assistant or the "Create Product with AI" launcher) consumes **1 generation**.
+- **Single-Field Generation / Refinement:** Clicking an inline field Magic AI button or clicking "Regenerate this field" inside the review step consumes **1 generation**.
+- **Image Enhancement:** Enhancing a product thumbnail image consumes **1 generation**.
+- **Non-Destructive Review:** Previewing generated text, unchecking fields, or canceling a generation modal **does not consume additional generations**. Generations are only deducted when the AI engine produces content.
+- **Failed or Dropped Requests:** If an external AI provider encounters a network error, downtime, or temporary timeout, the request is **not counted** against the vendor's balance.
+- **Concurrent Request Protection:** A vendor can only run one active generation at a time to prevent duplicate simultaneous API calls.
 
 ---
 
-## Customizing Limits for Individual Vendors
+## Global Limit Configuration for All Vendors
 
-Administrators can override global limits for specific merchants to reward high-volume sellers, support VIP vendors, or accommodate newly onboarded partners:
+Marketplace administrators configure usage quotas centrally under **WordPress Admin >> Marketplace >> Magic AI >> Marketplace Features >> Limits**:
 
-1. Navigate to **WordPress Admin >> Marketplace >> Vendors**.
-2. Click **Edit** on the target vendor account.
-3. Scroll down to the **Generative AI Settings** section:
-   - **Inherit Global**: Uses the marketplace-wide default quota.
-   - **Custom Quota**: Enter a bespoke generation allowance (e.g., `200` generations/month).
-   - **Disable AI Access**: Toggle off AI generation completely for flagged, suspended, or unverified seller accounts.
-4. Save the vendor profile to apply the change immediately.
+| Setting Field | Control Type | Description & Behavior |
+|---|---|---|
+| **Per Seller Limit** | Number / Text Input | Maximum generations allowed per vendor within the chosen timeframe. Leave blank for **unlimited**. |
+| **Limit Period** | Dropdown Selector | Quota reset cycle: **Monthly** (default), **Weekly**, **Daily**, or **Lifetime**. |
+
+### 1. Per Seller Limit
+- **Global Setting, Individual Quota:** This is a **single global setting** configured by the store administrator that applies uniformly to **every vendor** across the entire marketplace.
+- **Independent Allowances:** If the limit is set to `25`, **each vendor receives their own independent allowance of 25 generations** for the selected cycle. It is *not* a shared collective pool where one vendor's usage depletes another's allowance.
+- **Unlimited Mode:** Leaving this field blank or empty grants **unlimited generations** to all vendors.
+
+### 2. Limit Period
+Defines the time window over which each seller's generations are counted before resetting:
+
+| Reset Period | Reset Schedule | Recommended Use Case |
+|---|---|---|
+| **Monthly (Default)** | Resets on the 1st of each calendar month at 00:00 UTC | Standard marketplace operations with predictable monthly billing cycles. |
+| **Weekly** | Resets every Monday at 00:00 UTC | Fast-moving marketplaces with high catalog turnover. |
+| **Daily** | Resets every night at midnight (00:00 UTC) | High-volume stores encouraging regular daily product listing workflows. |
+| **Lifetime** | Permanent hard cap that never resets automatically | Trial accounts or initial vendor onboarding programs. |
 
 ---
 
-## What Vendors See
+## Centralized Architecture & Vendor Quota Tracking
 
-Vendors always have full visibility over their remaining AI quota directly inside their dashboard:
+Magic AI uses a streamlined, centralized approach so marketplace owners don't have to configure or maintain dozens of individual vendor settings:
 
-- **Live Balance Meter**: The Magic AI modal displays a clear counter showing remaining generations (e.g., `Generations remaining: 42 of 50 this month`).
-- **Low-Balance Warning**: When a vendor reaches 5 or fewer remaining generations, the meter highlights in amber to warn them that their quota is almost exhausted.
-- **Quota Exceeded Notice**: When the limit is reached, the generate button is temporarily disabled, and an informative notice explains when the quota will reset:
-  > *"You have reached your AI generation limit for this month. Your quota will automatically reset on the 1st of next month."*
+| Central Marketplace Setting | How It Applies to Individual Vendors |
+|---|---|
+| **Admin sets Global Quota in Marketplace Features**<br>*(Example: 25 generations per month)* | **Every active vendor receives their own independent 25 generations:**<br>• **Vendor A:** 25 generations / month (12 used, 13 remaining)<br>• **Vendor B:** 25 generations / month (0 used, 25 remaining)<br>• **Vendor C:** 25 generations / month (25 used, quota reached) |
+
+1. **One Central Control:** Admins configure the limit once in the **Marketplace Features** tab. There is no need to manually edit individual vendor profiles or manage separate user roles.
+2. **Individual Background Balances:** In the background, Magic AI tracks each vendor's consumption independently in their account record, tied to the active reset cycle (monthly, weekly, daily, or lifetime).
+3. **Automatic Period Rollover:** When a new period starts (e.g., the 1st of the next month), the vendor's period counter rolls over automatically with zero manual admin intervention.
+4. **Hands-Off Maintenance:** Store administrators configure the quota once globally. The marketplace automatically manages individual vendor balances and enforces allowances with zero daily administration.
 
 ---
 
-## Administrator Best Practices
+## Live Quota Tracking for Vendors
 
-- **Start with a Baseline**: A default allowance of 30 to 50 generations per month is typically sufficient for most active merchants while keeping API costs minimal (often under $0.05–$0.15 per vendor per month on models like GPT-4o-mini or Gemini 1.5 Flash).
-- **Offer Tiered Quotas**: If you charge vendor subscription fees or use vendor tiers, bundle higher AI generation limits into premium vendor membership plans.
-- **Consider Local Ollama**: For marketplaces with high catalog volume, consider deploying a private, self-hosted Ollama instance (such as Llama 3 or Mistral) to provide completely free, unlimited AI generation with zero third-party token costs.
-- **Monitor Third-Party Dashboards**: Regularly review your OpenAI, Google AI Studio, or Anthropic developer consoles to track token consumption and configure hard billing caps on the provider side.
+Vendors receive full transparency into their current usage directly inside the Magic AI generation interfaces (both the "Generate content" modal and the "Create Product with AI" wizard):
+
+| In-Modal Meter Component | Appearance & Function |
+|---|---|
+| **Live Usage Text** | Displays current generation count: `12 / 25 generations used` (or `12 generations used` when unlimited). |
+| **Progress Indicator Bar** | Visual colored bar showing percentage of quota consumed within the active period. |
+| **Generation Safeguard** | When the limit is reached, the **Generate** button is disabled and displays an explanatory tooltip notice. |
+
+### In-Modal Meter Features
+- **Active Generation Counter:** Shows real-time usage (e.g., `12 / 25 generations used`). If the marketplace is configured for unlimited generations, it shows `12 generations used`.
+- **Dynamic Progress Bar:** Visual progress indicator displaying consumption percentage.
+- **Limit Reached Safeguard:** When a vendor reaches their maximum generation allowance:
+  - The **Generate** button is automatically disabled.
+  - A descriptive tooltip informs the seller: *"You have reached your generation limit for this period"*.
+  - Vendors can still manually edit, create, and publish products without any interruption.
+  - The quota automatically renews once the active period expires.
 
 ---
 
 <!-- source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/ai-prompt-engineering.html -->
 
-# Prompt Customization & Templates
+# Prompt Customization & Best Practices
 
-::: tip Documentation in progress
-This page is a placeholder. Detailed content for **Prompt Customization & Templates** is coming soon.
+Crafting clear, specific prompts helps **Magic AI** generate polished, accurate, and high-converting product listings. This guide provides recommended prompt structures, best practices, and copy templates for both store administrators and marketplace vendors.
+
+::: tip Golden Rule of AI Prompts
+The more specific and descriptive your starting input (materials, dimensions, target audience, brand tone), the more complete and accurate the generated product listing will be.
 :::
+
+---
+
+## The Anatomy of an Effective Product Prompt
+
+An ideal prompt covers four core elements:
+
+| Prompt Component | Key Information to Include | Practical Example |
+|---|---|---|
+| **1. Core Product** | Product type, model, and form factor | *"AeroTune Pro wireless over-ear noise-cancelling headphones"* |
+| **2. Materials & Specs** | Dimensions, weight, technical specifications | *"40mm titanium drivers, Bluetooth 5.4, 45-hour battery life"* |
+| **3. Target Audience** | Intended buyer persona and primary use cases | *"Remote professionals, frequent travelers, and daily commuters"* |
+| **4. Tone & Pricing** | Desired copy style and target pricing | *"Modern, premium, professional tone. Target price: $149"* |
+
+---
+
+## High-Converting Copy Templates
+
+### 1. Electronics & Gadgets
+> **Prompt Example:**  
+> *"Wireless over-ear noise-cancelling headphones, 40mm titanium drivers, Bluetooth 5.4, 45-hour battery life with USB-C fast charging (5 mins = 4 hours). Memory foam ear cushions, foldable travel design, built-in dual beamforming microphones for calls. Target audience: remote professionals and commuters. Target price: $149."*
+
+**What Magic AI Produces:**
+- **Product Name:** *AeroTune Pro Wireless Noise-Cancelling Over-Ear Headphones (45H Battery, Bluetooth 5.4)*
+- **Short Description:** *Block out distractions and immerse yourself in premium acoustic sound with 40mm titanium drivers, active noise cancellation, and a plush memory-foam travel design.*
+- **Long Description:** Comprehensive breakdown of acoustic engineering, battery longevity benchmarks, call clarity, and in-the-box contents.
+
+---
+
+### 2. Apparel, Fashion & Accessories
+> **Prompt Example:**  
+> *"Women's oversized cable-knit turtleneck sweater, 100% organic merino wool, heavyweight 7-gauge knit, ribbed cuffs and hem, drop shoulders. Available in Oat Milk and Charcoal. Gentle hand wash only. Designed for cozy autumn and winter layering. Target price: $88."*
+
+**What Magic AI Produces:**
+- **Product Name:** *Merino Wool Oversized Cable-Knit Turtleneck Sweater*
+- **Short Description:** *Stay effortlessly warm with pure organic merino wool, featuring an artisan cable-knit texture and relaxed drop-shoulder silhouette for chic cold-weather styling.*
+- **Long Description:** Fabric provenance details, styling tips (pairs with denim or skirts), sizing recommendations, and wool garment care instructions.
+
+---
+
+### 3. Home, Furniture & Kitchenware
+> **Prompt Example:**  
+> *"Handcrafted ceramic pour-over coffee dripper with matching 500ml glass carafe. Matte speckled ivory glaze on stoneware, heat-resistant borosilicate glass, silicone base ring. Fits standard V-shaped size 02 paper filters. Dishwasher safe. Target price: $42."*
+
+**What Magic AI Produces:**
+- **Product Name:** *Artisan Stoneware Pour-Over Coffee Maker Set with 500ml Borosilicate Carafe*
+- **Short Description:** *Brew cafe-quality pour-over coffee at home with handcrafted ceramic heat retention and an ergonomic heat-safe serving carafe.*
+- **Long Description:** Step-by-step brewing guide, extraction benefits of stoneware thermal mass, material safety specifications, and cleaning tips.
+
+---
+
+## Multimodal Vision Prompts (Using Reference Photos)
+
+When uploading reference photos of physical items, combine your image with a focused prompt:
+
+- **State What the Photo Shows:** *"See attached 2 photos of our handcrafted leather messenger bag. Highlight the antique brass hardware, double-stitched corners, and laptop compartment shown in photo 2."*
+- **Clarify Hidden Features:** *"The photo shows the exterior matte black finish; please note that the interior features waterproof nylon lining with 3 slip pockets."*
+
+---
+
+## Image Enhancer Prompt Templates
+
+When using the **Vendor Image Enhancer** below the product thumbnail, use these proven styling prompts:
+
+### 1. Clean Studio & Pure White (Amazon & Marketplace Standard)
+> *"Remove the cluttered room background. Place the product on a seamless pure white studio surface with soft, diffused commercial lighting and subtle, natural contact shadows underneath."*
+
+### 2. Modern Lifestyle & Warm Interior
+> *"Keep the product completely unchanged, but place it naturally on a natural oak dining table in a sunlit Scandinavian apartment with gentle ambient daylight and blurred background greenery."*
+
+### 3. Luxury / Moody Boutique
+> *"Place the item on a dark reflective black granite surface with dramatic rim lighting, soft reflections, and subtle golden bokeh in the deep background."*
+
+### 4. Outdoor / Adventure
+> *"Place the hiking boot on a rugged granite mountain ledge with warm sunrise sunlight casting long soft shadows."*
+
+---
+
+## Prompt Engineering Do's & Don'ts
+
+| Do's | Don'ts |
+|---|---|
+| **Do:** Include numerical specs (battery hours, dimensions, capacity). | **Don't:** Avoid vague single-word prompts like "shoe" or "phone". |
+| **Do:** Specify your target customer (students, athletes, luxury buyers). | **Don't:** Don't ask the AI to guess technical standards without guidance. |
+| **Do:** Mention care and warranty details for richer descriptions. | **Don't:** Avoid conflicting instructions (e.g., "cheap but luxury"). |
+| **Do:** Use single-field inline buttons to tweak specific sections quickly. | **Don't:** Don't republish without reviewing pricing and stock numbers. |
 
 ---
 
@@ -18098,7 +18612,7 @@ For any of these now, please [contact us](https://wpdoc.webkul.com/woocommerce-m
 
 # About
 
-This site is the official user documentation for the **WooCommerce Multi-Vendor Marketplace** plugin, published and maintained by Webkul Software.
+This site is the official user documentation for the **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)**, published and maintained by Webkul Software.
 
 ## About the plugin
 
@@ -18126,7 +18640,7 @@ For questions about the plugin, see [Contact](./contact.html). For how this site
 
 # Contact
 
-The WooCommerce Multi-Vendor Marketplace plugin is published and supported by **Webkul Software**.
+The **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** is published and supported by **Webkul Software**.
 
 ## Support
 
@@ -18164,7 +18678,7 @@ If a page in this documentation is wrong, unclear, or out of date, raise it thro
 
 # Privacy
 
-This page describes how **this documentation site** (`wpdoc.webkul.com/woocommerce-marketplace/`) handles data. It does not describe the WooCommerce Multi-Vendor Marketplace plugin itself, which runs on your own WordPress installation and stores its data in your own database, under your control.
+This page describes how **this documentation site** (`wpdoc.webkul.com/woocommerce-marketplace/`) handles data. It does not describe the **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** itself, which runs on your own WordPress installation and stores its data in your own database, under your control.
 
 ## What this site collects
 

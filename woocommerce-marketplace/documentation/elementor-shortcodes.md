@@ -147,6 +147,6 @@ To display a list of all vendors with search and product count, use the shortcod
 [wkmp-vendors-list show_search=yes show_heading=1 show_product_count=1]
 ```
 
-<a class="doc-image-link" href="./assets/vendor-list-shortcode-and-count.webp"><img src="./assets/vendor-list-shortcode-and-count.webp" alt="Vendor List Page" /></a>
+<a class="doc-image-link" href="./assets/customer-view-vendor-list.webp"><img src="./assets/customer-view-vendor-list.webp" alt="Vendor List Page" /></a>
 
 </div>

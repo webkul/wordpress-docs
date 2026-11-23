@@ -8,7 +8,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-st
 The **Vendor Staff** feature allows vendors to add sub-users (store managers and team assistants) who can log in and manage the store on their behalf. Vendors can grant per-task permissions for each section (view, add, edit, delete, and more) based on the capabilities allowed by the admin.
 
 ::: tip Store Administration Note
-If you are a marketplace administrator looking to configure global staff settings, maximum staff limits per vendor, delegatable permissions, or manage all vendor staff members, please refer to the [Configuration – Staff Settings](https://wpdoc.webkul.com/documentation/admin-staff-setting) guide.
+If you are a marketplace administrator looking to configure global staff settings, maximum staff limits per vendor, delegatable permissions, or manage all vendor staff members, please refer to the [Configuration – Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) guide.
 :::
 
 ---
@@ -226,4 +226,4 @@ Vendors access this management interface using the dedicated front-end endpoint:
 https://example.com/seller/vendor-staff/
 ```
 
-*Note: Marketplace administrators can customize this endpoint slug and title under **Marketplace > Settings > Endpoints**. For more details, see [Endpoints Configuration](https://wpdoc.webkul.com/documentation/configuration-endpoints).*
+*Note: Marketplace administrators can customize this endpoint slug and title under **Marketplace > Settings > Endpoints**. For more details, see [Endpoints Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-endpoints.html).*

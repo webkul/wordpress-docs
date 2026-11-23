@@ -5,7 +5,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/installat
 
 # Installation
 
-This guide explains how to properly install and activate the **WooCommerce Multi Vendor Marketplace plugin** on your WordPress website.
+This guide explains how to properly install and activate the **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** on your WordPress website.
 
 Follow each step carefully to ensure a smooth setup.
 

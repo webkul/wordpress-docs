@@ -112,7 +112,7 @@ The **Endpoints** configuration allows the admin to manage dynamic URL segments 
 
 At the top of the **Endpoints** settings screen, the administrator can manage whether standard WooCommerce customer navigation items appear alongside vendor management links:
 
-<a class="doc-image-link" href="./assets/endpoints.webp"><img src="./assets/endpoints.webp" alt="Customer Endpoint Visibility Settings" /></a>
+<a class="doc-image-link" href="./assets/endpoints.webp"><img src="./assets/endpoints.webp" alt="Endpoints" /></a>
 
 - **Hide Customer endpoints on all vendor endpoints pages**
   - **Default**: Enabled (Checked)
@@ -127,7 +127,7 @@ At the top of the **Endpoints** settings screen, the administrator can manage wh
 
 ## Configurable Marketplace Endpoints Directory
 
-The WooCommerce Multi-Vendor Marketplace plugin includes **44 dedicated endpoint configurations** across the Core marketplace platform, Pro features, MP Select & Sell, and Seller Panel V2. Each endpoint section in the admin panel allows configuring a custom **Endpoint slug** (the URL path segment) and a custom **Menu Title** (the label shown in navigation menus). Below is the complete directory of default slugs and target features:
+The **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** includes **44 dedicated endpoint configurations** across the Core marketplace platform, Pro features, MP Select & Sell, and Seller Panel V2. Each endpoint section in the admin panel allows configuring a custom **Endpoint slug** (the URL path segment) and a custom **Menu Title** (the label shown in navigation menus). Below is the complete directory of default slugs and target features:
 
 <div class="wkmp-endpoint-directory-wrapper">
 <div class="wkmp-endpoint-scroll-hint">

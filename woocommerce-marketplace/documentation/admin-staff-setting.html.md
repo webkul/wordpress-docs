@@ -15,7 +15,7 @@ The marketplace admin can access and configure this section from:
 - **Staff Settings Tab**: `wp-admin/admin.php?page=wk-marketplace-settings&tab=staff`
 - **Vendor Staffs Management List**: `wp-admin/admin.php?page=wk-marketplace-vendor-staffs`
 
-<a class="doc-image-link" href="./assets/admin-staff-settings.png"><img src="./assets/admin-staff-settings.png" alt="Admin Staff Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-staff-settings.webp"><img src="./assets/admin-staff-settings.webp" alt="Admin Staff Settings" /></a>
 
 ---
 
@@ -34,7 +34,7 @@ The marketplace admin can access and configure this section from:
 - **Customizable Dashboard Endpoint**: Tailor the front-end dashboard URL slug and menu title for the vendor staff section.
 
 ::: tip Vendor Guide Reference
-To learn how vendors create staff accounts, assign roles, and delegate daily shop responsibilities from their seller dashboard, refer to the [Vendor Staff Guide](https://wpdoc.webkul.com/documentation/vendor-staff).
+To learn how vendors create staff accounts, assign roles, and delegate daily shop responsibilities from their seller dashboard, refer to the [Vendor Staff Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 :::
 
 ---
@@ -98,56 +98,56 @@ The matrix is organized into clean functional cards matching the marketplace arc
 
 | Functional Section | Capability Name | Sensitivity & Default Status | Operational Description |
 | :--- | :--- | :--- | :--- |
-| **Seller Dashboard** | Access New Seller Panel | Standard (Checked) | Grants access to log in and use the modernized [Seller Dashboard](https://wpdoc.webkul.com/documentation/seller-panel-overview) interface and primary metrics. |
+| **Seller Dashboard** | Access New Seller Panel | Standard (Checked) | Grants access to log in and use the modernized [Seller Dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/seller-panel-overview.html) interface and primary metrics. |
 | | Performance | Standard (Checked) | Allows staff to view store performance charts, visitor trends, and conversion analytics. |
 | | Reporting | Standard (Checked) | Authorizes viewing detailed sales reporting, top product revenue, and customer metrics. |
 | | Customers | Standard (Checked) | Gives access to view customer contact lists and customer purchase history. |
-| | Magic AI | Standard (Checked) | Authorizes staff to use AI-assisted product and content generation tools. For details, see [Generative AI Overview](https://wpdoc.webkul.com/documentation/generative-ai-overview). |
-| | General Setting | Standard (Checked) | Allows updating core seller profile details, shop address, and contact information. |
-| | Graph Setting | Standard (Checked) | Allows customizing the visual color schemes of sales analytics charts. |
-| | Site Setting | Standard (Checked) | Permits adjusting vendor storefront appearance, banners, and layout options. |
-| **Products** | View products | Standard (Checked) | Allows staff to view the vendor's catalog product list. See [Vendor Product Management](https://wpdoc.webkul.com/documentation/vendor-product-management). |
+| | Magic AI | Standard (Checked) | Authorizes staff to use AI-assisted product and content generation tools. For details, see [Generative AI Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generative-ai-overview.html). |
+| | General Setting | Standard (Checked) | Allows updating core seller profile details, shop address, and contact information. See [Vendor General Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-general-setting.html). |
+| | Graph Setting | Standard (Checked) | Allows customizing the visual color schemes of sales analytics charts. See [Vendor Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html). |
+| | Site Setting | Standard (Checked) | Permits adjusting vendor storefront appearance, banners, and layout options. See [Vendor Site Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-site-setting.html). |
+| **Products** | View products | Standard (Checked) | Allows staff to view the vendor's catalog product list. See [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html). |
 | | Add product | Standard (Checked) | Enables creation of new product listings. |
 | | Edit product | Standard (Checked) | Allows updating existing product details, pricing, inventory, and images. |
 | | Delete product | Standard (Checked) | Permits trashing or permanently deleting vendor products. |
 | | Publish product | Standard (Checked) | Allows direct publishing of products without requiring admin moderation. |
-| | Generate barcodes | Standard (Checked) | Enables generation of product barcode identifiers. See [Product Barcode Guide](https://wpdoc.webkul.com/documentation/product-barcode). |
+| | Generate barcodes | Standard (Checked) | Enables generation of product barcode identifiers. See [Product Barcode Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-barcode.html). |
 | | Print barcodes | Standard (Checked) | Allows downloading and printing barcode labels. |
-| **Select And Sell** | View listing | Standard (Checked) | Grants visibility to search and view existing marketplace products available to claim. See [Admin Select and Sell](https://wpdoc.webkul.com/documentation/admin-select-and-sell) and [Selling Existing Products](https://wpdoc.webkul.com/documentation/selling-existing-products). |
+| **Select And Sell** | View listing | Standard (Checked) | Grants visibility to search and view existing marketplace products available to claim. See [Admin Select and Sell](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html) and [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html). |
 | | Add product | Standard (Checked) | Authorizes staff to assign existing products to the vendor's store catalog. |
 | | Edit product | Standard (Checked) | Allows modifying vendor-specific stock, condition, and pricing on assigned catalog items. |
 | | Delete product | Standard (Checked) | Permits removing assigned products from the vendor's active offerings. |
-| **Bulk Upload** | Normal Products | Standard (Checked) | Authorizes importing and exporting standard marketplace catalog items in bulk via CSV/XML spreadsheets. See [Bulk Upload Guide](https://wpdoc.webkul.com/documentation/bulk-upload). |
+| **Bulk Upload** | Normal Products | Standard (Checked) | Authorizes importing and exporting standard marketplace catalog items in bulk via CSV/XML spreadsheets. See [Bulk Upload Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html). |
 | | Select And Sell | Standard (Checked) | Permits batch claiming and assigning existing catalog products via CSV spreadsheets. |
-| **Orders** | View orders | Standard (Checked) | Grants visibility into customer orders containing the vendor's items. See [Vendor Order Management](https://wpdoc.webkul.com/documentation/vendor-order-management). |
+| **Orders** | View orders | Standard (Checked) | Grants visibility into customer orders containing the vendor's items. See [Vendor Order Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html). |
 | | Change order status | Standard (Checked) | Allows updating fulfillment progress (e.g., Processing to Completed). |
 | | Refund order | Standard (Checked) | Authorizes staff to process customer refund requests. |
-| | Print invoice | Standard (Checked) | Allows printing vendor packaging slips and invoices. See [Configuration – Vendor Invoice](https://wpdoc.webkul.com/documentation/configuration-vendor-invoice). |
-| | Schedule pickups | Standard (Checked) | Permits scheduling carrier collection for dispatched packages. See [Fulfilment Carriers Guide](https://wpdoc.webkul.com/documentation/fulfilment-carriers). |
-| **Transactions** | View transaction list | Standard (Checked) | Allows staff to view payment withdrawal logs and history. See [Vendor Transaction Management](https://wpdoc.webkul.com/documentation/vendor-transaction-management). |
+| | Print invoice | Standard (Checked) | Allows printing vendor packaging slips and invoices. See [Configuration – Vendor Invoice](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-vendor-invoice.html). |
+| | Schedule pickups | Standard (Checked) | Permits scheduling carrier collection for dispatched packages. See [Fulfilment Carriers Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/fulfilment-carriers.html). |
+| **Transactions** | View transaction list | Standard (Checked) | Allows staff to view payment withdrawal logs and history. See [Vendor Transaction Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-transaction-management.html). |
 | | View transaction details | Standard (Checked) | Permits inspecting granular payout breakdown details. |
-| **Vacation** | View vacations | Standard (Checked) | Displays the vendor vacation schedule and history. See [Vendor Vacation Guide](https://wpdoc.webkul.com/documentation/vendor-vacation) and [Admin Vacation Settings](https://wpdoc.webkul.com/documentation/admin-vacation-setting). |
+| **Vacation** | View vacations | Standard (Checked) | Displays the vendor vacation schedule and history. See [Vendor Vacation Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-vacation.html) and [Admin Vacation Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-vacation-setting.html). |
 | | Add vacation | Standard (Checked) | Enables scheduling a new store holiday or temporary closure. |
 | | Edit vacation | Standard (Checked) | Allows modifying holiday dates and storefront closure messages. |
 | | Delete vacation | Standard (Checked) | Permits canceling scheduled vacations. |
-| **Shop Followers** | View followers | Standard (Checked) | Allows viewing customer accounts that follow the store. See [Vendor Shop Followers Guide](https://wpdoc.webkul.com/documentation/vendor-shop-followers). |
+| **Shop Followers** | View followers | Standard (Checked) | Allows viewing customer accounts that follow the store. See [Vendor Shop Followers Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-shop-followers.html). |
 | | Remove followers | Standard (Checked) | Allows removing individual follower entries. |
 | | Send notification to followers | Standard (Checked) | Permits broadcasting promotional updates or store announcements to followers. |
-| **Notifications** | View notifications | Standard (Checked) | Grants access to view low-stock notices, order events, and system alerts. See [Vendor Notification Guide](https://wpdoc.webkul.com/documentation/vendor-notification). |
-| **My Profile** | View profile | Standard (Checked) | Displays public shop details and seller configuration. See [Vendor Profile Guide](https://wpdoc.webkul.com/documentation/vendor-profile). |
+| **Notifications** | View notifications | Standard (Checked) | Grants access to view low-stock notices, order events, and system alerts. See [Vendor Notification Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-notification.html). |
+| **My Profile** | View profile | Standard (Checked) | Displays public shop details and seller configuration. See [Vendor Profile Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html). |
 | | Edit profile | Standard (Checked) | Allows updating banner images, shop descriptions, and contact addresses. |
-| | Edit payment information | <span style="color:#d63638;font-weight:600;">Sensitive (Unchecked)</span> | Allows modifying bank accounts, PayPal emails, or payout destination credentials. See [Vendor Payout Management](https://wpdoc.webkul.com/documentation/vendor-payout-management). |
-| | Manage KYC documents | <span style="color:#d63638;font-weight:600;">Sensitive (Unchecked)</span> | Allows uploading, replacing, or viewing confidential merchant identity verifications. See [Vendor KYC Guide](https://wpdoc.webkul.com/documentation/vendor-kyc). |
-| **Ask Admin** | View query list | Standard (Checked) | Displays existing support query threads between vendor and marketplace admin. See [Ask to Admin Guide](https://wpdoc.webkul.com/documentation/ask-to-admin). |
+| | Edit payment information | <span style="color:#d63638;font-weight:600;">Sensitive (Unchecked)</span> | Allows modifying bank accounts, PayPal emails, or payout destination credentials. See [Vendor Payout Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-payout-management.html). |
+| | Manage KYC documents | <span style="color:#d63638;font-weight:600;">Sensitive (Unchecked)</span> | Allows uploading, replacing, or viewing confidential merchant identity verifications. See [Vendor KYC Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-kyc.html). |
+| **Ask Admin** | View query list | Standard (Checked) | Displays existing support query threads between vendor and marketplace admin. See [Ask to Admin Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/ask-to-admin.html). |
 | | View query thread | Standard (Checked) | Opens detailed back-and-forth query conversations. |
 | | Create new query | Standard (Checked) | Allows initiating a new support inquiry with marketplace administrators. |
 | | Reply to query | Standard (Checked) | Permits sending replies within an existing support inquiry thread. |
-| **Shippings** | View shipping | Standard (Checked) | Displays configured shipping methods, zones, and rates. See [Vendor Shipping Zone Management](https://wpdoc.webkul.com/documentation/vendor-shipping-zone-management). |
+| **Shippings** | View shipping | Standard (Checked) | Displays configured shipping methods, zones, and rates. See [Vendor Shipping Zone Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-shipping-zone-management.html). |
 | | Manage shipping zones | Standard (Checked) | Allows adding, modifying, or deleting regional delivery zones. |
 | | Manage shipping classes | Standard (Checked) | Permits creating and adjusting shipping classes and delivery fees. |
-| **Admin News** | View news list | Standard (Checked) | Grants access to read marketplace announcements and news broadcasts. See [Admin News Guide](https://wpdoc.webkul.com/documentation/admin-news). |
+| **Admin News** | View news list | Standard (Checked) | Grants access to read marketplace announcements and news broadcasts. See [Admin News Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-news.html). |
 | | View news details | Standard (Checked) | Allows reading complete news articles and policy bulletins. |
-| **Store Pickup** *(Modular)* | View store pickup orders | Standard (Checked) | Displays local store collection orders placed by shoppers when the Store Pickup module is active. See [Store Pickup Settings](https://wpdoc.webkul.com/documentation/store-pickup-settings) and [Admin Store Pickup Guide](https://wpdoc.webkul.com/documentation/admin-store-pickup). |
+| **Store Pickup** *(Modular)* | View store pickup orders | Standard (Checked) | Displays local store collection orders placed by shoppers when the Store Pickup module is active. See [Store Pickup Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/store-pickup-settings.html) and [Admin Store Pickup Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-store-pickup.html). |
 | | Send and verify pickup codes | Standard (Checked) | Authorizes validating one-time customer pickup verification PINs at the store collection counter. |
 
 ::: warning Sensitive Capabilities Safeguard
@@ -185,7 +185,7 @@ To inspect and manage all vendor assistants, navigate to:
 wp-admin/admin.php?page=wk-marketplace-vendor-staffs
 ```
 
-<a class="doc-image-link" href="./assets/admin-vendor-staffs-list.png"><img src="./assets/admin-vendor-staffs-list.png" alt="Admin Vendor Staffs List" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-staffs-list.webp"><img src="./assets/admin-vendor-staffs-list.webp" alt="Admin Vendor Staffs List" /></a>
 
 ### Vendor Staffs List Features
 
@@ -223,7 +223,7 @@ To edit a staff account:
 wp-admin/admin.php?page=wk-marketplace-vendor-staffs&section=edit&staff_id={ID}
 ```
 
-<a class="doc-image-link" href="./assets/admin-vendor-staff-edit.png"><img src="./assets/admin-vendor-staff-edit.png" alt="Edit Vendor Staff" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-staff-edit.webp"><img src="./assets/admin-vendor-staff-edit.webp" alt="Edit Vendor Staff" /></a>
 
 ### Edit Staff Field Breakdown
 
@@ -256,7 +256,7 @@ To adjust the endpoint:
 - **Default Menu Title**: `Vendor Staff`
 - **Resolved URL**: `https://example.com/seller/vendor-staff/` (or `https://example.com/my-account/vendor-staff/`)
 
-For more details on managing dashboard URL routing, consult the [Endpoints Configuration Guide](https://wpdoc.webkul.com/documentation/configuration-endpoints).
+For more details on managing dashboard URL routing, consult the [Endpoints Configuration Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-endpoints.html).
 
 ---
 
@@ -278,4 +278,4 @@ For more details on managing dashboard URL routing, consult the [Endpoints Confi
    Periodically review the **Marketplace > Vendor Staffs** list to check which assistants have broad capabilities, especially *Refund order* and *Publish product*.
 
 6. **Coordinate with Vendor Guides**:
-   Direct your sellers to the [Vendor Staff Guide](https://wpdoc.webkul.com/documentation/vendor-staff) so they understand how to invite staff, generate strong passwords, and manage permissions from their store management panel.
+   Direct your sellers to the [Vendor Staff Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html) so they understand how to invite staff, generate strong passwords, and manage permissions from their store management panel.

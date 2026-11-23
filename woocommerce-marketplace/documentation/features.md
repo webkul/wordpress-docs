@@ -5,7 +5,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/features.
 
 # Features
 
-The WooCommerce Multi Vendor Marketplace plugin offers a **robust, scalable, and enterprise-ready feature set** that empowers both marketplace owners and vendors. It is designed to handle high traffic, multiple sellers, and complex order workflows with ease.
+The **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** offers a **robust, scalable, and enterprise-ready feature set** that empowers both marketplace owners and vendors. It is designed to handle high traffic, multiple sellers, and complex order workflows with ease.
 
 <a class="doc-image-link" href="./assets/key-features.webp"><img src="./assets/key-features.webp" alt="Key Features" /></a>
 

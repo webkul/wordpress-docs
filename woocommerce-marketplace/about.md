@@ -5,7 +5,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/about.html
 
 # About
 
-This site is the official user documentation for the **WooCommerce Multi-Vendor Marketplace** plugin, published and maintained by Webkul Software.
+This site is the official user documentation for the **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)**, published and maintained by Webkul Software.
 
 ## About the plugin
 

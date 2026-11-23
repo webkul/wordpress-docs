@@ -332,14 +332,14 @@ When a customer purchases a product through a vendor's Select and Sell offer, Wo
 No. Only the marketplace administrator and the original author of the master listing can edit master catalog content. Secondary sellers can only configure their own selling price, sale discount, stock quantity, and condition description.
 
 ### Q4. Can vendor staff manage Select and Sell offers?
-Yes. If the marketplace administrator enables the **Select And Sell** capability under **Marketplace > Settings > Vendor Staff**, authorized seller staff members can view and attach offers on behalf of their merchant store. Refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/documentation/admin-staff-setting) for role permission details.
+Yes. If the marketplace administrator enables the **Select And Sell** capability under **Marketplace > Settings > Vendor Staff**, authorized seller staff members can view and attach offers on behalf of their merchant store. Refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) for role permission details.
 
 ---
 
 ## Related Documentation
 
-- [Selling Existing Products (Select & Sell Vendor Guide)](https://wpdoc.webkul.com/documentation/selling-existing-products) – Merchant walkthrough for searching catalog items and creating offers.
-- [Admin Staff Settings](https://wpdoc.webkul.com/documentation/admin-staff-setting) – How to configure Select and Sell capabilities for vendor staff.
-- [Product Detail Page (PDP) Guide](https://wpdoc.webkul.com/documentation/customer-pdp) – How multi-seller options and buy boxes appear to shoppers.
-- [Product Listing Page (PLP) Guide](https://wpdoc.webkul.com/documentation/customer-plp) – Catalog display rules and lowest-price indexing.
-- [Admin Panel Management](https://wpdoc.webkul.com/documentation/admin-panel-management) – Central marketplace catalog and product administration.
+- [Selling Existing Products (Select & Sell Vendor Guide)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html) – Merchant walkthrough for searching catalog items and creating offers.
+- [Admin Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) – How to configure Select and Sell capabilities for vendor staff.
+- [Product Detail Page (PDP) Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-pdp.html) – How multi-seller options and buy boxes appear to shoppers.
+- [Product Listing Page (PLP) Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-plp.html) – Catalog display rules and lowest-price indexing.
+- [Admin Panel Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-panel-management.html) – Central marketplace catalog and product administration.

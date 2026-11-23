@@ -7,12 +7,12 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
 
 <div class="ai-intro-hero">
   <p class="ai-intro-hero__lead">
-    Sellers describe a product in a few words, add a photo if they like, and Generative AI drafts the listing for them: the name, descriptions, specifications, suggested categories, and SEO fields. It is branded <strong>Magic AI</strong> in the admin panel, runs on the AI provider you choose, and nothing is saved until the seller reviews the suggestions and saves the product.
+    To solve one of the most time-consuming hurdles in multi-vendor e-commerce—creating detailed, consistent, and search-optimized product listings—<a href="https://store.webkul.com/woocommerce-multivendor-marketplace.html" target="_blank" rel="noopener noreferrer"><strong>Webkul WooCommerce Multi-Vendor Marketplace</strong></a> includes a built-in artificial intelligence suite branded as <strong>Magic AI</strong>. Store owners and marketplace sellers can turn rough notes, brief bullet points, or reference photos into polished, publication-ready listings in seconds.
   </p>
 
   <div class="ai-intro-hero__actions">
-    <a class="ai-intro-hero__btn ai-intro-hero__btn--primary" href="./usage-limits.html">
-      <span>Set up Generative AI</span>
+    <a class="ai-intro-hero__btn ai-intro-hero__btn--primary" href="./magic-ai-admin-settings.html">
+      <span>Admin Configuration</span>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
     </a>
     <a class="ai-intro-hero__btn ai-intro-hero__btn--secondary" href="./generate-product-content.html">
@@ -58,6 +58,10 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
 
 <a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Marketplace Admin Setting Generative AI Provider" /></a>
 
+::: tip Non-Destructive & Budget-Safe
+Magic AI operates on a strictly non-destructive model: generated suggestions populate the active editor for review and are never saved or published automatically. Store owners maintain complete authority over AI models, field permissions, and vendor quotas.
+:::
+
 ## What you can do
 
 <div class="feature-cards-grid feature--ai">
@@ -82,7 +86,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
     </div>
   </a>
 
-  <a class="feature-card-item" href="./generate-product-content.html#3-optional-add-reference-photos">
+  <a class="feature-card-item" href="./magic-ai-image-enhancer.html">
     <div class="feature-card-item__header">
       <span class="feature-card-item__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path></svg>
@@ -94,16 +98,16 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
         </span>
       </div>
     </div>
-    <span class="feature-card-item__title">Write from Product Photos</span>
-    <span class="feature-card-item__desc">Upload up to 3 reference photos. Multimodal AI inspects the images to identify materials, colorways, ports, and design nuances.</span>
+    <span class="feature-card-item__title">Product Photos & Image Enhancer</span>
+    <span class="feature-card-item__desc">Upload reference photos for vision models to inspect, or upscale and enhance seller product thumbnails with AI models in one click.</span>
     <div class="feature-card-item__chips">
-      <span class="feature-card-chip">GPT-4o Vision</span>
-      <span class="feature-card-chip">Gemini 1.5</span>
+      <span class="feature-card-chip">Vision Models</span>
+      <span class="feature-card-chip">Image Enhancer</span>
       <span class="feature-card-chip">Visual Details</span>
     </div>
   </a>
 
-  <a class="feature-card-item" href="./generate-product-content.html#5-review-refine-suggestions">
+  <a class="feature-card-item" href="./generate-product-content.html#what-fields-can-be-generated">
     <div class="feature-card-item__header">
       <span class="feature-card-item__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg>
@@ -124,24 +128,24 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
     </div>
   </a>
 
-  <a class="feature-card-item" href="./generate-product-content.html#what-can-be-generated">
+  <a class="feature-card-item" href="./magic-ai-admin-content-generation.html">
     <div class="feature-card-item__header">
       <span class="feature-card-item__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
       </span>
       <div class="feature-card-item__meta">
-        <span class="feature-card-item__tag">Organic SEO</span>
+        <span class="feature-card-item__tag">Store Admin</span>
         <span class="feature-card-item__arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"></path></svg>
         </span>
       </div>
     </div>
-    <span class="feature-card-item__title">Search Engine Optimization</span>
-    <span class="feature-card-item__desc">Produce high-converting Google search snippets, SERP titles, and keyword-rich excerpts that drive organic marketplace discovery.</span>
+    <span class="feature-card-item__title">Admin Content Generation</span>
+    <span class="feature-card-item__desc">Empower store administrators with WYSIWYG text generation, product assistant modals, and AI category descriptions in WordPress.</span>
     <div class="feature-card-item__chips">
-      <span class="feature-card-chip">Meta Titles</span>
-      <span class="feature-card-chip">SERP Excerpts</span>
-      <span class="feature-card-chip">Organic CTR</span>
+      <span class="feature-card-chip">WYSIWYG AI</span>
+      <span class="feature-card-chip">Catalog Polish</span>
+      <span class="feature-card-chip">Category Copy</span>
     </div>
   </a>
 
@@ -151,14 +155,14 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
         <svg viewBox="0 0 24 24"><line x1="21" x2="14" y1="4" y2="4"></line><line x1="10" x2="3" y1="4" y2="4"></line><line x1="21" x2="12" y1="12" y2="12"></line><line x1="8" x2="3" y1="12" y2="12"></line><line x1="21" x2="16" y1="20" y2="20"></line><line x1="12" x2="3" y1="20" y2="20"></line><line x1="14" x2="14" y1="2" y2="6"></line><line x1="8" x2="8" y1="10" y2="14"></line><line x1="16" x2="16" y1="18" y2="22"></line></svg>
       </span>
       <div class="feature-card-item__meta">
-        <span class="feature-card-item__tag">Admin Panel</span>
+        <span class="feature-card-item__tag">Governance</span>
         <span class="feature-card-item__arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"></path></svg>
         </span>
       </div>
     </div>
     <span class="feature-card-item__title">Control Usage per Seller</span>
-    <span class="feature-card-item__desc">Define daily or monthly generation quotas per vendor, protect platform budgets from overages, and view live quota meters.</span>
+    <span class="feature-card-item__desc">Define daily, weekly, monthly, or lifetime generation quotas per vendor, protect platform budgets from overages, and track usage meters.</span>
     <div class="feature-card-item__chips">
       <span class="feature-card-chip">Monthly Quotas</span>
       <span class="feature-card-chip">Live Meter</span>
@@ -166,7 +170,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
     </div>
   </a>
 
-  <a class="feature-card-item" href="./usage-limits.html#setting-global-limits-for-all-vendors">
+  <a class="feature-card-item" href="./magic-ai-admin-settings.html">
     <div class="feature-card-item__header">
       <span class="feature-card-item__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"></rect><rect width="6" height="6" x="9" y="9" rx="1"></rect><path d="M15 2v2"></path><path d="M15 20v2"></path><path d="M2 15h2"></path><path d="M2 9h2"></path><path d="M20 15h2"></path><path d="M20 9h2"></path><path d="M9 2v2"></path><path d="M9 20v2"></path></svg>
@@ -179,10 +183,10 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
       </div>
     </div>
     <span class="feature-card-item__title">Multi-Provider AI Setup</span>
-    <span class="feature-card-item__desc">Switch Generative AI on, connect leading cloud providers (OpenAI, Gemini, Claude, Groq), or run self-hosted Ollama for free.</span>
+    <span class="feature-card-item__desc">Switch Magic AI on, connect leading cloud providers (OpenAI, Gemini, Claude, Groq), or run self-hosted Ollama for free.</span>
     <div class="feature-card-item__chips">
       <span class="feature-card-chip">Cloud & Local</span>
-      <span class="feature-card-chip">Zero Token Cost</span>
+      <span class="feature-card-chip">WP Connectors</span>
       <span class="feature-card-chip">Ollama Private</span>
     </div>
   </a>
@@ -205,11 +209,115 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
   </li>
 </ol>
 
+---
+
+## Architecture of the Magic AI Documentation
+
+The Magic AI module is organized into three core areas accessible from the left-hand navigation menu:
+
+| Overview & Setup | Admin Settings | Vendor Experience |
+|---|---|---|
+| • Platform Introduction<br>• Master Enable Switch<br>• WordPress Connectors Hub<br>• Encrypted Security Vault | • Configuration Panels<br>• General, Providers, Admin & Marketplace<br>• Admin Product Add/Edit AI<br>• Category Descriptions & Images | • "Create Product with AI" Wizard<br>• Add/Edit Generation Modal<br>• Inline Field Quick Popups<br>• Product Image Enhancer<br>• Usage Limits & Quotas |
+
+---
+
+## Core Business Benefits
+
+- **Accelerates Seller Onboarding & Catalog Growth:** Vendors can create complete product listings from brief descriptions or supplier spec sheets in less than 60 seconds.
+- **Maintains Storewide Catalog Quality:** Built-in prompt engineering ensures consistent grammar, structured attribute extraction, and high-converting marketing descriptions.
+- **Full Commercial Cost Governance:** Store administrators choose which AI models are used, which fields AI can write to, and how many generations vendors receive.
+- **Zero Third-Party SaaS Markups:** Magic AI connects directly to major foundation AI providers (OpenAI, Google Gemini, Anthropic, Groq, DeepSeek, Mistral, xAI) or self-hosted Ollama using your own API credentials.
+
+---
+
+## Navigating to Magic AI in WordPress
+
+To access the Magic AI management console:
+
+1. Log in to your WordPress Administrator Dashboard.
+2. In the left-hand navigation menu, click **Marketplace**.
+3. Under the Marketplace sub-menu, select **Magic AI**.
+
+The management interface opens with a vertical configuration panel containing dedicated settings tabs:
+- **General:** Master activation switch.
+- **Providers:** Connection auto-detection and API keys hub.
+- **Admin Features:** AI tools dedicated to store managers and catalog editors.
+- **Marketplace Features:** Multi-vendor controls, vision photo limits, quotas, and field scope.
+
+---
+
+## The Master Activation Switch
+
+The **General** tab serves as the primary gateway and fail-safe switch for the entire AI ecosystem:
+
+| Setting Name | Control Type | Default State | Functional Purpose |
+|---|---|---|---|
+| **Enabled** | Toggle Switch | Off (Disabled) | Master switch that activates or suspends the Magic AI engine across the entire marketplace. |
+
+### Operational Behavior:
+- **When Switched ON:** Activates the background AI engine, enables editor AI buttons on admin screens, and displays the "Create Product with AI" wizard, modal generator, and Image Enhancer on the seller dashboard.
+- **When Switched OFF (Instant Kill-Switch):** Immediately suspends all outbound AI requests and hides AI buttons across the store. Standard WooCommerce product creation forms remain 100% functional without broken elements or console errors.
+- **Preserved Settings:** Switching the master toggle off **never deletes** your saved API keys, model choices, or vendor limits. Everything remains safely preserved in your database.
+
+---
+
+## AI Connection Methods & Auto-Detection
+
+Magic AI features an automatic connection detection engine that determines whether your environment supports native WordPress connectors or requires standalone API keys:
+
+| Environment | Detected Mode | Behavior & Provider Configuration |
+|---|---|---|
+| **WordPress 7.0+** | **WordPress AI Connectors** | Automatically detects core connectors configured under `Settings > Connectors` for OpenAI, Anthropic, and Google Gemini. Zero duplicate key entry. |
+| **Standard / Earlier WordPress** | **Manual API Keys** | Direct encrypted API keys entered into the dedicated provider fields in the Providers tab. |
+
+### 1. WordPress AI Connectors Mode (Automatic)
+On modern WordPress builds shipping native AI Connectors:
+- Magic AI displays a green status notice: **"WordPress AI Connectors detected"**.
+- Leading foundation providers—**OpenAI**, **Anthropic**, and **Google**—automatically draw their credentials from core WordPress Connectors.
+- Administrators never need to duplicate keys across plugins. If your organization rotates a key in core WordPress settings, Magic AI adopts it immediately.
+
+### 2. Manual API Key Mode (Standalone)
+On standard WordPress environments where core Connectors are not active:
+- Magic AI displays an informational banner: **"Manual API key configuration"**.
+- Enter your provider API keys directly into the corresponding fields in the **Providers** tab.
+
+---
+
+## Supported AI Providers Matrix
+
+Magic AI connects with leading commercial and open-source AI providers:
+
+| Provider | Primary Strengths & Ideal Role | Connection Mode | Key Capabilities |
+|---|---|---|---|
+| **OpenAI** | Industry standard; exceptional creative writing, robust multi-language fluency, and high reliability. | WP Connectors or Manual Key | Text Generation, Product Summaries, Multi-field generation. |
+| **Google (Gemini)** | Outstanding multimodal vision reasoning (reading product photos), generous speed, and high token efficiency. | WP Connectors or Manual Key | Text Generation, Multimodal Vision (Reference Photos), Image Enhancement. |
+| **Anthropic (Claude)** | Natural, nuanced, and brand-safe commercial copy; excellent at following structured technical instructions. | WP Connectors or Manual Key | Text Generation, Long-form Product Descriptions, Technical Specs. |
+| **Groq** | Lightning-fast inference speeds (ultra-low latency); ideal for near-instant seller generation popups. | Manual API Key | High-speed Text Generation (Llama & open models). |
+| **DeepSeek** | Highly cost-effective reasoning and structured output generation. | Manual API Key | Economical Text Generation, Attribute Extraction. |
+| **Mistral AI** | European provider with strong multilingual capabilities and compact, efficient open models. | Manual API Key | Text Generation, Multilingual Listing Translations. |
+| **xAI (Grok)** | Cutting-edge models with up-to-date knowledge and witty, engaging marketing tones. | Manual API Key | Creative Marketing Copy, Product Highlights. |
+| **Ollama** | Self-hosted, private open-source models running locally on your own server or intranet. | Custom Base URL (No external key required) | Private, zero-subscription internal generation. |
+
+---
+
+## Enterprise Security & Credential Vault
+
+Protecting your third-party API credentials is built directly into Magic AI:
+
+- **Encrypted at Rest:** All API credentials are encrypted before being stored in the database.
+- **Masked Browser Display:** Active credentials are never displayed in clear text in the browser (`•••••••• Saved — paste a new key to replace`).
+- **Autofill Safe:** Empty form submissions retain existing saved keys, preventing browser autofill extensions from clearing credentials.
+- **Explicit Removal:** A dedicated **Remove** button is required to delete a saved key, preventing accidental deletion.
+
+---
+
 ## Who uses it
 
-- **Admins** set it up under **WooCommerce Marketplace >> Settings >> Generative AI** and control it per seller on the seller's record. See [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html) and [Product Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-settings.html).
+- **Admins** set it up under **Marketplace >> Magic AI** and control it per seller on the seller's record. See [Admin Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-admin-settings.html) and [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
 - **Sellers** use it on the edit page of the products they own, in the Seller Panel. Team members need the **Generate Content With Magic AI** permission in their role. See [Vendor Staff](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 - **Customers** don't see it. They see the product once the seller has saved it and, if required, you have approved it.
+
+---
 
 ## What it does not do
 
@@ -223,6 +331,17 @@ Generative AI fills in the product form when the seller asks for it, and stops t
 ::: warning Note on Model Accuracy
 AI models can occasionally hallucinate details. Sellers should always verify technical specifications, sizing, warranties, and prices before applying and saving suggestions.
 :::
+
+---
+
+## Non-Destructive Workflow Guarantees
+
+Magic AI is strictly an **authoring assistant**:
+1. Generated product titles, descriptions, prices, and attributes are inserted into the **active browser editing form**.
+2. Nothing is saved or published until the user explicitly clicks the standard WooCommerce **Save Product**, **Publish**, or **Update** button.
+3. Vendors and administrators can inspect every generated value, regenerate individual fields, or cancel at any time with zero impact on existing product data.
+
+---
 
 ## Generative AI in the rest of your store
 

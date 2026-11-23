@@ -5,7 +5,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/privacy.html
 
 # Privacy
 
-This page describes how **this documentation site** (`wpdoc.webkul.com/woocommerce-marketplace/`) handles data. It does not describe the WooCommerce Multi-Vendor Marketplace plugin itself, which runs on your own WordPress installation and stores its data in your own database, under your control.
+This page describes how **this documentation site** (`wpdoc.webkul.com/woocommerce-marketplace/`) handles data. It does not describe the **[Webkul WooCommerce Multi Vendor Marketplace plugin](https://store.webkul.com/woocommerce-multivendor-marketplace.html)** itself, which runs on your own WordPress installation and stores its data in your own database, under your control.
 
 ## What this site collects
 

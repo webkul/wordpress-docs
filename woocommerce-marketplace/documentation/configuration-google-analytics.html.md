@@ -65,7 +65,7 @@ The table below provides a quick reference for each setting on the Google Analyt
 - [Click here to learn how to get the Measurement ID](https://wpdoc.webkul.com/documentation/google-analytics.md)
 
 - **Help Tip**: *Google analytics tracking ID to be obtained from Google Analytics Account.*
-- **Measurement ID Format**: Google Analytics 4 IDs start with **`G-`** followed by 10 letters or numbers (such as `G-JF7Q9MCL96`).
+- **Measurement ID Format**: Google Analytics 4 IDs start with **`G-`** followed by 10 letters or numbers (such as `G-XXXXXXXXXX`).
 - **Scope**: Acts as the central tracking ID for the marketplace administrator. All storefront browsing activity, product page visits, and orders are collected in this property.
 - For detailed setup steps, see our guide on [How to Get a Google Analytics Measurement ID](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/google-analytics.html).
 
