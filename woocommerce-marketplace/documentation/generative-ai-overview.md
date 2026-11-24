@@ -56,7 +56,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
   </div>
 </div>
 
-<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Marketplace Admin Setting Generative AI Provider" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-overview.webp"><img src="./assets/marketplace-admin-setting-gen-ai-overview.webp" alt="Magic AI Management Console Overview" /></a>
 
 ::: tip Non-Destructive & Budget-Safe
 Magic AI operates on a strictly non-destructive model: generated suggestions populate the active editor for review and are never saved or published automatically. Store owners maintain complete authority over AI models, field permissions, and vendor quotas.
@@ -244,6 +244,8 @@ The management interface opens with a vertical configuration panel containing de
 - **Admin Features:** AI tools dedicated to store managers and catalog editors.
 - **Marketplace Features:** Multi-vendor controls, vision photo limits, quotas, and field scope.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-navigation.webp"><img src="./assets/marketplace-admin-magic-ai-navigation.webp" alt="Navigating to Magic AI in WordPress Menu and Configuration Panels" /></a>
+
 ---
 
 ## The Master Activation Switch
@@ -258,6 +260,8 @@ The **General** tab serves as the primary gateway and fail-safe switch for the e
 - **When Switched ON:** Activates the background AI engine, enables editor AI buttons on admin screens, and displays the "Create Product with AI" wizard, modal generator, and Image Enhancer on the seller dashboard.
 - **When Switched OFF (Instant Kill-Switch):** Immediately suspends all outbound AI requests and hides AI buttons across the store. Standard WooCommerce product creation forms remain 100% functional without broken elements or console errors.
 - **Preserved Settings:** Switching the master toggle off **never deletes** your saved API keys, model choices, or vendor limits. Everything remains safely preserved in your database.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-magic-ai-general.webp"><img src="./assets/marketplace-admin-setting-magic-ai-general.webp" alt="Magic AI Master Activation Switch in General Settings" /></a>
 
 ---
 
@@ -280,6 +284,8 @@ On modern WordPress builds shipping native AI Connectors:
 On standard WordPress environments where core Connectors are not active:
 - Magic AI displays an informational banner: **"Manual API key configuration"**.
 - Enter your provider API keys directly into the corresponding fields in the **Providers** tab.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-magic-ai-connection-methods.webp"><img src="./assets/marketplace-admin-setting-magic-ai-connection-methods.webp" alt="Magic AI Connection Methods and WordPress AI Connectors Mode" /></a>
 
 ---
 
@@ -309,6 +315,8 @@ Protecting your third-party API credentials is built directly into Magic AI:
 - **Autofill Safe:** Empty form submissions retain existing saved keys, preventing browser autofill extensions from clearing credentials.
 - **Explicit Removal:** A dedicated **Remove** button is required to delete a saved key, preventing accidental deletion.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Supported AI Providers and Credential Management" /></a>
+
 ---
 
 ## Who uses it
@@ -316,6 +324,8 @@ Protecting your third-party API credentials is built directly into Magic AI:
 - **Admins** set it up under **Marketplace >> Magic AI** and control it per seller on the seller's record. See [Admin Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-admin-settings.html) and [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
 - **Sellers** use it on the edit page of the products they own, in the Seller Panel. Team members need the **Generate Content With Magic AI** permission in their role. See [Vendor Staff](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 - **Customers** don't see it. They see the product once the seller has saved it and, if required, you have approved it.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-create-product-with-ai.webp"><img src="./assets/marketplace-vendor-create-product-with-ai.webp" alt="Create Product with AI Option in Seller Panel" /></a>
 
 ---
 

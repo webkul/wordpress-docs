@@ -1,0 +1,1 @@
+"use strict";(Array.isArray(self.webpackChunkwoocommerce_multivendor_marketplace_docs)?self.webpackChunkwoocommerce_multivendor_marketplace_docs:self.webpackChunkwoocommerce_multivendor_marketplace_docs=[]).push([[2223],{2223(e,c,r){r.d(c,{createRailroadServices:()=>o.l});var o=r(38426);r(4954)}}]);

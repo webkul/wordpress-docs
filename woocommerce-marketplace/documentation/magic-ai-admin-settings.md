@@ -18,6 +18,8 @@ The settings screen is organized into specialized configuration panels accessed 
 
 This modular architecture allows store owners to configure store-level authoring tools independently from the permissions, limits, and field boundaries granted to marketplace vendors.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-config-overview.webp"><img src="./assets/marketplace-admin-magic-ai-config-overview.webp" alt="Magic AI Admin Configuration Center Overview" /></a>
+
 ---
 
 ## General (Master Switch)
@@ -32,6 +34,8 @@ The **General** tab handles global activation and provides a baseline status che
 - **Instant Global Pause:** Toggling this switch off immediately suspends all outgoing AI requests and hides all AI trigger buttons across the store (both admin-facing and vendor-facing).
 - **Safe Maintenance:** You can switch this off during site migrations, provider billing updates, or scheduled maintenance without losing any configured API keys, model selections, or vendor usage limits.
 - **Save Requirement:** Always click **Save Configuration** at the top right to apply any change to this switch.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-magic-ai-general.webp"><img src="./assets/marketplace-admin-setting-magic-ai-general.webp" alt="Magic AI General Settings Master Switch" /></a>
 
 ---
 
@@ -51,6 +55,8 @@ Magic AI automatically detects your WordPress environment and displays one of tw
    - Active on standard WordPress installations.
    - Each provider is configured independently using direct API keys entered in the fields below.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-magic-ai-connection-methods.webp"><img src="./assets/marketplace-admin-setting-magic-ai-connection-methods.webp" alt="Magic AI Providers Connection Method Auto Detection" /></a>
+
 ### Supported Providers & Credentials
 
 | Provider | Credentials Format | Best Suited For |
@@ -63,6 +69,8 @@ Magic AI automatically detects your WordPress environment and displays one of tw
 | **DeepSeek** | Standard API Key | Budget-friendly text generation and attribute extraction. |
 | **Mistral AI** | Standard API Key | Compact, highly capable multilingual listing translations. |
 | **Ollama** | Local Server Endpoint URL (e.g. `http://localhost:11434`) | Completely private, self-hosted open-source AI models. |
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Magic AI Supported Providers and API Keys Configuration" /></a>
 
 ---
 
@@ -90,6 +98,8 @@ The **Admin Features** tab configures the generative AI tools available to store
 #### 3. Product Page AI Assistant
 - **Enabled (Toggle):** When enabled, an AI Assistant button (**Generate content**) appears near the top of the native WooCommerce Add New Product and Edit Product screens, launching a comprehensive multi-field generation modal.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-admin-features.webp"><img src="./assets/marketplace-admin-magic-ai-admin-features.webp" alt="Magic AI Admin Features Settings" /></a>
+
 ---
 
 ## Marketplace Features (Multi-Vendor Governance)
@@ -107,17 +117,25 @@ The **Marketplace Features** tab defines the rules, approved models, quota limit
 - **Inline Magic AI Buttons:** Multi-select list. Displays dedicated Magic AI buttons beside specific fields (`Product Name`, `Short Description`, `Long Description`) on the vendor form.
 - **Create Product with AI:** Toggle switch. Displays the launcher button beside **Add Product** on the seller Products list page.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-content-generation.webp"><img src="./assets/marketplace-admin-magic-ai-mp-content-generation.webp" alt="Marketplace Product Content Generation Settings" /></a>
+
 ### Section 2: Image Enhancement
 - **Enable:** Toggle switch. Activates the **Enhance image with AI** button below product thumbnails on vendor forms.
 - **Image Provider:** Select OpenAI or Gemini for thumbnail enhancement.
 - **Image Model:** Select the specific visual model (e.g., `gpt-image-1`, `gemini-2.5-flash-image`, or Default).
 - **Image API Key:** Optional dedicated API key used exclusively for image enhancements. Stored encrypted.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-image-enhancement.webp"><img src="./assets/marketplace-admin-magic-ai-mp-image-enhancement.webp" alt="Marketplace Image Enhancement Settings" /></a>
+
 ### Section 3: Limits & Quotas
 - **Per Seller Limit:** Maximum generations allowed per vendor within the chosen timeframe. Leave blank for unlimited generations.
 - **Limit Period:** Dropdown selector choosing the reset cycle: **Monthly** (default), **Weekly**, **Daily**, or **Lifetime**.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-limits-quotas.webp"><img src="./assets/marketplace-admin-magic-ai-mp-limits-quotas.webp" alt="Marketplace Limits and Quotas Settings" /></a>
 
 ### Section 4: Scope & Taxonomy Controls
 - **Select Attributes (Allowed Fields):** Restrict which product fields AI can draft (Name, Short Description, Long Description, Prices, Weight, Dimensions, Brand, Tags).
 - **Suggest Categories:** When ON, AI proposes matching categories from existing store categories.
 - **Suggest Attributes:** Multi-select list. Limits AI attribute suggestions strictly to existing WooCommerce global attributes (e.g., Color, Size).
+
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-scope-taxonomy.webp"><img src="./assets/marketplace-admin-magic-ai-mp-scope-taxonomy.webp" alt="Marketplace Scope and Taxonomy Settings" /></a>

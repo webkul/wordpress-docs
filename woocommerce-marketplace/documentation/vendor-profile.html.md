@@ -91,7 +91,7 @@ Each policy section includes a rich-text / WYSIWYG editor allowing text formatti
 
 The **Store Hours** card allows vendors to define their weekly operating schedule and control whether buyers can purchase products outside business hours.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-store-hours-card.png"><img src="./assets/seller-store-edit-store-hours-card.png" alt="Store Edit Store Hours Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-store-hours-card.webp"><img src="./assets/seller-store-edit-store-hours-card.webp" alt="Store Edit Store Hours Card" /></a>
 
 #### General Store Hours Controls:
 - **Enable Store Hours**: Switch toggle to turn the store schedule on or off. When active, opening hours appear on the vendor's store page.
@@ -109,7 +109,7 @@ The **Store Hours** card allows vendors to define their weekly operating schedul
 
 The **KYC** (Know Your Customer) card provides identity and compliance verification with the marketplace administration.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-kyc-card.png"><img src="./assets/seller-store-edit-kyc-card.png" alt="Store Edit KYC Verification Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-kyc-card.webp"><img src="./assets/seller-store-edit-kyc-card.webp" alt="Store Edit KYC Verification Card" /></a>
 
 - **Verification Status Badge**: Displays the current verification state of the vendor's documents:
   - **Not uploaded**: No documents have been submitted yet.
@@ -128,7 +128,7 @@ The **KYC** (Know Your Customer) card provides identity and compliance verificat
 
 The **Profile View** card lets vendors customize how their public storefront is styled and laid out for shoppers, with an embedded **Live Preview**.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-profile-view-card.png"><img src="./assets/seller-store-edit-profile-view-card.png" alt="Store Edit Profile View Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-profile-view-card.webp"><img src="./assets/seller-store-edit-profile-view-card.webp" alt="Store Edit Profile View Card" /></a>
 
 #### Storefront Layout Options:
 - **Storefront**: A clean, structured store layout featuring a dedicated information sidebar displaying store hours, contact details, map location, and a grid product gallery.
@@ -143,7 +143,7 @@ The **Profile View** card lets vendors customize how their public storefront is 
 
 The **SEO Information** card optimizes how the vendor's shop appears on search engines (like Google, Bing) and AI search summaries.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-seo-card.png"><img src="./assets/seller-store-edit-seo-card.png" alt="Store Edit SEO Information Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-seo-card.webp"><img src="./assets/seller-store-edit-seo-card.webp" alt="Store Edit SEO Information Card" /></a>
 
 - **Live Search Snippet Preview**: A real-time Google search result preview box showing the page title, clean store URL (`/vendor/[slug]`), and meta description as searchers will see it in search engine result pages (SERPs).
 - **Meta Title**: The title tag shown in search engine results and browser tabs. Recommended length is 50–60 characters.
@@ -162,7 +162,7 @@ The right column of the Store Edit page displays personal vendor details, connec
 
 The **General** card contains basic personal profile details for the vendor account.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-general-card.png"><img src="./assets/seller-store-edit-general-card.png" alt="Store Edit General Details Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-general-card.webp"><img src="./assets/seller-store-edit-general-card.webp" alt="Store Edit General Details Card" /></a>
 
 - **Username**: The account login handle (read-only; set during initial registration).
 - **First Name**: The vendor's first name.
@@ -175,7 +175,7 @@ The **General** card contains basic personal profile details for the vendor acco
 
 The **Social Profile** card connects the vendor's external social media presences to their marketplace store page.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-social-card.png"><img src="./assets/seller-store-edit-social-card.png" alt="Store Edit Social Profile Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-social-card.webp"><img src="./assets/seller-store-edit-social-card.webp" alt="Store Edit Social Profile Card" /></a>
 
 Vendors can enter full profile URLs (`https://...`) for the following platforms:
 - **Facebook Profile ID**
@@ -193,7 +193,7 @@ Connected profiles appear as clickable social media icons on the public vendor s
 
 The **Shop Information** card provides a clear, read-only summary of the marketplace permissions, commission rate, and capabilities assigned to the vendor by the administrator.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-shop-info-card.png"><img src="./assets/seller-store-edit-shop-info-card.png" alt="Store Edit Shop Information Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-shop-info-card.webp"><img src="./assets/seller-store-edit-shop-info-card.webp" alt="Store Edit Shop Information Card" /></a>
 
 - **Applied Commission**: The current commission percentage deducted by the marketplace on the vendor's sales (e.g., `12%`). If no vendor-specific rate is set, the global marketplace rate applies.
 - **Allowed Categories**: Tags/chips showing which product categories the vendor is authorized to list products under (e.g., *Sports & Outdoors*, *Clothing*, *Accessories*).
@@ -231,7 +231,7 @@ To ensure marketplace trust, prevent fraudulent transactions, and comply with re
 
 When shoppers visit a vendor's public store link (`/vendor/[shop-slug]`), they see the fully branded storefront based on the chosen profile layout (**Storefront** or **Spotlight**):
 
-<a class="doc-image-link" href="./assets/seller-public-storefront-view.png"><img src="./assets/seller-public-storefront-view.png" alt="Public Vendor Storefront View" /></a>
+<a class="doc-image-link" href="./assets/seller-public-storefront-view.webp"><img src="./assets/seller-public-storefront-view.webp" alt="Public Vendor Storefront View" /></a>
 
 ### Public Storefront Elements:
 - **Store Banner & Logo**: Branded header imagery and store logo.

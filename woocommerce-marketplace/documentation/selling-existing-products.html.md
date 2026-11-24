@@ -120,7 +120,7 @@ Marketplace administrators configure global Select & Sell settings, designate Gl
 Navigate to: **Marketplace > MP Select and Sell**
 
 ::: tip Complete Administrator Guide
-For comprehensive instructions on managing Global vs Non-Global catalog items, search and filter controls, and administrative offer moderation, refer to the [Admin MP Select and Sell Guide](https://wpdoc.webkul.com/documentation/admin-select-and-sell).
+For comprehensive instructions on managing Global vs Non-Global catalog items, search and filter controls, and administrative offer moderation, refer to the [Admin MP Select and Sell Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html).
 :::
 
 <a class="doc-image-link" href="./assets/product-settings.webp"><img src="./assets/product-settings.webp" alt="Select and Sell Admin Settings" /></a>

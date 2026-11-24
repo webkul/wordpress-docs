@@ -124,7 +124,7 @@ The admin can select which shipping method will apply at checkout:
 
 - Vendor-specific shipping rates will apply to vendor products.
 - Admin shipping applies to admin products.
-- Vendors configure their own delivery zones, rates, classes, and pickup counters in their seller dashboard as explained in the [Vendor Shipping Zone Management](https://wpdoc.webkul.com/documentation/vendor-shipping-zone-management) guide.
+- Vendors configure their own delivery zones, rates, classes, and pickup counters in their seller dashboard as explained in the [Vendor Shipping Zone Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-shipping-zone-management.html) guide.
 
 ##### Mixed Cart (Admin + Vendor Products)
 

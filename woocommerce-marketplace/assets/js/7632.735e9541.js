@@ -1,0 +1,1 @@
+"use strict";(Array.isArray(self.webpackChunkwoocommerce_multivendor_marketplace_docs)?self.webpackChunkwoocommerce_multivendor_marketplace_docs:self.webpackChunkwoocommerce_multivendor_marketplace_docs=[]).push([[7632],{37632(e,c,r){r.d(c,{createWardleyServices:()=>o.J});var o=r(9427);r(4954)}}]);

@@ -721,7 +721,7 @@ Administrators can customize frontend URL slugs under **Marketplace > Settings >
 - **Product Catalog:** `/seller/vendor-products/`
 - **List Product Wizard:** `/seller/seller-list-product/`
 - **Add Product:** `/seller/vendor-add-product/`
-- **Manage Inventory:** `/seller/seller-manage-inventory/` (See [Manage Inventory Guide](https://wpdoc.webkul.com/documentation/vendor-inventories))
+- **Manage Inventory:** `/seller/seller-manage-inventory/` (See [Manage Inventory Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html))
 - **Select & Sell Search:** `/seller/seller-search-products/`
 - **Bulk Upload:** `/seller/seller-bulk-upload/`
 - **Site Setting:** `/seller/seller-site-setting/`

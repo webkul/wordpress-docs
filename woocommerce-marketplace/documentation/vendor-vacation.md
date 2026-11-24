@@ -8,7 +8,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-va
 The **Vacation Mode** allows vendors to temporarily close their store when they are unavailable. When enabled, the storefront displays a vacation notice with the vendor's custom message and blocks customer purchases.
 
 ::: tip Store Administration Note
-If you are a marketplace administrator looking to configure global vacation policies, button labels, or backend overrides, please refer to the [Configuration – Vacation Settings](https://wpdoc.webkul.com/documentation/admin-vacation-setting) guide.
+If you are a marketplace administrator looking to configure global vacation policies, button labels, or backend overrides, please refer to the [Configuration – Vacation Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-vacation-setting.html) guide.
 :::
 
 ---

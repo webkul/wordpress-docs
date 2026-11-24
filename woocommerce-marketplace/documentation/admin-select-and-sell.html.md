@@ -18,7 +18,7 @@ The marketplace administrator can access and configure this section from:
 - **Configuration Tab**: `wp-admin/admin.php?page=wkmp-select-and-sell&tab=config`
 - **Associated Sellers View**: `wp-admin/admin.php?page=wkmp-select-and-sell&action=show-seller&product_id=[PRODUCT_ID]`
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-products.png"><img src="./assets/admin-select-and-sell-products.png" alt="Admin MP Select and Sell Products Management" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-products.webp"><img src="./assets/admin-select-and-sell-products.webp" alt="Admin MP Select and Sell Products Management" /></a>
 
 ---
 
@@ -32,7 +32,7 @@ The marketplace administrator can access and configure this section from:
 - **Customizable Endpoints**: Adjust vendor dashboard slugs and navigation labels to match your marketplace branding.
 
 ::: tip Vendor Guide Reference
-To learn how marketplace merchants search for catalog items and list their competing offers from the seller panel, refer to the [Selling Existing Products (Select & Sell) Guide](https://wpdoc.webkul.com/documentation/selling-existing-products).
+To learn how marketplace merchants search for catalog items and list their competing offers from the seller panel, refer to the [Selling Existing Products (Select & Sell) Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html).
 :::
 
 ---
@@ -69,7 +69,7 @@ The Select and Sell module operates on a multi-layer catalog model:
 
 The **Products** tab displays the master registry of all catalog products associated with the Select and Sell feature. The subtitle under the header indicates: *"List of shop vendors associated with products."*
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-products.png"><img src="./assets/admin-select-and-sell-products.png" alt="Admin MP Select and Sell Products Management" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-products.webp"><img src="./assets/admin-select-and-sell-products.webp" alt="Admin MP Select and Sell Products Management" /></a>
 
 ### 1. Top Header Navigation
 At the top of the screen, administrators can toggle between two primary views:
@@ -120,7 +120,7 @@ The table below explains every data column available in the Products management 
 
 The **Configuration** tab allows marketplace managers to define global operating rules, storefront display styles, vendor notifications, and custom dashboard endpoints.
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-config.png"><img src="./assets/admin-select-and-sell-config.png" alt="Admin MP Select and Sell Configuration Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-config.webp"><img src="./assets/admin-select-and-sell-config.webp" alt="Admin MP Select and Sell Configuration Settings" /></a>
 
 ### Configuration Settings Summary
 
@@ -224,7 +224,7 @@ When an administrator clicks **See Sellers** on any item in the Products table, 
 
 `wp-admin/admin.php?page=wkmp-select-and-sell&action=show-seller&product_id=[PRODUCT_ID]`
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-sellers-list.png"><img src="./assets/admin-select-and-sell-sellers-list.png" alt="Admin Associated Sellers List" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-sellers-list.webp"><img src="./assets/admin-select-and-sell-sellers-list.webp" alt="Admin Associated Sellers List" /></a>
 
 ### 1. View Header & Breadcrumbs
 - **Heading**: Displays `Product : [Product Title]` (for example, `Product : Album`).
@@ -262,7 +262,7 @@ This screen provides targeted filters to manage competing merchant offers:
 
 Clicking the **Edit** icon next to any vendor offer opens the administrative offer editor:
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-edit-seller-offer.png"><img src="./assets/admin-select-and-sell-edit-seller-offer.png" alt="Admin Edit Seller Offer" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-edit-seller-offer.webp"><img src="./assets/admin-select-and-sell-edit-seller-offer.webp" alt="Admin Edit Seller Offer" /></a>
 
 ### Administrative Offer Fields
 

@@ -1,0 +1,1 @@
+"use strict";(Array.isArray(self.webpackChunkwoocommerce_multivendor_marketplace_docs)?self.webpackChunkwoocommerce_multivendor_marketplace_docs:self.webpackChunkwoocommerce_multivendor_marketplace_docs=[]).push([[2355],{52355(e,c,r){r.d(c,{createEventModelingServices:()=>o.g});var o=r(82688);r(4954)}}]);

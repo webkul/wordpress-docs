@@ -213,8 +213,8 @@ No. The **Maximum Purchasable Quantity** setting prevents any individual custome
 
 ## Related Documentation
 
-- [Vendor Product Management](https://wpdoc.webkul.com/documentation/vendor-product-management) – Creating products via wizard, catalog filters, and listing completeness.
-- [Product Barcode Guide](https://wpdoc.webkul.com/documentation/product-barcode) – Barcode generation, barcode downloads, and variation barcode display.
-- [Selling Existing Products (Select & Sell)](https://wpdoc.webkul.com/documentation/selling-existing-products) – Creating offers and selling against existing marketplace catalog items.
-- [Bulk Upload Guide](https://wpdoc.webkul.com/documentation/bulk-upload) – Importing products and stock via CSV spreadsheets.
-- [Vendor Order Management](https://wpdoc.webkul.com/documentation/vendor-order-management) – Tracking order statuses, generating invoices, and managing shipments.
+- [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html) – Creating products via wizard, catalog filters, and listing completeness.
+- [Product Barcode Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-barcode.html) – Barcode generation, barcode downloads, and variation barcode display.
+- [Selling Existing Products (Select & Sell)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html) – Creating offers and selling against existing marketplace catalog items.
+- [Bulk Upload Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html) – Importing products and stock via CSV spreadsheets.
+- [Vendor Order Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html) – Tracking order statuses, generating invoices, and managing shipments.

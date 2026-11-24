@@ -20,6 +20,8 @@ The **AI Assistant** is a multi-field content drafting engine built right into t
 ### Where to Find It
 On the WooCommerce **Add New Product** or **Edit Product** screen, look near the top right of the page (beside the main product title heading) for the blue **Generate content** button.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-product-page-ai-assistant-button.webp"><img src="./assets/marketplace-admin-product-page-ai-assistant-button.webp" alt="Generate Content Button on WooCommerce Product Page" /></a>
+
 ### Step-by-Step Workflow
 
 1. **Click "Generate content":** Opens the interactive assistant modal.
@@ -37,6 +39,8 @@ On the WooCommerce **Add New Product** or **Edit Product** screen, look near the
    - Uncheck any field you prefer not to use.
 6. **Apply to Form:** Click **Apply fields**. The chosen values immediately populate the corresponding live WooCommerce form inputs.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-product-ai-assistant-modal.webp"><img src="./assets/marketplace-admin-product-ai-assistant-modal.webp" alt="Product Page AI Assistant Generation and Review Modal" /></a>
+
 ::: tip Non-Destructive Drafting
 Applying generated fields writes content only to the active browser form controls. It **never** auto-saves or publishes the product without your consent. You can make manual tweaks and click **Publish** or **Update** when ready.
 :::
@@ -50,6 +54,8 @@ For moments when you only want to write or refine specific sections of copy with
 > **Editor Toolbar Buttons:**  
 > Above the Short Description and Main Description WYSIWYG editors, administrators have two dedicated buttons: **[ Magic AI ]** for text composition/refinement and **[ Generate Image ]** for AI artwork generation.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-editor-magic-ai-toolbar.webp"><img src="./assets/marketplace-admin-editor-magic-ai-toolbar.webp" alt="Magic AI Button on WordPress WYSIWYG Editor Toolbar" /></a>
+
 ### How to Use the Editor Assistant:
 
 1. Click the **Magic AI** button located directly above the editor.
@@ -62,6 +68,8 @@ For moments when you only want to write or refine specific sections of copy with
    - **Select Model:** Choose from available text models configured in your Providers tab.
 3. Click **Generate**.
 4. Inspect the generated text preview. Click **Apply** to insert the text directly into the active editor at your cursor position.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-editor-magic-ai-modal.webp"><img src="./assets/marketplace-admin-editor-magic-ai-modal.webp" alt="Inline Editor AI Assistance Popup with Prompt and Model Selector" /></a>
 
 ---
 
@@ -88,3 +96,5 @@ Administrators can maintain rich, search-engine-friendly category landing pages:
 
 - **Category Descriptions:** On the WooCommerce Category editing screens (`Products > Categories`), use the **Magic AI** button on the category description editor to draft engaging collection summaries.
 - **Category Thumbnails:** Use the **Generate Image** tool to create consistent, high-impact header artwork for category landing pages across your marketplace.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-category-magic-ai.webp"><img src="./assets/marketplace-admin-category-magic-ai.webp" alt="Category Description Magic AI Integration" /></a>

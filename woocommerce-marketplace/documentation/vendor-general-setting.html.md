@@ -118,13 +118,13 @@ No. Your public shop name and brand identity are configured under **Store Edit**
 If you cannot remember your current password to complete the change form, log out of your account, click the **Lost your password?** link on the login screen, and follow the email reset link sent to your registered email address.
 
 ### Can staff members edit my General Settings?
-Only users with granted permissions can access account settings. By default, vendor team sub-accounts cannot access sensitive owner credentials. For details on customizing team capabilities, see the [Vendor Staff Guide](https://wpdoc.webkul.com/documentation/vendor-staff).
+Only users with granted permissions can access account settings. By default, vendor team sub-accounts cannot access sensitive owner credentials. For details on customizing team capabilities, see the [Vendor Staff Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 
 ---
 
 ## Related Guides
 
-- [Store Edit & Profile](https://wpdoc.webkul.com/documentation/vendor-profile) – Configure your storefront logo, banner, address, and policies.
-- [Site Setting](https://wpdoc.webkul.com/documentation/vendor-site-setting) – Select your preferred product form navigation layout and stepper modes.
-- [Graph Setting](https://wpdoc.webkul.com/documentation/vendor-graph-setting) – Customize visual color palettes for dashboard charts and graphs.
-- [Vendor Dashboard Overview](https://wpdoc.webkul.com/documentation/vendor-dashboard) – Master the full-screen seller panel navigation and KPIs.
+- [Store Edit & Profile](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html) – Configure your storefront logo, banner, address, and policies.
+- [Site Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-site-setting.html) – Select your preferred product form navigation layout and stepper modes.
+- [Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html) – Customize visual color palettes for dashboard charts and graphs.
+- [Vendor Dashboard Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html) – Master the full-screen seller panel navigation and KPIs.

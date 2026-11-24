@@ -29,7 +29,7 @@ The marketplace admin can access and configure this section from:
 - Centralized administrator control to monitor, enable, disable, edit, or delete any vendor's vacation schedule.
 
 ::: tip Vendor Guide Reference
-To learn how vendors schedule and manage their holidays from the front-end seller dashboard, refer to the [Vacation Mode Guide](https://wpdoc.webkul.com/documentation/vendor-vacation).
+To learn how vendors schedule and manage their holidays from the front-end seller dashboard, refer to the [Vacation Mode Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-vacation.html).
 :::
 
 ---

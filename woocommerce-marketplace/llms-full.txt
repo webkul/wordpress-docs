@@ -2078,7 +2078,7 @@ The admin can select which shipping method will apply at checkout:
 
 - Vendor-specific shipping rates will apply to vendor products.
 - Admin shipping applies to admin products.
-- Vendors configure their own delivery zones, rates, classes, and pickup counters in their seller dashboard as explained in the [Vendor Shipping Zone Management](https://wpdoc.webkul.com/documentation/vendor-shipping-zone-management) guide.
+- Vendors configure their own delivery zones, rates, classes, and pickup counters in their seller dashboard as explained in the [Vendor Shipping Zone Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-shipping-zone-management.html) guide.
 
 ##### Mixed Cart (Admin + Vendor Products)
 
@@ -4266,7 +4266,7 @@ The marketplace admin can access and configure this section from:
 - Centralized administrator control to monitor, enable, disable, edit, or delete any vendor's vacation schedule.
 
 ::: tip Vendor Guide Reference
-To learn how vendors schedule and manage their holidays from the front-end seller dashboard, refer to the [Vacation Mode Guide](https://wpdoc.webkul.com/documentation/vendor-vacation).
+To learn how vendors schedule and manage their holidays from the front-end seller dashboard, refer to the [Vacation Mode Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-vacation.html).
 :::
 
 ---
@@ -5947,7 +5947,7 @@ Creating and configuring standard product fields—such as **Product Title, Long
 
 For step-by-step guidance on standard WooCommerce product setup, refer to the official WooCommerce documentation:
 - [Adding and Managing Products (WooCommerce Official Guide)](https://woocommerce.com/document/managing-products/)
-- [Managing Product Categories, Tags, and Attributes](https://woocommerce.com/document/managing-product-categories-tags-attributes/)
+- [Managing Product Categories, Tags, and Attributes](https://woocommerce.com/document/managing-product-taxonomies/)
 - [Variable Products Setup & Variations](https://woocommerce.com/document/variable-product/)
 :::
 
@@ -5958,8 +5958,6 @@ The WooCommerce Marketplace plugin introduces dedicated marketplace fields on th
 #### 1. Vendor Assignment Panel
 
 Located in the right sidebar (or main editing area), the **Vendor** panel controls vendor ownership for the product:
-
-<a class="doc-image-link" href="./assets/admin-product-edit-vendor-metabox.png"><img src="./assets/admin-product-edit-vendor-metabox.png" alt="Vendor Meta Box on Edit Product Page" /></a>
 
 - **Vendor Dropdown**: Select the seller who owns the product. The list includes all registered marketplace sellers as well as the store administrator (`Demo Admin`).
 - **Transferring Ownership**: Changing the vendor and clicking **Update** instantly transfers ownership of the product. The product will now appear in the new vendor's dashboard and profile catalog.
@@ -6006,9 +6004,9 @@ On the storefront single product page, the marketplace displays the assigned ven
 
 ## Related Guides
 
-- [MP Select and Sell](https://wpdoc.webkul.com/documentation/admin-select-and-sell) – Manage multi-seller single product catalog listings, Global eligibility, and vendor offers.
-- [Selling Existing Products](https://wpdoc.webkul.com/documentation/selling-existing-products) – Vendor-facing guide for attaching competing offers to existing catalog items.
-- [Vendor Badges](https://wpdoc.webkul.com/documentation/vendor-mangement) – Reward top-performing merchants with trust badges displayed across catalog pages.
+- [MP Select and Sell](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html) – Manage multi-seller single product catalog listings, Global eligibility, and vendor offers.
+- [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html) – Vendor-facing guide for attaching competing offers to existing catalog items.
+- [Vendor Badges](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-mangement.html) – Reward top-performing merchants with trust badges displayed across catalog pages.
 - [Admin Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) – Delegate product management and Select & Sell capabilities to vendor staff.
 
 ---
@@ -6030,7 +6028,7 @@ The marketplace administrator can access and configure this section from:
 - **Configuration Tab**: `wp-admin/admin.php?page=wkmp-select-and-sell&tab=config`
 - **Associated Sellers View**: `wp-admin/admin.php?page=wkmp-select-and-sell&action=show-seller&product_id=[PRODUCT_ID]`
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-products.png"><img src="./assets/admin-select-and-sell-products.png" alt="Admin MP Select and Sell Products Management" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-products.webp"><img src="./assets/admin-select-and-sell-products.webp" alt="Admin MP Select and Sell Products Management" /></a>
 
 ---
 
@@ -6044,7 +6042,7 @@ The marketplace administrator can access and configure this section from:
 - **Customizable Endpoints**: Adjust vendor dashboard slugs and navigation labels to match your marketplace branding.
 
 ::: tip Vendor Guide Reference
-To learn how marketplace merchants search for catalog items and list their competing offers from the seller panel, refer to the [Selling Existing Products (Select & Sell) Guide](https://wpdoc.webkul.com/documentation/selling-existing-products).
+To learn how marketplace merchants search for catalog items and list their competing offers from the seller panel, refer to the [Selling Existing Products (Select & Sell) Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html).
 :::
 
 ---
@@ -6081,7 +6079,7 @@ The Select and Sell module operates on a multi-layer catalog model:
 
 The **Products** tab displays the master registry of all catalog products associated with the Select and Sell feature. The subtitle under the header indicates: *"List of shop vendors associated with products."*
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-products.png"><img src="./assets/admin-select-and-sell-products.png" alt="Admin MP Select and Sell Products Management" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-products.webp"><img src="./assets/admin-select-and-sell-products.webp" alt="Admin MP Select and Sell Products Management" /></a>
 
 ### 1. Top Header Navigation
 At the top of the screen, administrators can toggle between two primary views:
@@ -6132,7 +6130,7 @@ The table below explains every data column available in the Products management 
 
 The **Configuration** tab allows marketplace managers to define global operating rules, storefront display styles, vendor notifications, and custom dashboard endpoints.
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-config.png"><img src="./assets/admin-select-and-sell-config.png" alt="Admin MP Select and Sell Configuration Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-config.webp"><img src="./assets/admin-select-and-sell-config.webp" alt="Admin MP Select and Sell Configuration Settings" /></a>
 
 ### Configuration Settings Summary
 
@@ -6236,7 +6234,7 @@ When an administrator clicks **See Sellers** on any item in the Products table, 
 
 `wp-admin/admin.php?page=wkmp-select-and-sell&action=show-seller&product_id=[PRODUCT_ID]`
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-sellers-list.png"><img src="./assets/admin-select-and-sell-sellers-list.png" alt="Admin Associated Sellers List" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-sellers-list.webp"><img src="./assets/admin-select-and-sell-sellers-list.webp" alt="Admin Associated Sellers List" /></a>
 
 ### 1. View Header & Breadcrumbs
 - **Heading**: Displays `Product : [Product Title]` (for example, `Product : Album`).
@@ -6274,7 +6272,7 @@ This screen provides targeted filters to manage competing merchant offers:
 
 Clicking the **Edit** icon next to any vendor offer opens the administrative offer editor:
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-edit-seller-offer.png"><img src="./assets/admin-select-and-sell-edit-seller-offer.png" alt="Admin Edit Seller Offer" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-edit-seller-offer.webp"><img src="./assets/admin-select-and-sell-edit-seller-offer.webp" alt="Admin Edit Seller Offer" /></a>
 
 ### Administrative Offer Fields
 
@@ -7877,7 +7875,7 @@ Vendors access announcements from their dedicated vendor panel:
   </div>
 </div>
 
-<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Marketplace Admin Setting Generative AI Provider" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-overview.webp"><img src="./assets/marketplace-admin-setting-gen-ai-overview.webp" alt="Magic AI Management Console Overview" /></a>
 
 ::: tip Non-Destructive & Budget-Safe
 Magic AI operates on a strictly non-destructive model: generated suggestions populate the active editor for review and are never saved or published automatically. Store owners maintain complete authority over AI models, field permissions, and vendor quotas.
@@ -8065,6 +8063,8 @@ The management interface opens with a vertical configuration panel containing de
 - **Admin Features:** AI tools dedicated to store managers and catalog editors.
 - **Marketplace Features:** Multi-vendor controls, vision photo limits, quotas, and field scope.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-navigation.webp"><img src="./assets/marketplace-admin-magic-ai-navigation.webp" alt="Navigating to Magic AI in WordPress Menu and Configuration Panels" /></a>
+
 ---
 
 ## The Master Activation Switch
@@ -8079,6 +8079,8 @@ The **General** tab serves as the primary gateway and fail-safe switch for the e
 - **When Switched ON:** Activates the background AI engine, enables editor AI buttons on admin screens, and displays the "Create Product with AI" wizard, modal generator, and Image Enhancer on the seller dashboard.
 - **When Switched OFF (Instant Kill-Switch):** Immediately suspends all outbound AI requests and hides AI buttons across the store. Standard WooCommerce product creation forms remain 100% functional without broken elements or console errors.
 - **Preserved Settings:** Switching the master toggle off **never deletes** your saved API keys, model choices, or vendor limits. Everything remains safely preserved in your database.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-magic-ai-general.webp"><img src="./assets/marketplace-admin-setting-magic-ai-general.webp" alt="Magic AI Master Activation Switch in General Settings" /></a>
 
 ---
 
@@ -8101,6 +8103,8 @@ On modern WordPress builds shipping native AI Connectors:
 On standard WordPress environments where core Connectors are not active:
 - Magic AI displays an informational banner: **"Manual API key configuration"**.
 - Enter your provider API keys directly into the corresponding fields in the **Providers** tab.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-magic-ai-connection-methods.webp"><img src="./assets/marketplace-admin-setting-magic-ai-connection-methods.webp" alt="Magic AI Connection Methods and WordPress AI Connectors Mode" /></a>
 
 ---
 
@@ -8130,6 +8134,8 @@ Protecting your third-party API credentials is built directly into Magic AI:
 - **Autofill Safe:** Empty form submissions retain existing saved keys, preventing browser autofill extensions from clearing credentials.
 - **Explicit Removal:** A dedicated **Remove** button is required to delete a saved key, preventing accidental deletion.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Supported AI Providers and Credential Management" /></a>
+
 ---
 
 ## Who uses it
@@ -8137,6 +8143,8 @@ Protecting your third-party API credentials is built directly into Magic AI:
 - **Admins** set it up under **Marketplace >> Magic AI** and control it per seller on the seller's record. See [Admin Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-admin-settings.html) and [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
 - **Sellers** use it on the edit page of the products they own, in the Seller Panel. Team members need the **Generate Content With Magic AI** permission in their role. See [Vendor Staff](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 - **Customers** don't see it. They see the product once the seller has saved it and, if required, you have approved it.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-create-product-with-ai.webp"><img src="./assets/marketplace-vendor-create-product-with-ai.webp" alt="Create Product with AI Option in Seller Panel" /></a>
 
 ---
 
@@ -8707,7 +8715,7 @@ Each policy section includes a rich-text / WYSIWYG editor allowing text formatti
 
 The **Store Hours** card allows vendors to define their weekly operating schedule and control whether buyers can purchase products outside business hours.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-store-hours-card.png"><img src="./assets/seller-store-edit-store-hours-card.png" alt="Store Edit Store Hours Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-store-hours-card.webp"><img src="./assets/seller-store-edit-store-hours-card.webp" alt="Store Edit Store Hours Card" /></a>
 
 #### General Store Hours Controls:
 - **Enable Store Hours**: Switch toggle to turn the store schedule on or off. When active, opening hours appear on the vendor's store page.
@@ -8725,7 +8733,7 @@ The **Store Hours** card allows vendors to define their weekly operating schedul
 
 The **KYC** (Know Your Customer) card provides identity and compliance verification with the marketplace administration.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-kyc-card.png"><img src="./assets/seller-store-edit-kyc-card.png" alt="Store Edit KYC Verification Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-kyc-card.webp"><img src="./assets/seller-store-edit-kyc-card.webp" alt="Store Edit KYC Verification Card" /></a>
 
 - **Verification Status Badge**: Displays the current verification state of the vendor's documents:
   - **Not uploaded**: No documents have been submitted yet.
@@ -8744,7 +8752,7 @@ The **KYC** (Know Your Customer) card provides identity and compliance verificat
 
 The **Profile View** card lets vendors customize how their public storefront is styled and laid out for shoppers, with an embedded **Live Preview**.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-profile-view-card.png"><img src="./assets/seller-store-edit-profile-view-card.png" alt="Store Edit Profile View Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-profile-view-card.webp"><img src="./assets/seller-store-edit-profile-view-card.webp" alt="Store Edit Profile View Card" /></a>
 
 #### Storefront Layout Options:
 - **Storefront**: A clean, structured store layout featuring a dedicated information sidebar displaying store hours, contact details, map location, and a grid product gallery.
@@ -8759,7 +8767,7 @@ The **Profile View** card lets vendors customize how their public storefront is 
 
 The **SEO Information** card optimizes how the vendor's shop appears on search engines (like Google, Bing) and AI search summaries.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-seo-card.png"><img src="./assets/seller-store-edit-seo-card.png" alt="Store Edit SEO Information Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-seo-card.webp"><img src="./assets/seller-store-edit-seo-card.webp" alt="Store Edit SEO Information Card" /></a>
 
 - **Live Search Snippet Preview**: A real-time Google search result preview box showing the page title, clean store URL (`/vendor/[slug]`), and meta description as searchers will see it in search engine result pages (SERPs).
 - **Meta Title**: The title tag shown in search engine results and browser tabs. Recommended length is 50–60 characters.
@@ -8778,7 +8786,7 @@ The right column of the Store Edit page displays personal vendor details, connec
 
 The **General** card contains basic personal profile details for the vendor account.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-general-card.png"><img src="./assets/seller-store-edit-general-card.png" alt="Store Edit General Details Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-general-card.webp"><img src="./assets/seller-store-edit-general-card.webp" alt="Store Edit General Details Card" /></a>
 
 - **Username**: The account login handle (read-only; set during initial registration).
 - **First Name**: The vendor's first name.
@@ -8791,7 +8799,7 @@ The **General** card contains basic personal profile details for the vendor acco
 
 The **Social Profile** card connects the vendor's external social media presences to their marketplace store page.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-social-card.png"><img src="./assets/seller-store-edit-social-card.png" alt="Store Edit Social Profile Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-social-card.webp"><img src="./assets/seller-store-edit-social-card.webp" alt="Store Edit Social Profile Card" /></a>
 
 Vendors can enter full profile URLs (`https://...`) for the following platforms:
 - **Facebook Profile ID**
@@ -8809,7 +8817,7 @@ Connected profiles appear as clickable social media icons on the public vendor s
 
 The **Shop Information** card provides a clear, read-only summary of the marketplace permissions, commission rate, and capabilities assigned to the vendor by the administrator.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-shop-info-card.png"><img src="./assets/seller-store-edit-shop-info-card.png" alt="Store Edit Shop Information Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-shop-info-card.webp"><img src="./assets/seller-store-edit-shop-info-card.webp" alt="Store Edit Shop Information Card" /></a>
 
 - **Applied Commission**: The current commission percentage deducted by the marketplace on the vendor's sales (e.g., `12%`). If no vendor-specific rate is set, the global marketplace rate applies.
 - **Allowed Categories**: Tags/chips showing which product categories the vendor is authorized to list products under (e.g., *Sports & Outdoors*, *Clothing*, *Accessories*).
@@ -8847,7 +8855,7 @@ To ensure marketplace trust, prevent fraudulent transactions, and comply with re
 
 When shoppers visit a vendor's public store link (`/vendor/[shop-slug]`), they see the fully branded storefront based on the chosen profile layout (**Storefront** or **Spotlight**):
 
-<a class="doc-image-link" href="./assets/seller-public-storefront-view.png"><img src="./assets/seller-public-storefront-view.png" alt="Public Vendor Storefront View" /></a>
+<a class="doc-image-link" href="./assets/seller-public-storefront-view.webp"><img src="./assets/seller-public-storefront-view.webp" alt="Public Vendor Storefront View" /></a>
 
 ### Public Storefront Elements:
 - **Store Banner & Logo**: Branded header imagery and store logo.
@@ -9476,7 +9484,7 @@ To help new vendors quickly learn how to create and manage their store items, re
 The **Vacation Mode** allows vendors to temporarily close their store when they are unavailable. When enabled, the storefront displays a vacation notice with the vendor's custom message and blocks customer purchases.
 
 ::: tip Store Administration Note
-If you are a marketplace administrator looking to configure global vacation policies, button labels, or backend overrides, please refer to the [Configuration – Vacation Settings](https://wpdoc.webkul.com/documentation/admin-vacation-setting) guide.
+If you are a marketplace administrator looking to configure global vacation policies, button labels, or backend overrides, please refer to the [Configuration – Vacation Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-vacation-setting.html) guide.
 :::
 
 ---
@@ -10579,7 +10587,7 @@ Administrators can customize frontend URL slugs under **Marketplace > Settings >
 - **Product Catalog:** `/seller/vendor-products/`
 - **List Product Wizard:** `/seller/seller-list-product/`
 - **Add Product:** `/seller/vendor-add-product/`
-- **Manage Inventory:** `/seller/seller-manage-inventory/` (See [Manage Inventory Guide](https://wpdoc.webkul.com/documentation/vendor-inventories))
+- **Manage Inventory:** `/seller/seller-manage-inventory/` (See [Manage Inventory Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html))
 - **Select & Sell Search:** `/seller/seller-search-products/`
 - **Bulk Upload:** `/seller/seller-bulk-upload/`
 - **Site Setting:** `/seller/seller-site-setting/`
@@ -10799,11 +10807,11 @@ No. The **Maximum Purchasable Quantity** setting prevents any individual custome
 
 ## Related Documentation
 
-- [Vendor Product Management](https://wpdoc.webkul.com/documentation/vendor-product-management) – Creating products via wizard, catalog filters, and listing completeness.
-- [Product Barcode Guide](https://wpdoc.webkul.com/documentation/product-barcode) – Barcode generation, barcode downloads, and variation barcode display.
-- [Selling Existing Products (Select & Sell)](https://wpdoc.webkul.com/documentation/selling-existing-products) – Creating offers and selling against existing marketplace catalog items.
-- [Bulk Upload Guide](https://wpdoc.webkul.com/documentation/bulk-upload) – Importing products and stock via CSV spreadsheets.
-- [Vendor Order Management](https://wpdoc.webkul.com/documentation/vendor-order-management) – Tracking order statuses, generating invoices, and managing shipments.
+- [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html) – Creating products via wizard, catalog filters, and listing completeness.
+- [Product Barcode Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-barcode.html) – Barcode generation, barcode downloads, and variation barcode display.
+- [Selling Existing Products (Select & Sell)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html) – Creating offers and selling against existing marketplace catalog items.
+- [Bulk Upload Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html) – Importing products and stock via CSV spreadsheets.
+- [Vendor Order Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html) – Tracking order statuses, generating invoices, and managing shipments.
 
 ---
 
@@ -10926,7 +10934,7 @@ Marketplace administrators configure global Select & Sell settings, designate Gl
 Navigate to: **Marketplace > MP Select and Sell**
 
 ::: tip Complete Administrator Guide
-For comprehensive instructions on managing Global vs Non-Global catalog items, search and filter controls, and administrative offer moderation, refer to the [Admin MP Select and Sell Guide](https://wpdoc.webkul.com/documentation/admin-select-and-sell).
+For comprehensive instructions on managing Global vs Non-Global catalog items, search and filter controls, and administrative offer moderation, refer to the [Admin MP Select and Sell Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html).
 :::
 
 <a class="doc-image-link" href="./assets/product-settings.webp"><img src="./assets/product-settings.webp" alt="Select and Sell Admin Settings" /></a>
@@ -11294,12 +11302,12 @@ In **WooCommerce Multi-Vendor Marketplace**, vendors have complete control over 
 ::: warning Administrator Capability: Applicable Shipping Methods
 For vendor shipping zones and rates to apply during customer checkout, the marketplace administrator must enable vendor shipping in the marketplace settings.
 
-Under **Marketplace → Settings → General Settings → [Applicable Shipping Methods](https://wpdoc.webkul.com/documentation/configuration-general-settings#applicable-shipping-methods)**, the admin controls whether shipping is calculated globally or by individual sellers:
+Under **Marketplace → Settings → General Settings → [Applicable Shipping Methods](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-general-settings.html#applicable-shipping-methods)**, the admin controls whether shipping is calculated globally or by individual sellers:
 - **Vendor Shipping Method**: When enabled, the custom shipping zones, flat rates, free shipping rules, shipping classes, and local pickup locations configured on this page are active and apply to the vendor's products at checkout.
 - **Admin Shipping Method**: When selected by the admin, global marketplace shipping rates apply to all products across the catalog, and individual vendor shipping rules are overridden.
 - **Mixed Cart Calculation**: If a buyer orders items from both the admin and vendors, WooCommerce automatically combines the shipping rates at checkout.
 
-For the marketplace administrator setup, please refer to the [General Settings – Applicable Shipping Methods](https://wpdoc.webkul.com/documentation/configuration-general-settings#applicable-shipping-methods) and [Shipping Settings Configuration](https://wpdoc.webkul.com/documentation/admin-configuration-shipping-settings) guides.
+For the marketplace administrator setup, please refer to the [General Settings – Applicable Shipping Methods](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-general-settings.html#applicable-shipping-methods) guide.
 :::
 
 ---
@@ -11797,7 +11805,7 @@ For orders shipped with non-integrated shipping methods—such as **Free Shippin
 - Vendors review remaining quantities to ship, choose from administrator-approved couriers (e.g., DHL Express, FedEx Ground) or the manual **Self Ship** fallback, enter the parcel **Tracking ID**, and schedule the collection.
 - Upon submission, an automated **Customer Note** is added to the order, triggering an email notification to the buyer containing the courier name and tracking code.
 
-For complete administrative setup, carrier options, and staff capabilities, refer to the [Fulfilment Carriers Guide](https://wpdoc.webkul.com/documentation/fulfilment-carriers).
+For complete administrative setup, carrier options, and staff capabilities, refer to the [Fulfilment Carriers Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/fulfilment-carriers.html).
 
 ---
 
@@ -14592,7 +14600,7 @@ If you use the **Vendor Staff** management feature to delegate store operations 
 The **Admin News** section allows vendors to stay updated with important announcements shared by the marketplace admin.
 
 ::: tip Administrator Guide
-If you are a store administrator looking to create news posts, set expiration dates, or configure seller visibility, please refer to the [Admin News Management](https://wpdoc.webkul.com/documentation/admin-news) documentation.
+If you are a store administrator looking to create news posts, set expiration dates, or configure seller visibility, please refer to the [Admin News Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-news.html) documentation.
 :::
 
 ---
@@ -14941,16 +14949,16 @@ No. Your public shop name and brand identity are configured under **Store Edit**
 If you cannot remember your current password to complete the change form, log out of your account, click the **Lost your password?** link on the login screen, and follow the email reset link sent to your registered email address.
 
 ### Can staff members edit my General Settings?
-Only users with granted permissions can access account settings. By default, vendor team sub-accounts cannot access sensitive owner credentials. For details on customizing team capabilities, see the [Vendor Staff Guide](https://wpdoc.webkul.com/documentation/vendor-staff).
+Only users with granted permissions can access account settings. By default, vendor team sub-accounts cannot access sensitive owner credentials. For details on customizing team capabilities, see the [Vendor Staff Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 
 ---
 
 ## Related Guides
 
-- [Store Edit & Profile](https://wpdoc.webkul.com/documentation/vendor-profile) – Configure your storefront logo, banner, address, and policies.
-- [Site Setting](https://wpdoc.webkul.com/documentation/vendor-site-setting) – Select your preferred product form navigation layout and stepper modes.
-- [Graph Setting](https://wpdoc.webkul.com/documentation/vendor-graph-setting) – Customize visual color palettes for dashboard charts and graphs.
-- [Vendor Dashboard Overview](https://wpdoc.webkul.com/documentation/vendor-dashboard) – Master the full-screen seller panel navigation and KPIs.
+- [Store Edit & Profile](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html) – Configure your storefront logo, banner, address, and policies.
+- [Site Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-site-setting.html) – Select your preferred product form navigation layout and stepper modes.
+- [Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html) – Customize visual color palettes for dashboard charts and graphs.
+- [Vendor Dashboard Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html) – Master the full-screen seller panel navigation and KPIs.
 
 ---
 
@@ -15171,7 +15179,7 @@ The availability of the **Site Setting** menu depends on marketplace-wide govern
 - **When Vendor Mode Is Disabled**: If the administrator manages product layouts globally, the **Site Setting** menu is hidden from the seller panel. In this scenario, all marketplace vendors share the standardized form layout and stepper mode set by the administrator.
 
 ::: note Admin Configuration Reference
-Marketplace administrators can configure default form presentations and activate vendor customization under **Marketplace > Settings > Product > Product Form Settings**. For complete administrative instructions, refer to the [Admin Product Settings Guide](https://wpdoc.webkul.com/documentation/product-settings).
+Marketplace administrators can configure default form presentations and activate vendor customization under **Marketplace > Settings > Product > Product Form Settings**. For complete administrative instructions, refer to the [Admin Product Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-settings.html).
 :::
 
 ---
@@ -15210,8 +15218,24 @@ The stepper breaks the listing creation process into three logical milestones:
 
 ```mermaid
 flowchart LR
-    Step1["Step 1: Product Basics\n(Title, Type, Category, Price)"] --> Step2["Step 2: Product Details\n(SKU, Stock, Shipping, Tax)"]
-    Step2 --> Step3["Step 3: Complete Listing\n(Images, Description, Attributes, Status)"]
+    subgraph StepOne ["Step 1: Product Basics"]
+        Step1["Title, Type, Category, Price"]
+    end
+
+    subgraph StepTwo ["Step 2: Product Details"]
+        Step2["SKU, Stock, Shipping, Tax"]
+    end
+
+    subgraph StepThree ["Step 3: Complete Listing"]
+        Step3["Images, Description, Attributes, Status"]
+    end
+
+    Step1 --> Step2
+    Step2 --> Step3
+
+    class Step1 entry;
+    class Step2 grid;
+    class Step3 dest;
 ```
 
 ::: tip When to Keep the Stepper Enabled
@@ -15384,11 +15408,11 @@ If you frequently manage products on tablets or touch devices, the **Stacked For
 
 ## Related Documentation
 
-- [Vendor Product Management](https://wpdoc.webkul.com/documentation/vendor-product-management) – Complete guide to creating, editing, and publishing marketplace products.
-- [Vendor General Setting](https://wpdoc.webkul.com/documentation/vendor-general-setting) – Manage personal account profiles, email addresses, and passwords.
-- [Vendor Graph Setting](https://wpdoc.webkul.com/documentation/vendor-graph-setting) – Customize chart color schemes across vendor reporting dashboards.
-- [Admin Product Settings](https://wpdoc.webkul.com/documentation/product-settings) – Configure platform-wide product defaults and enable Vendor Mode.
-- [Product Barcode Management](https://wpdoc.webkul.com/documentation/product-barcode) – Generate and print Code 128, UPC-A, and EAN-13 barcodes.
+- [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html) – Complete guide to creating, editing, and publishing marketplace products.
+- [Vendor General Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-general-setting.html) – Manage personal account profiles, email addresses, and passwords.
+- [Vendor Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html) – Customize chart color schemes across vendor reporting dashboards.
+- [Admin Product Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-settings.html) – Configure platform-wide product defaults and enable Vendor Mode.
+- [Product Barcode Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-barcode.html) – Generate and print Code 128, UPC-A, and EAN-13 barcodes.
 
 ---
 
@@ -15396,9 +15420,188 @@ If you frequently manage products on tablets or touch devices, the **Stacked For
 
 # Product Listing Page (PLP)
 
-::: tip Documentation in progress
-This page is a placeholder. Detailed content for **Product Listing Page (PLP)** is coming soon.
+The **Product Listing Page (PLP)** (commonly referred to as the **Shop Catalog**) is the central marketplace hub where buyers explore the product catalog, filter items by independent merchants, compare offerings, and discover new sellers in the **[Webkul WooCommerce Multi-Vendor Marketplace](https://store.webkul.com/woocommerce-multivendor-marketplace.html)**.
+
+Unlike a standard single-merchant shop where all catalog items belong to one brand, a multi-vendor marketplace combines products from multiple independent merchants into a unified shopping experience. The PLP gives customers clear visibility into **who sells each item**, provides an **interactive seller list filter**, and offers **direct links to vendor storefronts** before buyers proceed to individual product pages.
+
+---
+
+## Customer Discovery: Navigating the Multi-Vendor Catalog
+
+When buyers arrive on the Product Listing Page, they can explore products and navigate the marketplace through several entry points and controls:
+
+```mermaid
+flowchart TD
+    subgraph Discovery ["1. Storefront Entry & Navigation"]
+        A["Storefront Catalog (/shop/)"]
+        B["Global Search & Category Menus"]
+        C["Sidebar Filter Widgets"]
+    end
+
+    subgraph Filtering ["2. Seller Filtering & AJAX Results"]
+        E["AJAX Filtered Catalog"]
+    end
+
+    subgraph GridArea ["3. Marketplace Product Grid & Cards"]
+        D["Marketplace Product Grid"]
+        F["Product Card Interaction"]
+    end
+
+    subgraph Destinations ["4. Destination Pages & Actions"]
+        G["Product Detail Page (PDP)"]
+        H["Vendor Storefront Profile (/vendor/slug/)"]
+        I["Quick Actions: Cart / Compare / Wishlist"]
+        J["Multi-Vendor Shopping Cart"]
+    end
+
+    A --> B
+    A --> C
+    B --> D
+    C -->|"Select Seller"| E
+    E --> D
+    D --> F
+    F -->|"View PDP"| G
+    F -->|"Visit Store"| H
+    F -->|"Quick Action"| I
+    I --> J
+
+    class A,B,C entry;
+    class E filter;
+    class D,F grid;
+    class G,H,I,J dest;
+```
+
+---
+
+## 1. Storefront Discovery & Search Touchpoints
+
+The marketplace storefront provides multiple avenues for customers to discover vendor items before and during catalog browsing:
+
+### 1. Global Header Search Bar
+The primary storefront search input includes placeholder text reading *"Search products, brands & vendors…"*. Shoppers can enter product keywords, category names, or specific seller names to immediately query catalog items across all marketplace vendors.
+
+### 2. Header Vendor Lists Dropdown
+Located in the primary navigation header:
+- **Vendor Lists Menu**: An interactive dropdown menu highlighting featured and active sellers (such as *Aurora Athletics*, *Volt & Vine*, *Maison Terra*, *Lumen Beauty*, and *Copperleaf Kitchen*).
+- **Direct Store Links**: Clicking any merchant opens their dedicated storefront, displaying their full brand catalog, bio, and customer ratings.
+- **Seller Central Link**: Quick navigation link for prospective vendors to register and start selling.
+
+### 3. Category & Taxonomy Archives
+When shoppers select a category (e.g., *Fitness*, *Kitchen & Dining*, *Accessories*), the catalog filters down to that department while preserving multi-vendor seller filtering and attribution.
+
+---
+
+## 2. Sidebar Filter Architecture
+
+The sidebar on the Product Listing Page features purpose-built widgets that enable shoppers to refine their product search by merchant, price, and product attributes:
+
+### 1. Seller List Filter Widget
+The **Seller List** widget is the primary marketplace-specific navigation control:
+- **Expandable Accordion**: Clicking the **Seller List** header expands or collapses the list of active marketplace merchants.
+- **Live Product Counts**: Each vendor entry displays the exact count of listed products available (e.g., *Aurora Athletics (14)*, *Volt & Vine (9)*, *Maison Terra (12)*, *Copperleaf Kitchen (10)*, *Norden Supply (14)*, *Thread & Grain (11)*, *Paperfold Studio (7)*, *Lumen Beauty (6)*).
+- **Multi-Vendor Checkboxes**: Customers can select one or more vendors to display only products sold by the chosen merchants.
+- **Instant AJAX Filtering**: Product listings update dynamically without a full browser refresh, maintaining the customer's scroll position.
+
+### 2. Reset & Clear Filters
+When a seller filter or attribute option is selected, the catalog updates to display the active criteria. Customers can easily uncheck individual vendor boxes or click the clear filter button to restore the complete marketplace catalog.
+
+### 3. Price Range Filter
+- Dual slider and direct price input fields (`Min $` and `Max $`).
+- Enables customers to define their budget, automatically filtering products across all vendors within that price threshold.
+
+### 4. Attribute Swatches (Colors & Sizes)
+- Interactive visual color swatches and size tiles.
+- Customers can combine attribute filters with the **Seller List** filter to locate, for example, black fitness accessories sold exclusively by *Aurora Athletics*.
+
+::: tip Combined Filtering Efficiency
+Combining the **Seller List** filter with **Price** and **Attribute** filters allows buyers to quickly discover deals from specific merchants without sifting through unrelated listings.
 :::
+
+---
+
+## 3. Anatomy of a Multi-Vendor Product Card
+
+Every product card displayed in the catalog grid is tailored to provide clear marketplace attribution and convenient buyer actions:
+
+### Key Product Card Elements:
+
+| Element | Description | Buyer Advantage |
+| :--- | :--- | :--- |
+| **Vendor Attribution Link** | Labeled as `Vendor: [Vendor Name]` in a prominent blue link directly above the title | Establishes immediate seller transparency; clicking the link navigates to the seller's profile |
+| **Discount Badge** | Red badge showing promotional savings (e.g., `-24%` or `Sale!`) | Quick identification of seller promotions and markdowns |
+| **Product Image & Hover Effect** | High-resolution product thumbnail with hover zoom or alternate image transition | Visual product preview before clicking through to the PDP |
+| **Product Title** | Clean, bold item title linking directly to the full Product Detail Page | Clear identification of item specifications |
+| **Transparent Pricing** | Displays regular price struck-through alongside the current discounted price | Accurate price comparison across different marketplace sellers |
+| **Add to Cart Quick Action** | Circular action button with cart icon and `Sold By: [Vendor Name]` tooltip | Adds the item to the multi-vendor cart with seller metadata attached |
+| **Compare / Wishlist Action** | Quick comparison icon for side-by-side evaluation | Allows buyers to compare similar items across different marketplace vendors |
+
+---
+
+## 4. Catalog Controls, Sorting & Pagination
+
+At the top of the product listing grid, customers have access to catalog controls to organize listings according to their preferences:
+
+### Result Counter
+A real-time indicator informs buyers of the catalog volume currently displayed (for example, *Showing 1–12 of 86 results* or *Showing all 9 results* when filtered by a single seller).
+
+### Sorting Options
+The sorting dropdown allows customers to rearrange items across all marketplace sellers:
+
+- **Default sorting**: Standard marketplace order set by administrators or vendor priority.
+- **Sort by popularity**: Ranks items by sales volume across all merchants.
+- **Sort by average rating**: Highlights the highest-rated products based on verified customer feedback.
+- **Sort by latest**: Displays the newest additions to the marketplace.
+- **Sort by price: low to high**: Ideal for budget-conscious buyers seeking entry-level deals.
+- **Sort by price: high to low**: Surfaces premium merchandise first.
+
+### Numeric Pagination Stepper
+- Located at the bottom of the catalog.
+- Clear numbered buttons (e.g., `1`, `2`, `3`, `4` … `9`) alongside Next (`→`) and Previous (`←`) navigation arrows.
+- Allows buyers to browse through large multi-vendor inventories without experiencing page lag.
+
+---
+
+## 5. Transitioning to Vendor Dedicated Storefronts
+
+The Product Listing Page serves as a gateway to dedicated seller shops. Customers have two distinct interaction paths:
+
+1. **Viewing Product Details**: Clicking the **product image** or **product title** takes the customer to the [Product Detail Page (PDP)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-pdp.html), where they can select variants, read comprehensive specs, and verify customer reviews.
+2. **Exploring the Seller's Store**: Clicking the **`Vendor: [Seller Name]`** link bypasses generic listings and opens the merchant's dedicated profile page (`/vendor/[vendor-slug]/`).
+
+### What Buyers Find on a Vendor Storefront:
+- **Merchant Store Banner & Avatar**: Professional brand identity and storefront header.
+- **Store Collection**: The complete catalog of products offered exclusively by that seller.
+- **Seller Ratings & Feedback**: Aggregate review score and individual buyer testimonials.
+- **Store Policies & Contact Details**: Shipping guidelines, return/refund terms, and vendor contact options (such as direct contact email, phone number, and physical store address) allowing prospective buyers to inquire about products before purchasing.
+
+::: note Consolidating Orders by Vendor
+Purchasing multiple items from the same seller by browsing their dedicated storefront often results in combined shipping, single-package delivery, and simpler tracking.
+:::
+
+---
+
+## 6. Mobile Experience & Responsive Filter Drawer
+
+The Product Listing Page is fully responsive, delivering a smooth shopping experience across mobile smartphones and tablets:
+
+### Mobile-Optimized Features:
+- **Responsive 2-Column Grid**: Product cards scale naturally on smaller screens while retaining high-resolution imagery and legible typography.
+- **Slide-Out Filter Drawer**: On mobile devices, the sidebar collapses into a convenient **Filters** button. Tapping it opens a slide-out drawer containing the complete **Seller List** and attribute swatches.
+- **Clear Vendor Attribution**: The `Vendor: [Name]` tag remains clearly visible on mobile cards, preventing accidental cross-vendor confusion.
+- **Touch-Friendly Quick Actions**: Large tap targets for cart additions, wishlist saving, and pagination buttons.
+
+---
+
+## 7. Customer Journey Summary on the PLP
+
+| Step | Buyer Action | Marketplace Storefront Feature |
+| :--- | :--- | :--- |
+| **1. Explore & Search** | Enter search keywords or choose a category | Header search bar with vendor auto-discovery and category menus |
+| **2. Filter by Seller** | Expand the *Seller List* widget and check preferred vendors | Interactive checkboxes with live product counts and instant AJAX updates |
+| **3. Sort Catalog** | Choose a sort option (e.g., *Price: low to high*, *Average rating*) | Multi-vendor catalog sorting dropdown |
+| **4. Inspect Product Cards** | Review vendor badge, price, and promotional discounts | `Vendor: [Seller Name]` attribution and promotional percentage badges |
+| **5. Add or Visit Store** | Add directly to cart or click vendor name | Quick add-to-cart button or direct navigation to `/vendor/[slug]/` |
+| **6. Browse More** | Navigate through pages or clear filters | Numbered pagination stepper and one-click *Clear Filters* action |
 
 ---
 
@@ -15420,14 +15623,38 @@ Customers can discover vendor products through several marketplace touchpoints b
 
 ```mermaid
 flowchart LR
-    A["Storefront Navigation"] --> B["Header: Vendor Lists & Seller Central"]
-    A --> C["Category / Shop Page: Seller List Filter"]
-    A --> D["Product Card: Vendor Attribution Link"]
-    B --> E["Product Detail Page (PDP)"]
+    subgraph Entry ["1. Storefront Discovery"]
+        A["Storefront Navigation"]
+    end
+
+    subgraph Touchpoints ["2. Marketplace Touchpoints"]
+        B["Header: Vendor Lists & Seller Central"]
+        C["Category / Shop Page: Seller List Filter"]
+        D["Product Card: Vendor Attribution Link"]
+    end
+
+    subgraph PDP ["3. Product Detail Page"]
+        E["Product Detail Page (PDP)"]
+    end
+
+    subgraph Actions ["4. Customer Conversion & Store Exploration"]
+        F["Vendor Store Profile"]
+        G["Add to Cart / Buy Now"]
+    end
+
+    A --> B
+    A --> C
+    A --> D
+    B --> E
     C --> E
     D --> E
-    E --> F["Vendor Store Profile"]
-    E --> G["Add to Cart / Buy Now"]
+    E --> F
+    E --> G
+
+    class A entry;
+    class B,C,D filter;
+    class E grid;
+    class F,G dest;
 ```
 
 ### 1. Header Navigation & Marketplace Menus
@@ -15645,19 +15872,48 @@ The following workflow diagram illustrates the entire customer shopping flow fro
 
 ```mermaid
 flowchart TD
-    A["Catalog & Shop Page"] -->|"Filter by Seller / Browse Items"| B["Product Cards with 'Vendor:' Attribution"]
-    B -->|"Click Product"| C["Product Detail Page (PDP)"]
-    B -->|"Quick Add"| D["Shopping Cart"]
+    subgraph Discovery ["1. Catalog & Product Selection"]
+        A["Catalog & Shop Page"]
+        B["Product Cards with 'Vendor:' Attribution"]
+        C["Product Detail Page (PDP)"]
+    end
+
+    subgraph CartManagement ["2. Cart Drawer & Dedicated Cart"]
+        D["Shopping Cart"]
+        E["Slide-Over Mini-Cart Drawer"]
+        F["Dedicated Cart Page (/cart/)"]
+    end
+
+    subgraph LineItemInspection ["3. Vendor Attribution & Cart Review"]
+        G["'Sold By: [Seller Name]' & Store Link"]
+        H["Review Line Items & Vendor Badges"]
+        I["Adjust Quantities / Remove Items"]
+        J["Apply Coupons & Check Shipping"]
+    end
+
+    subgraph CheckoutFlow ["4. Unified Multi-Vendor Checkout"]
+        K["Proceed to Checkout"]
+        L["Unified Multi-Vendor Checkout Page"]
+    end
+
+    A -->|"Browse Sellers"| B
+    B -->|"View PDP"| C
+    B -->|"Quick Add"| D
     C -->|"Add to Cart"| D
-    D --> E["Slide-Over Mini-Cart Drawer"]
-    D --> F["Dedicated Cart Page (/cart/)"]
-    E -->|"Click 'See Details'"| G["View 'Sold By: [Seller Name]' & Store Link"]
-    F --> H["Review Line Items & Vendor Badges"]
-    F --> I["Adjust Quantities / Remove Items"]
-    F --> J["Apply Coupons & Check Shipping"]
-    F --> K["Proceed to Checkout"]
+    D --> E
+    D --> F
+    E -->|"View Details"| G
+    F --> H
+    F --> I
+    F --> J
+    F --> K
     E --> K
-    K --> L["Unified Multi-Vendor Checkout Page"]
+    K --> L
+
+    class A,B,C entry;
+    class D,E,F filter;
+    class G,H,I,J grid;
+    class K,L dest;
 ```
 
 ---
@@ -15962,26 +16218,52 @@ The diagram below illustrates how an order moves from initial placement through 
 
 ```mermaid
 flowchart TD
-    A["Customer Places Order at Checkout"] --> B["Unified Marketplace Order Generated"]
-    B --> C["Order Received (Thank You) Page"]
-    C --> D["Customer Account: My Account → Orders"]
-    
-    B --> E["Marketplace Splits Order into Vendor Slices"]
-    
-    D --> F["Customer Order View (/view-order/ID/)"]
-    F --> F1["Line-Item 'Sold By: [Seller]' Store Links"]
-    F --> F2["Real-Time Shipment Carrier & Tracking ID"]
-    F --> F3["Store Pickup Verification & Instructions"]
-    
-    E --> G["Vendor 1 Dashboard (/vendor-orders/ID/)"]
-    E --> H["Vendor 2 Dashboard (/vendor-orders/ID/)"]
-    
-    G --> G1["Views ONLY Vendor 1 Items"]
-    G --> G2["Calculates Admin Commission & Net Payout"]
-    G --> G3["Adds Courier & Tracking Number"]
-    
-    H --> H1["Views ONLY Vendor 2 Items"]
-    H --> H2["Zero Access to Vendor 1 Data (Strict Isolation)"]
+    subgraph Placement ["1. Order Placement"]
+        A["Customer Places Order at Checkout"]
+        B["Unified Marketplace Order Generated"]
+        C["Order Received (Thank You) Page"]
+    end
+
+    subgraph CustomerTracking ["2. Customer Tracking & Orders"]
+        D["Customer Account: My Account → Orders"]
+        F["Customer Order View (/view-order/ID/)"]
+        F1["Line-Item 'Sold By: [Seller]' Store Links"]
+        F2["Real-Time Shipment Carrier & Tracking ID"]
+        F3["Store Pickup Verification & Instructions"]
+    end
+
+    subgraph VendorSplits ["3. Vendor Slices & Isolated Fulfillment"]
+        E["Marketplace Splits Order into Vendor Slices"]
+        G["Vendor 1 Dashboard (/vendor-orders/ID/)"]
+        H["Vendor 2 Dashboard (/vendor-orders/ID/)"]
+        G1["Views ONLY Vendor 1 Items"]
+        G2["Calculates Admin Commission & Net Payout"]
+        G3["Adds Courier & Tracking Number"]
+        H1["Views ONLY Vendor 2 Items"]
+        H2["Strict Vendor Isolation"]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> F
+    F --> F1
+    F --> F2
+    F --> F3
+
+    B --> E
+    E --> G
+    E --> H
+    G --> G1
+    G --> G2
+    G --> G3
+    H --> H1
+    H --> H2
+
+    class A,B,C entry;
+    class D,F,F1,F2,F3 filter;
+    class E,G,H grid;
+    class G1,G2,G3,H1,H2 dest;
 ```
 
 ---
@@ -17021,6 +17303,8 @@ The settings screen is organized into specialized configuration panels accessed 
 
 This modular architecture allows store owners to configure store-level authoring tools independently from the permissions, limits, and field boundaries granted to marketplace vendors.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-config-overview.webp"><img src="./assets/marketplace-admin-magic-ai-config-overview.webp" alt="Magic AI Admin Configuration Center Overview" /></a>
+
 ---
 
 ## General (Master Switch)
@@ -17035,6 +17319,8 @@ The **General** tab handles global activation and provides a baseline status che
 - **Instant Global Pause:** Toggling this switch off immediately suspends all outgoing AI requests and hides all AI trigger buttons across the store (both admin-facing and vendor-facing).
 - **Safe Maintenance:** You can switch this off during site migrations, provider billing updates, or scheduled maintenance without losing any configured API keys, model selections, or vendor usage limits.
 - **Save Requirement:** Always click **Save Configuration** at the top right to apply any change to this switch.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-magic-ai-general.webp"><img src="./assets/marketplace-admin-setting-magic-ai-general.webp" alt="Magic AI General Settings Master Switch" /></a>
 
 ---
 
@@ -17054,6 +17340,8 @@ Magic AI automatically detects your WordPress environment and displays one of tw
    - Active on standard WordPress installations.
    - Each provider is configured independently using direct API keys entered in the fields below.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-magic-ai-connection-methods.webp"><img src="./assets/marketplace-admin-setting-magic-ai-connection-methods.webp" alt="Magic AI Providers Connection Method Auto Detection" /></a>
+
 ### Supported Providers & Credentials
 
 | Provider | Credentials Format | Best Suited For |
@@ -17066,6 +17354,8 @@ Magic AI automatically detects your WordPress environment and displays one of tw
 | **DeepSeek** | Standard API Key | Budget-friendly text generation and attribute extraction. |
 | **Mistral AI** | Standard API Key | Compact, highly capable multilingual listing translations. |
 | **Ollama** | Local Server Endpoint URL (e.g. `http://localhost:11434`) | Completely private, self-hosted open-source AI models. |
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-gen-ai-provider.webp"><img src="./assets/marketplace-admin-setting-gen-ai-provider.webp" alt="Magic AI Supported Providers and API Keys Configuration" /></a>
 
 ---
 
@@ -17093,6 +17383,8 @@ The **Admin Features** tab configures the generative AI tools available to store
 #### 3. Product Page AI Assistant
 - **Enabled (Toggle):** When enabled, an AI Assistant button (**Generate content**) appears near the top of the native WooCommerce Add New Product and Edit Product screens, launching a comprehensive multi-field generation modal.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-admin-features.webp"><img src="./assets/marketplace-admin-magic-ai-admin-features.webp" alt="Magic AI Admin Features Settings" /></a>
+
 ---
 
 ## Marketplace Features (Multi-Vendor Governance)
@@ -17110,20 +17402,28 @@ The **Marketplace Features** tab defines the rules, approved models, quota limit
 - **Inline Magic AI Buttons:** Multi-select list. Displays dedicated Magic AI buttons beside specific fields (`Product Name`, `Short Description`, `Long Description`) on the vendor form.
 - **Create Product with AI:** Toggle switch. Displays the launcher button beside **Add Product** on the seller Products list page.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-content-generation.webp"><img src="./assets/marketplace-admin-magic-ai-mp-content-generation.webp" alt="Marketplace Product Content Generation Settings" /></a>
+
 ### Section 2: Image Enhancement
 - **Enable:** Toggle switch. Activates the **Enhance image with AI** button below product thumbnails on vendor forms.
 - **Image Provider:** Select OpenAI or Gemini for thumbnail enhancement.
 - **Image Model:** Select the specific visual model (e.g., `gpt-image-1`, `gemini-2.5-flash-image`, or Default).
 - **Image API Key:** Optional dedicated API key used exclusively for image enhancements. Stored encrypted.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-image-enhancement.webp"><img src="./assets/marketplace-admin-magic-ai-mp-image-enhancement.webp" alt="Marketplace Image Enhancement Settings" /></a>
+
 ### Section 3: Limits & Quotas
 - **Per Seller Limit:** Maximum generations allowed per vendor within the chosen timeframe. Leave blank for unlimited generations.
 - **Limit Period:** Dropdown selector choosing the reset cycle: **Monthly** (default), **Weekly**, **Daily**, or **Lifetime**.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-limits-quotas.webp"><img src="./assets/marketplace-admin-magic-ai-mp-limits-quotas.webp" alt="Marketplace Limits and Quotas Settings" /></a>
 
 ### Section 4: Scope & Taxonomy Controls
 - **Select Attributes (Allowed Fields):** Restrict which product fields AI can draft (Name, Short Description, Long Description, Prices, Weight, Dimensions, Brand, Tags).
 - **Suggest Categories:** When ON, AI proposes matching categories from existing store categories.
 - **Suggest Attributes:** Multi-select list. Limits AI attribute suggestions strictly to existing WooCommerce global attributes (e.g., Color, Size).
+
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-scope-taxonomy.webp"><img src="./assets/marketplace-admin-magic-ai-mp-scope-taxonomy.webp" alt="Marketplace Scope and Taxonomy Settings" /></a>
 
 ---
 
@@ -17146,6 +17446,8 @@ The **AI Assistant** is a multi-field content drafting engine built right into t
 ### Where to Find It
 On the WooCommerce **Add New Product** or **Edit Product** screen, look near the top right of the page (beside the main product title heading) for the blue **Generate content** button.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-product-page-ai-assistant-button.webp"><img src="./assets/marketplace-admin-product-page-ai-assistant-button.webp" alt="Generate Content Button on WooCommerce Product Page" /></a>
+
 ### Step-by-Step Workflow
 
 1. **Click "Generate content":** Opens the interactive assistant modal.
@@ -17163,6 +17465,8 @@ On the WooCommerce **Add New Product** or **Edit Product** screen, look near the
    - Uncheck any field you prefer not to use.
 6. **Apply to Form:** Click **Apply fields**. The chosen values immediately populate the corresponding live WooCommerce form inputs.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-product-ai-assistant-modal.webp"><img src="./assets/marketplace-admin-product-ai-assistant-modal.webp" alt="Product Page AI Assistant Generation and Review Modal" /></a>
+
 ::: tip Non-Destructive Drafting
 Applying generated fields writes content only to the active browser form controls. It **never** auto-saves or publishes the product without your consent. You can make manual tweaks and click **Publish** or **Update** when ready.
 :::
@@ -17176,6 +17480,8 @@ For moments when you only want to write or refine specific sections of copy with
 > **Editor Toolbar Buttons:**  
 > Above the Short Description and Main Description WYSIWYG editors, administrators have two dedicated buttons: **[ Magic AI ]** for text composition/refinement and **[ Generate Image ]** for AI artwork generation.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-editor-magic-ai-toolbar.webp"><img src="./assets/marketplace-admin-editor-magic-ai-toolbar.webp" alt="Magic AI Button on WordPress WYSIWYG Editor Toolbar" /></a>
+
 ### How to Use the Editor Assistant:
 
 1. Click the **Magic AI** button located directly above the editor.
@@ -17188,6 +17494,8 @@ For moments when you only want to write or refine specific sections of copy with
    - **Select Model:** Choose from available text models configured in your Providers tab.
 3. Click **Generate**.
 4. Inspect the generated text preview. Click **Apply** to insert the text directly into the active editor at your cursor position.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-editor-magic-ai-modal.webp"><img src="./assets/marketplace-admin-editor-magic-ai-modal.webp" alt="Inline Editor AI Assistance Popup with Prompt and Model Selector" /></a>
 
 ---
 
@@ -17214,6 +17522,8 @@ Administrators can maintain rich, search-engine-friendly category landing pages:
 
 - **Category Descriptions:** On the WooCommerce Category editing screens (`Products > Categories`), use the **Magic AI** button on the category description editor to draft engaging collection summaries.
 - **Category Thumbnails:** Use the **Generate Image** tool to create consistent, high-impact header artwork for category landing pages across your marketplace.
+
+<a class="doc-image-link" href="./assets/marketplace-admin-category-magic-ai.webp"><img src="./assets/marketplace-admin-category-magic-ai.webp" alt="Category Description Magic AI Integration" /></a>
 
 ---
 

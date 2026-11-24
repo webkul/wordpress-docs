@@ -8,7 +8,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-new
 The **Admin News** section allows vendors to stay updated with important announcements shared by the marketplace admin.
 
 ::: tip Administrator Guide
-If you are a store administrator looking to create news posts, set expiration dates, or configure seller visibility, please refer to the [Admin News Management](https://wpdoc.webkul.com/documentation/admin-news) documentation.
+If you are a store administrator looking to create news posts, set expiration dates, or configure seller visibility, please refer to the [Admin News Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-news.html) documentation.
 :::
 
 ---

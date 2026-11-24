@@ -19,26 +19,52 @@ The diagram below illustrates how an order moves from initial placement through 
 
 ```mermaid
 flowchart TD
-    A["Customer Places Order at Checkout"] --> B["Unified Marketplace Order Generated"]
-    B --> C["Order Received (Thank You) Page"]
-    C --> D["Customer Account: My Account → Orders"]
-    
-    B --> E["Marketplace Splits Order into Vendor Slices"]
-    
-    D --> F["Customer Order View (/view-order/ID/)"]
-    F --> F1["Line-Item 'Sold By: [Seller]' Store Links"]
-    F --> F2["Real-Time Shipment Carrier & Tracking ID"]
-    F --> F3["Store Pickup Verification & Instructions"]
-    
-    E --> G["Vendor 1 Dashboard (/vendor-orders/ID/)"]
-    E --> H["Vendor 2 Dashboard (/vendor-orders/ID/)"]
-    
-    G --> G1["Views ONLY Vendor 1 Items"]
-    G --> G2["Calculates Admin Commission & Net Payout"]
-    G --> G3["Adds Courier & Tracking Number"]
-    
-    H --> H1["Views ONLY Vendor 2 Items"]
-    H --> H2["Zero Access to Vendor 1 Data (Strict Isolation)"]
+    subgraph Placement ["1. Order Placement"]
+        A["Customer Places Order at Checkout"]
+        B["Unified Marketplace Order Generated"]
+        C["Order Received (Thank You) Page"]
+    end
+
+    subgraph CustomerTracking ["2. Customer Tracking & Orders"]
+        D["Customer Account: My Account → Orders"]
+        F["Customer Order View (/view-order/ID/)"]
+        F1["Line-Item 'Sold By: [Seller]' Store Links"]
+        F2["Real-Time Shipment Carrier & Tracking ID"]
+        F3["Store Pickup Verification & Instructions"]
+    end
+
+    subgraph VendorSplits ["3. Vendor Slices & Isolated Fulfillment"]
+        E["Marketplace Splits Order into Vendor Slices"]
+        G["Vendor 1 Dashboard (/vendor-orders/ID/)"]
+        H["Vendor 2 Dashboard (/vendor-orders/ID/)"]
+        G1["Views ONLY Vendor 1 Items"]
+        G2["Calculates Admin Commission & Net Payout"]
+        G3["Adds Courier & Tracking Number"]
+        H1["Views ONLY Vendor 2 Items"]
+        H2["Strict Vendor Isolation"]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> F
+    F --> F1
+    F --> F2
+    F --> F3
+
+    B --> E
+    E --> G
+    E --> H
+    G --> G1
+    G --> G2
+    G --> G3
+    H --> H1
+    H --> H2
+
+    class A,B,C entry;
+    class D,F,F1,F2,F3 filter;
+    class E,G,H grid;
+    class G1,G2,G3,H1,H2 dest;
 ```
 
 ---

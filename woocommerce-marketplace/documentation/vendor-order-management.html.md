@@ -272,7 +272,7 @@ For orders shipped with non-integrated shipping methods—such as **Free Shippin
 - Vendors review remaining quantities to ship, choose from administrator-approved couriers (e.g., DHL Express, FedEx Ground) or the manual **Self Ship** fallback, enter the parcel **Tracking ID**, and schedule the collection.
 - Upon submission, an automated **Customer Note** is added to the order, triggering an email notification to the buyer containing the courier name and tracking code.
 
-For complete administrative setup, carrier options, and staff capabilities, refer to the [Fulfilment Carriers Guide](https://wpdoc.webkul.com/documentation/fulfilment-carriers).
+For complete administrative setup, carrier options, and staff capabilities, refer to the [Fulfilment Carriers Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/fulfilment-carriers.html).
 
 ---
 

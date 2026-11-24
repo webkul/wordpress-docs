@@ -19,19 +19,48 @@ The following workflow diagram illustrates the entire customer shopping flow fro
 
 ```mermaid
 flowchart TD
-    A["Catalog & Shop Page"] -->|"Filter by Seller / Browse Items"| B["Product Cards with 'Vendor:' Attribution"]
-    B -->|"Click Product"| C["Product Detail Page (PDP)"]
-    B -->|"Quick Add"| D["Shopping Cart"]
+    subgraph Discovery ["1. Catalog & Product Selection"]
+        A["Catalog & Shop Page"]
+        B["Product Cards with 'Vendor:' Attribution"]
+        C["Product Detail Page (PDP)"]
+    end
+
+    subgraph CartManagement ["2. Cart Drawer & Dedicated Cart"]
+        D["Shopping Cart"]
+        E["Slide-Over Mini-Cart Drawer"]
+        F["Dedicated Cart Page (/cart/)"]
+    end
+
+    subgraph LineItemInspection ["3. Vendor Attribution & Cart Review"]
+        G["'Sold By: [Seller Name]' & Store Link"]
+        H["Review Line Items & Vendor Badges"]
+        I["Adjust Quantities / Remove Items"]
+        J["Apply Coupons & Check Shipping"]
+    end
+
+    subgraph CheckoutFlow ["4. Unified Multi-Vendor Checkout"]
+        K["Proceed to Checkout"]
+        L["Unified Multi-Vendor Checkout Page"]
+    end
+
+    A -->|"Browse Sellers"| B
+    B -->|"View PDP"| C
+    B -->|"Quick Add"| D
     C -->|"Add to Cart"| D
-    D --> E["Slide-Over Mini-Cart Drawer"]
-    D --> F["Dedicated Cart Page (/cart/)"]
-    E -->|"Click 'See Details'"| G["View 'Sold By: [Seller Name]' & Store Link"]
-    F --> H["Review Line Items & Vendor Badges"]
-    F --> I["Adjust Quantities / Remove Items"]
-    F --> J["Apply Coupons & Check Shipping"]
-    F --> K["Proceed to Checkout"]
+    D --> E
+    D --> F
+    E -->|"View Details"| G
+    F --> H
+    F --> I
+    F --> J
+    F --> K
     E --> K
-    K --> L["Unified Multi-Vendor Checkout Page"]
+    K --> L
+
+    class A,B,C entry;
+    class D,E,F filter;
+    class G,H,I,J grid;
+    class K,L dest;
 ```
 
 ---

@@ -213,7 +213,7 @@ Creating and configuring standard product fields—such as **Product Title, Long
 
 For step-by-step guidance on standard WooCommerce product setup, refer to the official WooCommerce documentation:
 - [Adding and Managing Products (WooCommerce Official Guide)](https://woocommerce.com/document/managing-products/)
-- [Managing Product Categories, Tags, and Attributes](https://woocommerce.com/document/managing-product-categories-tags-attributes/)
+- [Managing Product Categories, Tags, and Attributes](https://woocommerce.com/document/managing-product-taxonomies/)
 - [Variable Products Setup & Variations](https://woocommerce.com/document/variable-product/)
 :::
 
@@ -224,8 +224,6 @@ The WooCommerce Marketplace plugin introduces dedicated marketplace fields on th
 #### 1. Vendor Assignment Panel
 
 Located in the right sidebar (or main editing area), the **Vendor** panel controls vendor ownership for the product:
-
-<a class="doc-image-link" href="./assets/admin-product-edit-vendor-metabox.png"><img src="./assets/admin-product-edit-vendor-metabox.png" alt="Vendor Meta Box on Edit Product Page" /></a>
 
 - **Vendor Dropdown**: Select the seller who owns the product. The list includes all registered marketplace sellers as well as the store administrator (`Demo Admin`).
 - **Transferring Ownership**: Changing the vendor and clicking **Update** instantly transfers ownership of the product. The product will now appear in the new vendor's dashboard and profile catalog.
@@ -272,7 +270,7 @@ On the storefront single product page, the marketplace displays the assigned ven
 
 ## Related Guides
 
-- [MP Select and Sell](https://wpdoc.webkul.com/documentation/admin-select-and-sell) – Manage multi-seller single product catalog listings, Global eligibility, and vendor offers.
-- [Selling Existing Products](https://wpdoc.webkul.com/documentation/selling-existing-products) – Vendor-facing guide for attaching competing offers to existing catalog items.
-- [Vendor Badges](https://wpdoc.webkul.com/documentation/vendor-mangement) – Reward top-performing merchants with trust badges displayed across catalog pages.
+- [MP Select and Sell](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html) – Manage multi-seller single product catalog listings, Global eligibility, and vendor offers.
+- [Selling Existing Products](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html) – Vendor-facing guide for attaching competing offers to existing catalog items.
+- [Vendor Badges](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-mangement.html) – Reward top-performing merchants with trust badges displayed across catalog pages.
 - [Admin Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) – Delegate product management and Select & Sell capabilities to vendor staff.

@@ -35,7 +35,7 @@ The availability of the **Site Setting** menu depends on marketplace-wide govern
 - **When Vendor Mode Is Disabled**: If the administrator manages product layouts globally, the **Site Setting** menu is hidden from the seller panel. In this scenario, all marketplace vendors share the standardized form layout and stepper mode set by the administrator.
 
 ::: note Admin Configuration Reference
-Marketplace administrators can configure default form presentations and activate vendor customization under **Marketplace > Settings > Product > Product Form Settings**. For complete administrative instructions, refer to the [Admin Product Settings Guide](https://wpdoc.webkul.com/documentation/product-settings).
+Marketplace administrators can configure default form presentations and activate vendor customization under **Marketplace > Settings > Product > Product Form Settings**. For complete administrative instructions, refer to the [Admin Product Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-settings.html).
 :::
 
 ---
@@ -74,8 +74,24 @@ The stepper breaks the listing creation process into three logical milestones:
 
 ```mermaid
 flowchart LR
-    Step1["Step 1: Product Basics\n(Title, Type, Category, Price)"] --> Step2["Step 2: Product Details\n(SKU, Stock, Shipping, Tax)"]
-    Step2 --> Step3["Step 3: Complete Listing\n(Images, Description, Attributes, Status)"]
+    subgraph StepOne ["Step 1: Product Basics"]
+        Step1["Title, Type, Category, Price"]
+    end
+
+    subgraph StepTwo ["Step 2: Product Details"]
+        Step2["SKU, Stock, Shipping, Tax"]
+    end
+
+    subgraph StepThree ["Step 3: Complete Listing"]
+        Step3["Images, Description, Attributes, Status"]
+    end
+
+    Step1 --> Step2
+    Step2 --> Step3
+
+    class Step1 entry;
+    class Step2 grid;
+    class Step3 dest;
 ```
 
 ::: tip When to Keep the Stepper Enabled
@@ -248,8 +264,8 @@ If you frequently manage products on tablets or touch devices, the **Stacked For
 
 ## Related Documentation
 
-- [Vendor Product Management](https://wpdoc.webkul.com/documentation/vendor-product-management) – Complete guide to creating, editing, and publishing marketplace products.
-- [Vendor General Setting](https://wpdoc.webkul.com/documentation/vendor-general-setting) – Manage personal account profiles, email addresses, and passwords.
-- [Vendor Graph Setting](https://wpdoc.webkul.com/documentation/vendor-graph-setting) – Customize chart color schemes across vendor reporting dashboards.
-- [Admin Product Settings](https://wpdoc.webkul.com/documentation/product-settings) – Configure platform-wide product defaults and enable Vendor Mode.
-- [Product Barcode Management](https://wpdoc.webkul.com/documentation/product-barcode) – Generate and print Code 128, UPC-A, and EAN-13 barcodes.
+- [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html) – Complete guide to creating, editing, and publishing marketplace products.
+- [Vendor General Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-general-setting.html) – Manage personal account profiles, email addresses, and passwords.
+- [Vendor Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html) – Customize chart color schemes across vendor reporting dashboards.
+- [Admin Product Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-settings.html) – Configure platform-wide product defaults and enable Vendor Mode.
+- [Product Barcode Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-barcode.html) – Generate and print Code 128, UPC-A, and EAN-13 barcodes.

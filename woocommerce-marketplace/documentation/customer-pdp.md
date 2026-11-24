@@ -19,14 +19,38 @@ Customers can discover vendor products through several marketplace touchpoints b
 
 ```mermaid
 flowchart LR
-    A["Storefront Navigation"] --> B["Header: Vendor Lists & Seller Central"]
-    A --> C["Category / Shop Page: Seller List Filter"]
-    A --> D["Product Card: Vendor Attribution Link"]
-    B --> E["Product Detail Page (PDP)"]
+    subgraph Entry ["1. Storefront Discovery"]
+        A["Storefront Navigation"]
+    end
+
+    subgraph Touchpoints ["2. Marketplace Touchpoints"]
+        B["Header: Vendor Lists & Seller Central"]
+        C["Category / Shop Page: Seller List Filter"]
+        D["Product Card: Vendor Attribution Link"]
+    end
+
+    subgraph PDP ["3. Product Detail Page"]
+        E["Product Detail Page (PDP)"]
+    end
+
+    subgraph Actions ["4. Customer Conversion & Store Exploration"]
+        F["Vendor Store Profile"]
+        G["Add to Cart / Buy Now"]
+    end
+
+    A --> B
+    A --> C
+    A --> D
+    B --> E
     C --> E
     D --> E
-    E --> F["Vendor Store Profile"]
-    E --> G["Add to Cart / Buy Now"]
+    E --> F
+    E --> G
+
+    class A entry;
+    class B,C,D filter;
+    class E grid;
+    class F,G dest;
 ```
 
 ### 1. Header Navigation & Marketplace Menus

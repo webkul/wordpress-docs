@@ -10,12 +10,12 @@ In **WooCommerce Multi-Vendor Marketplace**, vendors have complete control over 
 ::: warning Administrator Capability: Applicable Shipping Methods
 For vendor shipping zones and rates to apply during customer checkout, the marketplace administrator must enable vendor shipping in the marketplace settings.
 
-Under **Marketplace → Settings → General Settings → [Applicable Shipping Methods](https://wpdoc.webkul.com/documentation/configuration-general-settings#applicable-shipping-methods)**, the admin controls whether shipping is calculated globally or by individual sellers:
+Under **Marketplace → Settings → General Settings → [Applicable Shipping Methods](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-general-settings.html#applicable-shipping-methods)**, the admin controls whether shipping is calculated globally or by individual sellers:
 - **Vendor Shipping Method**: When enabled, the custom shipping zones, flat rates, free shipping rules, shipping classes, and local pickup locations configured on this page are active and apply to the vendor's products at checkout.
 - **Admin Shipping Method**: When selected by the admin, global marketplace shipping rates apply to all products across the catalog, and individual vendor shipping rules are overridden.
 - **Mixed Cart Calculation**: If a buyer orders items from both the admin and vendors, WooCommerce automatically combines the shipping rates at checkout.
 
-For the marketplace administrator setup, please refer to the [General Settings – Applicable Shipping Methods](https://wpdoc.webkul.com/documentation/configuration-general-settings#applicable-shipping-methods) and [Shipping Settings Configuration](https://wpdoc.webkul.com/documentation/admin-configuration-shipping-settings) guides.
+For the marketplace administrator setup, please refer to the [General Settings – Applicable Shipping Methods](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-general-settings.html#applicable-shipping-methods) guide.
 :::
 
 ---
