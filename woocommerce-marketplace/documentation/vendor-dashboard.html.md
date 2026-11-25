@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-da
 
 The **Vendor Dashboard** is the primary command center where sellers manage their daily marketplace business—including catalog creation, order fulfillment, inventory management, customer communications, and financial tracking.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-dashboard.webp"><img src="./assets/marketplace-vendor-dashboard.webp" alt="WooCommerce Multi-Vendor Marketplace Dedicated Vendor Dashboard Overview" /></a>
+
 WooCommerce Multi-Vendor Marketplace provides **two flexible dashboard types** to accommodate different merchant workflows and theme requirements:
 
 1. **Separate Dashboard (Dedicated Workspace at `/seller/vendor-dashboard/`):** A full-screen, standalone merchant workspace featuring an independent collapsible sidebar, top navigation bar, real-time KPI metric cards, interactive performance charts, and an operational Action Required queue.
@@ -22,7 +24,7 @@ Marketplace administrators can configure how vendors access their dashboard from
 
 Navigate to: **Marketplace > Settings > General**
 
-<a class="doc-image-link" href="./assets/general-settings.png"><img src="./assets/general-settings.png" alt="WooCommerce Marketplace General Settings - Vendor Dashboard Configuration" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-general-settings-dashboard.webp"><img src="./assets/marketplace-admin-general-settings-dashboard.webp" alt="WooCommerce Marketplace Admin General Settings - Vendor Dashboard Configuration" /></a>
 
 ### Key Dashboard Settings
 
@@ -75,7 +77,7 @@ The marketplace provides two distinct presentation experiences designed for diff
 <li><strong>Collapsible Multi-Tier Sidebar:</strong> Quick-access navigation tabs across all daily store management menus.</li>
 <li><strong>Live KPI Metric Cards:</strong> Real-time summary cards for total sales, orders, average order value, and account standing.</li>
 <li><strong>Action Required Queue:</strong> Priority alert filter for pending orders, low stock items, and unread notifications.</li>
-<li><strong>Custom Themes & Layouts:</strong> Dark/light mode switcher, chart color palettes, and horizontal/vertical form layouts.</li>
+<li><strong>Custom Themes & Layouts:</strong> Chart color palettes and horizontal/vertical form layouts.</li>
 </ul>
 <div class="mode-card__footer">
 <span class="mode-card__footer-label">Admin Trigger:</span>
@@ -244,6 +246,8 @@ Vendors using the separate dedicated dashboard can customize how their product e
 
 **Settings > Site Setting** (`/seller/seller-site-setting/`)
 
+<a class="doc-image-link" href="./assets/vendor-site-setting-product-form.webp"><img src="./assets/vendor-site-setting-product-form.webp" alt="Vendor Dashboard Site Settings - Product Form Navigation Layouts" /></a>
+
 ### Form Navigation Layout Options
 
 | Layout Mode | Description | Recommended For |
@@ -263,6 +267,8 @@ Additional display options:
 Vendors can personalize the color palette used in dashboard charts and visual reports:
 
 Navigate to: **Settings > Graph Setting** (`/seller/seller-graph-setting/`)
+
+<a class="doc-image-link" href="./assets/vendor-graph-setting-dashboard.webp"><img src="./assets/vendor-graph-setting-dashboard.webp" alt="Vendor Dashboard Graph Settings - Chart Color Customization" /></a>
 
 Vendors can select a module and pick custom accent colors using the interactive color picker:
 1. **Dashboard:** Customize line, bar, and accent colors for sales, commission, and order status charts.

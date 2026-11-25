@@ -32,6 +32,8 @@ The fastest way for vendors to launch a new product from scratch is using the **
 ### 1. Launch the Wizard
 From the **Seller Dashboard**, navigate to **Products**. Beside the standard **Add Product** button, click the blue **Create Product with AI** button.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-create-product-with-ai.webp"><img src="./assets/marketplace-vendor-create-product-with-ai.webp" alt="Create Product with AI Button in Seller Catalog" /></a>
+
 ### 2. Select Product Basics
 - **Category:** Choose one or more categories from the marketplace category multiselect list.
 - **Product Type:** Choose your product format:
@@ -46,6 +48,8 @@ From the **Seller Dashboard**, navigate to **Products**. Beside the standard **A
 - **Reference Photos (Optional):** Click to attach up to 3 photos. The vision model scans the images to identify materials, colors, textures, and form factors.
 - **Field Selection:** Toggle interactive pills for the fields you want the AI to draft (Product Name, Short Description, Long Description, Regular Price, Dimensions, Attributes).
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-create-product-with-ai-modal.webp"><img src="./assets/marketplace-vendor-create-product-with-ai-modal.webp" alt="Guided Creation Wizard Modal with Prompt and Field Selection" /></a>
+
 ### 4. Review & Create
 - Click **Generate**. Review each generated field marked with a **"new"** badge.
 - Click **Regenerate** beside any individual field if you want an alternative draft.
@@ -59,10 +63,16 @@ If you are already editing an existing product or prefer using the standard prod
 
 1. Navigate to **Products >> Add Product** or click **Edit** on an existing item.
 2. Click the prominent **Generate content** button at the top of the form.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-form-ai-launcher.webp"><img src="./assets/marketplace-vendor-product-form-ai-launcher.webp" alt="Generate Content Button on Seller Product Form Header" /></a>
+
 3. Enter your product brief in the prompt area.
 4. (Optional) Upload reference product photos.
 5. Select which fields you want drafted (Title, Short Description, Product Description, Price, SKU, Attributes).
 6. Click **Generate** and review the drafted suggestions in the review list.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-form-ai-modal.webp"><img src="./assets/marketplace-vendor-product-form-ai-modal.webp" alt="Seller Product Form Magic AI Assistant Modal" /></a>
+
 7. Click **Apply fields** to insert the values directly into your active form controls.
 8. Make any manual edits and click **Save Product** or **Update Product**.
 
@@ -76,7 +86,11 @@ When you only need help drafting or polishing one specific field:
 - **Above Short Description:** Composes quick bulleted key benefits.
 - **Above Long Description:** Expands notes into a comprehensive product overview.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-inline-ai-buttons.webp"><img src="./assets/marketplace-vendor-product-inline-ai-buttons.webp" alt="Inline Magic AI Content Generation Buttons on Seller Product Form" /></a>
+
 Clicking an inline button opens a mini-prompt where you can enter an instruction (e.g., *"Make it sound more athletic"*), review the single output, and click **Apply** to fill that exact field immediately.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-inline-ai-modal.webp"><img src="./assets/marketplace-vendor-product-inline-ai-modal.webp" alt="Inline Field Magic AI Mini Prompt Modal" /></a>
 
 ---
 

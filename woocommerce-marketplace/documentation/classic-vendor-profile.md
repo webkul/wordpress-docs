@@ -9,6 +9,8 @@ The **Classic Vendor Profile** is the vendor profile as it appears inside the **
 
 Vendors reach it from **My Account → My Profile**. It contains the same information as the new Store Edit page, but shown within the classic WooCommerce My Account layout (alongside Orders, Downloads, Addresses, and Account details).
 
+<a class="doc-image-link" href="./assets/profile.webp"><img src="./assets/profile.webp" alt="Vendor Profile Settings" /></a>
+
 ::: tip Looking for the new layout?
 If your marketplace uses the admin-like seller dashboard, see the [Vendor Profile (Store Edit)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html) documentation for the newer **Store Edit** page.
 :::
@@ -20,14 +22,12 @@ If your marketplace uses the admin-like seller dashboard, see the [Vendor Profil
 - After successful registration, the vendor must complete their profile under **Vendor Profile**.
 - The profile contains essential vendor and shop-related information divided into multiple tabs for easier navigation.
 
-<a class="doc-image-link" href="./assets/profile.png"><img src="./assets/profile.png" alt="Vendor Profile Settings" /></a>
-
 ## 1. General Tab
 The **General** tab contains the vendor's basic information:
 - **Personal Details**: Username, First Name, Last Name, and E-Mail.
 - **Read-only Applied Commission**: Vendors can view their currently applied commission rate (falling back to the global default if no specific commission is set).
 
-<a class="doc-image-link" href="./assets/general.png"><img src="./assets/general.png" alt="Seller Profile General Tab" /></a>
+<a class="doc-image-link" href="./assets/general.webp"><img src="./assets/general.webp" alt="Seller Profile General Tab" /></a>
 
 ---
 
@@ -35,7 +35,7 @@ The **General** tab contains the vendor's basic information:
 The **Shop** tab allows the vendor to configure their store details, policies, and SEO settings.
 - Vendors can define their shop title, description, and contact information.
 
-<a class="doc-image-link" href="./assets/shop.png"><img src="./assets/shop.png" alt="Seller Profile Shop Tab" /></a>
+<a class="doc-image-link" href="./assets/shop.webp"><img src="./assets/shop.webp" alt="Seller Profile Shop Tab" /></a>
 
 ---
 
@@ -47,7 +47,7 @@ Vendors can upload various images to brand their store from the **Images** tab.
 - **Fulfillment Image**: An image or badge displayed for order fulfillment.
 - **Banner Image**: A large banner for the store. Vendors can choose whether to display it by checking the "Show banner on vendor page" option.
 
-<a class="doc-image-link" href="./assets/vendor-and-store-image.png"><img src="./assets/vendor-and-store-image.png" alt="Seller Profile Images Tab" /></a>
+<a class="doc-image-link" href="./assets/vendor-and-store-image.webp"><img src="./assets/vendor-and-store-image.webp" alt="Seller Profile Images Tab" /></a>
 
 ---
 
@@ -56,7 +56,7 @@ Vendors can link their social media accounts to their store to build trust and i
 - Available optional fields include: **Facebook**, **Instagram**, **X (Formerly Twitter)**, **LinkedIn**, **Youtube**, and **Pinterest**.
 - These links will be displayed on the vendor's public store page.
 
-<a class="doc-image-link" href="./assets/social-profile.png"><img src="./assets/social-profile.png" alt="Seller Profile Social Tab" /></a>
+<a class="doc-image-link" href="./assets/social-profile.webp"><img src="./assets/social-profile.webp" alt="Seller Profile Social Tab" /></a>
 
 ---
 
@@ -64,9 +64,7 @@ Vendors can link their social media accounts to their store to build trust and i
 
 Vendors can set a weekly schedule from the **Store Hours** tab with per-day Open/Closed toggles and multiple time slots per day.
 
-<a class="doc-image-link" href="./assets/seller-profile-store-hour.png"><img src="./assets/seller-profile-store-hour.png" alt="Store Hours Settings" /></a>
-
-<a class="doc-image-link" href="./assets/seller-profile-store-hour-2.png"><img src="./assets/seller-profile-store-hour-2.png" alt="Store Hours Profile View" /></a>
+<a class="doc-image-link" href="./assets/seller-profile-store-hour.webp"><img src="./assets/seller-profile-store-hour.webp" alt="Store Hours Settings" /></a>
 
 ### Features of Store Hours:
 - The schedule is displayed on the vendor profile page and on a hover tooltip when the store is closed.
@@ -81,7 +79,7 @@ Vendors can set a weekly schedule from the **Store Hours** tab with per-day Open
 The **KYC** (Know Your Customer) tab allows vendors to upload their identity documents for admin verification.
 - For detailed information, see the full [Vendor KYC Verification](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-kyc.html) documentation.
 
-<a class="doc-image-link" href="./assets/seller-kyc-page.png"><img src="./assets/seller-kyc-page.png" alt="Seller Profile KYC Tab" /></a>
+<a class="doc-image-link" href="./assets/seller-kyc-page.webp"><img src="./assets/seller-kyc-page.webp" alt="Seller Profile KYC Tab" /></a>
 
 ---
 
@@ -92,7 +90,7 @@ Vendors can choose how their public store page looks from a dedicated **Profile 
 - **Storefront**: Features a modern store page with an info sidebar (contact details, store hours, map) and a product gallery.
 - **Spotlight**: Features a full-width hero banner with your products front and center, and an "About this Vendor" panel.
 
-<a class="doc-image-link" href="./assets/profile-view.png"><img src="./assets/profile-view.png" alt="Profile View Selection" /></a>
+<a class="doc-image-link" href="./assets/profile-view.webp"><img src="./assets/profile-view.webp" alt="Profile View Selection" /></a>
 
 ---
 

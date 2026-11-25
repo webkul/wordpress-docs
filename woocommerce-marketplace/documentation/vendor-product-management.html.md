@@ -7,7 +7,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-pr
 
 Efficient catalog management is the foundation of any thriving multi-vendor marketplace. With WooCommerce Multi-Vendor Marketplace, vendors can easily add, organize, and monitor their products through an intuitive merchant interface, while marketplace administrators retain complete governance over publishing approvals, allowable product types, categories, and form presentations.
 
-<a class="doc-image-link" href="./assets/product-management.webp"><img src="./assets/product-management.webp" alt="Product Management" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-management.webp"><img src="./assets/vendor-product-management.webp" alt="Vendor Product Management Overview" /></a>
 
 This guide covers the complete product management lifecycle: exploring the three product onboarding pathways, creating products using the guided 3-step wizard or the streamlined single-page form, utilizing the interactive **Listing Completeness** gauge, tailoring the form navigation layout in **Site Setting**, and navigating the product approval workflow.
 
@@ -41,6 +41,8 @@ The catalog table displays all products owned by or assigned to the vendor, alon
 High-volume vendors managing extensive catalogs can locate specific inventory items instantly using the collapsible filter drawer.
 
 Click the **Filter** button above the product table to open the slide-out drawer:
+
+<a class="doc-image-link" href="./assets/vendor-products-filter-drawer.webp"><img src="./assets/vendor-products-filter-drawer.webp" alt="Vendor Product 12-Parameter Filter Drawer" /></a>
 
 ### Available Filter Criteria
 
@@ -82,6 +84,8 @@ Vendors can perform batch operations on multiple products simultaneously to save
 ## Listing Products: The 3 Onboarding Pathways
 
 When vendors navigate to list a product by clicking **Add Product** or opening **Catalog > List Your Product**, the marketplace presents three onboarding pathways designed for different inventory scenarios:
+
+<a class="doc-image-link" href="./assets/vendor-product-onboarding-pathways.webp"><img src="./assets/vendor-product-onboarding-pathways.webp" alt="Vendor Product Onboarding Pathways" /></a>
 
 <div class="wkmp-real-pathway-cards">
   <a href="#_1-create-new-products" class="wkmp-real-pathway-card">
@@ -254,6 +258,8 @@ The initial step establishes catalog taxonomy and architectural product structur
 2. **Product Type Selection:**
    Vendors select their product structure from interactive product type cards:
 
+<a class="doc-image-link" href="./assets/vendor-product-step1-basics.webp"><img src="./assets/vendor-product-step1-basics.webp" alt="Add Product Step 1 - Product Basics" /></a>
+
 <div class="product-types-grid">
   <div class="product-type-card">
     <div class="product-type-card__icon">
@@ -357,7 +363,7 @@ The initial step establishes catalog taxonomy and architectural product structur
   </div>
 </div>
 
-<a class="doc-image-link" href="./assets/product-detail.webp"><img src="./assets/product-detail.webp" alt="Product Details" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-step2-details.webp"><img src="./assets/vendor-product-step2-details.webp" alt="Add Product Step 2 - Product Details" /></a>
 
 The second stage captures product information, merchandising content, pricing, and logistics:
 
@@ -435,6 +441,8 @@ The final stage confirms configuration and initiates publication:
 ## The Modern Product Editor
 
 When editing existing catalog items, vendors work within a specialized workspace designed for comprehensive catalog maintenance:
+
+<a class="doc-image-link" href="./assets/vendor-product-editor-completeness.webp"><img src="./assets/vendor-product-editor-completeness.webp" alt="Modern Product Editor and Listing Completeness Score" /></a>
 
 <div class="completeness-card">
   <div class="completeness-card__header">
@@ -579,7 +587,7 @@ Vendors are empowered to personalize how their product forms look and behave to 
 
 When the administrator enables **Vendor Mode**, vendors navigate to **Settings > Site Setting** in their merchant dashboard:
 
-<a class="doc-image-link" href="./assets/product-settings.webp"><img src="./assets/product-settings.webp" alt="Vendor Site Setting Form Layout" /></a>
+<a class="doc-image-link" href="./assets/vendor-site-setting-product-form.webp"><img src="./assets/vendor-site-setting-product-form.webp" alt="Vendor Site Setting Form Layout" /></a>
 
 Under the **Product Form** section (*"How your product form is presented"*), vendors can configure three key settings:
 
@@ -684,6 +692,8 @@ When creating or editing a **Variable Product**, vendors can configure attribute
 
 When marketplace administrators require product review prior to publication, items follow a structured 4-stage review cycle:
 
+<a class="doc-image-link" href="./assets/Product-mangement.webp"><img src="./assets/Product-mangement.webp" alt="Marketplace Admin Product Approval Workflow" /></a>
+
 1. **Submission:** When a vendor submits a product, its status is set to `Waiting for Approval` and it is hidden from storefront catalog listings.
 2. **Administrative Review:** The administrator inspects the listing under **Marketplace > Product Approval**.
 3. **Approval:** The administrator approves the product; its status switches to `Published` and it becomes visible on the storefront.
@@ -697,7 +707,7 @@ Marketplace administrators configure vendor catalog rules and form presentation 
 
 Navigate to: **Marketplace > Settings > Product**
 
-<a class="doc-image-link" href="./assets/product-settings.webp"><img src="./assets/product-settings.webp" alt="Admin Marketplace Product Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-setting-product.webp"><img src="./assets/admin-setting-product.webp" alt="Admin Marketplace Product Settings" /></a>
 
 ### Key Administrator Settings
 

@@ -17,6 +17,8 @@ Vendors access bulk management by opening:
 
 **Catalog > Bulk Upload** (`/seller/seller-bulk-upload/`)
 
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-hub.webp"><img src="./assets/vendor-bulk-upload-hub.webp" alt="Seller Bulk Upload Hub Selection" /></a>
+
 The console presents two specialized pathways:
 
 ```
@@ -80,6 +82,8 @@ Navigate to: **Catalog > Bulk Upload > List Your Own Products** (`/seller/seller
 
 ### Step 1: Upload a CSV file
 
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-step-1-upload.webp"><img src="./assets/vendor-bulk-upload-step-1-upload.webp" alt="Bulk Upload Step 1 - Upload CSV and Catalog Export" /></a>
+
 - **Guidance:** *"Create new products, or update your existing ones, from a CSV file. Each row is checked against your store's rules, and you get a report for every row that could not be imported."*
 - **Download CSV Template:** Click **Download CSV template** to obtain a ready-to-use CSV template containing all supported product fields:
   - `name`, `sku`, `type`, `regular_price`, `sale_price`, `manage_stock`, `stock_quantity`, `backorders`, `short_description`, `description`, `category_ids`, `tags`, `images`, `weight`, `length`, `width`, `height`.
@@ -103,10 +107,12 @@ Directly beneath the upload dropzone, vendors can download their entire active c
 
 The importer reads your CSV header row and automatically pairs columns with WooCommerce product fields:
 
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-step-2-mapping.webp"><img src="./assets/vendor-bulk-upload-step-2-mapping.webp" alt="Bulk Upload Step 2 - Intelligent Column Mapping" /></a>
+
 - **Automatic Pairing:** Recognizes standard headers such as *Product Name*, *SKU*, *Regular Price*, *Sale Price*, *Stock Quantity*, and *Categories*.
 - **Manual Remapping:** For spreadsheets from external POS or ERP systems, use the dropdown menus to match spreadsheet columns to store attributes.
 - **Ignore Column:** Set any irrelevant column to *Do not import* to omit it from processing.
-- Click **Run the Importer** to proceed to Step 3.
+- Click **Run the import** to proceed to Step 3.
 
 ---
 
@@ -122,6 +128,9 @@ The import engine processes products in background batches:
 ### Step 4: Import Results & Diagnostics
 
 Upon completion, the system displays an import summary:
+
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-step-4-results.webp"><img src="./assets/vendor-bulk-upload-step-4-results.webp" alt="Bulk Upload Step 4 - Import Results and Diagnostics Report" /></a>
+
 - **Imported:** Number of brand-new products added.
 - **Updated:** Number of existing products synchronized.
 - **Skipped / Failed:** Number of rows that encountered validation errors.
@@ -165,6 +174,8 @@ Navigate to: **Catalog > Bulk Upload > Sell Catalog Products** (`/seller/seller-
 
 ### Step 1: Upload a CSV file
 
+<a class="doc-image-link" href="./assets/vendor-bulk-sell-step-1-upload.webp"><img src="./assets/vendor-bulk-sell-step-1-upload.webp" alt="Sell Catalog Products Bulk Step 1 - Upload CSV" /></a>
+
 - **Guidance:** *"Sell products that are already in the marketplace catalog, at your own price and stock. Download the template: it lists the products you can sell, one row per variation for variable products. Fill in your prices, quantities and status, then upload it here. You can check every row before anything is saved."*
 - **Download CSV Template:** Click **Download CSV template** to receive a spreadsheet pre-populated with all master products currently eligible for Select & Sell in the marketplace. For variable products, the template includes one row per variation.
 - **Template Columns:** `product_id`, `product_name`, `variation_id`, `regular_price`, `sale_price`, `quantity`, `description`, `status`.
@@ -176,6 +187,10 @@ Navigate to: **Catalog > Bulk Upload > Sell Catalog Products** (`/seller/seller-
 
 ### Step 2: Pre-Flight Check & Validation
 
+The system scans every row before committing data to the database:
+
+<a class="doc-image-link" href="./assets/vendor-bulk-sell-step-2-check.webp"><img src="./assets/vendor-bulk-sell-step-2-check.webp" alt="Sell Catalog Products Bulk Step 2 - Pre-Flight Check and Validation" /></a>
+
 - The system scans every row before committing data to the database.
 - An interactive review table displays each product, your entered regular price, sale price, inventory quantity, description note, and target status.
 - Highlights any rows with syntax errors, negative numbers, or invalid IDs.
@@ -184,6 +199,8 @@ Navigate to: **Catalog > Bulk Upload > Sell Catalog Products** (`/seller/seller-
 ---
 
 ### Step 3: Results
+
+<a class="doc-image-link" href="./assets/vendor-bulk-sell-step-3-results.webp"><img src="./assets/vendor-bulk-sell-step-3-results.webp" alt="Sell Catalog Products Bulk Step 3 - Final Results" /></a>
 
 - Confirms the total number of newly created offers and updated offers.
 - Any rejected rows are documented in a downloadable report.
@@ -195,6 +212,8 @@ Navigate to: **Catalog > Bulk Upload > Sell Catalog Products** (`/seller/seller-
 Marketplace administrators configure vendor bulk upload rules under:
 
 **Marketplace > Settings > Product**
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-product-fullfilment.webp"><img src="./assets/marketplace-admin-setting-product-fullfilment.webp" alt="Admin Marketplace Product Settings - Vendor Bulk Upload Settings" /></a>
 
 | Setting Option | Description & Best Practice |
 |---|---|

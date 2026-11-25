@@ -9,7 +9,7 @@ In **WooCommerce Multi-Vendor Marketplace**, **Seller Reviews** allow vendors to
 
 Monitoring your store reviews helps you understand buyer satisfaction, build a trusted brand reputation, and maintain a high rating in your [Vendor Account Health](https://wpdoc.webkul.com/documentation/vendor-account-health.html) score.
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-list.png"><img src="./assets/vendor-seller-reviews-list.png" alt="Vendor Seller Reviews Dashboard in WooCommerce Multi-Vendor Marketplace" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-list.webp"><img src="./assets/vendor-seller-reviews-list.webp" alt="Vendor Seller Reviews Dashboard in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 
@@ -39,7 +39,7 @@ On smartphones and small tablets, tap the **Open menu** button in the top bar to
 
 The **Seller Reviews** page provides a clean and responsive table displaying all feedback submitted by customers for your store.
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-list.png"><img src="./assets/vendor-seller-reviews-list.png" alt="Seller Reviews List View" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-list.webp"><img src="./assets/vendor-seller-reviews-list.webp" alt="Seller Reviews List View" /></a>
 
 ### Top Controls & Fast Search
 
@@ -57,7 +57,7 @@ At the top of the reviews table, you will find four main controls to quickly man
 4. **Filter Button**:
    - Click the **Filter** button to open the slide-out **Apply Filters** drawer for multi-criteria filtering.
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-search.png"><img src="./assets/vendor-seller-reviews-search.png" alt="Searching Seller Reviews by Title" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-search.webp"><img src="./assets/vendor-seller-reviews-search.webp" alt="Searching Seller Reviews by Title" /></a>
 
 ---
 
@@ -81,7 +81,7 @@ To ensure marketplace credibility and prevent unauthorized tampering, reviews ca
 
 When evaluating customer trends or searching for specific feedback, click the **Filter** button on the top right to open the slide-out drawer.
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-filter-drawer.png"><img src="./assets/vendor-seller-reviews-filter-drawer.png" alt="Seller Reviews Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-filter-drawer.webp"><img src="./assets/vendor-seller-reviews-filter-drawer.webp" alt="Seller Reviews Filter Drawer" /></a>
 
 The drawer allows you to combine multiple filter parameters to narrow down your results:
 
@@ -320,7 +320,7 @@ Customer feedback is one of the three primary criteria used to evaluate your sto
 
 The Seller Reviews console is fully responsive and designed for easy use on smartphones and tablets:
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-mobile.png"><img src="./assets/vendor-seller-reviews-mobile.png" alt="Seller Reviews Mobile View" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-mobile.webp"><img src="./assets/vendor-seller-reviews-mobile.webp" alt="Seller Reviews Mobile View" /></a>
 
 - **Clean Card/Stack Layout**: Review rows adapt to smaller screen sizes without horizontal scroll clipping.
 - **Full-Screen Filter Drawer**: The **Apply Filters** drawer slides in smoothly, offering large touch-friendly inputs and date pickers.

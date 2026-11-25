@@ -24,6 +24,8 @@ An ideal prompt covers four core elements:
 | **3. Target Audience** | Intended buyer persona and primary use cases | *"Remote professionals, frequent travelers, and daily commuters"* |
 | **4. Tone & Pricing** | Desired copy style and target pricing | *"Modern, premium, professional tone. Target price: $149"* |
 
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-prompt-anatomy.webp"><img src="./assets/marketplace-magic-ai-prompt-anatomy.webp" alt="Magic AI Prompt Formulation Interface with Core Specs and Target Fields" /></a>
+
 ---
 
 ## High-Converting Copy Templates
@@ -36,6 +38,8 @@ An ideal prompt covers four core elements:
 - **Product Name:** *AeroTune Pro Wireless Noise-Cancelling Over-Ear Headphones (45H Battery, Bluetooth 5.4)*
 - **Short Description:** *Block out distractions and immerse yourself in premium acoustic sound with 40mm titanium drivers, active noise cancellation, and a plush memory-foam travel design.*
 - **Long Description:** Comprehensive breakdown of acoustic engineering, battery longevity benchmarks, call clarity, and in-the-box contents.
+
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-generated-output-review.webp"><img src="./assets/marketplace-magic-ai-generated-output-review.webp" alt="Magic AI Review Screen Displaying Generated Product Fields and One-Click Application" /></a>
 
 ---
 
@@ -68,6 +72,8 @@ When uploading reference photos of physical items, combine your image with a foc
 - **State What the Photo Shows:** *"See attached 2 photos of our handcrafted leather messenger bag. Highlight the antique brass hardware, double-stitched corners, and laptop compartment shown in photo 2."*
 - **Clarify Hidden Features:** *"The photo shows the exterior matte black finish; please note that the interior features waterproof nylon lining with 3 slip pockets."*
 
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-multimodal-vision-prompt.webp"><img src="./assets/marketplace-magic-ai-multimodal-vision-prompt.webp" alt="Multimodal Vision AI Prompt with Reference Photo Attachments" /></a>
+
 ---
 
 ## Image Enhancer Prompt Templates
@@ -75,7 +81,7 @@ When uploading reference photos of physical items, combine your image with a foc
 When using the **Vendor Image Enhancer** below the product thumbnail, use these proven styling prompts:
 
 ### 1. Clean Studio & Pure White (Amazon & Marketplace Standard)
-> *"Remove the cluttered room background. Place the product on a seamless pure white studio surface with soft, diffused commercial lighting and subtle, natural contact shadows underneath."*
+> *"Remove the cluttered room background. Place the athletic training shirt on a seamless pure white studio surface with soft, diffused commercial lighting, smooth fabric drape, and subtle contact shadows underneath."*
 
 ### 2. Modern Lifestyle & Warm Interior
 > *"Keep the product completely unchanged, but place it naturally on a natural oak dining table in a sunlit Scandinavian apartment with gentle ambient daylight and blurred background greenery."*
@@ -85,6 +91,8 @@ When using the **Vendor Image Enhancer** below the product thumbnail, use these 
 
 ### 4. Outdoor / Adventure
 > *"Place the hiking boot on a rugged granite mountain ledge with warm sunrise sunlight casting long soft shadows."*
+
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-image-enhancer-prompt.webp"><img src="./assets/marketplace-magic-ai-image-enhancer-prompt.webp" alt="Vendor Product Image Enhancer Interface with Clean Studio Styling Prompt" /></a>
 
 ---
 
@@ -96,3 +104,5 @@ When using the **Vendor Image Enhancer** below the product thumbnail, use these 
 | **Do:** Specify your target customer (students, athletes, luxury buyers). | **Don't:** Don't ask the AI to guess technical standards without guidance. |
 | **Do:** Mention care and warranty details for richer descriptions. | **Don't:** Avoid conflicting instructions (e.g., "cheap but luxury"). |
 | **Do:** Use single-field inline buttons to tweak specific sections quickly. | **Don't:** Don't republish without reviewing pricing and stock numbers. |
+
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-inline-field-prompt.webp"><img src="./assets/marketplace-magic-ai-inline-field-prompt.webp" alt="Inline Single-Field AI Prompt Dialog for Quick Content Refinements" /></a>

@@ -9,7 +9,7 @@ In **WooCommerce Multi-Vendor Marketplace**, building strong relationships with 
 
 Instead of navigating through individual order invoices, vendors can view all buyers in one organized table. The interface displays buyer names, email addresses, total store revenue generated, completed order counts, account types (registered or guest), and the date of their most recent purchase.
 
-<a class="doc-image-link" href="./assets/vendor-customers-list-overview.png"><img src="./assets/vendor-customers-list-overview.png" alt="Customer List Directory Overview in Vendor Dashboard" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-list-overview.webp"><img src="./assets/vendor-customers-list-overview.webp" alt="Customer List Directory Overview in Vendor Dashboard" /></a>
 
 ---
 
@@ -33,7 +33,7 @@ Vendors can access their Customer List directly from the Seller Dashboard sideba
 2. In the left navigation menu, locate the **Customers** section.
 3. Click **Customers** to open the buyer directory.
 
-<a class="doc-image-link" href="./assets/vendor-customers-sidebar-nav.png"><img src="./assets/vendor-customers-sidebar-nav.png" alt="Locating Customers in the Seller Sidebar Navigation" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-sidebar-nav.webp"><img src="./assets/vendor-customers-sidebar-nav.webp" alt="Locating Customers in the Seller Sidebar Navigation" /></a>
 
 | Navigation Item | Location / Path | Purpose |
 | :--- | :--- | :--- |
@@ -51,7 +51,7 @@ If you are managing your store on a smartphone or tablet, tap the **Open menu** 
 
 The Customer List presents four structured columns designed to give vendors immediate clarity regarding buyer identity, purchasing habits, and account standing.
 
-<a class="doc-image-link" href="./assets/vendor-customers-list-overview.png"><img src="./assets/vendor-customers-list-overview.png" alt="Customer Directory Table Columns and Rows" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-list-overview.webp"><img src="./assets/vendor-customers-list-overview.webp" alt="Customer Directory Table Columns and Rows" /></a>
 
 ### 1. Customer
 The first column identifies the buyer:
@@ -78,7 +78,7 @@ Displays the calendar date when the customer placed their most recent order with
 
 The top toolbar offers straightforward controls to search, filter, and adjust the number of displayed records:
 
-<a class="doc-image-link" href="./assets/vendor-customers-list-overview.png"><img src="./assets/vendor-customers-list-overview.png" alt="Customer List Toolbar Controls" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-list-overview.webp"><img src="./assets/vendor-customers-list-overview.webp" alt="Customer List Toolbar Controls" /></a>
 
 ### Results Counter
 On the left side of the toolbar, the counter dynamically displays how many buyers match your current view (for example, `14 Results` by default, or `1 Result` when filtered).
@@ -89,7 +89,7 @@ Vendors can quickly find specific buyers using the search input field:
 2. Press **Enter** on your keyboard.
 3. The table instantly refreshes to show only matching customer profiles.
 
-<a class="doc-image-link" href="./assets/vendor-customers-search-result.png"><img src="./assets/vendor-customers-search-result.png" alt="Customer List Instant Search Results" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-search-result.webp"><img src="./assets/vendor-customers-search-result.webp" alt="Customer List Instant Search Results" /></a>
 
 ### Items Per Page Selector
 Customize how many rows appear on each page. Click the dropdown to switch between:
@@ -111,7 +111,7 @@ Click the **Filter** button to open the slide-out filter panel for more specific
 
 For targeted buyer analysis, the slide-out **Filter Drawer** enables vendors to refine customer lists using multiple criteria simultaneously.
 
-<a class="doc-image-link" href="./assets/vendor-customers-filter-drawer.png"><img src="./assets/vendor-customers-filter-drawer.png" alt="Slide-out Filter Drawer with Customer, Email, and Group Fields" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-filter-drawer.webp"><img src="./assets/vendor-customers-filter-drawer.webp" alt="Slide-out Filter Drawer with Customer, Email, and Group Fields" /></a>
 
 ### Filter Options
 
@@ -129,7 +129,7 @@ For targeted buyer analysis, the slide-out **Filter Drawer** enables vendors to 
 3. Click the **Apply Filters** button at the bottom of the drawer.
 4. The drawer closes, and the table updates with matching records.
 
-<a class="doc-image-link" href="./assets/vendor-customers-filter-registered.png"><img src="./assets/vendor-customers-filter-registered.png" alt="Filtered Customer List Showing Registered Buyers with Active Reset Option" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-filter-registered.webp"><img src="./assets/vendor-customers-filter-registered.webp" alt="Filtered Customer List Showing Registered Buyers with Active Reset Option" /></a>
 
 ::: tip Clearing Filters
 When a filter is active, a convenient **Reset** button appears next to the **Filter** button in the top toolbar. Click **Reset** at any time to clear your search criteria and return to the complete customer list.
@@ -151,7 +151,7 @@ When your customer count exceeds the selected per-page limit, pagination links a
 
 The Customer List is optimized for mobile screens and responsive devices:
 
-<a class="doc-image-link" href="./assets/vendor-customers-mobile.png"><img src="./assets/vendor-customers-mobile.png" alt="Customer List Mobile Responsive Layout" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-mobile.webp"><img src="./assets/vendor-customers-mobile.webp" alt="Customer List Mobile Responsive Layout" /></a>
 
 - **Accessible Topbar:** Tap the mobile hamburger menu icon to access all seller navigation options without leaving the page.
 - **Stacked Controls:** The results counter, search field, per-page selector, and Filter button automatically adjust for touchscreens.

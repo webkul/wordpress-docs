@@ -9,7 +9,7 @@ The **Multi-Vendor Cart** is a central shopping feature of the **WooCommerce Mul
 
 In a traditional online store, all products belong to one merchant. In a multi-vendor marketplace, items come from different shops, each with its own inventory, fulfillment timeline, and store policies. The Multi-Vendor Cart brings total transparency to this process by clearly showing **who sells each item**, providing **direct vendor store links**, and calculating totals accurately before the buyer proceeds to payment.
 
-<a class="doc-image-link" href="./assets/customer-cart-overview.png"><img src="./assets/customer-cart-overview.png" alt="WooCommerce Multi-Vendor Cart Overview with Products from Multiple Sellers" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-overview.webp"><img src="./assets/customer-cart-overview.webp" alt="WooCommerce Multi-Vendor Cart Overview with Products from Multiple Sellers" /></a>
 
 ---
 
@@ -76,7 +76,7 @@ On the main shop and category listing pages, buyers can use the **Seller List** 
 - **Multi-Select Filtering**: Customers can select one or more seller checkboxes to immediately filter the catalog.
 - **Clear Filters Button**: A quick-reset button appears as soon as a filter is applied, allowing shoppers to return to the full catalog with a single click.
 
-<a class="doc-image-link" href="./assets/customer-cart-seller-filter-expanded.png"><img src="./assets/customer-cart-seller-filter-expanded.png" alt="Sidebar Seller List Filter Accordion" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-seller-filter-expanded.webp"><img src="./assets/customer-cart-seller-filter-expanded.webp" alt="Sidebar Seller List Filter Accordion" /></a>
 
 ### Vendor Attribution on Product Cards
 Every product card across the storefront clearly identifies the selling merchant:
@@ -84,7 +84,7 @@ Every product card across the storefront clearly identifies the selling merchant
 - Clicking the vendor name opens that seller's dedicated marketplace storefront.
 - When customers click **Add to Cart**, the item is added to their cart with that seller's metadata securely attached.
 
-<a class="doc-image-link" href="./assets/customer-cart-seller-filtered-shop.png"><img src="./assets/customer-cart-seller-filtered-shop.png" alt="Filtered Shop Showing Vendor Attribution on Products" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-seller-filtered-shop.webp"><img src="./assets/customer-cart-seller-filtered-shop.webp" alt="Filtered Shop Showing Vendor Attribution on Products" /></a>
 
 ---
 
@@ -92,7 +92,7 @@ Every product card across the storefront clearly identifies the selling merchant
 
 Customers do not need to leave their current shopping page to check their cart contents. The marketplace header includes an interactive **Mini-Cart Drawer**:
 
-<a class="doc-image-link" href="./assets/customer-mini-cart-drawer.png"><img src="./assets/customer-mini-cart-drawer.png" alt="Slide-Over Mini Cart Drawer in Header" /></a>
+<a class="doc-image-link" href="./assets/customer-mini-cart-drawer.webp"><img src="./assets/customer-mini-cart-drawer.webp" alt="Slide-Over Mini Cart Drawer in Header" /></a>
 
 ### Key Mini-Cart Features:
 1. **Header Cart Icon & Badge**: Displays the total count of items currently in the cart.
@@ -105,7 +105,7 @@ Customers do not need to leave their current shopping page to check their cart c
 5. **Quantity & Removal Controls**: Customers can adjust item quantities (`+` or `-`) or click the trash can icon to remove an item immediately.
 6. **Subtotal & Fast Action Buttons**: Displays the live cart subtotal alongside direct buttons for **View Cart** and **Proceed to Checkout**.
 
-<a class="doc-image-link" href="./assets/customer-mini-cart-expanded-details.png"><img src="./assets/customer-mini-cart-expanded-details.png" alt="Mini Cart Drawer with Expanded Sold By Details" /></a>
+<a class="doc-image-link" href="./assets/customer-mini-cart-expanded-details.webp"><img src="./assets/customer-mini-cart-expanded-details.webp" alt="Mini Cart Drawer with Expanded Sold By Details" /></a>
 
 ---
 
@@ -113,7 +113,7 @@ Customers do not need to leave their current shopping page to check their cart c
 
 Navigating to `/cart/` opens the full cart page. Powered by modern WooCommerce Cart Blocks, this page provides a clean, responsive layout optimized for multi-seller transactions:
 
-<a class="doc-image-link" href="./assets/customer-cart-items-list.png"><img src="./assets/customer-cart-items-list.png" alt="Multi-Vendor Cart Line Items Table" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-items-list.webp"><img src="./assets/customer-cart-items-list.webp" alt="Multi-Vendor Cart Line Items Table" /></a>
 
 ### Line Item Breakdown & Vendor Attribution
 
@@ -149,7 +149,7 @@ Managing quantities in the Multi-Vendor Cart is fast and intuitive:
 
 The right-hand side of the cart page displays the **Order Summary** block:
 
-<a class="doc-image-link" href="./assets/customer-cart-order-summary.png"><img src="./assets/customer-cart-order-summary.png" alt="Cart Order Summary, Shipping and Coupon Section" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-order-summary.webp"><img src="./assets/customer-cart-order-summary.webp" alt="Cart Order Summary, Shipping and Coupon Section" /></a>
 
 ### 1. Unified Subtotal
 The subtotal aggregates all products across all sellers into one unified dollar amount. Customers pay once regardless of how many vendors are represented in the cart.
@@ -173,7 +173,7 @@ The subtotal aggregates all products across all sellers into one unified dollar 
 
 If a customer removes all items or visits the cart before adding products, the cart displays a helpful empty state:
 
-<a class="doc-image-link" href="./assets/customer-cart-empty-state.png"><img src="./assets/customer-cart-empty-state.png" alt="Clean Empty Cart View with Return to Shop Prompt" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-empty-state.webp"><img src="./assets/customer-cart-empty-state.webp" alt="Clean Empty Cart View with Return to Shop Prompt" /></a>
 
 - A clear notification states: **"Your cart is currently empty!"**.
 - Helpful marketplace category shortcuts or a direct link to return to the shop allow customers to quickly resume browsing.
@@ -184,7 +184,7 @@ If a customer removes all items or visits the cart before adding products, the c
 
 When the customer clicks **Proceed to Checkout**, all multi-vendor products carry over smoothly into the Checkout block:
 
-<a class="doc-image-link" href="./assets/customer-checkout-overview.png"><img src="./assets/customer-checkout-overview.png" alt="Multi-Vendor Checkout Order Summary Retaining Sold By Attribution" /></a>
+<a class="doc-image-link" href="./assets/customer-order-placement.webp"><img src="./assets/customer-order-placement.webp" alt="Multi-Vendor Checkout Order Summary Retaining Sold By Attribution" /></a>
 
 ### Continuous Seller Visibility
 In the Checkout **Order summary** panel:

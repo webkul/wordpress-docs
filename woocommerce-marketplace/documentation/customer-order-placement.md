@@ -21,7 +21,7 @@ Before placing an order, customers can identify and choose products from specifi
 - This helps customers find products from a preferred seller easily.
 - Seller-based filtering improves product discovery in a multi-vendor marketplace.
 
-<a class="doc-image-link" href="./assets/vendor-filter.png"><img src="./assets/vendor-filter.png" alt="seller Filter" /></a>
+<a class="doc-image-link" href="./assets/customer-plp-seller-filter-widget.webp"><img src="./assets/customer-plp-seller-filter-widget.webp" alt="Marketplace Seller Filter Widget" /></a>
 
 ---
 

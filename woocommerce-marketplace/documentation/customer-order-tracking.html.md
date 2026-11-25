@@ -11,6 +11,8 @@ The **WooCommerce Multi-Vendor Marketplace** provides end-to-end transparency:
 - **For Customers**: Every order clearly identifies **who sells each item**, provides direct links to the merchant's storefront, and displays real-time carrier tracking information and store pickup updates.
 - **For Vendors**: Each seller receives a private, secure view of **only their portion of the order**, showing their sold items, calculated marketplace commission, net earnings, and tools to update statuses, add shipments, issue refunds, and print invoices.
 
+<a class=doc-image-link href="./assets/customer-order-tracking-overview.webp"><img src="./assets/customer-order-tracking-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Order Details and Seller Visibility Overview" /></a>
+
 ---
 
 ## Order Visibility & Fulfillment Architecture
@@ -73,7 +75,7 @@ flowchart TD
 
 Immediately after completing checkout, the customer lands on the **Order Received** (Thank You) confirmation screen. This page provides immediate reassurance and details every vendor involved in the purchase.
 
-<a class="doc-image-link" href="./assets/customer-order-received-vendor-info.png"><img src="./assets/customer-order-received-vendor-info.png" alt="WooCommerce Marketplace Order Received Confirmation with Vendor Attribution" /></a>
+<a class="doc-image-link" href="./assets/customer-order-received-vendor-info.webp"><img src="./assets/customer-order-received-vendor-info.webp" alt="WooCommerce Marketplace Order Received Confirmation with Vendor Attribution" /></a>
 
 ### Key Information Displayed:
 1. **Order Identification Banner**:
@@ -100,7 +102,7 @@ Immediately after completing checkout, the customer lands on the **Order Receive
 
 Customers can review and track all current and historical orders at any time from their personal marketplace account dashboard.
 
-<a class="doc-image-link" href="./assets/customer-orders-history-list.png"><img src="./assets/customer-orders-history-list.png" alt="Customer Order History Table in My Account" /></a>
+<a class="doc-image-link" href="./assets/customer-orders-history-list.webp"><img src="./assets/customer-orders-history-list.webp" alt="Customer Order History Table in My Account" /></a>
 
 ### How Customers Access Their Orders:
 1. Log in to the marketplace using the header **Account** link.
@@ -121,7 +123,7 @@ Customers can review and track all current and historical orders at any time fro
 
 Clicking the **View** button on any order opens the full **Order Details** screen. This page serves as the customer's central hub for delivery updates, vendor attribution, and store pickup management.
 
-<a class="doc-image-link" href="./assets/customer-order-details-vendor-attribution.png"><img src="./assets/customer-order-details-vendor-attribution.png" alt="Detailed Customer Order View with Line Item Vendor Attribution" /></a>
+<a class="doc-image-link" href="./assets/customer-order-details-vendor-attribution.webp"><img src="./assets/customer-order-details-vendor-attribution.webp" alt="Detailed Customer Order View with Line Item Vendor Attribution" /></a>
 
 ### 1. Order Header & Status Badge
 - Displays the order number and formatted creation date.
@@ -130,7 +132,7 @@ Clicking the **View** button on any order opens the full **Order Details** scree
 ### 2. Live Order Updates & Shipment Tracking
 When a seller dispatches an item or schedules a delivery, a dedicated **Order Updates** card appears automatically above the product table:
 
-<a class="doc-image-link" href="./assets/customer-order-tracking-updates.png"><img src="./assets/customer-order-tracking-updates.png" alt="Customer Order Tracking Updates and Shipment Details" /></a>
+<a class="doc-image-link" href="./assets/customer-order-tracking-updates.webp"><img src="./assets/customer-order-tracking-updates.webp" alt="Customer Order Tracking Updates and Shipment Details" /></a>
 
 - **Fulfillment Status Notice**: Informs the customer about the fulfillment stage (for example: *"Your items from Aurora Athletics are scheduled for pickup / in transit"*).
 - **Carrier Name & Title**: Identifies the exact logistics carrier or service handling delivery (e.g., *Fulfilment Carriers – Standard Express*, *FedEx*, *UPS*, *DHL*).
@@ -162,7 +164,7 @@ A multi-vendor marketplace requires strict data isolation. Sellers should only s
 
 When multiple sellers receive items within the same customer order, each vendor is granted access **strictly to their own portion**:
 
-<a class="doc-image-link" href="./assets/vendor-order-security-isolation.png"><img src="./assets/vendor-order-security-isolation.png" alt="Multi-Tenant Security and Vendor Order Isolation" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-security-isolation.webp"><img src="./assets/vendor-order-security-isolation.webp" alt="Multi-Tenant Security and Vendor Order Isolation" /></a>
 
 ::: tip Strict Data Protection
 - **No Cross-Vendor Data Leaks**: A vendor cannot view products sold by other merchants, other merchants' customer messages, or other merchants' revenue shares.
@@ -175,12 +177,12 @@ When multiple sellers receive items within the same customer order, each vendor 
 
 When a vendor navigates to **My Account → Order History** (or `/my-account/vendor-orders/`), they access a dedicated management workspace tailored specifically to their store's fulfillment duties.
 
-<a class="doc-image-link" href="./assets/vendor-order-management-full-view.png"><img src="./assets/vendor-order-management-full-view.png" alt="Vendor Order Management Dashboard Full View" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-management-full-view.webp"><img src="./assets/vendor-order-management-full-view.webp" alt="Vendor Order Management Dashboard Full View" /></a>
 
 ### 1. Vendor Financial Breakdown & Commission Transparency
 The vendor order details card provides transparent financial accounting for that specific order slice:
 
-<a class="doc-image-link" href="./assets/vendor-order-detail-commission-slice.png"><img src="./assets/vendor-order-detail-commission-slice.png" alt="Vendor Order Commission Breakdown and Net Earning Slice" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-detail-commission-slice.webp"><img src="./assets/vendor-order-detail-commission-slice.webp" alt="Vendor Order Commission Breakdown and Net Earning Slice" /></a>
 
 - **Product Subtotal**: The total gross sales amount generated by the vendor's items in the order.
 - **Admin Commission**: The marketplace fee automatically calculated according to admin commission rules.

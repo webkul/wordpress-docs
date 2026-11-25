@@ -67,7 +67,7 @@ Changing your email address updates your primary login username for future sign-
 
 You can change your password at any time directly from the **Password change** section located on the same page.
 
-<a class="doc-image-link" href="./assets/seller-general-settings-password.png"><img src="./assets/seller-general-settings-password.png" alt="Password Change Section" /></a>
+<a class="doc-image-link" href="./assets/seller-general-settings-password.webp"><img src="./assets/seller-general-settings-password.webp" alt="Password Change Section" /></a>
 
 ### Step-by-Step Password Update:
 

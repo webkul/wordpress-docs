@@ -9,6 +9,8 @@ The **Product Listing Page (PLP)** (commonly referred to as the **Shop Catalog**
 
 Unlike a standard single-merchant shop where all catalog items belong to one brand, a multi-vendor marketplace combines products from multiple independent merchants into a unified shopping experience. The PLP gives customers clear visibility into **who sells each item**, provides an **interactive seller list filter**, and offers **direct links to vendor storefronts** before buyers proceed to individual product pages.
 
+<a class="doc-image-link" href="./assets/customer-plp-overview.webp"><img src="./assets/customer-plp-overview.webp" alt="Webkul WooCommerce Multi-Vendor Marketplace Product Listing Page (PLP) Overview" /></a>
+
 ---
 
 ## Customer Discovery: Navigating the Multi-Vendor Catalog
@@ -71,6 +73,8 @@ Located in the primary navigation header:
 - **Direct Store Links**: Clicking any merchant opens their dedicated storefront, displaying their full brand catalog, bio, and customer ratings.
 - **Seller Central Link**: Quick navigation link for prospective vendors to register and start selling.
 
+<a class="doc-image-link" href="./assets/customer-header-vendor-dropdown.webp"><img src="./assets/customer-header-vendor-dropdown.webp" alt="Storefront Header Vendor Lists Dropdown" /></a>
+
 ### 3. Category & Taxonomy Archives
 When shoppers select a category (e.g., *Fitness*, *Kitchen & Dining*, *Accessories*), the catalog filters down to that department while preserving multi-vendor seller filtering and attribution.
 
@@ -87,8 +91,12 @@ The **Seller List** widget is the primary marketplace-specific navigation contro
 - **Multi-Vendor Checkboxes**: Customers can select one or more vendors to display only products sold by the chosen merchants.
 - **Instant AJAX Filtering**: Product listings update dynamically without a full browser refresh, maintaining the customer's scroll position.
 
+<a class="doc-image-link" href="./assets/customer-plp-seller-filter-widget.webp"><img src="./assets/customer-plp-seller-filter-widget.webp" alt="Sidebar Seller List Filter Widget" /></a>
+
 ### 2. Reset & Clear Filters
 When a seller filter or attribute option is selected, the catalog updates to display the active criteria. Customers can easily uncheck individual vendor boxes or click the clear filter button to restore the complete marketplace catalog.
+
+<a class="doc-image-link" href="./assets/customer-plp-filtered-by-seller.webp"><img src="./assets/customer-plp-filtered-by-seller.webp" alt="Shop Catalog Filtered by Marketplace Seller" /></a>
 
 ### 3. Price Range Filter
 - Dual slider and direct price input fields (`Min $` and `Max $`).
@@ -107,6 +115,8 @@ Combining the **Seller List** filter with **Price** and **Attribute** filters al
 ## 3. Anatomy of a Multi-Vendor Product Card
 
 Every product card displayed in the catalog grid is tailored to provide clear marketplace attribution and convenient buyer actions:
+
+<a class="doc-image-link" href="./assets/customer-plp-product-card-vendor.webp"><img src="./assets/customer-plp-product-card-vendor.webp" alt="Multi-Vendor Product Card with Seller Attribution" /></a>
 
 ### Key Product Card Elements:
 
@@ -174,6 +184,8 @@ The Product Listing Page is fully responsive, delivering a smooth shopping exper
 - **Slide-Out Filter Drawer**: On mobile devices, the sidebar collapses into a convenient **Filters** button. Tapping it opens a slide-out drawer containing the complete **Seller List** and attribute swatches.
 - **Clear Vendor Attribution**: The `Vendor: [Name]` tag remains clearly visible on mobile cards, preventing accidental cross-vendor confusion.
 - **Touch-Friendly Quick Actions**: Large tap targets for cart additions, wishlist saving, and pagination buttons.
+
+<a class="doc-image-link" href="./assets/customer-plp-mobile-view.webp"><img src="./assets/customer-plp-mobile-view.webp" alt="Mobile View of Product Listing Page with Responsive Filter Drawer" /></a>
 
 ---
 

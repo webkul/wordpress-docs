@@ -7,7 +7,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-in
 
 Accurate stock control is vital for every marketplace seller. Running out of stock leads to missed sales and dissatisfied buyers, while overstocking ties up valuable working capital. The **Manage Inventory** module in WooCommerce Multi-Vendor Marketplace gives sellers a centralized, high-speed workspace to update stock levels, edit SKUs and barcodes, track real-time sales metrics, and adjust quantities in bulk—all without opening the full product editor for every single item.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-dashboard.png"><img src="./assets/vendor-inventory-dashboard.png" alt="Vendor Manage Inventory Dashboard Overview" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-dashboard.webp"><img src="./assets/vendor-inventory-dashboard.webp" alt="Vendor Manage Inventory Dashboard Overview" /></a>
 
 This guide explains how to navigate the inventory dashboard, configure single-item stock rules inline, execute rapid bulk stock updates, utilize the 4-parameter filter drawer, and manage variation-level inventory for variable products.
 
@@ -20,6 +20,8 @@ Vendors can reach the inventory management dashboard directly from their seller 
 1. Log in to your merchant account.
 2. In the left navigation menu, locate **Inventories**.
 3. Click **Manage Inventory**.
+
+<a class="doc-image-link" href="./assets/vendor-inventory-nav-access.webp"><img src="./assets/vendor-inventory-nav-access.webp" alt="Accessing Manage Inventory from Vendor Sidebar" /></a>
 
 The page resolves to the standard portal route:
 ```text
@@ -35,7 +37,7 @@ https://your-domain.com/seller/seller-manage-inventory/
 
 The Manage Inventory dashboard organizes catalog items into structured cards designed for fast scanning. Each card displays product details, operational order metrics, and current stock status at a glance.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-dashboard.png"><img src="./assets/vendor-inventory-dashboard.png" alt="Manage Inventory Dashboard Table and Metrics" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-dashboard.webp"><img src="./assets/vendor-inventory-dashboard.webp" alt="Manage Inventory Dashboard Table and Metrics" /></a>
 
 ### Visible Data Fields & Quick Actions
 
@@ -63,7 +65,7 @@ The Manage Inventory dashboard organizes catalog items into structured cards des
 
 Clicking **Manage inventory** on any product row expands a comprehensive configuration panel directly beneath the item without reloading the page.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-panel-expanded.png"><img src="./assets/vendor-inventory-panel-expanded.png" alt="Single Product Inline Inventory Configuration Panel" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-panel-expanded.webp"><img src="./assets/vendor-inventory-panel-expanded.webp" alt="Single Product Inline Inventory Configuration Panel" /></a>
 
 ### Configurable Inventory Settings
 
@@ -92,7 +94,7 @@ Clicking **Manage inventory** on any product row expands a comprehensive configu
 
 When updating stock for multiple catalog items at once—such as receiving a supplier shipment or marking seasonal items down—sellers can use the bulk action toolbar.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-bulk-actions.png"><img src="./assets/vendor-inventory-bulk-actions.png" alt="Bulk Inventory Updates Toolbar and Notifications" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-bulk-actions.webp"><img src="./assets/vendor-inventory-bulk-actions.webp" alt="Bulk Inventory Updates Toolbar and Notifications" /></a>
 
 ### How to Perform a Bulk Stock Adjustment
 
@@ -120,7 +122,7 @@ When updating stock for multiple catalog items at once—such as receiving a sup
 
 The Manage Inventory module includes instant search and a dedicated slide-out filter drawer to quickly isolate specific items within large product catalogs.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-filter-drawer.png"><img src="./assets/vendor-inventory-filter-drawer.png" alt="Slide-out Inventory Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-filter-drawer.webp"><img src="./assets/vendor-inventory-filter-drawer.webp" alt="Slide-out Inventory Filter Drawer" /></a>
 
 ### Search and Display Controls
 
@@ -147,7 +149,7 @@ After setting your criteria, click **Apply Filters** to refresh the list. To cle
 
 Variable products contain multiple options (such as sizes, colors, or materials), each requiring distinct inventory tracking.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-variations-view.png"><img src="./assets/vendor-inventory-variations-view.png" alt="Variable Product Variation Inventory Management Suite" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-variations-view.webp"><img src="./assets/vendor-inventory-variations-view.webp" alt="Variable Product Variation Inventory Management Suite" /></a>
 
 ### Parent Product vs. Variation Rules
 

@@ -14,7 +14,7 @@ Sales Reporting helps sellers:
 - **Compare Historical Performance:** Benchmark current sales against previous timeframes to identify growth trends or seasonal shifts.
 - **Export Accounting Data:** Download granular sales tables in **CSV** or **PDF** format for bookkeeping and tax preparation.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-dashboard.png"><img src="./assets/vendor-sales-reporting-dashboard.png" alt="Vendor Sales Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-dashboard.webp"><img src="./assets/vendor-sales-reporting-dashboard.webp" alt="Vendor Sales Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 
@@ -26,7 +26,7 @@ Marketplace vendors can access the Sales Reporting dashboard directly from their
 2. In the left navigation menu, scroll down to the **Reporting** section.
 3. Click **Sales Reporting** to open the analytics dashboard.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-sidebar-nav.png"><img src="./assets/vendor-sales-reporting-sidebar-nav.png" alt="Locating Sales Reporting under the Reporting Section in Seller Navigation" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-sidebar-nav.webp"><img src="./assets/vendor-sales-reporting-sidebar-nav.webp" alt="Locating Sales Reporting under the Reporting Section in Seller Navigation" /></a>
 
 | Access Method | Location / Path | Purpose |
 | :--- | :--- | :--- |
@@ -44,7 +44,7 @@ On smartphones and tablets, tap the **Open menu** hamburger button in the top na
 
 At the top of the Sales Reporting dashboard, four high-level **KPI (Key Performance Indicator) Cards** display your store's primary performance metrics. Each card highlights the current total and shows a percentage trend indicator compared against the preceding period.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-kpi-cards.png"><img src="./assets/vendor-sales-reporting-kpi-cards.png" alt="Sales Reporting Top KPI Summary Cards" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-kpi-cards.webp"><img src="./assets/vendor-sales-reporting-kpi-cards.webp" alt="Sales Reporting Top KPI Summary Cards" /></a>
 
 ### 1. Total Sales
 - **What it shows:** Your net seller earnings after platform commission deductions.
@@ -71,7 +71,7 @@ At the top of the Sales Reporting dashboard, four high-level **KPI (Key Performa
 
 The dashboard gives you complete control over your reporting timeline. By default, the system displays data for the **Last 30 days**, alongside an automated comparison against the prior 30 days.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-filter-drawer.png"><img src="./assets/vendor-sales-reporting-filter-drawer.png" alt="Date Range Filter Drawer with Quick Presets and Custom Date Pickers" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-filter-drawer.webp"><img src="./assets/vendor-sales-reporting-filter-drawer.webp" alt="Date Range Filter Drawer with Quick Presets and Custom Date Pickers" /></a>
 
 ### How to Change the Reporting Period
 
@@ -105,7 +105,7 @@ This dual-period visual comparison allows you to spot trends immediately—such 
 
 Each core report card contains an interactive visualization that lets vendors customize how data is presented.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-chart-card.png"><img src="./assets/vendor-sales-reporting-chart-card.png" alt="Interactive Sales Reporting Chart with Line, Bar, and Area Display Modes" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-chart-card.webp"><img src="./assets/vendor-sales-reporting-chart-card.webp" alt="Interactive Sales Reporting Chart with Line, Bar, and Area Display Modes" /></a>
 
 ### Switching Chart Display Types
 
@@ -148,7 +148,7 @@ The Sales Reporting dashboard is organized into eight specialized report section
 
 Understanding how buyers pay helps optimize your store experience and identify preferred payment gateways.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-payment-methods.png"><img src="./assets/vendor-sales-reporting-payment-methods.png" alt="Top Payment Methods Breakdown Chart in Sales Reporting" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-payment-methods.webp"><img src="./assets/vendor-sales-reporting-payment-methods.webp" alt="Top Payment Methods Breakdown Chart in Sales Reporting" /></a>
 
 The **Top Payment Methods** report categorizes all orders by gateway (for example: *Check payments*, *Direct bank transfer*, or *Credit Card / Stripe*). You can toggle between **Bar**, **Horizontal bar**, and **Doughnut** views to see which methods drive the highest sales revenue.
 
@@ -158,7 +158,7 @@ The **Top Payment Methods** report categorizes all orders by gateway (for exampl
 
 Clicking **View details** on any report card opens a dedicated breakdown screen with an itemized data table.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-detail-table.png"><img src="./assets/vendor-sales-reporting-detail-table.png" alt="Detailed Sales Reporting Tabular Breakdown by Interval" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-detail-table.webp"><img src="./assets/vendor-sales-reporting-detail-table.webp" alt="Detailed Sales Reporting Tabular Breakdown by Interval" /></a>
 
 ### Time Interval Grouping
 
@@ -184,7 +184,7 @@ To return to the main dashboard overview, click the **Sales Reporting** link in 
 
 Vendors can export sales data for offline analysis, sharing with accountants, or archiving financial records.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-export-menu.png"><img src="./assets/vendor-sales-reporting-export-menu.png" alt="Export Menu with CSV and PDF Download Options" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-export-menu.webp"><img src="./assets/vendor-sales-reporting-export-menu.webp" alt="Export Menu with CSV and PDF Download Options" /></a>
 
 ### How to Export Data
 
@@ -204,7 +204,7 @@ Exported files automatically respect your currently applied date range and inter
 
 The Sales Reporting dashboard is fully responsive and designed to work smoothly on mobile devices and tablets.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-mobile.png"><img src="./assets/vendor-sales-reporting-mobile.png" alt="Mobile Responsive Sales Reporting Interface" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-mobile.webp"><img src="./assets/vendor-sales-reporting-mobile.webp" alt="Mobile Responsive Sales Reporting Interface" /></a>
 
 - **Adaptive Card Layout:** KPI stat cards and charts stack neatly into a single-column layout on smaller screens.
 - **Touch-Friendly Charts:** Tap chart points on smartphones to view values and compare dates easily.

@@ -9,7 +9,7 @@ The **Product Detail Page (PDP)** is the main page where buyers explore individu
 
 Unlike a standard single-store shop, a multi-vendor marketplace connects customers with multiple independent sellers. The PDP gives customers full transparency by showing **who sells the product**, **how other buyers rate it**, and **how to report a listing** if there is an issue.
 
-<a class="doc-image-link" href="./assets/customer-pdp-overview.png"><img src="./assets/customer-pdp-overview.png" alt="WooCommerce Marketplace Product Detail Page Overview" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-overview.webp"><img src="./assets/customer-pdp-overview.webp" alt="WooCommerce Marketplace Product Detail Page Overview" /></a>
 
 ---
 
@@ -61,7 +61,7 @@ The marketplace storefront header provides dedicated navigation links for buyer-
 - **Seller Central / Sell on Marketplace**: A direct header link for prospective sellers to learn about onboarding, commission rates, and registration.
 - **Customer Account**: Quick access for buyers to manage orders, wishlists, and vendor communications.
 
-<a class="doc-image-link" href="./assets/customer-header-vendor-dropdown.png"><img src="./assets/customer-header-vendor-dropdown.png" alt="Storefront Header Vendor Lists Dropdown" /></a>
+<a class="doc-image-link" href="./assets/customer-header-vendor-dropdown.webp"><img src="./assets/customer-header-vendor-dropdown.webp" alt="Storefront Header Vendor Lists Dropdown" /></a>
 
 ---
 
@@ -74,7 +74,7 @@ When browsing shop archives or categories (such as *Electronics*, *Home & Living
 - **Instant Filtering**: Selecting a seller checkbox refreshes the product catalog to show only products sold by that merchant.
 - **Clear Filters Button**: A convenient reset button appears as soon as a filter is applied, allowing buyers to return to the full catalog with one click.
 
-<a class="doc-image-link" href="./assets/customer-plp-seller-filter-widget.png"><img src="./assets/customer-plp-seller-filter-widget.png" alt="Sidebar Seller List Filter Widget" /></a>
+<a class="doc-image-link" href="./assets/customer-plp-seller-filter-widget.webp"><img src="./assets/customer-plp-seller-filter-widget.webp" alt="Sidebar Seller List Filter Widget" /></a>
 
 ---
 
@@ -86,7 +86,7 @@ Every product card on listing pages clearly displays vendor information before t
 - **Add to Cart Tooltip**: Hovering over the cart button shows `Sold By: [Vendor Name]`, confirming the seller identity.
 - **Quick Action Buttons**: Includes quick wishlist saving and product comparison alongside direct cart addition.
 
-<a class="doc-image-link" href="./assets/customer-plp-product-card-vendor.png"><img src="./assets/customer-plp-product-card-vendor.png" alt="Product Card with Vendor Attribution" /></a>
+<a class="doc-image-link" href="./assets/customer-plp-product-card-vendor.webp"><img src="./assets/customer-plp-product-card-vendor.webp" alt="Product Card with Vendor Attribution" /></a>
 
 ---
 
@@ -94,7 +94,7 @@ Every product card on listing pages clearly displays vendor information before t
 
 Once a customer clicks on a product, the Product Detail Page provides all the information needed to evaluate and purchase the item.
 
-<a class="doc-image-link" href="./assets/customer-pdp-summary-vendor-info.png"><img src="./assets/customer-pdp-summary-vendor-info.png" alt="Product Summary and Vendor Information" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-summary-vendor-info.webp"><img src="./assets/customer-pdp-summary-vendor-info.webp" alt="Product Summary and Vendor Information" /></a>
 
 ### 1. Vendor Attribution & Store Link
 
@@ -139,7 +139,7 @@ Prominently located directly beneath the product title:
 
 To protect customers and ensure marketplace quality, every product page includes a **Report Product** option. This allows buyers to alert marketplace administrators if an item has incorrect information or violates marketplace guidelines.
 
-<a class="doc-image-link" href="./assets/customer-pdp-report-product-modal.png"><img src="./assets/customer-pdp-report-product-modal.png" alt="Report Product Modal Form" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-report-product-modal.webp"><img src="./assets/customer-pdp-report-product-modal.webp" alt="Report Product Modal Form" /></a>
 
 ### How to Report a Product:
 
@@ -205,7 +205,7 @@ The Product Detail Page is fully responsive for smartphones and tablets:
 - Sticky action buttons for effortless adding to cart and direct purchasing.
 - Mobile-optimized popup modals for reporting products and writing reviews.
 
-<a class="doc-image-link" href="./assets/customer-pdp-mobile-view.png"><img src="./assets/customer-pdp-mobile-view.png" alt="Mobile View of Product Detail Page" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-mobile-view.webp"><img src="./assets/customer-pdp-mobile-view.webp" alt="Mobile View of Product Detail Page" /></a>
 
 ---
 

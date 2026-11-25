@@ -9,7 +9,7 @@ In an open multi-vendor marketplace, shoppers buy goods directly from independen
 
 As a customer or guest visitor, you can report suspicious stores or problematic product listings with a few clicks. Your reports go directly to marketplace administrators, helping maintain top-tier catalog standards, protect buyers against counterfeit goods, and hold sellers accountable to marketplace policies.
 
-<a class="doc-image-link" href="./assets/customer-vendor-profile-report-button.png"><img src="./assets/customer-vendor-profile-report-button.png" alt="Report Vendor Button on Vendor Store Profile" /></a>
+<a class="doc-image-link" href="./assets/customer-flag-report-overview.webp"><img src="./assets/customer-flag-report-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Customer Flag and Report Overview" /></a>
 
 ---
 
@@ -169,12 +169,12 @@ When you experience problems with a seller's overall conduct, store information,
 ### 1. Locate the "Report Vendor" Link
 Visit the vendor's storefront (e.g., `/vendor/aurora-athletics/`). In the **About this Vendor** card on the right-hand side, look for the **Report Vendor** link marked with a flag icon (<span class="dashicons dashicons-flag"></span>).
 
-<a class="doc-image-link" href="./assets/customer-vendor-profile-report-button.png"><img src="./assets/customer-vendor-profile-report-button.png" alt="Report Vendor Button on Vendor Store Profile" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-profile-report-button.webp"><img src="./assets/customer-vendor-profile-report-button.webp" alt="Report Vendor Button on Vendor Store Profile" /></a>
 
 ### 2. Open the Report Modal
 Clicking **Report Vendor** opens an interactive modal centered on your screen.
 
-<a class="doc-image-link" href="./assets/customer-vendor-flag-modal.png"><img src="./assets/customer-vendor-flag-modal.png" alt="Vendor Flag Reporting Modal Form" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-flag-modal.webp"><img src="./assets/customer-vendor-flag-modal.webp" alt="Vendor Flag Reporting Modal Form" /></a>
 
 ### 3. Enter Your Details (Guest Shoppers)
 - **Logged-in Customers**: Your user account is recognized automatically. The modal skips name and email fields and links your registered profile to the report.
@@ -196,7 +196,7 @@ Select the radio button that best describes your grievance:
 ### 5. Writing a Custom Reason
 When you select the **Other** option, the modal automatically displays a text area with the placeholder: *Write a reason to report this seller.* Enter a brief explanation of the issue so marketplace managers can investigate effectively.
 
-<a class="doc-image-link" href="./assets/customer-vendor-flag-custom-reason.png"><img src="./assets/customer-vendor-flag-custom-reason.png" alt="Submitting Custom Reason in Vendor Flag Modal" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-flag-custom-reason.webp"><img src="./assets/customer-vendor-flag-custom-reason.webp" alt="Submitting Custom Reason in Vendor Flag Modal" /></a>
 
 ### 6. Submit Your Report
 Click the primary **Report** button. 
@@ -213,12 +213,12 @@ If you find an issue with a single item—such as misleading photographs, incorr
 ### 1. Locate the "Report Product" Button
 Open any vendor product page (e.g., `/product/aurora-pace-fitness-watch/`). The **Report Product** button appears directly within the main product summary area next to the purchase options.
 
-<a class="doc-image-link" href="./assets/customer-pdp-report-product-button.png"><img src="./assets/customer-pdp-report-product-button.png" alt="Report Product Button on Product Detail Page" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-report-product-button.webp"><img src="./assets/customer-pdp-report-product-button.webp" alt="Report Product Button on Product Detail Page" /></a>
 
 ### 2. Open the Product Flag Form
 Click **Report Product** to open the reporting popup modal.
 
-<a class="doc-image-link" href="./assets/customer-pdp-report-product-modal.png"><img src="./assets/customer-pdp-report-product-modal.png" alt="Product Flag Modal Overview on PDP" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-report-product-modal.webp"><img src="./assets/customer-pdp-report-product-modal.webp" alt="Product Flag Modal Overview on PDP" /></a>
 
 ### 3. Complete Reporter Information
 - For guest buyers, fill in **Your Name\*** and **Your Email\***.
@@ -238,7 +238,7 @@ Select the radio option that best reflects the issue with the listing:
 ### 5. Add Custom Product Notes
 If you choose **Other** (or want to specify additional details), write a brief note in the text box explaining why the product listing should be investigated.
 
-<a class="doc-image-link" href="./assets/customer-pdp-report-product-custom-reason.png"><img src="./assets/customer-pdp-report-product-custom-reason.png" alt="Product Report Modal with Custom Description Filled" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-report-product-custom-reason.webp"><img src="./assets/customer-pdp-report-product-custom-reason.webp" alt="Product Report Modal with Custom Description Filled" /></a>
 
 ### 6. Submit the Product Report
 Click **Report**. An inline confirmation message verifies that your submission was received, and the window closes automatically after a few seconds.
@@ -249,7 +249,7 @@ Click **Report**. An inline confirmation message verifies that your submission w
 
 It is important to understand when to write a **Product Review** and when to **Report / Flag** an item. Both features serve distinct roles in keeping the marketplace transparent:
 
-<a class="doc-image-link" href="./assets/customer-pdp-reviews-section.png"><img src="./assets/customer-pdp-reviews-section.png" alt="Product Reviews and Ratings Section on PDP" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-reviews-section.webp"><img src="./assets/customer-pdp-reviews-section.webp" alt="Product Reviews and Ratings Section on PDP" /></a>
 
 | Consideration | Product Review & Rating | Flag & Report Submission |
 | :--- | :--- | :--- |

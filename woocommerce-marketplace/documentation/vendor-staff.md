@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-st
 
 The **Vendor Staff** feature allows vendors to add sub-users (store managers and team assistants) who can log in and manage the store on their behalf. Vendors can grant per-task permissions for each section (view, add, edit, delete, and more) based on the capabilities allowed by the admin.
 
+<a class="doc-image-link" href="./assets/vendor-staff-overview.webp"><img src="./assets/vendor-staff-overview.webp" alt="Vendor Staff Management Overview" /></a>
+
 ::: tip Store Administration Note
 If you are a marketplace administrator looking to configure global staff settings, maximum staff limits per vendor, delegatable permissions, or manage all vendor staff members, please refer to the [Configuration – Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) guide.
 :::
@@ -28,7 +30,7 @@ Running a busy online store often requires teamwork. The Vendor Staff feature pr
 
 Vendors can view a list of all their staff members from the Vendor Dashboard by navigating to **Vendor Staff** from the seller menu.
 
-<a class="doc-image-link" href="./assets/vendor-staff-list.png"><img src="./assets/vendor-staff-list.png" alt="Vendor Staff List" /></a>
+<a class="doc-image-link" href="./assets/vendor-staff-list.webp"><img src="./assets/vendor-staff-list.webp" alt="Vendor Staff List" /></a>
 
 ### Staff Directory Table
 
@@ -47,7 +49,7 @@ The main directory table displays the following columns for every registered ass
 
 To add a new staff member, click on the **+Add Vendor Staff** button located at the top right of the staff directory.
 
-<a class="doc-image-link" href="./assets/add-vendor-staff.png"><img src="./assets/add-vendor-staff.png" alt="Add Vendor Staff" /></a>
+<a class="doc-image-link" href="./assets/add-vendor-staff.webp"><img src="./assets/add-vendor-staff.webp" alt="Add Vendor Staff" /></a>
 
 On the **Add Vendor Staff** form, complete the required account details:
 
@@ -66,7 +68,7 @@ Vendors do not set a password manually when creating a staff account. An automat
 
 Vendors can edit existing staff settings and define precise permissions for what the staff member is allowed to do. To edit an assistant, click the **Edit** button next to their name in the staff directory table.
 
-<a class="doc-image-link" href="./assets/edit-vedor-staff-setting.png"><img src="./assets/edit-vedor-staff-setting.png" alt="Edit Vendor Staff Setting" /></a>
+<a class="doc-image-link" href="./assets/edit-vendor-staff-setting.webp"><img src="./assets/edit-vendor-staff-setting.webp" alt="Edit Vendor Staff Setting" /></a>
 
 When editing a staff member:
 
@@ -84,7 +86,7 @@ When a team member leaves or no longer requires access, vendors can delete their
 1. Locate the staff member in the table and click the **Delete** button under **Actions**.
 2. A confirmation modal titled **Remove vendor staff?** will appear.
 
-<a class="doc-image-link" href="./assets/vendor-staff-delete-modal.png"><img src="./assets/vendor-staff-delete-modal.png" alt="Remove Vendor Staff Confirmation Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-staff-delete-modal.webp"><img src="./assets/vendor-staff-delete-modal.webp" alt="Remove Vendor Staff Confirmation Modal" /></a>
 
 3. Review the warning notice: *"This vendor staff will lose access to your store. This action cannot be undone."*
 4. Click **Yes, remove** to confirm deletion, or click **Cancel** to keep the staff account.
@@ -95,9 +97,9 @@ When a team member leaves or no longer requires access, vendors can delete their
 
 The permissions can be granularly controlled per section (e.g., Products, Orders, Profile) and per action (e.g., view, add, edit, delete). Each module is presented as a distinct card with an interactive **Select all** button on the header for quick configuration.
 
-<a class="doc-image-link" href="./assets/allowed-staff-to-do.png"><img src="./assets/allowed-staff-to-do.png" alt="Allowed Staff Permissions" /></a>
+<a class="doc-image-link" href="./assets/allowed-staff-to-do.webp"><img src="./assets/allowed-staff-to-do.webp" alt="Allowed Staff Permissions" /></a>
 
-<a class="doc-image-link" href="./assets/allowed-staff-to-do-2.png"><img src="./assets/allowed-staff-to-do-2.png" alt="Allowed Staff Permissions Continued" /></a>
+<a class="doc-image-link" href="./assets/allowed-staff-to-do-2.webp"><img src="./assets/allowed-staff-to-do-2.webp" alt="Allowed Staff Permissions Continued" /></a>
 
 Here is the complete breakdown of all available permission cards and what each capability allows:
 

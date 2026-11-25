@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-sh
 
 In **WooCommerce Multi-Vendor Marketplace**, vendors have complete control over their shipping setup. Each vendor can create custom **Shipping Zones**, define targeted **Shipping Methods** (Flat Rate, Free Shipping, and Store Pickup), organize products with **Shipping Classes**, and configure **Local Pickup Locations** directly from their vendor panel.
 
+<a class="doc-image-link" href="./assets/vendor-shipping-zone-management-overview.webp"><img src="./assets/vendor-shipping-zone-management-overview.webp" alt="Vendor Shipping Zone Management Dashboard Overview" /></a>
+
 ::: warning Administrator Capability: Applicable Shipping Methods
 For vendor shipping zones and rates to apply during customer checkout, the marketplace administrator must enable vendor shipping in the marketplace settings.
 
@@ -28,7 +30,7 @@ Vendors can manage their shipping operations from the seller dashboard:
 2. From the seller dashboard sidebar navigation, click **Shippings**.
 3. You will arrive at the main **Shipping Overview** page (`/seller/vendor-shippings/`).
 
-<a class="doc-image-link" href="./assets/vendor-shippings-main.png"><img src="./assets/vendor-shippings-main.png" alt="Vendor Shipping Overview Table" /></a>
+<a class="doc-image-link" href="./assets/vendor-shippings-main.webp"><img src="./assets/vendor-shippings-main.webp" alt="Vendor Shipping Overview Table" /></a>
 
 ### Top Action Controls
 
@@ -62,7 +64,7 @@ To set up a new delivery region for your products:
 1. On the **Shippings** page, click **Add New Shipping Zone**.
 2. You will be redirected to the **Add Shipping Zone** page (`/seller/vendor-shippings/add/`).
 
-<a class="doc-image-link" href="./assets/vendor-add-shipping-zone.png"><img src="./assets/vendor-add-shipping-zone.png" alt="Add New Shipping Zone" /></a>
+<a class="doc-image-link" href="./assets/vendor-add-shipping-zone.webp"><img src="./assets/vendor-add-shipping-zone.webp" alt="Add New Shipping Zone" /></a>
 
 3. Configure the following zone details:
    - **Zone Name**: Enter a descriptive name for your shipping zone (e.g., *European Union*, *California Local*).
@@ -85,7 +87,7 @@ After saving your shipping zone, you can manage the delivery methods offered wit
 1. From the **Shippings** table, click the **Edit** (pencil) icon next to the zone you want to update.
 2. The **Shipping Zone Edit** page opens (`/seller/vendor-shippings/{zone_id}/`).
 
-<a class="doc-image-link" href="./assets/vendor-edit-shipping-zone.png"><img src="./assets/vendor-edit-shipping-zone.png" alt="Edit Shipping Zone Page" /></a>
+<a class="doc-image-link" href="./assets/vendor-edit-shipping-zone.webp"><img src="./assets/vendor-edit-shipping-zone.webp" alt="Edit Shipping Zone Page" /></a>
 
 3. You can update the **Zone Name**, **Zone Regions**, or **ZIP/postcodes** at any time. Click **Update changes** to apply your updates.
 
@@ -98,7 +100,7 @@ To assign delivery methods to the selected zone:
 1. Under the **Shipping Method** section of the edit page, click **Add shipping method**.
 2. A popup window will appear asking you to choose a method.
 
-<a class="doc-image-link" href="./assets/vendor-shipping-method-modal.png"><img src="./assets/vendor-shipping-method-modal.png" alt="Add Shipping Method Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-shipping-method-modal.webp"><img src="./assets/vendor-shipping-method-modal.webp" alt="Add Shipping Method Modal" /></a>
 
 3. Select one of the available shipping methods from the dropdown list:
    - **Flat rate**: Charge a fixed fee per order or per item.
@@ -116,7 +118,7 @@ Once a shipping method is added, click its name (e.g., **Flat rate**) to open it
 
 The Flat Rate method lets you charge fixed or formula-based shipping fees:
 
-<a class="doc-image-link" href="./assets/vendor-flat-rate-settings.png"><img src="./assets/vendor-flat-rate-settings.png" alt="Flat Rate Settings Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-flat-rate-settings.webp"><img src="./assets/vendor-flat-rate-settings.webp" alt="Flat Rate Settings Modal" /></a>
 
 - **Name**: The method title shown to customers at checkout (default: *Flat rate*).
 - **Tax status**: Select whether this shipping fee is **Taxable** or has **None**.
@@ -167,7 +169,7 @@ To manage shipping classes:
 1. Click **Manage Shipping Classes** from the main Shippings page, or navigate to `/seller/vendor-shippings/add-class/`.
 2. The **Shipping Classes** management table will display.
 
-<a class="doc-image-link" href="./assets/vendor-manage-shipping-classes.png"><img src="./assets/vendor-manage-shipping-classes.png" alt="Manage Shipping Classes Table" /></a>
+<a class="doc-image-link" href="./assets/vendor-manage-shipping-classes.webp"><img src="./assets/vendor-manage-shipping-classes.webp" alt="Manage Shipping Classes Table" /></a>
 
 ### Adding a New Shipping Class
 
@@ -194,7 +196,7 @@ To access Local Pickup settings:
 1. Click **Manage Local Pickup** from the main Shippings page, or navigate to `/seller/vendor-shippings/add-local/`.
 2. The **Local Pickup** management page will open.
 
-<a class="doc-image-link" href="./assets/vendor-manage-local-pickup.png"><img src="./assets/vendor-manage-local-pickup.png" alt="Manage Local Pickup Settings" /></a>
+<a class="doc-image-link" href="./assets/vendor-manage-local-pickup.webp"><img src="./assets/vendor-manage-local-pickup.webp" alt="Manage Local Pickup Settings" /></a>
 
 ### 1. General Local Pickup Settings
 
@@ -213,7 +215,7 @@ Below the general settings, the **Pickup locations** table displays all active c
 1. Click the **Add pickup location** button.
 2. The **Add pickup location** modal form will open:
 
-<a class="doc-image-link" href="./assets/vendor-add-pickup-location-modal.png"><img src="./assets/vendor-add-pickup-location-modal.png" alt="Add Pickup Location Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-add-pickup-location-modal.webp"><img src="./assets/vendor-add-pickup-location-modal.webp" alt="Add Pickup Location Modal" /></a>
 
 3. Enter the location information:
    - **Name**: The title of this location (e.g., *Downtown Retail Hub*, *Warehouse Store 2*).

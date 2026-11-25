@@ -9,6 +9,8 @@ The **Separate WP-Admin Dashboard** provides marketplace sellers with a dedicate
 
 This separate interface keeps vendor operations completely independent from platform administration, ensuring that sellers only access features relevant to their store.
 
+<a class="doc-image-link" href="./assets/vendor-separate-wp-admin-dashboard-overview.webp"><img src="./assets/vendor-separate-wp-admin-dashboard-overview.webp" alt="WooCommerce Marketplace Separate WP-Admin Vendor Dashboard Overview" /></a>
+
 ---
 
 ## Enabling Separate Vendor Dashboard
@@ -19,6 +21,8 @@ Marketplace administrators can easily enable or disable the separate backend das
 2. Locate the **Separate Vendor Dashboard** setting checkbox.
 3. Check the box to activate the separate dashboard for all registered marketplace vendors.
 4. Click **Save Changes** at the bottom of the page.
+
+<a class="doc-image-link" href="./assets/admin-separate-vendor-dashboard-setting.webp"><img src="./assets/admin-separate-vendor-dashboard-setting.webp" alt="Admin General Settings - Separate Vendor Dashboard Checkbox Configuration" /></a>
 
 ---
 
@@ -59,6 +63,8 @@ Vendors have access only to the store-specific tools required for day-to-day ope
 ## Managing Products for Vendors
 
 Vendors can manage their approved products directly from the WordPress administration panel using WooCommerce's native product editor. The catalog is strictly isolated, ensuring sellers only see and edit their own merchandise under **Products > All Products** and **Products > Add new product**.
+
+<a class="doc-image-link" href="./assets/vendor-separate-dashboard-products.webp"><img src="./assets/vendor-separate-dashboard-products.webp" alt="Dedicated Vendor Products Catalog Management in WordPress Administration Panel" /></a>
 
 ::: tip Official WooCommerce Product Guides for New Vendors
 To help new vendors quickly learn how to create and manage their store items, refer to the official WooCommerce documentation:

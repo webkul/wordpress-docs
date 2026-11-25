@@ -6643,7 +6643,7 @@ Bookmark this screen in your browser for quick access during weekly accounting, 
 
 At the top of the Vendors Payout dashboard, four real-time summary cards provide an instant snapshot of your marketplace's financial obligations and commission earnings:
 
-<a class="doc-image-link" href="./assets/admin-vendor-payout-overview.png"><img src="./assets/admin-vendor-payout-overview.png" alt="Vendors Payout Overview and Metrics Cards" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-payout-overview.webp"><img src="./assets/admin-vendor-payout-overview.webp" alt="Vendors Payout Overview and Metrics Cards" /></a>
 
 | Metric Card | Value Display | Business Meaning & Purpose |
 | :--- | :--- | :--- |
@@ -6662,7 +6662,7 @@ At the top of the Vendors Payout dashboard, four real-time summary cards provide
 
 The filter bar is positioned between the summary cards and the payout data table. It gives administrators full control to locate and audit specific payout entries:
 
-<a class="doc-image-link" href="./assets/admin-vendor-payout-filters.png"><img src="./assets/admin-vendor-payout-filters.png" alt="Vendors Payout Filter Bar Breakdown" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-payout-filters.webp"><img src="./assets/admin-vendor-payout-filters.webp" alt="Vendors Payout Filter Bar Breakdown" /></a>
 
 ### Filter Controls Overview
 
@@ -6715,7 +6715,7 @@ For external bookkeeping, tax preparation, or spreadsheet reconciliations:
 
 The central table displays all withdrawal requests with clear, sortable financial columns:
 
-<a class="doc-image-link" href="./assets/admin-vendor-payout-paid-records.png"><img src="./assets/admin-vendor-payout-paid-records.png" alt="Vendors Payout Historical Paid Records" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-payout-paid-records.webp"><img src="./assets/admin-vendor-payout-paid-records.webp" alt="Vendors Payout Historical Paid Records" /></a>
 
 ### Table Column Directory
 
@@ -6744,7 +6744,7 @@ The central table displays all withdrawal requests with clear, sortable financia
 
 When handling payouts individually, administrators can review each request with an explicit confirmation step before committing the ledger update.
 
-<a class="doc-image-link" href="./assets/admin-vendor-payout-confirm-modal.png"><img src="./assets/admin-vendor-payout-confirm-modal.png" alt="Confirm Payment Modal Dialog" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-payout-confirm-modal.webp"><img src="./assets/admin-vendor-payout-confirm-modal.webp" alt="Confirm Payment Modal Dialog" /></a>
 
 ### Step-by-Step Walkthrough
 
@@ -8912,6 +8912,8 @@ The **Classic Vendor Profile** is the vendor profile as it appears inside the **
 
 Vendors reach it from **My Account → My Profile**. It contains the same information as the new Store Edit page, but shown within the classic WooCommerce My Account layout (alongside Orders, Downloads, Addresses, and Account details).
 
+<a class="doc-image-link" href="./assets/profile.webp"><img src="./assets/profile.webp" alt="Vendor Profile Settings" /></a>
+
 ::: tip Looking for the new layout?
 If your marketplace uses the admin-like seller dashboard, see the [Vendor Profile (Store Edit)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html) documentation for the newer **Store Edit** page.
 :::
@@ -8923,14 +8925,12 @@ If your marketplace uses the admin-like seller dashboard, see the [Vendor Profil
 - After successful registration, the vendor must complete their profile under **Vendor Profile**.
 - The profile contains essential vendor and shop-related information divided into multiple tabs for easier navigation.
 
-<a class="doc-image-link" href="./assets/profile.png"><img src="./assets/profile.png" alt="Vendor Profile Settings" /></a>
-
 ## 1. General Tab
 The **General** tab contains the vendor's basic information:
 - **Personal Details**: Username, First Name, Last Name, and E-Mail.
 - **Read-only Applied Commission**: Vendors can view their currently applied commission rate (falling back to the global default if no specific commission is set).
 
-<a class="doc-image-link" href="./assets/general.png"><img src="./assets/general.png" alt="Seller Profile General Tab" /></a>
+<a class="doc-image-link" href="./assets/general.webp"><img src="./assets/general.webp" alt="Seller Profile General Tab" /></a>
 
 ---
 
@@ -8938,7 +8938,7 @@ The **General** tab contains the vendor's basic information:
 The **Shop** tab allows the vendor to configure their store details, policies, and SEO settings.
 - Vendors can define their shop title, description, and contact information.
 
-<a class="doc-image-link" href="./assets/shop.png"><img src="./assets/shop.png" alt="Seller Profile Shop Tab" /></a>
+<a class="doc-image-link" href="./assets/shop.webp"><img src="./assets/shop.webp" alt="Seller Profile Shop Tab" /></a>
 
 ---
 
@@ -8950,7 +8950,7 @@ Vendors can upload various images to brand their store from the **Images** tab.
 - **Fulfillment Image**: An image or badge displayed for order fulfillment.
 - **Banner Image**: A large banner for the store. Vendors can choose whether to display it by checking the "Show banner on vendor page" option.
 
-<a class="doc-image-link" href="./assets/vendor-and-store-image.png"><img src="./assets/vendor-and-store-image.png" alt="Seller Profile Images Tab" /></a>
+<a class="doc-image-link" href="./assets/vendor-and-store-image.webp"><img src="./assets/vendor-and-store-image.webp" alt="Seller Profile Images Tab" /></a>
 
 ---
 
@@ -8959,7 +8959,7 @@ Vendors can link their social media accounts to their store to build trust and i
 - Available optional fields include: **Facebook**, **Instagram**, **X (Formerly Twitter)**, **LinkedIn**, **Youtube**, and **Pinterest**.
 - These links will be displayed on the vendor's public store page.
 
-<a class="doc-image-link" href="./assets/social-profile.png"><img src="./assets/social-profile.png" alt="Seller Profile Social Tab" /></a>
+<a class="doc-image-link" href="./assets/social-profile.webp"><img src="./assets/social-profile.webp" alt="Seller Profile Social Tab" /></a>
 
 ---
 
@@ -8967,9 +8967,7 @@ Vendors can link their social media accounts to their store to build trust and i
 
 Vendors can set a weekly schedule from the **Store Hours** tab with per-day Open/Closed toggles and multiple time slots per day.
 
-<a class="doc-image-link" href="./assets/seller-profile-store-hour.png"><img src="./assets/seller-profile-store-hour.png" alt="Store Hours Settings" /></a>
-
-<a class="doc-image-link" href="./assets/seller-profile-store-hour-2.png"><img src="./assets/seller-profile-store-hour-2.png" alt="Store Hours Profile View" /></a>
+<a class="doc-image-link" href="./assets/seller-profile-store-hour.webp"><img src="./assets/seller-profile-store-hour.webp" alt="Store Hours Settings" /></a>
 
 ### Features of Store Hours:
 - The schedule is displayed on the vendor profile page and on a hover tooltip when the store is closed.
@@ -8984,7 +8982,7 @@ Vendors can set a weekly schedule from the **Store Hours** tab with per-day Open
 The **KYC** (Know Your Customer) tab allows vendors to upload their identity documents for admin verification.
 - For detailed information, see the full [Vendor KYC Verification](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-kyc.html) documentation.
 
-<a class="doc-image-link" href="./assets/seller-kyc-page.png"><img src="./assets/seller-kyc-page.png" alt="Seller Profile KYC Tab" /></a>
+<a class="doc-image-link" href="./assets/seller-kyc-page.webp"><img src="./assets/seller-kyc-page.webp" alt="Seller Profile KYC Tab" /></a>
 
 ---
 
@@ -8995,7 +8993,7 @@ Vendors can choose how their public store page looks from a dedicated **Profile 
 - **Storefront**: Features a modern store page with an info sidebar (contact details, store hours, map) and a product gallery.
 - **Spotlight**: Features a full-width hero banner with your products front and center, and an "About this Vendor" panel.
 
-<a class="doc-image-link" href="./assets/profile-view.png"><img src="./assets/profile-view.png" alt="Profile View Selection" /></a>
+<a class="doc-image-link" href="./assets/profile-view.webp"><img src="./assets/profile-view.webp" alt="Profile View Selection" /></a>
 
 ---
 
@@ -9100,6 +9098,8 @@ The vendor profile is displayed on the frontend with the following sections:
 
 The **Vendor Dashboard** is the primary command center where sellers manage their daily marketplace business—including catalog creation, order fulfillment, inventory management, customer communications, and financial tracking.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-dashboard.webp"><img src="./assets/marketplace-vendor-dashboard.webp" alt="WooCommerce Multi-Vendor Marketplace Dedicated Vendor Dashboard Overview" /></a>
+
 WooCommerce Multi-Vendor Marketplace provides **two flexible dashboard types** to accommodate different merchant workflows and theme requirements:
 
 1. **Separate Dashboard (Dedicated Workspace at `/seller/vendor-dashboard/`):** A full-screen, standalone merchant workspace featuring an independent collapsible sidebar, top navigation bar, real-time KPI metric cards, interactive performance charts, and an operational Action Required queue.
@@ -9115,7 +9115,7 @@ Marketplace administrators can configure how vendors access their dashboard from
 
 Navigate to: **Marketplace > Settings > General**
 
-<a class="doc-image-link" href="./assets/general-settings.png"><img src="./assets/general-settings.png" alt="WooCommerce Marketplace General Settings - Vendor Dashboard Configuration" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-general-settings-dashboard.webp"><img src="./assets/marketplace-admin-general-settings-dashboard.webp" alt="WooCommerce Marketplace Admin General Settings - Vendor Dashboard Configuration" /></a>
 
 ### Key Dashboard Settings
 
@@ -9168,7 +9168,7 @@ The marketplace provides two distinct presentation experiences designed for diff
 <li><strong>Collapsible Multi-Tier Sidebar:</strong> Quick-access navigation tabs across all daily store management menus.</li>
 <li><strong>Live KPI Metric Cards:</strong> Real-time summary cards for total sales, orders, average order value, and account standing.</li>
 <li><strong>Action Required Queue:</strong> Priority alert filter for pending orders, low stock items, and unread notifications.</li>
-<li><strong>Custom Themes & Layouts:</strong> Dark/light mode switcher, chart color palettes, and horizontal/vertical form layouts.</li>
+<li><strong>Custom Themes & Layouts:</strong> Chart color palettes and horizontal/vertical form layouts.</li>
 </ul>
 <div class="mode-card__footer">
 <span class="mode-card__footer-label">Admin Trigger:</span>
@@ -9337,6 +9337,8 @@ Vendors using the separate dedicated dashboard can customize how their product e
 
 **Settings > Site Setting** (`/seller/seller-site-setting/`)
 
+<a class="doc-image-link" href="./assets/vendor-site-setting-product-form.webp"><img src="./assets/vendor-site-setting-product-form.webp" alt="Vendor Dashboard Site Settings - Product Form Navigation Layouts" /></a>
+
 ### Form Navigation Layout Options
 
 | Layout Mode | Description | Recommended For |
@@ -9356,6 +9358,8 @@ Additional display options:
 Vendors can personalize the color palette used in dashboard charts and visual reports:
 
 Navigate to: **Settings > Graph Setting** (`/seller/seller-graph-setting/`)
+
+<a class="doc-image-link" href="./assets/vendor-graph-setting-dashboard.webp"><img src="./assets/vendor-graph-setting-dashboard.webp" alt="Vendor Dashboard Graph Settings - Chart Color Customization" /></a>
 
 Vendors can select a module and pick custom accent colors using the interactive color picker:
 1. **Dashboard:** Customize line, bar, and accent colors for sales, commission, and order status charts.
@@ -9414,6 +9418,8 @@ The **Separate WP-Admin Dashboard** provides marketplace sellers with a dedicate
 
 This separate interface keeps vendor operations completely independent from platform administration, ensuring that sellers only access features relevant to their store.
 
+<a class="doc-image-link" href="./assets/vendor-separate-wp-admin-dashboard-overview.webp"><img src="./assets/vendor-separate-wp-admin-dashboard-overview.webp" alt="WooCommerce Marketplace Separate WP-Admin Vendor Dashboard Overview" /></a>
+
 ---
 
 ## Enabling Separate Vendor Dashboard
@@ -9424,6 +9430,8 @@ Marketplace administrators can easily enable or disable the separate backend das
 2. Locate the **Separate Vendor Dashboard** setting checkbox.
 3. Check the box to activate the separate dashboard for all registered marketplace vendors.
 4. Click **Save Changes** at the bottom of the page.
+
+<a class="doc-image-link" href="./assets/admin-separate-vendor-dashboard-setting.webp"><img src="./assets/admin-separate-vendor-dashboard-setting.webp" alt="Admin General Settings - Separate Vendor Dashboard Checkbox Configuration" /></a>
 
 ---
 
@@ -9465,6 +9473,8 @@ Vendors have access only to the store-specific tools required for day-to-day ope
 
 Vendors can manage their approved products directly from the WordPress administration panel using WooCommerce's native product editor. The catalog is strictly isolated, ensuring sellers only see and edit their own merchandise under **Products > All Products** and **Products > Add new product**.
 
+<a class="doc-image-link" href="./assets/vendor-separate-dashboard-products.webp"><img src="./assets/vendor-separate-dashboard-products.webp" alt="Dedicated Vendor Products Catalog Management in WordPress Administration Panel" /></a>
+
 ::: tip Official WooCommerce Product Guides for New Vendors
 To help new vendors quickly learn how to create and manage their store items, refer to the official WooCommerce documentation:
 
@@ -9482,6 +9492,8 @@ To help new vendors quickly learn how to create and manage their store items, re
 # Vacation Mode
 
 The **Vacation Mode** allows vendors to temporarily close their store when they are unavailable. When enabled, the storefront displays a vacation notice with the vendor's custom message and blocks customer purchases.
+
+<a class="doc-image-link" href="./assets/vendor-vacation-overview.webp"><img src="./assets/vendor-vacation-overview.webp" alt="Vacation Mode Overview" /></a>
 
 ::: tip Store Administration Note
 If you are a marketplace administrator looking to configure global vacation policies, button labels, or backend overrides, please refer to the [Configuration – Vacation Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-vacation-setting.html) guide.
@@ -9503,7 +9515,7 @@ Vendors can manage their holiday schedules directly from the seller panel:
 
 The Vacation dashboard displays all scheduled, active, and past store breaks in an organized table.
 
-<a class="doc-image-link" href="./assets/vacation-list.png"><img src="./assets/vacation-list.png" alt="Vacation List" /></a>
+<a class="doc-image-link" href="./assets/vendor-vacation-list.webp"><img src="./assets/vendor-vacation-list.webp" alt="Vacation List" /></a>
 
 ### Status Filter Tabs
 
@@ -9551,7 +9563,7 @@ Vendors can manage multiple vacation records at once using the bulk action bar:
 
 To schedule a new break or close your store temporarily, click the **+ Add Vacation** button located at the top right of the vacation page.
 
-<a class="doc-image-link" href="./assets/add-vacation.png"><img src="./assets/add-vacation.png" alt="Add Vacation" /></a>
+<a class="doc-image-link" href="./assets/vendor-add-vacation.webp"><img src="./assets/vendor-add-vacation.webp" alt="Add Vacation" /></a>
 
 The vacation settings form allows vendors to configure the following settings:
 
@@ -9588,7 +9600,7 @@ Vendors can update an existing vacation schedule at any time:
 1. From the Vacation list, find the vacation entry and click **Edit** under the **Actions** column.
 2. The **Edit Vacation** page opens (`?section=settings&vacation_id=<id>`) with all previous details pre-filled.
 
-<a class="doc-image-link" href="./assets/edit-vacation.png"><img src="./assets/edit-vacation.png" alt="Edit Vacation" /></a>
+<a class="doc-image-link" href="./assets/vendor-edit-vacation.webp"><img src="./assets/vendor-edit-vacation.webp" alt="Edit Vacation" /></a>
 
 Vendors can modify existing schedules at any time:
 - Adjust vacation start or return dates if plans change.
@@ -9644,6 +9656,8 @@ When a vendor initiates a vacation, the marketplace automatically reflects the s
 
 The **Vendor Staff** feature allows vendors to add sub-users (store managers and team assistants) who can log in and manage the store on their behalf. Vendors can grant per-task permissions for each section (view, add, edit, delete, and more) based on the capabilities allowed by the admin.
 
+<a class="doc-image-link" href="./assets/vendor-staff-overview.webp"><img src="./assets/vendor-staff-overview.webp" alt="Vendor Staff Management Overview" /></a>
+
 ::: tip Store Administration Note
 If you are a marketplace administrator looking to configure global staff settings, maximum staff limits per vendor, delegatable permissions, or manage all vendor staff members, please refer to the [Configuration – Staff Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) guide.
 :::
@@ -9665,7 +9679,7 @@ Running a busy online store often requires teamwork. The Vendor Staff feature pr
 
 Vendors can view a list of all their staff members from the Vendor Dashboard by navigating to **Vendor Staff** from the seller menu.
 
-<a class="doc-image-link" href="./assets/vendor-staff-list.png"><img src="./assets/vendor-staff-list.png" alt="Vendor Staff List" /></a>
+<a class="doc-image-link" href="./assets/vendor-staff-list.webp"><img src="./assets/vendor-staff-list.webp" alt="Vendor Staff List" /></a>
 
 ### Staff Directory Table
 
@@ -9684,7 +9698,7 @@ The main directory table displays the following columns for every registered ass
 
 To add a new staff member, click on the **+Add Vendor Staff** button located at the top right of the staff directory.
 
-<a class="doc-image-link" href="./assets/add-vendor-staff.png"><img src="./assets/add-vendor-staff.png" alt="Add Vendor Staff" /></a>
+<a class="doc-image-link" href="./assets/add-vendor-staff.webp"><img src="./assets/add-vendor-staff.webp" alt="Add Vendor Staff" /></a>
 
 On the **Add Vendor Staff** form, complete the required account details:
 
@@ -9703,7 +9717,7 @@ Vendors do not set a password manually when creating a staff account. An automat
 
 Vendors can edit existing staff settings and define precise permissions for what the staff member is allowed to do. To edit an assistant, click the **Edit** button next to their name in the staff directory table.
 
-<a class="doc-image-link" href="./assets/edit-vedor-staff-setting.png"><img src="./assets/edit-vedor-staff-setting.png" alt="Edit Vendor Staff Setting" /></a>
+<a class="doc-image-link" href="./assets/edit-vendor-staff-setting.webp"><img src="./assets/edit-vendor-staff-setting.webp" alt="Edit Vendor Staff Setting" /></a>
 
 When editing a staff member:
 
@@ -9721,7 +9735,7 @@ When a team member leaves or no longer requires access, vendors can delete their
 1. Locate the staff member in the table and click the **Delete** button under **Actions**.
 2. A confirmation modal titled **Remove vendor staff?** will appear.
 
-<a class="doc-image-link" href="./assets/vendor-staff-delete-modal.png"><img src="./assets/vendor-staff-delete-modal.png" alt="Remove Vendor Staff Confirmation Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-staff-delete-modal.webp"><img src="./assets/vendor-staff-delete-modal.webp" alt="Remove Vendor Staff Confirmation Modal" /></a>
 
 3. Review the warning notice: *"This vendor staff will lose access to your store. This action cannot be undone."*
 4. Click **Yes, remove** to confirm deletion, or click **Cancel** to keep the staff account.
@@ -9732,9 +9746,9 @@ When a team member leaves or no longer requires access, vendors can delete their
 
 The permissions can be granularly controlled per section (e.g., Products, Orders, Profile) and per action (e.g., view, add, edit, delete). Each module is presented as a distinct card with an interactive **Select all** button on the header for quick configuration.
 
-<a class="doc-image-link" href="./assets/allowed-staff-to-do.png"><img src="./assets/allowed-staff-to-do.png" alt="Allowed Staff Permissions" /></a>
+<a class="doc-image-link" href="./assets/allowed-staff-to-do.webp"><img src="./assets/allowed-staff-to-do.webp" alt="Allowed Staff Permissions" /></a>
 
-<a class="doc-image-link" href="./assets/allowed-staff-to-do-2.png"><img src="./assets/allowed-staff-to-do-2.png" alt="Allowed Staff Permissions Continued" /></a>
+<a class="doc-image-link" href="./assets/allowed-staff-to-do-2.webp"><img src="./assets/allowed-staff-to-do-2.webp" alt="Allowed Staff Permissions Continued" /></a>
 
 Here is the complete breakdown of all available permission cards and what each capability allows:
 
@@ -9873,7 +9887,7 @@ https://example.com/seller/vendor-staff/
 
 Efficient catalog management is the foundation of any thriving multi-vendor marketplace. With WooCommerce Multi-Vendor Marketplace, vendors can easily add, organize, and monitor their products through an intuitive merchant interface, while marketplace administrators retain complete governance over publishing approvals, allowable product types, categories, and form presentations.
 
-<a class="doc-image-link" href="./assets/product-management.webp"><img src="./assets/product-management.webp" alt="Product Management" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-management.webp"><img src="./assets/vendor-product-management.webp" alt="Vendor Product Management Overview" /></a>
 
 This guide covers the complete product management lifecycle: exploring the three product onboarding pathways, creating products using the guided 3-step wizard or the streamlined single-page form, utilizing the interactive **Listing Completeness** gauge, tailoring the form navigation layout in **Site Setting**, and navigating the product approval workflow.
 
@@ -9907,6 +9921,8 @@ The catalog table displays all products owned by or assigned to the vendor, alon
 High-volume vendors managing extensive catalogs can locate specific inventory items instantly using the collapsible filter drawer.
 
 Click the **Filter** button above the product table to open the slide-out drawer:
+
+<a class="doc-image-link" href="./assets/vendor-products-filter-drawer.webp"><img src="./assets/vendor-products-filter-drawer.webp" alt="Vendor Product 12-Parameter Filter Drawer" /></a>
 
 ### Available Filter Criteria
 
@@ -9948,6 +9964,8 @@ Vendors can perform batch operations on multiple products simultaneously to save
 ## Listing Products: The 3 Onboarding Pathways
 
 When vendors navigate to list a product by clicking **Add Product** or opening **Catalog > List Your Product**, the marketplace presents three onboarding pathways designed for different inventory scenarios:
+
+<a class="doc-image-link" href="./assets/vendor-product-onboarding-pathways.webp"><img src="./assets/vendor-product-onboarding-pathways.webp" alt="Vendor Product Onboarding Pathways" /></a>
 
 <div class="wkmp-real-pathway-cards">
   <a href="#_1-create-new-products" class="wkmp-real-pathway-card">
@@ -10120,6 +10138,8 @@ The initial step establishes catalog taxonomy and architectural product structur
 2. **Product Type Selection:**
    Vendors select their product structure from interactive product type cards:
 
+<a class="doc-image-link" href="./assets/vendor-product-step1-basics.webp"><img src="./assets/vendor-product-step1-basics.webp" alt="Add Product Step 1 - Product Basics" /></a>
+
 <div class="product-types-grid">
   <div class="product-type-card">
     <div class="product-type-card__icon">
@@ -10223,7 +10243,7 @@ The initial step establishes catalog taxonomy and architectural product structur
   </div>
 </div>
 
-<a class="doc-image-link" href="./assets/product-detail.webp"><img src="./assets/product-detail.webp" alt="Product Details" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-step2-details.webp"><img src="./assets/vendor-product-step2-details.webp" alt="Add Product Step 2 - Product Details" /></a>
 
 The second stage captures product information, merchandising content, pricing, and logistics:
 
@@ -10301,6 +10321,8 @@ The final stage confirms configuration and initiates publication:
 ## The Modern Product Editor
 
 When editing existing catalog items, vendors work within a specialized workspace designed for comprehensive catalog maintenance:
+
+<a class="doc-image-link" href="./assets/vendor-product-editor-completeness.webp"><img src="./assets/vendor-product-editor-completeness.webp" alt="Modern Product Editor and Listing Completeness Score" /></a>
 
 <div class="completeness-card">
   <div class="completeness-card__header">
@@ -10445,7 +10467,7 @@ Vendors are empowered to personalize how their product forms look and behave to 
 
 When the administrator enables **Vendor Mode**, vendors navigate to **Settings > Site Setting** in their merchant dashboard:
 
-<a class="doc-image-link" href="./assets/product-settings.webp"><img src="./assets/product-settings.webp" alt="Vendor Site Setting Form Layout" /></a>
+<a class="doc-image-link" href="./assets/vendor-site-setting-product-form.webp"><img src="./assets/vendor-site-setting-product-form.webp" alt="Vendor Site Setting Form Layout" /></a>
 
 Under the **Product Form** section (*"How your product form is presented"*), vendors can configure three key settings:
 
@@ -10550,6 +10572,8 @@ When creating or editing a **Variable Product**, vendors can configure attribute
 
 When marketplace administrators require product review prior to publication, items follow a structured 4-stage review cycle:
 
+<a class="doc-image-link" href="./assets/Product-mangement.webp"><img src="./assets/Product-mangement.webp" alt="Marketplace Admin Product Approval Workflow" /></a>
+
 1. **Submission:** When a vendor submits a product, its status is set to `Waiting for Approval` and it is hidden from storefront catalog listings.
 2. **Administrative Review:** The administrator inspects the listing under **Marketplace > Product Approval**.
 3. **Approval:** The administrator approves the product; its status switches to `Published` and it becomes visible on the storefront.
@@ -10563,7 +10587,7 @@ Marketplace administrators configure vendor catalog rules and form presentation 
 
 Navigate to: **Marketplace > Settings > Product**
 
-<a class="doc-image-link" href="./assets/product-settings.webp"><img src="./assets/product-settings.webp" alt="Admin Marketplace Product Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-setting-product.webp"><img src="./assets/admin-setting-product.webp" alt="Admin Marketplace Product Settings" /></a>
 
 ### Key Administrator Settings
 
@@ -10601,7 +10625,7 @@ Administrators can customize frontend URL slugs under **Marketplace > Settings >
 
 Accurate stock control is vital for every marketplace seller. Running out of stock leads to missed sales and dissatisfied buyers, while overstocking ties up valuable working capital. The **Manage Inventory** module in WooCommerce Multi-Vendor Marketplace gives sellers a centralized, high-speed workspace to update stock levels, edit SKUs and barcodes, track real-time sales metrics, and adjust quantities in bulk—all without opening the full product editor for every single item.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-dashboard.png"><img src="./assets/vendor-inventory-dashboard.png" alt="Vendor Manage Inventory Dashboard Overview" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-dashboard.webp"><img src="./assets/vendor-inventory-dashboard.webp" alt="Vendor Manage Inventory Dashboard Overview" /></a>
 
 This guide explains how to navigate the inventory dashboard, configure single-item stock rules inline, execute rapid bulk stock updates, utilize the 4-parameter filter drawer, and manage variation-level inventory for variable products.
 
@@ -10614,6 +10638,8 @@ Vendors can reach the inventory management dashboard directly from their seller 
 1. Log in to your merchant account.
 2. In the left navigation menu, locate **Inventories**.
 3. Click **Manage Inventory**.
+
+<a class="doc-image-link" href="./assets/vendor-inventory-nav-access.webp"><img src="./assets/vendor-inventory-nav-access.webp" alt="Accessing Manage Inventory from Vendor Sidebar" /></a>
 
 The page resolves to the standard portal route:
 ```text
@@ -10629,7 +10655,7 @@ https://your-domain.com/seller/seller-manage-inventory/
 
 The Manage Inventory dashboard organizes catalog items into structured cards designed for fast scanning. Each card displays product details, operational order metrics, and current stock status at a glance.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-dashboard.png"><img src="./assets/vendor-inventory-dashboard.png" alt="Manage Inventory Dashboard Table and Metrics" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-dashboard.webp"><img src="./assets/vendor-inventory-dashboard.webp" alt="Manage Inventory Dashboard Table and Metrics" /></a>
 
 ### Visible Data Fields & Quick Actions
 
@@ -10657,7 +10683,7 @@ The Manage Inventory dashboard organizes catalog items into structured cards des
 
 Clicking **Manage inventory** on any product row expands a comprehensive configuration panel directly beneath the item without reloading the page.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-panel-expanded.png"><img src="./assets/vendor-inventory-panel-expanded.png" alt="Single Product Inline Inventory Configuration Panel" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-panel-expanded.webp"><img src="./assets/vendor-inventory-panel-expanded.webp" alt="Single Product Inline Inventory Configuration Panel" /></a>
 
 ### Configurable Inventory Settings
 
@@ -10686,7 +10712,7 @@ Clicking **Manage inventory** on any product row expands a comprehensive configu
 
 When updating stock for multiple catalog items at once—such as receiving a supplier shipment or marking seasonal items down—sellers can use the bulk action toolbar.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-bulk-actions.png"><img src="./assets/vendor-inventory-bulk-actions.png" alt="Bulk Inventory Updates Toolbar and Notifications" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-bulk-actions.webp"><img src="./assets/vendor-inventory-bulk-actions.webp" alt="Bulk Inventory Updates Toolbar and Notifications" /></a>
 
 ### How to Perform a Bulk Stock Adjustment
 
@@ -10714,7 +10740,7 @@ When updating stock for multiple catalog items at once—such as receiving a sup
 
 The Manage Inventory module includes instant search and a dedicated slide-out filter drawer to quickly isolate specific items within large product catalogs.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-filter-drawer.png"><img src="./assets/vendor-inventory-filter-drawer.png" alt="Slide-out Inventory Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-filter-drawer.webp"><img src="./assets/vendor-inventory-filter-drawer.webp" alt="Slide-out Inventory Filter Drawer" /></a>
 
 ### Search and Display Controls
 
@@ -10741,7 +10767,7 @@ After setting your criteria, click **Apply Filters** to refresh the list. To cle
 
 Variable products contain multiple options (such as sizes, colors, or materials), each requiring distinct inventory tracking.
 
-<a class="doc-image-link" href="./assets/vendor-inventory-variations-view.png"><img src="./assets/vendor-inventory-variations-view.png" alt="Variable Product Variation Inventory Management Suite" /></a>
+<a class="doc-image-link" href="./assets/vendor-inventory-variations-view.webp"><img src="./assets/vendor-inventory-variations-view.webp" alt="Variable Product Variation Inventory Management Suite" /></a>
 
 ### Parent Product vs. Variation Rules
 
@@ -10823,6 +10849,8 @@ In high-volume multi-vendor marketplaces, multiple merchants frequently offer id
 
 **Selling Existing Products** (powered by **Select and Sell**) solves this by enabling multiple approved vendors to attach their own pricing, stock, and offer notes to a single master product in the marketplace catalog. Customers enjoy a clean storefront with side-by-side merchant comparisons, while vendors easily list catalog items without re-entering descriptions or uploading media.
 
+<a class="doc-image-link" href="./assets/vendor-select-and-sell-overview.webp"><img src="./assets/vendor-select-and-sell-overview.webp" alt="Selling Existing Products Overview" /></a>
+
 ---
 
 ## How It Works
@@ -10865,6 +10893,8 @@ Select the taxonomy and architecture of the product you wish to sell:
   - **Variable product:** Products with variations (e.g., sizes or colors).
 - Click **Next Step** to proceed.
 
+<a class="doc-image-link" href="./assets/vendor-select-and-sell-step1.webp"><img src="./assets/vendor-select-and-sell-step1.webp" alt="Select and Sell Step 1 Category and Product Type Selection" /></a>
+
 ---
 
 ### Step 2: Select Product & Configure Offer Details
@@ -10895,6 +10925,8 @@ Status:          [ Draft / Publish ]
 | **Description** | Text Area (0/300) | Enter specific condition or offer details (*"Shown to customers below your price, for example the condition or what is included."*). Includes a live character counter. |
 | **Status** | Selector | Choose **Draft** (saves privately in your vendor console to review later) or **Publish** (activates the offer immediately or submits it to the admin approval queue). |
 
+<a class="doc-image-link" href="./assets/vendor-select-and-sell-add-product.webp"><img src="./assets/vendor-select-and-sell-add-product.webp" alt="Vendor Select and Sell Step 2 Offer Configuration" /></a>
+
 Click **Save** to finalize your offer.
 
 ---
@@ -10902,6 +10934,8 @@ Click **Save** to finalize your offer.
 ## Managing Your Offers (`/seller/select-and-sell/`)
 
 Vendors manage all active offers under **Catalog > Search Products** (`/seller/select-and-sell/`):
+
+<a class="doc-image-link" href="./assets/vendor-select-and-sell-offers-list.webp"><img src="./assets/vendor-select-and-sell-offers-list.webp" alt="Vendor Select and Sell Manage Offers Table" /></a>
 
 - **Offer Data Table:**
   - **Image:** Master product thumbnail.
@@ -10937,7 +10971,7 @@ Navigate to: **Marketplace > MP Select and Sell**
 For comprehensive instructions on managing Global vs Non-Global catalog items, search and filter controls, and administrative offer moderation, refer to the [Admin MP Select and Sell Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html).
 :::
 
-<a class="doc-image-link" href="./assets/product-settings.webp"><img src="./assets/product-settings.webp" alt="Select and Sell Admin Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-products.webp"><img src="./assets/admin-select-and-sell-products.webp" alt="Admin MP Select and Sell Products Management" /></a>
 
 ### Key Administrator Settings:
 
@@ -10964,6 +10998,8 @@ This guide explains both bulk upload workflows, column mapping, file specificati
 Vendors access bulk management by opening:
 
 **Catalog > Bulk Upload** (`/seller/seller-bulk-upload/`)
+
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-hub.webp"><img src="./assets/vendor-bulk-upload-hub.webp" alt="Seller Bulk Upload Hub Selection" /></a>
 
 The console presents two specialized pathways:
 
@@ -11028,6 +11064,8 @@ Navigate to: **Catalog > Bulk Upload > List Your Own Products** (`/seller/seller
 
 ### Step 1: Upload a CSV file
 
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-step-1-upload.webp"><img src="./assets/vendor-bulk-upload-step-1-upload.webp" alt="Bulk Upload Step 1 - Upload CSV and Catalog Export" /></a>
+
 - **Guidance:** *"Create new products, or update your existing ones, from a CSV file. Each row is checked against your store's rules, and you get a report for every row that could not be imported."*
 - **Download CSV Template:** Click **Download CSV template** to obtain a ready-to-use CSV template containing all supported product fields:
   - `name`, `sku`, `type`, `regular_price`, `sale_price`, `manage_stock`, `stock_quantity`, `backorders`, `short_description`, `description`, `category_ids`, `tags`, `images`, `weight`, `length`, `width`, `height`.
@@ -11051,10 +11089,12 @@ Directly beneath the upload dropzone, vendors can download their entire active c
 
 The importer reads your CSV header row and automatically pairs columns with WooCommerce product fields:
 
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-step-2-mapping.webp"><img src="./assets/vendor-bulk-upload-step-2-mapping.webp" alt="Bulk Upload Step 2 - Intelligent Column Mapping" /></a>
+
 - **Automatic Pairing:** Recognizes standard headers such as *Product Name*, *SKU*, *Regular Price*, *Sale Price*, *Stock Quantity*, and *Categories*.
 - **Manual Remapping:** For spreadsheets from external POS or ERP systems, use the dropdown menus to match spreadsheet columns to store attributes.
 - **Ignore Column:** Set any irrelevant column to *Do not import* to omit it from processing.
-- Click **Run the Importer** to proceed to Step 3.
+- Click **Run the import** to proceed to Step 3.
 
 ---
 
@@ -11070,6 +11110,9 @@ The import engine processes products in background batches:
 ### Step 4: Import Results & Diagnostics
 
 Upon completion, the system displays an import summary:
+
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-step-4-results.webp"><img src="./assets/vendor-bulk-upload-step-4-results.webp" alt="Bulk Upload Step 4 - Import Results and Diagnostics Report" /></a>
+
 - **Imported:** Number of brand-new products added.
 - **Updated:** Number of existing products synchronized.
 - **Skipped / Failed:** Number of rows that encountered validation errors.
@@ -11113,6 +11156,8 @@ Navigate to: **Catalog > Bulk Upload > Sell Catalog Products** (`/seller/seller-
 
 ### Step 1: Upload a CSV file
 
+<a class="doc-image-link" href="./assets/vendor-bulk-sell-step-1-upload.webp"><img src="./assets/vendor-bulk-sell-step-1-upload.webp" alt="Sell Catalog Products Bulk Step 1 - Upload CSV" /></a>
+
 - **Guidance:** *"Sell products that are already in the marketplace catalog, at your own price and stock. Download the template: it lists the products you can sell, one row per variation for variable products. Fill in your prices, quantities and status, then upload it here. You can check every row before anything is saved."*
 - **Download CSV Template:** Click **Download CSV template** to receive a spreadsheet pre-populated with all master products currently eligible for Select & Sell in the marketplace. For variable products, the template includes one row per variation.
 - **Template Columns:** `product_id`, `product_name`, `variation_id`, `regular_price`, `sale_price`, `quantity`, `description`, `status`.
@@ -11124,6 +11169,10 @@ Navigate to: **Catalog > Bulk Upload > Sell Catalog Products** (`/seller/seller-
 
 ### Step 2: Pre-Flight Check & Validation
 
+The system scans every row before committing data to the database:
+
+<a class="doc-image-link" href="./assets/vendor-bulk-sell-step-2-check.webp"><img src="./assets/vendor-bulk-sell-step-2-check.webp" alt="Sell Catalog Products Bulk Step 2 - Pre-Flight Check and Validation" /></a>
+
 - The system scans every row before committing data to the database.
 - An interactive review table displays each product, your entered regular price, sale price, inventory quantity, description note, and target status.
 - Highlights any rows with syntax errors, negative numbers, or invalid IDs.
@@ -11132,6 +11181,8 @@ Navigate to: **Catalog > Bulk Upload > Sell Catalog Products** (`/seller/seller-
 ---
 
 ### Step 3: Results
+
+<a class="doc-image-link" href="./assets/vendor-bulk-sell-step-3-results.webp"><img src="./assets/vendor-bulk-sell-step-3-results.webp" alt="Sell Catalog Products Bulk Step 3 - Final Results" /></a>
 
 - Confirms the total number of newly created offers and updated offers.
 - Any rejected rows are documented in a downloadable report.
@@ -11143,6 +11194,8 @@ Navigate to: **Catalog > Bulk Upload > Sell Catalog Products** (`/seller/seller-
 Marketplace administrators configure vendor bulk upload rules under:
 
 **Marketplace > Settings > Product**
+
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-product-fullfilment.webp"><img src="./assets/marketplace-admin-setting-product-fullfilment.webp" alt="Admin Marketplace Product Settings - Vendor Bulk Upload Settings" /></a>
 
 | Setting Option | Description & Best Practice |
 |---|---|
@@ -11159,6 +11212,8 @@ Marketplace administrators configure vendor bulk upload rules under:
 In modern retail and warehouse fulfillment, physical barcodes are vital for fast inventory check-in, error-free order picking, and automated checkout scanning. WooCommerce Multi-Vendor Marketplace includes a built-in barcode engine that generates crisp vector barcodes for every product and variation, allowing vendors to print thermal label sheets directly from the seller panel.
 
 This guide covers supported barcode formats, assigning barcodes to simple and variable products, batch PDF printing for thermal label printers, and staff permissions.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-catalog.webp"><img src="./assets/marketplace-vendor-product-barcode-catalog.webp" alt="Vendor Catalog Products Table with Barcode Column and Download PNG Actions" /></a>
 
 ---
 
@@ -11187,15 +11242,7 @@ Vendors can assign barcodes to individual products or generate them in bulk acro
 4. Click **Save Product** (or **Submit for Approval**).
 5. The system automatically creates and renders the crisp vector barcode graphic below the field.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ GTIN, UPC, EAN, or ISBN: [ 8901234567890                  ] │
-│                                                             │
-│   || | |||| || ||||| ||| |||| | ||||| || ||| |||| ||        │
-│                     8901234567890                           │
-│   [ Download PNG ]                                          │
-└─────────────────────────────────────────────────────────────┘
-```
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-single-item.webp"><img src="./assets/marketplace-vendor-product-barcode-single-item.webp" alt="Single Product Edit Barcode Field and Vector Barcode Preview" /></a>
 
 6. Click **Download PNG** to save the standalone high-resolution barcode image for product packaging, hangtags, or catalog design.
 
@@ -11207,6 +11254,8 @@ For products with multiple variations (e.g., sizes or colors):
 - Each variation contains its own unique **GTIN / Barcode** input field.
 - Vendors can assign distinct barcode numbers to each variation item (e.g., *Small/Red*, *Medium/Red*, *Large/Blue*).
 - On the main **Products** list table, click **Show variations** in the Barcode column to view and download barcodes for every variation individually.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-variations.webp"><img src="./assets/marketplace-vendor-product-barcode-variations.webp" alt="Variable Product Barcodes List and Variations Download Actions" /></a>
 
 ---
 
@@ -11256,6 +11305,8 @@ Navigate to: **Catalog > Products** (`/seller/vendor-products/`)
 3. Choose the target symbology: **Code 128**, **EAN-13**, or **UPC-A**.
 4. Click **Apply**. The engine generates and associates vector barcodes across all selected items.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-bulk-generate.webp"><img src="./assets/marketplace-vendor-product-barcode-bulk-generate.webp" alt="Bulk Barcode Generation Menu with Code 128, EAN-13, and UPC-A Symbology Options" /></a>
+
 ---
 
 ### 2. Printing Barcode Label Sheets (PDF)
@@ -11269,6 +11320,8 @@ Navigate to: **Catalog > Products** (`/seller/vendor-products/`)
    - **Alphanumeric Code:** Human-readable text beneath the bars.
 4. Send the document directly to your thermal barcode printer (e.g., *Zebra*, *Rollo*, *DYMO*) or standard adhesive Avery label sheets.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-print-labels-pdf.webp"><img src="./assets/marketplace-vendor-product-barcode-print-labels-pdf.webp" alt="Generated Barcode Labels Printable PDF Sheet" /></a>
+
 ---
 
 ## Filtering the Catalog by Barcode
@@ -11279,6 +11332,8 @@ Vendors can find specific products instantly using physical handheld barcode sca
 2. Place the cursor in the **Barcode / GTIN** filter field.
 3. Scan the physical product label using any USB or Bluetooth barcode scanner (or type the code).
 4. Click **Apply Filters**. The catalog table updates immediately to display the exact matching item.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-filter-drawer.webp"><img src="./assets/marketplace-vendor-product-barcode-filter-drawer.webp" alt="Catalog Filter Drawer with Barcode and GTIN Input Field" /></a>
 
 ---
 
@@ -11291,6 +11346,8 @@ Store owners who employ team members can control who is authorized to view, gene
   - **Enabled:** Staff members can generate barcode graphics and print label sheets during warehouse packing workflows.
   - **Disabled:** Hides barcode download and bulk printing tools from the staff member's interface.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-staff-permissions.webp"><img src="./assets/marketplace-vendor-product-barcode-staff-permissions.webp" alt="Vendor Staff Permissions Settings for Barcode Generation and Printing" /></a>
+
 ---
 
 <!-- source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-shipping-zone-management.html -->
@@ -11298,6 +11355,8 @@ Store owners who employ team members can control who is authorized to view, gene
 # Vendor Shipping Zone Management
 
 In **WooCommerce Multi-Vendor Marketplace**, vendors have complete control over their shipping setup. Each vendor can create custom **Shipping Zones**, define targeted **Shipping Methods** (Flat Rate, Free Shipping, and Store Pickup), organize products with **Shipping Classes**, and configure **Local Pickup Locations** directly from their vendor panel.
+
+<a class="doc-image-link" href="./assets/vendor-shipping-zone-management-overview.webp"><img src="./assets/vendor-shipping-zone-management-overview.webp" alt="Vendor Shipping Zone Management Dashboard Overview" /></a>
 
 ::: warning Administrator Capability: Applicable Shipping Methods
 For vendor shipping zones and rates to apply during customer checkout, the marketplace administrator must enable vendor shipping in the marketplace settings.
@@ -11320,7 +11379,7 @@ Vendors can manage their shipping operations from the seller dashboard:
 2. From the seller dashboard sidebar navigation, click **Shippings**.
 3. You will arrive at the main **Shipping Overview** page (`/seller/vendor-shippings/`).
 
-<a class="doc-image-link" href="./assets/vendor-shippings-main.png"><img src="./assets/vendor-shippings-main.png" alt="Vendor Shipping Overview Table" /></a>
+<a class="doc-image-link" href="./assets/vendor-shippings-main.webp"><img src="./assets/vendor-shippings-main.webp" alt="Vendor Shipping Overview Table" /></a>
 
 ### Top Action Controls
 
@@ -11354,7 +11413,7 @@ To set up a new delivery region for your products:
 1. On the **Shippings** page, click **Add New Shipping Zone**.
 2. You will be redirected to the **Add Shipping Zone** page (`/seller/vendor-shippings/add/`).
 
-<a class="doc-image-link" href="./assets/vendor-add-shipping-zone.png"><img src="./assets/vendor-add-shipping-zone.png" alt="Add New Shipping Zone" /></a>
+<a class="doc-image-link" href="./assets/vendor-add-shipping-zone.webp"><img src="./assets/vendor-add-shipping-zone.webp" alt="Add New Shipping Zone" /></a>
 
 3. Configure the following zone details:
    - **Zone Name**: Enter a descriptive name for your shipping zone (e.g., *European Union*, *California Local*).
@@ -11377,7 +11436,7 @@ After saving your shipping zone, you can manage the delivery methods offered wit
 1. From the **Shippings** table, click the **Edit** (pencil) icon next to the zone you want to update.
 2. The **Shipping Zone Edit** page opens (`/seller/vendor-shippings/{zone_id}/`).
 
-<a class="doc-image-link" href="./assets/vendor-edit-shipping-zone.png"><img src="./assets/vendor-edit-shipping-zone.png" alt="Edit Shipping Zone Page" /></a>
+<a class="doc-image-link" href="./assets/vendor-edit-shipping-zone.webp"><img src="./assets/vendor-edit-shipping-zone.webp" alt="Edit Shipping Zone Page" /></a>
 
 3. You can update the **Zone Name**, **Zone Regions**, or **ZIP/postcodes** at any time. Click **Update changes** to apply your updates.
 
@@ -11390,7 +11449,7 @@ To assign delivery methods to the selected zone:
 1. Under the **Shipping Method** section of the edit page, click **Add shipping method**.
 2. A popup window will appear asking you to choose a method.
 
-<a class="doc-image-link" href="./assets/vendor-shipping-method-modal.png"><img src="./assets/vendor-shipping-method-modal.png" alt="Add Shipping Method Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-shipping-method-modal.webp"><img src="./assets/vendor-shipping-method-modal.webp" alt="Add Shipping Method Modal" /></a>
 
 3. Select one of the available shipping methods from the dropdown list:
    - **Flat rate**: Charge a fixed fee per order or per item.
@@ -11408,7 +11467,7 @@ Once a shipping method is added, click its name (e.g., **Flat rate**) to open it
 
 The Flat Rate method lets you charge fixed or formula-based shipping fees:
 
-<a class="doc-image-link" href="./assets/vendor-flat-rate-settings.png"><img src="./assets/vendor-flat-rate-settings.png" alt="Flat Rate Settings Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-flat-rate-settings.webp"><img src="./assets/vendor-flat-rate-settings.webp" alt="Flat Rate Settings Modal" /></a>
 
 - **Name**: The method title shown to customers at checkout (default: *Flat rate*).
 - **Tax status**: Select whether this shipping fee is **Taxable** or has **None**.
@@ -11459,7 +11518,7 @@ To manage shipping classes:
 1. Click **Manage Shipping Classes** from the main Shippings page, or navigate to `/seller/vendor-shippings/add-class/`.
 2. The **Shipping Classes** management table will display.
 
-<a class="doc-image-link" href="./assets/vendor-manage-shipping-classes.png"><img src="./assets/vendor-manage-shipping-classes.png" alt="Manage Shipping Classes Table" /></a>
+<a class="doc-image-link" href="./assets/vendor-manage-shipping-classes.webp"><img src="./assets/vendor-manage-shipping-classes.webp" alt="Manage Shipping Classes Table" /></a>
 
 ### Adding a New Shipping Class
 
@@ -11486,7 +11545,7 @@ To access Local Pickup settings:
 1. Click **Manage Local Pickup** from the main Shippings page, or navigate to `/seller/vendor-shippings/add-local/`.
 2. The **Local Pickup** management page will open.
 
-<a class="doc-image-link" href="./assets/vendor-manage-local-pickup.png"><img src="./assets/vendor-manage-local-pickup.png" alt="Manage Local Pickup Settings" /></a>
+<a class="doc-image-link" href="./assets/vendor-manage-local-pickup.webp"><img src="./assets/vendor-manage-local-pickup.webp" alt="Manage Local Pickup Settings" /></a>
 
 ### 1. General Local Pickup Settings
 
@@ -11505,7 +11564,7 @@ Below the general settings, the **Pickup locations** table displays all active c
 1. Click the **Add pickup location** button.
 2. The **Add pickup location** modal form will open:
 
-<a class="doc-image-link" href="./assets/vendor-add-pickup-location-modal.png"><img src="./assets/vendor-add-pickup-location-modal.png" alt="Add Pickup Location Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-add-pickup-location-modal.webp"><img src="./assets/vendor-add-pickup-location-modal.webp" alt="Add Pickup Location Modal" /></a>
 
 3. Enter the location information:
    - **Name**: The title of this location (e.g., *Downtown Retail Hub*, *Warehouse Store 2*).
@@ -11540,7 +11599,7 @@ The new location will appear in the **Pickup locations** table showing its Name,
 
 In **WooCommerce Multi-Vendor Marketplace**, vendors have complete control over their incoming orders. Vendors can track new orders, filter them by fulfillment status, inspect line items and commission breakdowns, upload personalized tax invoices, update order statuses, verify store pickup security codes, and process refunds directly from their seller panel.
 
-<a class="doc-image-link" href="./assets/vendor-orders-list-new.png"><img src="./assets/vendor-orders-list-new.png" alt="Vendor Order History List" /></a>
+<a class="doc-image-link" href="./assets/vendor-orders-list-new.webp"><img src="./assets/vendor-orders-list-new.webp" alt="Vendor Order History List" /></a>
 
 ---
 
@@ -11598,7 +11657,7 @@ Use the **Sort By** dropdown menu to reorder your order list:
 ### Advanced Filter Drawer
 Click the **Filter** button to open the slide-out filter drawer. This drawer allows vendors to combine multiple criteria:
 
-<a class="doc-image-link" href="./assets/vendor-orders-filter-drawer.png"><img src="./assets/vendor-orders-filter-drawer.png" alt="Advanced Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-orders-filter-drawer.webp"><img src="./assets/vendor-orders-filter-drawer.webp" alt="Advanced Filter Drawer" /></a>
 
 | Filter Field | Description |
 | :--- | :--- |
@@ -11658,7 +11717,7 @@ The single order view (`/seller/vendor-orders/{order_id}/`) provides comprehensi
 
 The items table displays each purchased item, associated SKU, quantity, and marketplace commission breakdown:
 
-<a class="doc-image-link" href="./assets/vendor-order-items-summary.png"><img src="./assets/vendor-order-items-summary.png" alt="Order Items and Commission Summary" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-items-summary.webp"><img src="./assets/vendor-order-items-summary.webp" alt="Order Items and Commission Summary" /></a>
 
 - **Product & SKU**: Product title, variation, SKU, item quantity (`× 1`), and seller attribution.
 - **Subtotal**: Product total before deductions.
@@ -11731,7 +11790,7 @@ Vendors can update the fulfillment status of their orders directly from the **Or
 
 For orders placed with the **Store Pickup** shipping method, vendors verify customer collection directly from the order details page:
 
-<a class="doc-image-link" href="./assets/vendor-order-pickup-verification.png"><img src="./assets/vendor-order-pickup-verification.png" alt="Store Pickup Verification Section" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-pickup-verification.webp"><img src="./assets/vendor-order-pickup-verification.webp" alt="Store Pickup Verification Section" /></a>
 
 1. Locate the **Pickup verification** section on the order page.
 2. Review the store location address (e.g., *Aurora Athletics · 1420 SE Water Avenue, Suite 3, Portland, OR*).
@@ -11758,7 +11817,7 @@ Vendors can generate refund requests for eligible orders directly from the order
 1. Open the order in **View** mode (`/seller/vendor-orders/{order_id}/`).
 2. Click the **Refund** button in the top action bar. The button toggles to **Cancel**, and refund input columns appear in the items table.
 
-<a class="doc-image-link" href="./assets/vendor-order-refund-interface.png"><img src="./assets/vendor-order-refund-interface.png" alt="Vendor Order Refund Interface" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-refund-interface.webp"><img src="./assets/vendor-order-refund-interface.webp" alt="Vendor Order Refund Interface" /></a>
 
 3. Configure the refund details:
    - **Refund Quantity**: Enter the number of units to refund for each product line. The refund amount updates automatically.
@@ -11839,7 +11898,7 @@ Vendors can access their store pickup dashboard directly from the seller portal 
 
 **Direct Seller Navigation URL**: `/seller/store-pickup/`
 
-<a class="doc-image-link" href="./assets/vendor-store-pickup-orders-list.png"><img src="./assets/vendor-store-pickup-orders-list.png" alt="Vendor Store Pickup Orders Management Dashboard" /></a>
+<a class="doc-image-link" href="./assets/vendor-store-pickup-orders-list.webp"><img src="./assets/vendor-store-pickup-orders-list.webp" alt="Vendor Store Pickup Orders Management Dashboard" /></a>
 
 ---
 
@@ -11887,7 +11946,7 @@ The main table on `/seller/store-pickup/` provides key operational information f
 
 During busy trading hours, front-counter staff need to locate arriving customers quickly. The store pickup interface provides both quick search and an advanced slide-out filter drawer.
 
-<a class="doc-image-link" href="./assets/vendor-store-pickup-filter-drawer.png"><img src="./assets/vendor-store-pickup-filter-drawer.png" alt="Vendor Store Pickup Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-store-pickup-filter-drawer.webp"><img src="./assets/vendor-store-pickup-filter-drawer.webp" alt="Vendor Store Pickup Filter Drawer" /></a>
 
 ### 1. Quick Keyword Search
 Located immediately above the table, the **Search** input allows instant lookups:
@@ -11933,7 +11992,7 @@ To protect both the seller and the customer against lost packages or disputed co
 
 When a customer comes to collect their package, follow these step-by-step instructions on the order details page (`/seller/vendor-orders/{order_id}/`).
 
-<a class="doc-image-link" href="./assets/vendor-store-pickup-verification-box.png"><img src="./assets/vendor-store-pickup-verification-box.png" alt="Vendor Store Pickup Verification Card" /></a>
+<a class="doc-image-link" href="./assets/vendor-store-pickup-verification-box.webp"><img src="./assets/vendor-store-pickup-verification-box.webp" alt="Vendor Store Pickup Verification Card" /></a>
 
 ### The 5-Step Counter Handover Workflow
 
@@ -11945,7 +12004,7 @@ When a customer comes to collect their package, follow these step-by-step instru
 | **04** | **Verify Code at Counter** | Store Staff | Staff enters the code into the verification input and clicks **Verify**. |
 | **05** | **Hand Over Goods & Complete** | Store Staff | Staff hands over items and updates order status to **Completed**. |
 
-<a class="doc-image-link" href="./assets/vendor-order-1171-pickup-detail.png"><img src="./assets/vendor-order-1171-pickup-detail.png" alt="Vendor Order Details with Store Pickup Verification" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-1171-pickup-detail.webp"><img src="./assets/vendor-order-1171-pickup-detail.webp" alt="Vendor Order Details with Store Pickup Verification" /></a>
 
 ### Detailed Handover Procedure:
 
@@ -11999,7 +12058,7 @@ This guardrail guarantees that:
 
 If you employ store managers, warehouse workers, or counter cashiers, you do not need to share your main seller account login. You can create dedicated staff accounts with specific store pickup permissions.
 
-<a class="doc-image-link" href="./assets/vendor-store-pickup-orders-list.png"><img src="./assets/vendor-store-pickup-orders-list.png" alt="Vendor Staff Pickup Access" /></a>
+<a class="doc-image-link" href="./assets/vendor-staff-pickup-access.webp"><img src="./assets/vendor-staff-pickup-access.webp" alt="Vendor Staff Pickup Access" /></a>
 
 ### Store Pickup Staff Capabilities
 
@@ -12062,7 +12121,7 @@ In **WooCommerce Multi-Vendor Marketplace**, vendors can generate, preview, and 
 
 Vendors can print the invoice immediately for packing slips, save it as a digital PDF file, or upload their own company-branded tax invoices directly to the order.
 
-<a class="doc-image-link" href="./assets/vendor-invoice-view-full.png"><img src="./assets/vendor-invoice-view-full.png" alt="Vendor Order Invoice View Full Page" /></a>
+<a class="doc-image-link" href="./assets/vendor-invoice-view-full.webp"><img src="./assets/vendor-invoice-view-full.webp" alt="Vendor Order Invoice View Full Page" /></a>
 
 ---
 
@@ -12157,7 +12216,7 @@ Follow these simple steps to view and generate an invoice for any order:
 4. On the **Order Details** screen (for example, `/seller/vendor-orders/1171/`), look at the top-right header section.
 5. Click the **Print Invoice** button.
 
-<a class="doc-image-link" href="./assets/vendor-order-invoice-actions.png"><img src="./assets/vendor-order-invoice-actions.png" alt="Vendor Order Details Header with Print Invoice Button" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-invoice-actions.webp"><img src="./assets/vendor-order-invoice-actions.webp" alt="Vendor Order Details Header with Print Invoice Button" /></a>
 
 The invoice view opens automatically in a clean, dedicated browser tab at `/vendor/invoice/{encoded_order_id}`.
 
@@ -12213,7 +12272,7 @@ The itemized product table displays every item belonging to the seller within th
 
 Below the items table, the invoice shows an accurate summary of order financials:
 
-<a class="doc-image-link" href="./assets/vendor-invoice-view-full.png"><img src="./assets/vendor-invoice-view-full.png" alt="Itemized Table and Financial Summary on Vendor Invoice" /></a>
+<a class="doc-image-link" href="./assets/vendor-invoice-financial-summary.webp"><img src="./assets/vendor-invoice-financial-summary.webp" alt="Itemized Table and Financial Summary on Vendor Invoice" /></a>
 
 The financial summary includes:
 
@@ -12242,7 +12301,7 @@ At the bottom of the invoice, the customer's delivery details are displayed in a
 
 The invoice view includes a built-in print action button:
 
-<a class="doc-image-link" href="./assets/vendor-invoice-header-action.png"><img src="./assets/vendor-invoice-header-action.png" alt="Print Invoice Button on Vendor Invoice View" /></a>
+<a class="doc-image-link" href="./assets/vendor-invoice-header-action.webp"><img src="./assets/vendor-invoice-header-action.webp" alt="Print Invoice Button on Vendor Invoice View" /></a>
 
 ### Printing a Paper Copy
 
@@ -12271,7 +12330,7 @@ In addition to viewing and printing the system-generated invoice, vendors can up
 
 On the single order details page (`/seller/vendor-orders/{order_id}/`), locate the **Vendor Invoices** box positioned directly below the order status banner:
 
-<a class="doc-image-link" href="./assets/vendor-invoice-upload-box.png"><img src="./assets/vendor-invoice-upload-box.png" alt="Vendor Invoices Custom Upload Meta Box" /></a>
+<a class="doc-image-link" href="./assets/vendor-invoice-upload-box.webp"><img src="./assets/vendor-invoice-upload-box.webp" alt="Vendor Invoices Custom Upload Meta Box" /></a>
 
 ### How to Upload a Custom Invoice
 
@@ -12304,6 +12363,8 @@ If the marketplace administrator has enabled **Attach in mail** in [Configuratio
 
 The **Vendor Transaction Management** section provides marketplace sellers with an intuitive financial center to track order earnings, view marketplace commissions, monitor payout statuses, configure payment withdrawal methods, and submit withdrawal requests directly from the dedicated seller portal.
 
+<a class="doc-image-link" href="./assets/vendor-transactions-dashboard.webp"><img src="./assets/vendor-transactions-dashboard.webp" alt="Vendor Transactions and Earnings Dashboard" /></a>
+
 ---
 
 ## Access Transactions & Earnings
@@ -12312,8 +12373,6 @@ Vendors can access their financial records at any time:
 1. Log in to the **Seller Dashboard**.
 2. From the left navigation menu, expand **Sales** and select **Transactions & Earnings** (`/seller/vendor-transactions/`).
 3. You can click the **Proceed to Withdraw** button in the top header to navigate directly to the withdrawal management section.
-
-<a class="doc-image-link" href="./assets/vendor-transactions-dashboard.png"><img src="./assets/vendor-transactions-dashboard.png" alt="Vendor Transactions and Earnings Dashboard" /></a>
 
 ::: tip Classic My Account Layout
 **Using the traditional WooCommerce My Account interface?**  
@@ -12325,6 +12384,8 @@ If your store operates on the classic tabbed portal (**My Account → Transactio
 ## Financial Overview Cards
 
 At the top of the dashboard, five real-time summary cards provide a quick snapshot of the vendor's financial standing:
+
+<a class="doc-image-link" href="./assets/vendor-transactions-financial-cards.webp"><img src="./assets/vendor-transactions-financial-cards.webp" alt="Financial Overview Metric Cards" /></a>
 
 | Metric Card | Description |
 | :--- | :--- |
@@ -12346,11 +12407,15 @@ Vendors can filter their transaction records to locate specific payout entries o
   - **Price - Low to high**: Displays entries starting from lowest amounts (including fee deductions) to highest.
   - **Price - High to low**: Displays highest-earning transactions first.
 
+<a class="doc-image-link" href="./assets/vendor-transactions-search-and-sort.webp"><img src="./assets/vendor-transactions-search-and-sort.webp" alt="Searching and Sorting Transactions Toolbar" /></a>
+
 ---
 
 ## Transaction History Table
 
 The transactions table displays all financial credits and debits logged for the seller's store:
+
+<a class="doc-image-link" href="./assets/vendor-transactions-list.webp"><img src="./assets/vendor-transactions-list.webp" alt="Vendor Transactions History Table" /></a>
 
 | Column | Description |
 | :--- | :--- |
@@ -12384,12 +12449,12 @@ When viewing an order transaction, sellers can verify:
   - **Discount**: Applied promotional discounts, if any.
   - **Subtotal**: Final net earnings credited to the seller's balance.
 
-<a class="doc-image-link" href="./assets/vendor-transaction-order-breakdown.png"><img src="./assets/vendor-transaction-order-breakdown.png" alt="Vendor Order Transaction Detail Breakdown" /></a>
+<a class="doc-image-link" href="./assets/vendor-transaction-order-breakdown.webp"><img src="./assets/vendor-transaction-order-breakdown.webp" alt="Vendor Order Transaction Detail Breakdown" /></a>
 
 ### 2. Withdrawal Fee Transaction
 When an administrator charges a processing or transfer fee for a withdrawal, a dedicated debit transaction is recorded with a negative amount (e.g., `-$6.35`). This gives vendors complete transparency into bank transfer or payment gateway processing fees.
 
-<a class="doc-image-link" href="./assets/vendor-transaction-fee-breakdown.png"><img src="./assets/vendor-transaction-fee-breakdown.png" alt="Vendor Withdrawal Fee Transaction Detail" /></a>
+<a class="doc-image-link" href="./assets/vendor-transaction-fee-breakdown.webp"><img src="./assets/vendor-transaction-fee-breakdown.webp" alt="Vendor Withdrawal Fee Transaction Detail" /></a>
 
 ---
 
@@ -12397,7 +12462,7 @@ When an administrator charges a processing or transfer fee for a withdrawal, a d
 
 Vendors can access withdrawal settings either by clicking **Proceed to Withdraw** from the transactions dashboard or visiting `/seller/vendor-withdrawal/`.
 
-<a class="doc-image-link" href="./assets/vendor-withdrawal-dashboard.png"><img src="./assets/vendor-withdrawal-dashboard.png" alt="Vendor Withdrawal Management Dashboard" /></a>
+<a class="doc-image-link" href="./assets/vendor-withdrawal-dashboard.webp"><img src="./assets/vendor-withdrawal-dashboard.webp" alt="Vendor Withdrawal Management Dashboard" /></a>
 
 ### Adding Withdrawal Payment Methods
 Before requesting payouts, vendors must configure at least one active withdrawal method from the **Add Withdrawal Method** dropdown:
@@ -12407,17 +12472,20 @@ Before requesting payouts, vendors must configure at least one active withdrawal
    - Enter Account Holder Name, Account Number, Bank Name, Bank Address, IFSC Code, SWIFT Code, Bank IBAN, and Routing Number.
    - Click **Submit** to store the banking credentials securely.
 
-<a class="doc-image-link" href="./assets/vendor-withdrawal-bank-modal.png"><img src="./assets/vendor-withdrawal-bank-modal.png" alt="Add Bank Details Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-withdrawal-bank-modal.webp"><img src="./assets/vendor-withdrawal-bank-modal.webp" alt="Add Bank Details Modal" /></a>
 
 2. **UPI**:
    - Opens the **Add UPI Method** dialog.
    - Enter your valid UPI ID (Virtual Payment Address).
    - Click **Submit** to save.
 
-<a class="doc-image-link" href="./assets/vendor-withdrawal-upi-modal.png"><img src="./assets/vendor-withdrawal-upi-modal.png" alt="Add UPI Method Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-withdrawal-upi-modal.webp"><img src="./assets/vendor-withdrawal-upi-modal.webp" alt="Add UPI Method Modal" /></a>
 
 3. **PayPal**:
    - Enter your PayPal registered email address to receive direct payouts.
+   - Displays your configured PayPal withdrawal email address with controls to manage default status or remove credentials.
+
+<a class="doc-image-link" href="./assets/vendor-withdrawal-paypal.webp"><img src="./assets/vendor-withdrawal-paypal.webp" alt="Configured PayPal Withdrawal Method" /></a>
 
 ### Managing Saved Payment Methods
 For every configured payment method, vendors can:
@@ -12430,6 +12498,8 @@ For every configured payment method, vendors can:
 ## Tracking Recent Withdrawals
 
 The **Recent Withdrawals** table logs all submitted payout requests and their lifecycle statuses:
+
+<a class="doc-image-link" href="./assets/vendor-withdrawal-recent-table.webp"><img src="./assets/vendor-withdrawal-recent-table.webp" alt="Recent Withdrawals Tracking Table" /></a>
 
 | Column | Description |
 | :--- | :--- |
@@ -12453,7 +12523,7 @@ To request a payout of available order earnings:
 5. Click **Make Withdrawal Requests** to confirm and transmit the payout request to the marketplace administrator.
 6. Once submitted, return to **Recent Withdrawals** to monitor status updates as the administrator processes your payment.
 
-<a class="doc-image-link" href="./assets/vendor-withdrawal-requests-table.png"><img src="./assets/vendor-withdrawal-requests-table.png" alt="Make Withdrawal Requests Screen" /></a>
+<a class="doc-image-link" href="./assets/vendor-withdrawal-requests-table.webp"><img src="./assets/vendor-withdrawal-requests-table.webp" alt="Make Withdrawal Requests Screen" /></a>
 
 ---
 
@@ -12490,7 +12560,7 @@ The Account Health report evaluates real store performance using three core crit
 
 In addition to the overall health score, sellers can review key operational insights—including **Refund Rates**, **Product Reviews**, and **Fulfillment Completion Times**—and experiment with an interactive **Live Calculator** to simulate how operational improvements will boost their overall score.
 
-<a class="doc-image-link" href="./assets/vendor-account-health-dashboard.png"><img src="./assets/vendor-account-health-dashboard.png" alt="Vendor Account Health Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+<a class="doc-image-link" href="./assets/vendor-account-health-dashboard.webp"><img src="./assets/vendor-account-health-dashboard.webp" alt="Vendor Account Health Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 
@@ -12507,7 +12577,7 @@ Vendors can access their Account Health console using two quick methods from the
    - Locate the **Account Health** KPI card among your operational metrics.
    - Click the card to view the complete breakdown and report.
 
-<a class="doc-image-link" href="./assets/vendor-account-health-stat-card.png"><img src="./assets/vendor-account-health-stat-card.png" alt="Vendor Dashboard Account Health KPI Stat Card" /></a>
+<a class="doc-image-link" href="./assets/vendor-account-health-stat-card.webp"><img src="./assets/vendor-account-health-stat-card.webp" alt="Vendor Dashboard Account Health KPI Stat Card" /></a>
 
 | Access Method | Location / Path | Purpose |
 | :--- | :--- | :--- |
@@ -12693,7 +12763,7 @@ Below the core score cards, the **More insights** section provides additional di
 
 By default, Account Health uses standard rolling windows (30 days for orders and fulfillment; 90 days for reviews and flags). Sellers can adjust this to evaluate performance over specific seasonal campaigns, promotional periods, or quarters.
 
-<a class="doc-image-link" href="./assets/vendor-account-health-filter-drawer.png"><img src="./assets/vendor-account-health-filter-drawer.png" alt="Account Health Period Filter Drawer with Presets and Date Range" /></a>
+<a class="doc-image-link" href="./assets/vendor-account-health-filter-drawer.webp"><img src="./assets/vendor-account-health-filter-drawer.webp" alt="Account Health Period Filter Drawer with Presets and Date Range" /></a>
 
 ### How to Use the Filter Drawer
 
@@ -12722,7 +12792,7 @@ When you select a custom period, every metric evaluates data across that chosen 
 
 To understand the exact mechanics behind your score, click the **"How is this calculated?"** link in the top header. This opens the dedicated **Health Calculation Guide** (`?wkmp_view=guide`).
 
-<a class="doc-image-link" href="./assets/vendor-account-health-guide-calculator.png"><img src="./assets/vendor-account-health-guide-calculator.png" alt="Account Health Calculation Guide and Interactive Live Calculator" /></a>
+<a class="doc-image-link" href="./assets/vendor-account-health-guide-calculator.webp"><img src="./assets/vendor-account-health-guide-calculator.webp" alt="Account Health Calculation Guide and Interactive Live Calculator" /></a>
 
 ### Practical Seller Recommendations
 
@@ -12757,7 +12827,7 @@ In **WooCommerce Multi-Vendor Marketplace**, **Seller Reviews** allow vendors to
 
 Monitoring your store reviews helps you understand buyer satisfaction, build a trusted brand reputation, and maintain a high rating in your [Vendor Account Health](https://wpdoc.webkul.com/documentation/vendor-account-health.html) score.
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-list.png"><img src="./assets/vendor-seller-reviews-list.png" alt="Vendor Seller Reviews Dashboard in WooCommerce Multi-Vendor Marketplace" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-list.webp"><img src="./assets/vendor-seller-reviews-list.webp" alt="Vendor Seller Reviews Dashboard in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 
@@ -12787,7 +12857,7 @@ On smartphones and small tablets, tap the **Open menu** button in the top bar to
 
 The **Seller Reviews** page provides a clean and responsive table displaying all feedback submitted by customers for your store.
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-list.png"><img src="./assets/vendor-seller-reviews-list.png" alt="Seller Reviews List View" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-list.webp"><img src="./assets/vendor-seller-reviews-list.webp" alt="Seller Reviews List View" /></a>
 
 ### Top Controls & Fast Search
 
@@ -12805,7 +12875,7 @@ At the top of the reviews table, you will find four main controls to quickly man
 4. **Filter Button**:
    - Click the **Filter** button to open the slide-out **Apply Filters** drawer for multi-criteria filtering.
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-search.png"><img src="./assets/vendor-seller-reviews-search.png" alt="Searching Seller Reviews by Title" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-search.webp"><img src="./assets/vendor-seller-reviews-search.webp" alt="Searching Seller Reviews by Title" /></a>
 
 ---
 
@@ -12829,7 +12899,7 @@ To ensure marketplace credibility and prevent unauthorized tampering, reviews ca
 
 When evaluating customer trends or searching for specific feedback, click the **Filter** button on the top right to open the slide-out drawer.
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-filter-drawer.png"><img src="./assets/vendor-seller-reviews-filter-drawer.png" alt="Seller Reviews Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-filter-drawer.webp"><img src="./assets/vendor-seller-reviews-filter-drawer.webp" alt="Seller Reviews Filter Drawer" /></a>
 
 The drawer allows you to combine multiple filter parameters to narrow down your results:
 
@@ -13068,7 +13138,7 @@ Customer feedback is one of the three primary criteria used to evaluate your sto
 
 The Seller Reviews console is fully responsive and designed for easy use on smartphones and tablets:
 
-<a class="doc-image-link" href="./assets/vendor-seller-reviews-mobile.png"><img src="./assets/vendor-seller-reviews-mobile.png" alt="Seller Reviews Mobile View" /></a>
+<a class="doc-image-link" href="./assets/vendor-seller-reviews-mobile.webp"><img src="./assets/vendor-seller-reviews-mobile.webp" alt="Seller Reviews Mobile View" /></a>
 
 - **Clean Card/Stack Layout**: Review rows adapt to smaller screen sizes without horizontal scroll clipping.
 - **Full-Screen Filter Drawer**: The **Apply Filters** drawer slides in smoothly, offering large touch-friendly inputs and date pickers.
@@ -13343,7 +13413,7 @@ Sales Reporting helps sellers:
 - **Compare Historical Performance:** Benchmark current sales against previous timeframes to identify growth trends or seasonal shifts.
 - **Export Accounting Data:** Download granular sales tables in **CSV** or **PDF** format for bookkeeping and tax preparation.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-dashboard.png"><img src="./assets/vendor-sales-reporting-dashboard.png" alt="Vendor Sales Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-dashboard.webp"><img src="./assets/vendor-sales-reporting-dashboard.webp" alt="Vendor Sales Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 
@@ -13355,7 +13425,7 @@ Marketplace vendors can access the Sales Reporting dashboard directly from their
 2. In the left navigation menu, scroll down to the **Reporting** section.
 3. Click **Sales Reporting** to open the analytics dashboard.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-sidebar-nav.png"><img src="./assets/vendor-sales-reporting-sidebar-nav.png" alt="Locating Sales Reporting under the Reporting Section in Seller Navigation" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-sidebar-nav.webp"><img src="./assets/vendor-sales-reporting-sidebar-nav.webp" alt="Locating Sales Reporting under the Reporting Section in Seller Navigation" /></a>
 
 | Access Method | Location / Path | Purpose |
 | :--- | :--- | :--- |
@@ -13373,7 +13443,7 @@ On smartphones and tablets, tap the **Open menu** hamburger button in the top na
 
 At the top of the Sales Reporting dashboard, four high-level **KPI (Key Performance Indicator) Cards** display your store's primary performance metrics. Each card highlights the current total and shows a percentage trend indicator compared against the preceding period.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-kpi-cards.png"><img src="./assets/vendor-sales-reporting-kpi-cards.png" alt="Sales Reporting Top KPI Summary Cards" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-kpi-cards.webp"><img src="./assets/vendor-sales-reporting-kpi-cards.webp" alt="Sales Reporting Top KPI Summary Cards" /></a>
 
 ### 1. Total Sales
 - **What it shows:** Your net seller earnings after platform commission deductions.
@@ -13400,7 +13470,7 @@ At the top of the Sales Reporting dashboard, four high-level **KPI (Key Performa
 
 The dashboard gives you complete control over your reporting timeline. By default, the system displays data for the **Last 30 days**, alongside an automated comparison against the prior 30 days.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-filter-drawer.png"><img src="./assets/vendor-sales-reporting-filter-drawer.png" alt="Date Range Filter Drawer with Quick Presets and Custom Date Pickers" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-filter-drawer.webp"><img src="./assets/vendor-sales-reporting-filter-drawer.webp" alt="Date Range Filter Drawer with Quick Presets and Custom Date Pickers" /></a>
 
 ### How to Change the Reporting Period
 
@@ -13434,7 +13504,7 @@ This dual-period visual comparison allows you to spot trends immediately—such 
 
 Each core report card contains an interactive visualization that lets vendors customize how data is presented.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-chart-card.png"><img src="./assets/vendor-sales-reporting-chart-card.png" alt="Interactive Sales Reporting Chart with Line, Bar, and Area Display Modes" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-chart-card.webp"><img src="./assets/vendor-sales-reporting-chart-card.webp" alt="Interactive Sales Reporting Chart with Line, Bar, and Area Display Modes" /></a>
 
 ### Switching Chart Display Types
 
@@ -13477,7 +13547,7 @@ The Sales Reporting dashboard is organized into eight specialized report section
 
 Understanding how buyers pay helps optimize your store experience and identify preferred payment gateways.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-payment-methods.png"><img src="./assets/vendor-sales-reporting-payment-methods.png" alt="Top Payment Methods Breakdown Chart in Sales Reporting" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-payment-methods.webp"><img src="./assets/vendor-sales-reporting-payment-methods.webp" alt="Top Payment Methods Breakdown Chart in Sales Reporting" /></a>
 
 The **Top Payment Methods** report categorizes all orders by gateway (for example: *Check payments*, *Direct bank transfer*, or *Credit Card / Stripe*). You can toggle between **Bar**, **Horizontal bar**, and **Doughnut** views to see which methods drive the highest sales revenue.
 
@@ -13487,7 +13557,7 @@ The **Top Payment Methods** report categorizes all orders by gateway (for exampl
 
 Clicking **View details** on any report card opens a dedicated breakdown screen with an itemized data table.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-detail-table.png"><img src="./assets/vendor-sales-reporting-detail-table.png" alt="Detailed Sales Reporting Tabular Breakdown by Interval" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-detail-table.webp"><img src="./assets/vendor-sales-reporting-detail-table.webp" alt="Detailed Sales Reporting Tabular Breakdown by Interval" /></a>
 
 ### Time Interval Grouping
 
@@ -13513,7 +13583,7 @@ To return to the main dashboard overview, click the **Sales Reporting** link in 
 
 Vendors can export sales data for offline analysis, sharing with accountants, or archiving financial records.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-export-menu.png"><img src="./assets/vendor-sales-reporting-export-menu.png" alt="Export Menu with CSV and PDF Download Options" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-export-menu.webp"><img src="./assets/vendor-sales-reporting-export-menu.webp" alt="Export Menu with CSV and PDF Download Options" /></a>
 
 ### How to Export Data
 
@@ -13533,7 +13603,7 @@ Exported files automatically respect your currently applied date range and inter
 
 The Sales Reporting dashboard is fully responsive and designed to work smoothly on mobile devices and tablets.
 
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-mobile.png"><img src="./assets/vendor-sales-reporting-mobile.png" alt="Mobile Responsive Sales Reporting Interface" /></a>
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-mobile.webp"><img src="./assets/vendor-sales-reporting-mobile.webp" alt="Mobile Responsive Sales Reporting Interface" /></a>
 
 - **Adaptive Card Layout:** KPI stat cards and charts stack neatly into a single-column layout on smaller screens.
 - **Touch-Friendly Charts:** Tap chart points on smartphones to view values and compare dates easily.
@@ -13581,8 +13651,271 @@ Yes. Click **Choose period**, select your custom start and end dates, click **Ap
 
 # Products Reporting
 
-::: tip Documentation in progress
-This page is a placeholder. Detailed content for **Products Reporting** is coming soon.
+In **WooCommerce Multi-Vendor Marketplace**, the **Products Reporting** console gives vendors a real-time analytics suite to assess catalog performance, product demand, and inventory velocity. Instead of manually tallying sales figures across separate orders, sellers can view top-level volume statistics, interactive trend graphs, and itemized leaderboards highlighting which items generate the highest revenue and transaction volume.
+
+Understanding product-level reporting allows sellers to:
+- **Track Catalog Velocity:** Monitor the total quantity of units sold across your entire product catalog, including item variations.
+- **Identify Revenue Champions:** Discover which products generate the highest gross earnings for your store.
+- **Pinpoint High-Volume Best Sellers:** See which items move fastest off the shelf by units ordered.
+- **Monitor Product Sentiment & Reviews:** Track customer review counts and star ratings on individual catalog items.
+- **Compare Historical Timeframes:** Benchmark product demand against previous periods with automated comparison series.
+- **Export Actionable Data:** Download granular product reports in **CSV** or **PDF** format for inventory planning and supply chain forecasting.
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-dashboard.webp"><img src="./assets/vendor-products-reporting-dashboard.webp" alt="Vendor Products Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+
+---
+
+## Accessing Products Reporting
+
+Marketplace vendors can open the Products Reporting dashboard directly from their seller control panel:
+
+1. Log in to your registered **Seller Account**.
+2. In the left navigation menu, locate and expand the **Reporting** section.
+3. Click **Products Reporting** to open the analytics console.
+
+| Access Method | Location / Path | Purpose |
+| :--- | :--- | :--- |
+| **Seller Navigation Menu** | `Reporting` &rarr; `Products Reporting` | Opens the main products analytics dashboard with summary cards, charts, and leaderboards. |
+| **Direct URL** | `/seller/seller-reporting-products/` | Direct browser address to access the Products Reporting screen. |
+| **Granular Breakdown Views** | `/seller/seller-reporting-products/?wkmp_view=[view_name]` | Opens dedicated data tables for individual metrics with Day/Month/Year grouping and export tools. |
+
+::: tip Quick Mobile Access
+When managing your store on a smartphone or tablet, tap the **Open menu** hamburger button in the top navigation bar, expand the **Reporting** section, and select **Products Reporting**.
+:::
+
+---
+
+## Executive Product Metrics & Reporting Cards
+
+The Products Reporting dashboard organizes your catalog sales data into four specialized modules. Each card highlights key volume metrics and includes a **View details** button for granular analysis:
+
+### 1. Units Sold Card
+
+The **Units Sold** card highlights the cumulative volume of individual product units purchased from your store within the selected timeframe.
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-chart-card.webp"><img src="./assets/vendor-products-reporting-chart-card.webp" alt="Units Sold Interactive Trend Chart Card with Line, Bar, and Area Modes" /></a>
+
+- **Stat & Growth Percentage:** Shows the total units sold along with a color-coded percentage badge comparing current velocity against the preceding benchmark period of equal duration.
+- **Calculation Rule:** Sums all product units sold across processing and completed customer orders based on the original order date. Product variations (e.g., sizes, colors) are counted accurately within their parent product volume.
+- **Interactive Trend Chart:** Visualizes day-by-day unit sales velocity with built-in chart mode toggles.
+- **Drilldown Link:** Click **View details** to open the full date-interval breakdown table (`?wkmp_view=units-sold`).
+
+### 2. Top Selling Products by Revenue
+
+This card highlights the highest-earning items in your catalog, ranked by gross product earnings.
+
+- **What it shows:** Product names, thumbnails, order counts, and total sales revenue before platform commission deductions.
+- **Calculation Rule:** Sum of line item subtotals for that product across orders in **Processing** or **Completed** status during the selected timeframe. Variations are aggregated under the main product.
+- **Significance:** Identifies your most lucrative products so you can prioritize supplier relationships, wholesale volume discounts, and premium marketing placement.
+- **Drilldown Link:** Click **View details** to open the complete revenue leaderboard table (`?wkmp_view=top-by-revenue`).
+
+### 3. Top Selling Products by Quantity
+
+This card reveals your highest-turnover items by physical unit sales count.
+
+- **What it shows:** Products ranked strictly by the total number of units sold.
+- **Calculation Rule:** Total unit quantity purchased by customers for each item during the active timeframe.
+- **Significance:** Distinguishes high-volume everyday goods from high-margin luxury items. Essential for warehouse replenishment and warehouse space allocation.
+- **Drilldown Link:** Click **View details** to see the full quantity leaderboard table (`?wkmp_view=top-by-quantity`).
+
+### 4. Products With Most Reviews
+
+Customer reviews provide vital feedback on item quality, fit, and satisfaction. This card highlights your most frequently reviewed catalog items.
+
+- **What it shows:** Products ordered by total approved customer reviews, accompanied by their average star rating.
+- **Calculation Rule:** Counts verified customer reviews left on each specific catalog product during the selected period.
+- **Significance:** Highlights top brand favorites and alerts you to items that may have recurring product concerns if ratings begin to dip.
+- **Drilldown Link:** Click **View details** to inspect the full review breakdown table (`?wkmp_view=most-reviewed`).
+
+---
+
+## Filtering by Date Range & Comparison Periods
+
+By default, the Products Reporting console evaluates data over the **Last 30 days**, alongside an automated comparison against the prior 30-day window. Sellers can customize this timeline to evaluate seasonal product demand or promotional sales campaigns.
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-filter-drawer.webp"><img src="./assets/vendor-products-reporting-filter-drawer.webp" alt="Products Reporting Date Range Filter Drawer with Quick Presets and Custom Pickers" /></a>
+
+### How to Select a Time Period
+
+1. Click the **Choose period** button in the dashboard toolbar.
+2. A slide-out filter panel opens from the side of the screen.
+3. Select any quick preset option or define a custom date range:
+   - **Today:** Real-time product unit sales recorded today.
+   - **Yesterday:** Units sold during the previous calendar day.
+   - **This Week:** Product sales from Monday through the current day of this week.
+   - **This Month:** Sales from the first day of the current month to today.
+   - **Last Month:** Complete previous calendar month.
+   - **Last 3 Months:** Rolling 90-day quarterly performance.
+   - **Last 6 Months:** Rolling 180-day half-year performance.
+   - **This Year:** From January 1st of the current year through today.
+4. **Custom Date Selection:**
+   - In the **From date** field, select your desired start date.
+   - In the **To date** field, select your desired end date.
+5. Click **Apply** to refresh the metrics, charts, and product tables.
+
+### Understanding the Comparison Period
+
+Every chart automatically tracks two time series:
+- **Current Selected Period:** Displayed as a solid, vibrant line or bar (e.g., `21 Oct – 19 Nov 2026`).
+- **Prior Comparison Period:** Displayed as a lighter, dashed line or faded bar (e.g., `21 Sep – 20 Oct 2026`).
+
+This dual-period visual comparison allows you to spot demand shifts instantly—such as whether a specific product's demand is accelerating or slowing down compared to the prior timeframe.
+
+---
+
+## Interactive Visual Charts & Display Modes
+
+The **Units Sold** card features an interactive visualization module that lets vendors customize how data is presented:
+
+### Chart Display Types
+
+Use the segmented button switcher in the top right of the chart card to toggle between three visualization styles:
+
+- **Line Chart (Default):** Best for identifying continuous trends, daily sales cycles, and demand spikes over consecutive calendar days.
+- **Bar Chart:** Best for comparing distinct day-by-day or month-by-month sales numbers side by side.
+- **Area Chart:** Emphasizes overall unit volume and velocity with a colored gradient fill under the trend line.
+
+### Interactive Legend Toggles
+
+Below each chart, the legend displays the exact date ranges for both the current and previous periods:
+- Click either date range pill in the legend to toggle that specific data series on or off.
+- This allows you to inspect current demand patterns without visual clutter from past data.
+
+### Value Tooltips
+
+Hover your cursor over any data point or bar on the chart to view precise metrics in an interactive tooltip, including the date, order count, and exact units sold.
+
+---
+
+## Granular Breakdown Tables & Detail Views
+
+Clicking **View details** on any report card opens a dedicated breakdown screen with an itemized data table.
+
+### 1. Units Sold Detail View (`?wkmp_view=units-sold`)
+
+This view presents a day-by-day, month-by-month, or year-by-year log of order counts and product units sold.
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-units-sold.webp"><img src="./assets/vendor-products-reporting-units-sold.webp" alt="Detailed Units Sold Tabular Breakdown by Interval" /></a>
+
+- **Time Interval Grouping:** Toggle between **Day**, **Month**, and **Year** buttons in the toolbar to aggregate data by your preferred time scale.
+- **Table Columns:**
+  - **Interval:** The specific calendar date, month, or year of the recorded activity.
+  - **Orders:** Count of customer orders containing items from your store during that interval.
+  - **Units:** Total number of individual product units sold during that interval.
+
+### 2. Top Selling Products by Revenue (`?wkmp_view=top-by-revenue`)
+
+This leaderboard ranks every product in your catalog by total sales revenue.
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-top-by-revenue.webp"><img src="./assets/vendor-products-reporting-top-by-revenue.webp" alt="Top Selling Products by Revenue Leaderboard Table" /></a>
+
+- **Product:** Product thumbnail, full title, and SKU identifier.
+- **Orders:** Number of separate customer orders that included this product.
+- **Units:** Total quantity of units sold across all orders.
+- **Revenue:** Total gross dollar sales generated by this item before marketplace commissions.
+
+### 3. Top Selling Products by Quantity (`?wkmp_view=top-by-quantity`)
+
+This leaderboard ranks products strictly by physical volume sold.
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-top-by-quantity.webp"><img src="./assets/vendor-products-reporting-top-by-quantity.webp" alt="Top Selling Products by Quantity Leaderboard Table" /></a>
+
+- **Product:** Product image, title, and SKU code.
+- **Orders:** Count of orders containing this item.
+- **Units:** Cumulative units purchased by buyers.
+- **Revenue:** Total sales revenue generated by these units.
+
+### 4. Products With Most Reviews (`?wkmp_view=most-reviewed`)
+
+This report highlights which products have received the highest volume of verified customer reviews.
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-most-reviewed.webp"><img src="./assets/vendor-products-reporting-most-reviewed.webp" alt="Products With Most Reviews Tabular Report" /></a>
+
+- **Product:** Product name, thumbnail, and catalog details.
+- **Reviews:** Total count of approved reviews submitted for this specific product.
+- **Average rating:** Aggregate star score (e.g., *5.0 out of 5 stars*) reflecting overall customer satisfaction.
+
+::: tip Breadcrumb Navigation
+To return to the main dashboard from any detail view, click the **Products Reporting** link in the breadcrumb bar at the top of the page.
+:::
+
+---
+
+## Exporting Products Reports (CSV & PDF)
+
+Vendors can export product analytics for spreadsheet modeling, sharing with suppliers, or archiving inventory performance records.
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-export-menu.webp"><img src="./assets/vendor-products-reporting-export-menu.webp" alt="Export Menu with CSV and PDF Download Options for Products Reporting" /></a>
+
+### How to Export Product Data
+
+1. Open the desired report by clicking **View details** on any card.
+2. In the top-right corner of the table toolbar, click the **Export** button.
+3. Choose your preferred file format from the dropdown menu:
+   - **Export CSV:** Downloads a standard `.csv` spreadsheet file suitable for Microsoft Excel, Google Sheets, or ERP inventory systems.
+   - **Export PDF:** Generates a formatted, printable PDF document ideal for business reviews and supplier presentations.
+
+::: tip Respects Active Date Filters
+Exported files automatically respect your currently applied date range and interval grouping (Day, Month, or Year). Set your desired date parameters before clicking export.
+:::
+
+---
+
+## Mobile Responsive Experience
+
+The Products Reporting interface is fully responsive and designed for seamless monitoring on mobile phones and tablets:
+
+<a class="doc-image-link" href="./assets/vendor-products-reporting-mobile.webp"><img src="./assets/vendor-products-reporting-mobile.webp" alt="Mobile Responsive View of Products Reporting Console" /></a>
+
+- **Single-Column Responsive Layout:** All report cards, metric summaries, and leaderboards stack neatly into a touch-friendly single column.
+- **Touch-Friendly Visual Charts:** Tap data points directly on mobile screens to view date values and unit counts.
+- **Mobile Filter Drawer:** The date filter panel slides in smoothly, allowing quick preset selection or custom date entry on mobile touchscreens.
+- **Smooth Horizontal Table Swiping:** Detailed data tables support smooth horizontal scrolling so no product columns or revenue figures are clipped.
+
+---
+
+## Best Practices for Marketplace Vendors
+
+Follow these practical recommendations to turn product analytics into higher profits:
+
+1. **Restock High-Velocity Items Proactively:**
+   - Regularly audit the **Top Selling Products by Quantity** report. Set reorder thresholds well in advance of peak sales periods to prevent stockouts on popular items.
+2. **Promote High-Revenue Champions:**
+   - Check the **Top Selling Products by Revenue** report to identify items that generate the largest share of your revenue. Feature these items on your store homepage and consider creating product bundles.
+3. **Monitor Review Trends for Product Improvements:**
+   - Use the **Products With Most Reviews** table to gauge customer sentiment. If an item receives lower ratings, review customer feedback to address quality or sizing descriptions.
+4. **Bundle Slow-Moving Stock with Best Sellers:**
+   - Identify items near the bottom of your quantity reports and package them as complimentary add-ons with your top-selling products.
+5. **Archive Quarterly Product Performance:**
+   - Export your product sales reports in **CSV** format at the end of each quarter to track seasonal shifts and guide future purchasing decisions.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### Are product variations counted separately or grouped with the parent product?
+Variations (such as different colors or sizes) are automatically grouped under their parent product in the reporting tables. The revenue and unit counts reflect the combined total of all variations belonging to that item.
+
+### Which order statuses are included in Products Reporting?
+Calculations include customer orders in **Processing** and **Completed** statuses. Orders that are pending payment, cancelled, on hold, or refunded are excluded to maintain accurate sales statistics.
+
+### Can I export product reports for custom date ranges?
+Yes. Click **Choose period**, enter your desired **From date** and **To date**, click **Apply**, open the report table by clicking **View details**, and select **Export CSV** or **Export PDF**.
+
+### What does the dashed line on the Units Sold chart indicate?
+The lighter or dashed series represents your **previous comparison period**. For example, if you are viewing the last 30 days, the dashed line displays unit sales from the 30 days prior, making it simple to benchmark growth.
+
+### Why do some products show zero reviews in the report?
+Only approved customer reviews submitted through the marketplace storefront are included. If a product has no customer feedback yet or if submitted reviews are pending administrator moderation, the review count will reflect only published reviews.
+
+---
+
+::: tip Related Vendor Guides
+- **Sales Analytics:** Monitor revenue, tax, and order totals in the [Sales Reporting Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-sales-reporting.html).
+- **Customer Analytics:** Track buyer acquisition and repeat orders in the [Customer Reporting Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-customer-reporting.html).
+- **Buyer Directory:** Browse your complete customer directory in the [Customer List Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-customer-list.html).
+- **Product Management:** Add, edit, and organize your catalog in the [Vendor Product Management Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html).
+- **Inventory Control:** Track stock levels and manage backorders in the [Vendor Inventories Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-inventories.html).
 :::
 
 ---
@@ -13601,7 +13934,7 @@ Understanding customer data allows sellers to:
 - **Compare Historical Timeframes:** Benchmark your current customer acquisition against prior periods to track progress.
 - **Export Data for Business Reviews:** Download clean customer reports in **CSV** or **PDF** format for customer relationship management (CRM) and record-keeping.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-dashboard.png"><img src="./assets/vendor-customer-reporting-dashboard.png" alt="Vendor Customer Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-dashboard.webp"><img src="./assets/vendor-customer-reporting-dashboard.webp" alt="Vendor Customer Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 
@@ -13633,7 +13966,7 @@ The Customer Reporting dashboard organizes your buyer information into four spec
 
 The **Total Customers** card displays the total number of unique buyers who completed orders containing your products within the selected timeframe.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-chart-card.png"><img src="./assets/vendor-customer-reporting-chart-card.png" alt="Total Customers Chart Card with Line, Bar, and Area Display Types" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-chart-card.webp"><img src="./assets/vendor-customer-reporting-chart-card.webp" alt="Total Customers Chart Card with Line, Bar, and Area Display Types" /></a>
 
 - **Stat & Growth Percentage:** Shows the count of unique customers (e.g., `1`) and a color-coded percentage badge (e.g., `↑ 100%`) comparing current growth against the preceding benchmark period.
 - **Calculation Rule:** Includes all buyers who ordered your products, including guest checkouts. Each customer is counted once during the selected timeframe. Only orders in **Processing** and **Completed** status are included, based on the order placement date.
@@ -13673,7 +14006,7 @@ Customer reviews build trust and credibility across the marketplace. This card h
 
 By default, the Customer Reporting dashboard displays data for the **Last 30 days**, along with an automatic comparison against the preceding 30 days.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-filter-drawer.png"><img src="./assets/vendor-customer-reporting-filter-drawer.png" alt="Date Range Filter Drawer with Quick Presets and Custom Date Pickers" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-filter-drawer.webp"><img src="./assets/vendor-customer-reporting-filter-drawer.webp" alt="Date Range Filter Drawer with Quick Presets and Custom Date Pickers" /></a>
 
 ### How to Select a Time Period
 
@@ -13735,7 +14068,7 @@ Clicking **View details** on any of the four reporting cards opens a dedicated b
 
 This view presents a day-by-day, month-by-month, or year-by-year log of orders and unique buyers.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-total-customers-detail.png"><img src="./assets/vendor-customer-reporting-total-customers-detail.png" alt="Detailed Total Customers Table with Interval Grouping" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-total-customers-detail.webp"><img src="./assets/vendor-customer-reporting-total-customers-detail.webp" alt="Detailed Total Customers Table with Interval Grouping" /></a>
 
 - **Time Interval Switcher:** Toggle between **Day**, **Month**, and **Year** buttons in the toolbar to aggregate data by your preferred time scale.
 - **Table Columns:**
@@ -13747,7 +14080,7 @@ This view presents a day-by-day, month-by-month, or year-by-year log of orders a
 
 This view ranks every customer who bought from your store according to total spending.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-sales.png"><img src="./assets/vendor-customer-reporting-top-sales.png" alt="Customers With Most Sales Tabular Report" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-sales.webp"><img src="./assets/vendor-customer-reporting-top-sales.webp" alt="Customers With Most Sales Tabular Report" /></a>
 
 - **Customer:** Full name of the registered customer or guest buyer.
 - **Email:** The customer's billing email address for direct communication or follow-up.
@@ -13758,7 +14091,7 @@ This view ranks every customer who bought from your store according to total spe
 
 This view ranks buyers by purchase frequency, showing who visits and orders from your shop most often.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-orders.png"><img src="./assets/vendor-customer-reporting-top-orders.png" alt="Customers With Most Orders Tabular Report" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-orders.webp"><img src="./assets/vendor-customer-reporting-top-orders.webp" alt="Customers With Most Orders Tabular Report" /></a>
 
 - **Customer:** Full name of the customer.
 - **Email:** Customer email address.
@@ -13769,7 +14102,7 @@ This view ranks buyers by purchase frequency, showing who visits and orders from
 
 This view provides an overview of customer reviews, showing who has reviewed your store and products.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-reviews.png"><img src="./assets/vendor-customer-reporting-top-reviews.png" alt="Customers With Most Reviews Tabular Report" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-reviews.webp"><img src="./assets/vendor-customer-reporting-top-reviews.webp" alt="Customers With Most Reviews Tabular Report" /></a>
 
 - **Customer:** Name of the reviewer.
 - **Email:** Reviewer's email address.
@@ -13787,7 +14120,7 @@ To return to the main dashboard from any detail table, click the **Customers Rep
 
 Vendors can export customer reports to share data with colleagues, import into spreadsheets, or keep offline records.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-export-menu.png"><img src="./assets/vendor-customer-reporting-export-menu.png" alt="Export Customer Reporting Dropdown Menu with CSV and PDF Options" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-export-menu.webp"><img src="./assets/vendor-customer-reporting-export-menu.webp" alt="Export Customer Reporting Dropdown Menu with CSV and PDF Options" /></a>
 
 ### How to Download Customer Data
 
@@ -13825,7 +14158,7 @@ For complete instructions on browsing your full customer directory and viewing b
 
 The Customer Reporting interface is designed to work smoothly on mobile smartphones and tablets.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-mobile.png"><img src="./assets/vendor-customer-reporting-mobile.png" alt="Mobile Responsive View of Customer Reporting Interface" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-mobile.webp"><img src="./assets/vendor-customer-reporting-mobile.webp" alt="Mobile Responsive View of Customer Reporting Interface" /></a>
 
 - **Single-Column Responsive Layout:** All four report cards stack vertically for easy scrolling on smaller screens.
 - **Touch-Friendly Charts:** Tap directly on chart points or bars to view dates and values.
@@ -13891,7 +14224,7 @@ In **WooCommerce Multi-Vendor Marketplace**, building strong relationships with 
 
 Instead of navigating through individual order invoices, vendors can view all buyers in one organized table. The interface displays buyer names, email addresses, total store revenue generated, completed order counts, account types (registered or guest), and the date of their most recent purchase.
 
-<a class="doc-image-link" href="./assets/vendor-customers-list-overview.png"><img src="./assets/vendor-customers-list-overview.png" alt="Customer List Directory Overview in Vendor Dashboard" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-list-overview.webp"><img src="./assets/vendor-customers-list-overview.webp" alt="Customer List Directory Overview in Vendor Dashboard" /></a>
 
 ---
 
@@ -13915,7 +14248,7 @@ Vendors can access their Customer List directly from the Seller Dashboard sideba
 2. In the left navigation menu, locate the **Customers** section.
 3. Click **Customers** to open the buyer directory.
 
-<a class="doc-image-link" href="./assets/vendor-customers-sidebar-nav.png"><img src="./assets/vendor-customers-sidebar-nav.png" alt="Locating Customers in the Seller Sidebar Navigation" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-sidebar-nav.webp"><img src="./assets/vendor-customers-sidebar-nav.webp" alt="Locating Customers in the Seller Sidebar Navigation" /></a>
 
 | Navigation Item | Location / Path | Purpose |
 | :--- | :--- | :--- |
@@ -13933,7 +14266,7 @@ If you are managing your store on a smartphone or tablet, tap the **Open menu** 
 
 The Customer List presents four structured columns designed to give vendors immediate clarity regarding buyer identity, purchasing habits, and account standing.
 
-<a class="doc-image-link" href="./assets/vendor-customers-list-overview.png"><img src="./assets/vendor-customers-list-overview.png" alt="Customer Directory Table Columns and Rows" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-list-overview.webp"><img src="./assets/vendor-customers-list-overview.webp" alt="Customer Directory Table Columns and Rows" /></a>
 
 ### 1. Customer
 The first column identifies the buyer:
@@ -13960,7 +14293,7 @@ Displays the calendar date when the customer placed their most recent order with
 
 The top toolbar offers straightforward controls to search, filter, and adjust the number of displayed records:
 
-<a class="doc-image-link" href="./assets/vendor-customers-list-overview.png"><img src="./assets/vendor-customers-list-overview.png" alt="Customer List Toolbar Controls" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-list-overview.webp"><img src="./assets/vendor-customers-list-overview.webp" alt="Customer List Toolbar Controls" /></a>
 
 ### Results Counter
 On the left side of the toolbar, the counter dynamically displays how many buyers match your current view (for example, `14 Results` by default, or `1 Result` when filtered).
@@ -13971,7 +14304,7 @@ Vendors can quickly find specific buyers using the search input field:
 2. Press **Enter** on your keyboard.
 3. The table instantly refreshes to show only matching customer profiles.
 
-<a class="doc-image-link" href="./assets/vendor-customers-search-result.png"><img src="./assets/vendor-customers-search-result.png" alt="Customer List Instant Search Results" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-search-result.webp"><img src="./assets/vendor-customers-search-result.webp" alt="Customer List Instant Search Results" /></a>
 
 ### Items Per Page Selector
 Customize how many rows appear on each page. Click the dropdown to switch between:
@@ -13993,7 +14326,7 @@ Click the **Filter** button to open the slide-out filter panel for more specific
 
 For targeted buyer analysis, the slide-out **Filter Drawer** enables vendors to refine customer lists using multiple criteria simultaneously.
 
-<a class="doc-image-link" href="./assets/vendor-customers-filter-drawer.png"><img src="./assets/vendor-customers-filter-drawer.png" alt="Slide-out Filter Drawer with Customer, Email, and Group Fields" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-filter-drawer.webp"><img src="./assets/vendor-customers-filter-drawer.webp" alt="Slide-out Filter Drawer with Customer, Email, and Group Fields" /></a>
 
 ### Filter Options
 
@@ -14011,7 +14344,7 @@ For targeted buyer analysis, the slide-out **Filter Drawer** enables vendors to 
 3. Click the **Apply Filters** button at the bottom of the drawer.
 4. The drawer closes, and the table updates with matching records.
 
-<a class="doc-image-link" href="./assets/vendor-customers-filter-registered.png"><img src="./assets/vendor-customers-filter-registered.png" alt="Filtered Customer List Showing Registered Buyers with Active Reset Option" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-filter-registered.webp"><img src="./assets/vendor-customers-filter-registered.webp" alt="Filtered Customer List Showing Registered Buyers with Active Reset Option" /></a>
 
 ::: tip Clearing Filters
 When a filter is active, a convenient **Reset** button appears next to the **Filter** button in the top toolbar. Click **Reset** at any time to clear your search criteria and return to the complete customer list.
@@ -14033,7 +14366,7 @@ When your customer count exceeds the selected per-page limit, pagination links a
 
 The Customer List is optimized for mobile screens and responsive devices:
 
-<a class="doc-image-link" href="./assets/vendor-customers-mobile.png"><img src="./assets/vendor-customers-mobile.png" alt="Customer List Mobile Responsive Layout" /></a>
+<a class="doc-image-link" href="./assets/vendor-customers-mobile.webp"><img src="./assets/vendor-customers-mobile.webp" alt="Customer List Mobile Responsive Layout" /></a>
 
 - **Accessible Topbar:** Tap the mobile hamburger menu icon to access all seller navigation options without leaving the page.
 - **Stacked Controls:** The results counter, search field, per-page selector, and Filter button automatically adjust for touchscreens.
@@ -14430,6 +14763,8 @@ The table below outlines how each review state operates across public storefront
 
 The **Vendor Shop Followers** feature allows vendors to engage directly with buyers who follow their shop by sending notifications and updates.
 
+<a class="doc-image-link" href="./assets/vendor-shop-followers-overview.webp"><img src="./assets/vendor-shop-followers-overview.webp" alt="Vendor Shop Followers Management Overview" /></a>
+
 Building a loyal customer base is essential for marketplace success. With this feature, buyers can follow their favorite marketplace stores with a single click, while vendors gain a direct communication channel to broadcast new arrivals, seasonal promotions, and shop announcements.
 
 ---
@@ -14450,7 +14785,7 @@ To follow a vendor's shop, buyers interact with the product page:
    - The heart icon immediately highlights to indicate the followed status.
 4. **Click to Unfollow**: Clicking the highlighted heart icon again removes the vendor from the buyer's favorite list.
 
-<a class="doc-image-link" href="./assets/customer-follow-vendor-product-page.png"><img src="./assets/customer-follow-vendor-product-page.png" alt="Customer Follow Vendor on Product Page" /></a>
+<a class="doc-image-link" href="./assets/customer-follow-vendor-product-page.webp"><img src="./assets/customer-follow-vendor-product-page.webp" alt="Customer Follow Vendor on Product Page" /></a>
 
 ---
 
@@ -14480,7 +14815,7 @@ Vendors can manage their follower community directly from the seller console:
 2. From the sidebar navigation, select **Shop Followers** (accessible at `/seller/vendor-shop-followers/`).
 3. The page presents a dedicated management table with quick actions, real-time search, and sorting controls.
 
-<a class="doc-image-link" href="./assets/vendor-shop-followers-dashboard.png"><img src="./assets/vendor-shop-followers-dashboard.png" alt="Vendor Shop Followers Dashboard" /></a>
+<a class="doc-image-link" href="./assets/vendor-shop-followers-dashboard.webp"><img src="./assets/vendor-shop-followers-dashboard.webp" alt="Vendor Shop Followers Dashboard" /></a>
 
 ---
 
@@ -14552,7 +14887,7 @@ If you click **Send Notification** without checking any follower box, an alert p
 - After entering the required information:
   - Click **Send Mail** to dispatch the notification email to the selected followers.
 
-<a class="doc-image-link" href="./assets/vendor-shop-followers-notification-modal.png"><img src="./assets/vendor-shop-followers-notification-modal.png" alt="Send Notification Popup Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-shop-followers-notification-modal.webp"><img src="./assets/vendor-shop-followers-notification-modal.webp" alt="Send Notification Popup Modal" /></a>
 
 ### Modal Fields and Features
 
@@ -14599,6 +14934,8 @@ If you use the **Vendor Staff** management feature to delegate store operations 
 
 The **Admin News** section allows vendors to stay updated with important announcements shared by the marketplace admin.
 
+<a class="doc-image-link" href="./assets/vendor-admin-news-overview.webp"><img src="./assets/vendor-admin-news-overview.webp" alt="Vendor Admin News Announcements Overview" /></a>
+
 ::: tip Administrator Guide
 If you are a store administrator looking to create news posts, set expiration dates, or configure seller visibility, please refer to the [Admin News Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-news.html) documentation.
 :::
@@ -14627,6 +14964,8 @@ Breadcrumb navigation:
 
 The updated vendor panel presents announcements in an organized table with instant search capability.
 
+<a class="doc-image-link" href="./assets/vendor-admin-news-feed.webp"><img src="./assets/vendor-admin-news-feed.webp" alt="Vendor Admin News Feed Table and Search Toolbar" /></a>
+
 #### Key Interface Elements
 
 - **Search by News Title**: A dedicated search input located at the top right of the table. Enter any keyword or title term (for example, "Payouts" or "Policy") and press **Enter** to instantly filter matching news items.
@@ -14646,7 +14985,7 @@ The updated vendor panel presents announcements in an organized table with insta
 - By tapping on any news item, the vendor can view the complete description and details of that news.
 - This helps vendors stay informed about marketplace updates, policies, or announcements.
 
-<a class="doc-image-link" href="./assets/vendor-admin-news-detail-live.png"><img src="./assets/vendor-admin-news-detail-live.png" alt="Vendor Admin News Detail View" /></a>
+<a class="doc-image-link" href="./assets/vendor-admin-news-detail.webp"><img src="./assets/vendor-admin-news-detail.webp" alt="Vendor Admin News Detail View" /></a>
 
 ### News Detail Screen Elements
 
@@ -14694,9 +15033,9 @@ Marketplace administrators use Admin News to communicate essential business upda
 
 The **Ask To Admin** feature allows vendors to directly communicate with the marketplace admin for queries, clarifications, or support.
 
-Clear communication between vendors and marketplace administrators is essential for smooth store operations. Whether a vendor needs help with payouts, order processing, commission rates, or account settings, the **Ask To Admin** module provides a dedicated helpdesk system right inside the vendor dashboard.
+<a class="doc-image-link" href="./assets/vendor-asktoadmin-overview.webp"><img src="./assets/vendor-asktoadmin-overview.webp" alt="Vendor Ask To Admin Management Dashboard" /></a>
 
-<a class="doc-image-link" href="./assets/vendor-asktoadmin-list-view.png"><img src="./assets/vendor-asktoadmin-list-view.png" alt="Vendor Ask To Admin Dashboard" /></a>
+Clear communication between vendors and marketplace administrators is essential for smooth store operations. Whether a vendor needs help with payouts, order processing, commission rates, or account settings, the **Ask To Admin** module provides a dedicated helpdesk system right inside the vendor dashboard.
 
 ---
 
@@ -14749,7 +15088,7 @@ Vendors can open any query conversation by clicking directly on either the **Dat
 
 When clicking the **Ask Query** button, a clean popup modal appears with the intro message: *"Send your question to the store admin and we will get back to you shortly."*
 
-<a class="doc-image-link" href="./assets/vendor-ask-query-modal.png"><img src="./assets/vendor-ask-query-modal.png" alt="Vendor Ask Query Modal Popup" /></a>
+<a class="doc-image-link" href="./assets/vendor-ask-query-modal.webp"><img src="./assets/vendor-ask-query-modal.webp" alt="Vendor Ask Query Modal Popup" /></a>
 
 Vendors need to fill in two required fields:
 
@@ -14775,7 +15114,7 @@ Both **Subject** and **Message** are mandatory. If a vendor attempts to submit a
 
 Clicking on any query from the table opens the dedicated conversation view (`?view_query=<query_id>`). This interface offers a chat-like messaging experience that keeps the communication history intact.
 
-<a class="doc-image-link" href="./assets/vendor-asktoadmin-thread-view.png"><img src="./assets/vendor-asktoadmin-thread-view.png" alt="Vendor Ask to Admin Conversation Thread View" /></a>
+<a class="doc-image-link" href="./assets/vendor-asktoadmin-thread-view.webp"><img src="./assets/vendor-asktoadmin-thread-view.webp" alt="Vendor Ask to Admin Conversation Thread View" /></a>
 
 ### Features of the Thread View
 
@@ -14898,7 +15237,7 @@ Changing your email address updates your primary login username for future sign-
 
 You can change your password at any time directly from the **Password change** section located on the same page.
 
-<a class="doc-image-link" href="./assets/seller-general-settings-password.png"><img src="./assets/seller-general-settings-password.png" alt="Password Change Section" /></a>
+<a class="doc-image-link" href="./assets/seller-general-settings-password.webp"><img src="./assets/seller-general-settings-password.webp" alt="Password Change Section" /></a>
 
 ### Step-by-Step Password Update:
 
@@ -14976,7 +15315,7 @@ Vendors can navigate to this screen from the vendor panel menu under **Settings 
 
 Marketplace vendors often rely on charts and graphs to quickly monitor their store performance, sales revenue, customer growth, and product catalog quality. With **Graph Setting**, each vendor can customize color palettes and chart types to fit their personal visual preferences or brand colors.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-overview.png"><img src="./assets/vendor-graph-setting-overview.png" alt="Vendor Graph Setting Cards Overview" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-overview.webp"><img src="./assets/vendor-graph-setting-overview.webp" alt="Vendor Graph Setting Cards Overview" /></a>
 
 The Graph Setting hub organizes all customizable visual elements into five dedicated cards:
 
@@ -14996,7 +15335,7 @@ Each card page is designed with an intuitive two-column layout:
 - **Left Column (Live Preview)**: Displays an interactive, real-time preview of the actual card or chart widget as it appears in the seller panel.
 - **Right Column (Graph Settings)**: Provides chart type selections and individual color pickers.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-dashboard.png"><img src="./assets/vendor-graph-setting-dashboard.png" alt="Vendor Graph Setting Dashboard Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-dashboard.webp"><img src="./assets/vendor-graph-setting-dashboard.webp" alt="Vendor Graph Setting Dashboard Configuration" /></a>
 
 ### Key Controls & Actions:
 
@@ -15059,7 +15398,7 @@ Each summary card at the top of the vendor dashboard contains a subtle sparkline
 
 Vendors can access this section by selecting **Reports** on the hub or visiting `/seller/seller-graph-setting/?wkmp_card=reports`.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-reports.png"><img src="./assets/vendor-graph-setting-reports.png" alt="Vendor Graph Setting Reports Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-reports.webp"><img src="./assets/vendor-graph-setting-reports.webp" alt="Vendor Graph Setting Reports Configuration" /></a>
 
 This section controls 10 charts used across the marketplace sales, product, and customer analytics screens:
 
@@ -15083,7 +15422,7 @@ This section controls 10 charts used across the marketplace sales, product, and 
 
 Vendors can access this section by selecting **Transactions** on the hub or visiting `/seller/seller-graph-setting/?wkmp_card=transactions`.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-transactions.png"><img src="./assets/vendor-graph-setting-transactions.png" alt="Vendor Graph Setting Transactions Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-transactions.webp"><img src="./assets/vendor-graph-setting-transactions.webp" alt="Vendor Graph Setting Transactions Configuration" /></a>
 
 The transactions page (`vendor-transactions`) provides financial summaries for seller earnings and withdrawal requests. Vendors can configure the sparkline stroke color (Default `#00a63e`) for each card:
 
@@ -15099,7 +15438,7 @@ The transactions page (`vendor-transactions`) provides financial summaries for s
 
 Vendors can access this section by selecting **Performance** on the hub or visiting `/seller/seller-graph-setting/?wkmp_card=performance`.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-performance.png"><img src="./assets/vendor-graph-setting-performance.png" alt="Vendor Graph Setting Performance Health Score Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-performance.webp"><img src="./assets/vendor-graph-setting-performance.webp" alt="Vendor Graph Setting Performance Health Score Configuration" /></a>
 
 This section customizes the visual gauge for the vendor's **Account Health Score** (`seller-account-health`):
 
@@ -15119,7 +15458,7 @@ The colors chosen in this section are also shared by the interactive score calcu
 
 Vendors can access this section by selecting **Products** on the hub or visiting `/seller/seller-graph-setting/?wkmp_card=products`.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-products.png"><img src="./assets/vendor-graph-setting-products.png" alt="Vendor Graph Setting Products Listing Completeness Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-products.webp"><img src="./assets/vendor-graph-setting-products.webp" alt="Vendor Graph Setting Products Listing Completeness Configuration" /></a>
 
 This section controls the visual styling of the **Listing Completeness** progress bar:
 
@@ -15151,7 +15490,7 @@ This section controls the visual styling of the **Listing Completeness** progres
 
 The **Site Setting** page (`/seller/seller-site-setting/`) allows vendors to personalize their product authoring workflow, selecting between stepper wizards and single-page forms, and adjusting layout modes when enabled by marketplace administrators.
 
-<a class="doc-image-link" href="./assets/seller-site-setting-overview.png"><img src="./assets/seller-site-setting-overview.png" alt="Vendor Site Setting Overview in Seller Panel" /></a>
+<a class="doc-image-link" href="./assets/seller-site-setting-overview.webp"><img src="./assets/seller-site-setting-overview.webp" alt="Vendor Site Setting Overview in Seller Panel" /></a>
 
 ::: tip Personal Workflow Preferences
 The options configured on the **Site Setting** screen apply exclusively to your personal vendor dashboard session. Adjusting these settings tailors your product editing workspace to match your preferred data-entry style without altering how products appear to buyers on the live storefront.
@@ -15196,7 +15535,7 @@ To open and manage your product form preferences:
 The breadcrumb trail at the top of your screen will confirm your location:  
 `Dashboard > Settings > Site Setting`
 
-<a class="doc-image-link" href="./assets/seller-site-setting-card.png"><img src="./assets/seller-site-setting-card.png" alt="Vendor Site Setting Product Form Options" /></a>
+<a class="doc-image-link" href="./assets/seller-site-setting-card.webp"><img src="./assets/seller-site-setting-card.webp" alt="Vendor Site Setting Product Form Options" /></a>
 
 ---
 
@@ -15251,7 +15590,7 @@ flowchart LR
 - **Default Status**: Enabled.
 - **Description**: Displays an interactive quality score card and progress bar on the **Edit Product** screen.
 
-<a class="doc-image-link" href="./assets/seller-listing-completeness-gauge.png"><img src="./assets/seller-listing-completeness-gauge.png" alt="Vendor Listing Completeness Score Card and Missing Fields Jump Links" /></a>
+<a class="doc-image-link" href="./assets/seller-listing-completeness-gauge.webp"><img src="./assets/seller-listing-completeness-gauge.webp" alt="Vendor Listing Completeness Score Card and Missing Fields Jump Links" /></a>
 
 The **Listing Completeness** widget acts as a real-time listing assistant:
 
@@ -15294,7 +15633,7 @@ Choosing the right navigation mode streamlines your day-to-day listing workflow.
 
 In **Horizontal Tabs** mode, product sections are organized into a row of horizontal tabs across the top of the editor.
 
-<a class="doc-image-link" href="./assets/seller-product-edit-horizontal.png"><img src="./assets/seller-product-edit-horizontal.png" alt="Product Edit Screen with Horizontal Tabs Layout" /></a>
+<a class="doc-image-link" href="./assets/seller-product-edit-horizontal.webp"><img src="./assets/seller-product-edit-horizontal.webp" alt="Product Edit Screen with Horizontal Tabs Layout" /></a>
 
 - **Visual Arrangement**: Tabs (`Edit`, `Inventory`, `Shipping`, `Linked Products`, `Attributes`, `Tags & Brand`, `Status`) sit horizontally above the active card. Previous (`<`) and Next (`>`) arrow buttons allow easy scrolling across wide tab lists.
 - **Display Behavior**: Only the selected section card is visible at any given moment. Clicking another tab smoothly swaps the visible container.
@@ -15306,7 +15645,7 @@ In **Horizontal Tabs** mode, product sections are organized into a row of horizo
 
 In **Vertical Tabs** mode, product navigation tabs are arranged into a vertical column on the left side of the product editor.
 
-<a class="doc-image-link" href="./assets/seller-product-edit-vertical.png"><img src="./assets/seller-product-edit-vertical.png" alt="Product Edit Screen with Vertical Tabs Layout" /></a>
+<a class="doc-image-link" href="./assets/seller-product-edit-vertical.webp"><img src="./assets/seller-product-edit-vertical.webp" alt="Product Edit Screen with Vertical Tabs Layout" /></a>
 
 - **Visual Arrangement**: The navigation menu stays fixed along the left margin, while the active section content occupies the main workspace on the right.
 - **Display Behavior**: Clicking a vertical tab instantly loads the corresponding panel in the main content card.
@@ -15318,7 +15657,7 @@ In **Vertical Tabs** mode, product navigation tabs are arranged into a vertical 
 
 In **Stacked Form** mode, all tab bars are removed. Every product section is rendered continuously down a single, scrollable page.
 
-<a class="doc-image-link" href="./assets/seller-product-edit-stacked.png"><img src="./assets/seller-product-edit-stacked.png" alt="Product Edit Screen with Stacked Form Layout" /></a>
+<a class="doc-image-link" href="./assets/seller-product-edit-stacked.webp"><img src="./assets/seller-product-edit-stacked.webp" alt="Product Edit Screen with Stacked Form Layout" /></a>
 
 - **Visual Arrangement**: All section cards (`Edit`, `Inventory`, `Shipping`, `Status`, `Linked Products`, `Attributes`, `Tags & Brand`, `Variations`) are fully visible and stacked sequentially.
 - **Display Behavior**: You can scroll through the entire product definition from top to bottom without clicking tabs.
@@ -15356,7 +15695,7 @@ Follow these steps to update and verify your product authoring settings:
 
 Your choice in **Site Setting** works together with the main **Vendor Products** catalog screen (`/seller/vendor-products/`), where you manage existing items and use the advanced filter drawer.
 
-<a class="doc-image-link" href="./assets/seller-products-filter-drawer.png"><img src="./assets/seller-products-filter-drawer.png" alt="Vendor Products Catalog with Slide-out Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/seller-products-filter-drawer.webp"><img src="./assets/seller-products-filter-drawer.webp" alt="Vendor Products Catalog with Slide-out Filter Drawer" /></a>
 
 ### Using the Slide-Out Filter Drawer
 
@@ -15424,6 +15763,8 @@ The **Product Listing Page (PLP)** (commonly referred to as the **Shop Catalog**
 
 Unlike a standard single-merchant shop where all catalog items belong to one brand, a multi-vendor marketplace combines products from multiple independent merchants into a unified shopping experience. The PLP gives customers clear visibility into **who sells each item**, provides an **interactive seller list filter**, and offers **direct links to vendor storefronts** before buyers proceed to individual product pages.
 
+<a class="doc-image-link" href="./assets/customer-plp-overview.webp"><img src="./assets/customer-plp-overview.webp" alt="Webkul WooCommerce Multi-Vendor Marketplace Product Listing Page (PLP) Overview" /></a>
+
 ---
 
 ## Customer Discovery: Navigating the Multi-Vendor Catalog
@@ -15486,6 +15827,8 @@ Located in the primary navigation header:
 - **Direct Store Links**: Clicking any merchant opens their dedicated storefront, displaying their full brand catalog, bio, and customer ratings.
 - **Seller Central Link**: Quick navigation link for prospective vendors to register and start selling.
 
+<a class="doc-image-link" href="./assets/customer-header-vendor-dropdown.webp"><img src="./assets/customer-header-vendor-dropdown.webp" alt="Storefront Header Vendor Lists Dropdown" /></a>
+
 ### 3. Category & Taxonomy Archives
 When shoppers select a category (e.g., *Fitness*, *Kitchen & Dining*, *Accessories*), the catalog filters down to that department while preserving multi-vendor seller filtering and attribution.
 
@@ -15502,8 +15845,12 @@ The **Seller List** widget is the primary marketplace-specific navigation contro
 - **Multi-Vendor Checkboxes**: Customers can select one or more vendors to display only products sold by the chosen merchants.
 - **Instant AJAX Filtering**: Product listings update dynamically without a full browser refresh, maintaining the customer's scroll position.
 
+<a class="doc-image-link" href="./assets/customer-plp-seller-filter-widget.webp"><img src="./assets/customer-plp-seller-filter-widget.webp" alt="Sidebar Seller List Filter Widget" /></a>
+
 ### 2. Reset & Clear Filters
 When a seller filter or attribute option is selected, the catalog updates to display the active criteria. Customers can easily uncheck individual vendor boxes or click the clear filter button to restore the complete marketplace catalog.
+
+<a class="doc-image-link" href="./assets/customer-plp-filtered-by-seller.webp"><img src="./assets/customer-plp-filtered-by-seller.webp" alt="Shop Catalog Filtered by Marketplace Seller" /></a>
 
 ### 3. Price Range Filter
 - Dual slider and direct price input fields (`Min $` and `Max $`).
@@ -15522,6 +15869,8 @@ Combining the **Seller List** filter with **Price** and **Attribute** filters al
 ## 3. Anatomy of a Multi-Vendor Product Card
 
 Every product card displayed in the catalog grid is tailored to provide clear marketplace attribution and convenient buyer actions:
+
+<a class="doc-image-link" href="./assets/customer-plp-product-card-vendor.webp"><img src="./assets/customer-plp-product-card-vendor.webp" alt="Multi-Vendor Product Card with Seller Attribution" /></a>
 
 ### Key Product Card Elements:
 
@@ -15590,6 +15939,8 @@ The Product Listing Page is fully responsive, delivering a smooth shopping exper
 - **Clear Vendor Attribution**: The `Vendor: [Name]` tag remains clearly visible on mobile cards, preventing accidental cross-vendor confusion.
 - **Touch-Friendly Quick Actions**: Large tap targets for cart additions, wishlist saving, and pagination buttons.
 
+<a class="doc-image-link" href="./assets/customer-plp-mobile-view.webp"><img src="./assets/customer-plp-mobile-view.webp" alt="Mobile View of Product Listing Page with Responsive Filter Drawer" /></a>
+
 ---
 
 ## 7. Customer Journey Summary on the PLP
@@ -15613,7 +15964,7 @@ The **Product Detail Page (PDP)** is the main page where buyers explore individu
 
 Unlike a standard single-store shop, a multi-vendor marketplace connects customers with multiple independent sellers. The PDP gives customers full transparency by showing **who sells the product**, **how other buyers rate it**, and **how to report a listing** if there is an issue.
 
-<a class="doc-image-link" href="./assets/customer-pdp-overview.png"><img src="./assets/customer-pdp-overview.png" alt="WooCommerce Marketplace Product Detail Page Overview" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-overview.webp"><img src="./assets/customer-pdp-overview.webp" alt="WooCommerce Marketplace Product Detail Page Overview" /></a>
 
 ---
 
@@ -15665,7 +16016,7 @@ The marketplace storefront header provides dedicated navigation links for buyer-
 - **Seller Central / Sell on Marketplace**: A direct header link for prospective sellers to learn about onboarding, commission rates, and registration.
 - **Customer Account**: Quick access for buyers to manage orders, wishlists, and vendor communications.
 
-<a class="doc-image-link" href="./assets/customer-header-vendor-dropdown.png"><img src="./assets/customer-header-vendor-dropdown.png" alt="Storefront Header Vendor Lists Dropdown" /></a>
+<a class="doc-image-link" href="./assets/customer-header-vendor-dropdown.webp"><img src="./assets/customer-header-vendor-dropdown.webp" alt="Storefront Header Vendor Lists Dropdown" /></a>
 
 ---
 
@@ -15678,7 +16029,7 @@ When browsing shop archives or categories (such as *Electronics*, *Home & Living
 - **Instant Filtering**: Selecting a seller checkbox refreshes the product catalog to show only products sold by that merchant.
 - **Clear Filters Button**: A convenient reset button appears as soon as a filter is applied, allowing buyers to return to the full catalog with one click.
 
-<a class="doc-image-link" href="./assets/customer-plp-seller-filter-widget.png"><img src="./assets/customer-plp-seller-filter-widget.png" alt="Sidebar Seller List Filter Widget" /></a>
+<a class="doc-image-link" href="./assets/customer-plp-seller-filter-widget.webp"><img src="./assets/customer-plp-seller-filter-widget.webp" alt="Sidebar Seller List Filter Widget" /></a>
 
 ---
 
@@ -15690,7 +16041,7 @@ Every product card on listing pages clearly displays vendor information before t
 - **Add to Cart Tooltip**: Hovering over the cart button shows `Sold By: [Vendor Name]`, confirming the seller identity.
 - **Quick Action Buttons**: Includes quick wishlist saving and product comparison alongside direct cart addition.
 
-<a class="doc-image-link" href="./assets/customer-plp-product-card-vendor.png"><img src="./assets/customer-plp-product-card-vendor.png" alt="Product Card with Vendor Attribution" /></a>
+<a class="doc-image-link" href="./assets/customer-plp-product-card-vendor.webp"><img src="./assets/customer-plp-product-card-vendor.webp" alt="Product Card with Vendor Attribution" /></a>
 
 ---
 
@@ -15698,7 +16049,7 @@ Every product card on listing pages clearly displays vendor information before t
 
 Once a customer clicks on a product, the Product Detail Page provides all the information needed to evaluate and purchase the item.
 
-<a class="doc-image-link" href="./assets/customer-pdp-summary-vendor-info.png"><img src="./assets/customer-pdp-summary-vendor-info.png" alt="Product Summary and Vendor Information" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-summary-vendor-info.webp"><img src="./assets/customer-pdp-summary-vendor-info.webp" alt="Product Summary and Vendor Information" /></a>
 
 ### 1. Vendor Attribution & Store Link
 
@@ -15743,7 +16094,7 @@ Prominently located directly beneath the product title:
 
 To protect customers and ensure marketplace quality, every product page includes a **Report Product** option. This allows buyers to alert marketplace administrators if an item has incorrect information or violates marketplace guidelines.
 
-<a class="doc-image-link" href="./assets/customer-pdp-report-product-modal.png"><img src="./assets/customer-pdp-report-product-modal.png" alt="Report Product Modal Form" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-report-product-modal.webp"><img src="./assets/customer-pdp-report-product-modal.webp" alt="Report Product Modal Form" /></a>
 
 ### How to Report a Product:
 
@@ -15809,7 +16160,7 @@ The Product Detail Page is fully responsive for smartphones and tablets:
 - Sticky action buttons for effortless adding to cart and direct purchasing.
 - Mobile-optimized popup modals for reporting products and writing reviews.
 
-<a class="doc-image-link" href="./assets/customer-pdp-mobile-view.png"><img src="./assets/customer-pdp-mobile-view.png" alt="Mobile View of Product Detail Page" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-mobile-view.webp"><img src="./assets/customer-pdp-mobile-view.webp" alt="Mobile View of Product Detail Page" /></a>
 
 ---
 
@@ -15862,7 +16213,7 @@ The **Multi-Vendor Cart** is a central shopping feature of the **WooCommerce Mul
 
 In a traditional online store, all products belong to one merchant. In a multi-vendor marketplace, items come from different shops, each with its own inventory, fulfillment timeline, and store policies. The Multi-Vendor Cart brings total transparency to this process by clearly showing **who sells each item**, providing **direct vendor store links**, and calculating totals accurately before the buyer proceeds to payment.
 
-<a class="doc-image-link" href="./assets/customer-cart-overview.png"><img src="./assets/customer-cart-overview.png" alt="WooCommerce Multi-Vendor Cart Overview with Products from Multiple Sellers" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-overview.webp"><img src="./assets/customer-cart-overview.webp" alt="WooCommerce Multi-Vendor Cart Overview with Products from Multiple Sellers" /></a>
 
 ---
 
@@ -15929,7 +16280,7 @@ On the main shop and category listing pages, buyers can use the **Seller List** 
 - **Multi-Select Filtering**: Customers can select one or more seller checkboxes to immediately filter the catalog.
 - **Clear Filters Button**: A quick-reset button appears as soon as a filter is applied, allowing shoppers to return to the full catalog with a single click.
 
-<a class="doc-image-link" href="./assets/customer-cart-seller-filter-expanded.png"><img src="./assets/customer-cart-seller-filter-expanded.png" alt="Sidebar Seller List Filter Accordion" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-seller-filter-expanded.webp"><img src="./assets/customer-cart-seller-filter-expanded.webp" alt="Sidebar Seller List Filter Accordion" /></a>
 
 ### Vendor Attribution on Product Cards
 Every product card across the storefront clearly identifies the selling merchant:
@@ -15937,7 +16288,7 @@ Every product card across the storefront clearly identifies the selling merchant
 - Clicking the vendor name opens that seller's dedicated marketplace storefront.
 - When customers click **Add to Cart**, the item is added to their cart with that seller's metadata securely attached.
 
-<a class="doc-image-link" href="./assets/customer-cart-seller-filtered-shop.png"><img src="./assets/customer-cart-seller-filtered-shop.png" alt="Filtered Shop Showing Vendor Attribution on Products" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-seller-filtered-shop.webp"><img src="./assets/customer-cart-seller-filtered-shop.webp" alt="Filtered Shop Showing Vendor Attribution on Products" /></a>
 
 ---
 
@@ -15945,7 +16296,7 @@ Every product card across the storefront clearly identifies the selling merchant
 
 Customers do not need to leave their current shopping page to check their cart contents. The marketplace header includes an interactive **Mini-Cart Drawer**:
 
-<a class="doc-image-link" href="./assets/customer-mini-cart-drawer.png"><img src="./assets/customer-mini-cart-drawer.png" alt="Slide-Over Mini Cart Drawer in Header" /></a>
+<a class="doc-image-link" href="./assets/customer-mini-cart-drawer.webp"><img src="./assets/customer-mini-cart-drawer.webp" alt="Slide-Over Mini Cart Drawer in Header" /></a>
 
 ### Key Mini-Cart Features:
 1. **Header Cart Icon & Badge**: Displays the total count of items currently in the cart.
@@ -15958,7 +16309,7 @@ Customers do not need to leave their current shopping page to check their cart c
 5. **Quantity & Removal Controls**: Customers can adjust item quantities (`+` or `-`) or click the trash can icon to remove an item immediately.
 6. **Subtotal & Fast Action Buttons**: Displays the live cart subtotal alongside direct buttons for **View Cart** and **Proceed to Checkout**.
 
-<a class="doc-image-link" href="./assets/customer-mini-cart-expanded-details.png"><img src="./assets/customer-mini-cart-expanded-details.png" alt="Mini Cart Drawer with Expanded Sold By Details" /></a>
+<a class="doc-image-link" href="./assets/customer-mini-cart-expanded-details.webp"><img src="./assets/customer-mini-cart-expanded-details.webp" alt="Mini Cart Drawer with Expanded Sold By Details" /></a>
 
 ---
 
@@ -15966,7 +16317,7 @@ Customers do not need to leave their current shopping page to check their cart c
 
 Navigating to `/cart/` opens the full cart page. Powered by modern WooCommerce Cart Blocks, this page provides a clean, responsive layout optimized for multi-seller transactions:
 
-<a class="doc-image-link" href="./assets/customer-cart-items-list.png"><img src="./assets/customer-cart-items-list.png" alt="Multi-Vendor Cart Line Items Table" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-items-list.webp"><img src="./assets/customer-cart-items-list.webp" alt="Multi-Vendor Cart Line Items Table" /></a>
 
 ### Line Item Breakdown & Vendor Attribution
 
@@ -16002,7 +16353,7 @@ Managing quantities in the Multi-Vendor Cart is fast and intuitive:
 
 The right-hand side of the cart page displays the **Order Summary** block:
 
-<a class="doc-image-link" href="./assets/customer-cart-order-summary.png"><img src="./assets/customer-cart-order-summary.png" alt="Cart Order Summary, Shipping and Coupon Section" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-order-summary.webp"><img src="./assets/customer-cart-order-summary.webp" alt="Cart Order Summary, Shipping and Coupon Section" /></a>
 
 ### 1. Unified Subtotal
 The subtotal aggregates all products across all sellers into one unified dollar amount. Customers pay once regardless of how many vendors are represented in the cart.
@@ -16026,7 +16377,7 @@ The subtotal aggregates all products across all sellers into one unified dollar 
 
 If a customer removes all items or visits the cart before adding products, the cart displays a helpful empty state:
 
-<a class="doc-image-link" href="./assets/customer-cart-empty-state.png"><img src="./assets/customer-cart-empty-state.png" alt="Clean Empty Cart View with Return to Shop Prompt" /></a>
+<a class="doc-image-link" href="./assets/customer-cart-empty-state.webp"><img src="./assets/customer-cart-empty-state.webp" alt="Clean Empty Cart View with Return to Shop Prompt" /></a>
 
 - A clear notification states: **"Your cart is currently empty!"**.
 - Helpful marketplace category shortcuts or a direct link to return to the shop allow customers to quickly resume browsing.
@@ -16037,7 +16388,7 @@ If a customer removes all items or visits the cart before adding products, the c
 
 When the customer clicks **Proceed to Checkout**, all multi-vendor products carry over smoothly into the Checkout block:
 
-<a class="doc-image-link" href="./assets/customer-checkout-overview.png"><img src="./assets/customer-checkout-overview.png" alt="Multi-Vendor Checkout Order Summary Retaining Sold By Attribution" /></a>
+<a class="doc-image-link" href="./assets/customer-order-placement.webp"><img src="./assets/customer-order-placement.webp" alt="Multi-Vendor Checkout Order Summary Retaining Sold By Attribution" /></a>
 
 ### Continuous Seller Visibility
 In the Checkout **Order summary** panel:
@@ -16105,7 +16456,7 @@ Before placing an order, customers can identify and choose products from specifi
 - This helps customers find products from a preferred seller easily.
 - Seller-based filtering improves product discovery in a multi-vendor marketplace.
 
-<a class="doc-image-link" href="./assets/vendor-filter.png"><img src="./assets/vendor-filter.png" alt="seller Filter" /></a>
+<a class="doc-image-link" href="./assets/customer-plp-seller-filter-widget.webp"><img src="./assets/customer-plp-seller-filter-widget.webp" alt="Marketplace Seller Filter Widget" /></a>
 
 ---
 
@@ -16210,6 +16561,8 @@ The **WooCommerce Multi-Vendor Marketplace** provides end-to-end transparency:
 - **For Customers**: Every order clearly identifies **who sells each item**, provides direct links to the merchant's storefront, and displays real-time carrier tracking information and store pickup updates.
 - **For Vendors**: Each seller receives a private, secure view of **only their portion of the order**, showing their sold items, calculated marketplace commission, net earnings, and tools to update statuses, add shipments, issue refunds, and print invoices.
 
+<a class=doc-image-link href="./assets/customer-order-tracking-overview.webp"><img src="./assets/customer-order-tracking-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Order Details and Seller Visibility Overview" /></a>
+
 ---
 
 ## Order Visibility & Fulfillment Architecture
@@ -16272,7 +16625,7 @@ flowchart TD
 
 Immediately after completing checkout, the customer lands on the **Order Received** (Thank You) confirmation screen. This page provides immediate reassurance and details every vendor involved in the purchase.
 
-<a class="doc-image-link" href="./assets/customer-order-received-vendor-info.png"><img src="./assets/customer-order-received-vendor-info.png" alt="WooCommerce Marketplace Order Received Confirmation with Vendor Attribution" /></a>
+<a class="doc-image-link" href="./assets/customer-order-received-vendor-info.webp"><img src="./assets/customer-order-received-vendor-info.webp" alt="WooCommerce Marketplace Order Received Confirmation with Vendor Attribution" /></a>
 
 ### Key Information Displayed:
 1. **Order Identification Banner**:
@@ -16299,7 +16652,7 @@ Immediately after completing checkout, the customer lands on the **Order Receive
 
 Customers can review and track all current and historical orders at any time from their personal marketplace account dashboard.
 
-<a class="doc-image-link" href="./assets/customer-orders-history-list.png"><img src="./assets/customer-orders-history-list.png" alt="Customer Order History Table in My Account" /></a>
+<a class="doc-image-link" href="./assets/customer-orders-history-list.webp"><img src="./assets/customer-orders-history-list.webp" alt="Customer Order History Table in My Account" /></a>
 
 ### How Customers Access Their Orders:
 1. Log in to the marketplace using the header **Account** link.
@@ -16320,7 +16673,7 @@ Customers can review and track all current and historical orders at any time fro
 
 Clicking the **View** button on any order opens the full **Order Details** screen. This page serves as the customer's central hub for delivery updates, vendor attribution, and store pickup management.
 
-<a class="doc-image-link" href="./assets/customer-order-details-vendor-attribution.png"><img src="./assets/customer-order-details-vendor-attribution.png" alt="Detailed Customer Order View with Line Item Vendor Attribution" /></a>
+<a class="doc-image-link" href="./assets/customer-order-details-vendor-attribution.webp"><img src="./assets/customer-order-details-vendor-attribution.webp" alt="Detailed Customer Order View with Line Item Vendor Attribution" /></a>
 
 ### 1. Order Header & Status Badge
 - Displays the order number and formatted creation date.
@@ -16329,7 +16682,7 @@ Clicking the **View** button on any order opens the full **Order Details** scree
 ### 2. Live Order Updates & Shipment Tracking
 When a seller dispatches an item or schedules a delivery, a dedicated **Order Updates** card appears automatically above the product table:
 
-<a class="doc-image-link" href="./assets/customer-order-tracking-updates.png"><img src="./assets/customer-order-tracking-updates.png" alt="Customer Order Tracking Updates and Shipment Details" /></a>
+<a class="doc-image-link" href="./assets/customer-order-tracking-updates.webp"><img src="./assets/customer-order-tracking-updates.webp" alt="Customer Order Tracking Updates and Shipment Details" /></a>
 
 - **Fulfillment Status Notice**: Informs the customer about the fulfillment stage (for example: *"Your items from Aurora Athletics are scheduled for pickup / in transit"*).
 - **Carrier Name & Title**: Identifies the exact logistics carrier or service handling delivery (e.g., *Fulfilment Carriers – Standard Express*, *FedEx*, *UPS*, *DHL*).
@@ -16361,7 +16714,7 @@ A multi-vendor marketplace requires strict data isolation. Sellers should only s
 
 When multiple sellers receive items within the same customer order, each vendor is granted access **strictly to their own portion**:
 
-<a class="doc-image-link" href="./assets/vendor-order-security-isolation.png"><img src="./assets/vendor-order-security-isolation.png" alt="Multi-Tenant Security and Vendor Order Isolation" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-security-isolation.webp"><img src="./assets/vendor-order-security-isolation.webp" alt="Multi-Tenant Security and Vendor Order Isolation" /></a>
 
 ::: tip Strict Data Protection
 - **No Cross-Vendor Data Leaks**: A vendor cannot view products sold by other merchants, other merchants' customer messages, or other merchants' revenue shares.
@@ -16374,12 +16727,12 @@ When multiple sellers receive items within the same customer order, each vendor 
 
 When a vendor navigates to **My Account → Order History** (or `/my-account/vendor-orders/`), they access a dedicated management workspace tailored specifically to their store's fulfillment duties.
 
-<a class="doc-image-link" href="./assets/vendor-order-management-full-view.png"><img src="./assets/vendor-order-management-full-view.png" alt="Vendor Order Management Dashboard Full View" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-management-full-view.webp"><img src="./assets/vendor-order-management-full-view.webp" alt="Vendor Order Management Dashboard Full View" /></a>
 
 ### 1. Vendor Financial Breakdown & Commission Transparency
 The vendor order details card provides transparent financial accounting for that specific order slice:
 
-<a class="doc-image-link" href="./assets/vendor-order-detail-commission-slice.png"><img src="./assets/vendor-order-detail-commission-slice.png" alt="Vendor Order Commission Breakdown and Net Earning Slice" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-detail-commission-slice.webp"><img src="./assets/vendor-order-detail-commission-slice.webp" alt="Vendor Order Commission Breakdown and Net Earning Slice" /></a>
 
 - **Product Subtotal**: The total gross sales amount generated by the vendor's items in the order.
 - **Admin Commission**: The marketplace fee automatically calculated according to admin commission rules.
@@ -16478,6 +16831,8 @@ Vendors can open the order from **Vendor Dashboard → Order History**, click on
 # Follow Shop
 
 The **Follow Shop** feature allows marketplace buyers to follow their favorite vendor stores with a single click. By following a shop, customers can easily keep track of trusted sellers, return to their product collections quickly, and receive direct email notifications about new arrivals, seasonal promotions, and special discounts.
+
+<a class="doc-image-link" href="./assets/customer-follow-shop-overview.webp"><img src="./assets/customer-follow-shop-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Follow Favorite Vendor Shops Overview" /></a>
 
 ---
 
@@ -16593,7 +16948,7 @@ When browsing the product catalog, buyers can use the **Seller List** filter in 
 - **Product Counts**: Each vendor entry displays the count of currently available products.
 - **Clear Filters**: Reset filters at any time to return to the full marketplace catalog.
 
-<a class="doc-image-link" href="./assets/customer-filter-by-seller-list.png"><img src="./assets/customer-filter-by-seller-list.png" alt="Seller List Filter Widget on Marketplace Shop Page" /></a>
+<a class="doc-image-link" href="./assets/customer-filter-by-seller-list.webp"><img src="./assets/customer-filter-by-seller-list.webp" alt="Seller List Filter Widget on Marketplace Shop Page" /></a>
 
 ### 2. Vendor Attribution on Product Cards
 
@@ -16605,7 +16960,7 @@ On catalog pages and search results, each item shows a clickable **Vendor:** lin
 
 Following a vendor store is quick and seamless directly from any vendor's single product page.
 
-<a class="doc-image-link" href="./assets/customer-follow-vendor-product-page.png"><img src="./assets/customer-follow-vendor-product-page.png" alt="Customer Follow Vendor on Product Detail Page" /></a>
+<a class="doc-image-link" href="./assets/customer-follow-vendor-product-page.webp"><img src="./assets/customer-follow-vendor-product-page.webp" alt="Customer Follow Vendor on Product Detail Page" /></a>
 
 ### Step-by-Step Instructions:
 
@@ -16640,7 +16995,7 @@ The follow action uses AJAX. You do not need to refresh the page—the icon upda
 
 All the stores you follow are organized inside your customer account portal. This gives you a single place to review your favorite sellers, jump straight to their collections, or remove stores you no longer wish to follow.
 
-<a class="doc-image-link" href="./assets/customer-favorite-vendors-list.png"><img src="./assets/customer-favorite-vendors-list.png" alt="My Favorite Vendors Dashboard in Customer Account" /></a>
+<a class="doc-image-link" href="./assets/customer-favorite-vendors-list.webp"><img src="./assets/customer-favorite-vendors-list.webp" alt="My Favorite Vendors Dashboard in Customer Account" /></a>
 
 ### Accessing the Favorite Vendors Section
 
@@ -16692,7 +17047,7 @@ When you have no favorite vendors saved, the table displays a clear **"No Data F
 
 Clicking any store name under the **Vendor Collection** column takes you directly to the vendor's dedicated storefront.
 
-<a class="doc-image-link" href="./assets/customer-vendor-store-collection.png"><img src="./assets/customer-vendor-store-collection.png" alt="Vendor Store Collection Page" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-store-collection.webp"><img src="./assets/customer-vendor-store-collection.webp" alt="Vendor Store Collection Page" /></a>
 
 On the vendor store page, you can:
 
@@ -16753,6 +17108,8 @@ In **WooCommerce Multi-Vendor Marketplace**, customer reviews and star ratings e
 The marketplace separates customer feedback into two distinct, specialized levels:
 1. **Vendor Store Reviews (Store-Level Feedback)**: Focuses on the seller's overall business service, customer support, dispatch speed, and fulfillment reliability across three dedicated criteria: **Price**, **Value**, and **Quality**.
 2. **Product Reviews (Item-Level Feedback)**: Focuses on the physical item purchased, its specifications, build quality, usability, and real-life performance—complete with customer photo uploads and verified owner status.
+
+<a class="doc-image-link" href="./assets/customer-review-rating-overview.webp"><img src="./assets/customer-review-rating-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Customer Reviews and Ratings Overview" /></a>
 
 ---
 
@@ -16845,7 +17202,7 @@ When visiting any seller's storefront (e.g., `/vendor/aurora-athletics/`), the v
 - **Direct Merchant Contacts**: Provides phone and email touchpoints for pre-order questions.
 - **Write a Review Button**: Appears for logged-in buyers right beside the star rating score.
 
-<a class="doc-image-link" href="./assets/customer-vendor-review-rating-header.png"><img src="./assets/customer-vendor-review-rating-header.png" alt="Vendor Store Header with Star Rating and Write a Review Button" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-review-rating-header.webp"><img src="./assets/customer-vendor-review-rating-header.webp" alt="Vendor Store Header with Star Rating and Write a Review Button" /></a>
 
 ::: tip Guest vs. Logged-in Customer View
 Guests can browse store ratings and read feedback submitted by others. To leave a store review, you must be signed in to your customer account.
@@ -16868,7 +17225,7 @@ Leaving seller feedback is straightforward and takes less than a minute:
 6. **Write Your Review**: Enter detailed comments in the textarea. Mention dispatch speed, product condition, or seller communication.
 7. **Click "Submit Review"**: Click the submit button to save your feedback.
 
-<a class="doc-image-link" href="./assets/customer-vendor-write-review-modal.png"><img src="./assets/customer-vendor-write-review-modal.png" alt="Customer Vendor Review Submission Modal with Multi-Pillar Ratings" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-write-review-modal.webp"><img src="./assets/customer-vendor-write-review-modal.webp" alt="Customer Vendor Review Submission Modal with Multi-Pillar Ratings" /></a>
 
 | Form Field | Type | Requirement | Purpose |
 | :--- | :---: | :---: | :--- |
@@ -16884,7 +17241,7 @@ Leaving seller feedback is straightforward and takes less than a minute:
 
 To read what other buyers have experienced with a merchant, click the **View All Reviews** link on the store profile. This opens the dedicated seller feedback archive at `/vendor/vendor-feedbacks/{vendor-slug}`.
 
-<a class="doc-image-link" href="./assets/customer-vendor-feedbacks-page.png"><img src="./assets/customer-vendor-feedbacks-page.png" alt="Vendor All Reviews and Feedback Archive Page" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-feedbacks-page.webp"><img src="./assets/customer-vendor-feedbacks-page.webp" alt="Vendor All Reviews and Feedback Archive Page" /></a>
 
 This archive page provides deep transparency into the merchant's service history:
 
@@ -16915,7 +17272,7 @@ On any single product page (e.g., `/product/aurora-pace-fitness-watch/`), scroll
    - The prominent **Write a Review** button (`.wkfashion-review-rating-form-toggle`).
    - Customer review cards containing buyer impressions, star ratings, and verified owner tags.
 
-<a class="doc-image-link" href="./assets/customer-pdp-reviews-section.png"><img src="./assets/customer-pdp-reviews-section.png" alt="Expanded Product Reviews Section on PDP with Rating Summary and Reviews List" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-reviews-section.webp"><img src="./assets/customer-pdp-reviews-section.webp" alt="Expanded Product Reviews Section on PDP with Rating Summary and Reviews List" /></a>
 
 ---
 
@@ -16937,7 +17294,7 @@ Submitting a review for a product is quick and lets you add helpful real-life ph
    - **Guest Visitors**: Enter your **Name** and **Email** address (your email address is kept private and will never be published publicly). You may also check the optional cookie consent box to save your details for future reviews.
 9. **Click "Submit it"**: Submit your review.
 
-<a class="doc-image-link" href="./assets/customer-pdp-write-review-modal.png"><img src="./assets/customer-pdp-write-review-modal.png" alt="Product Write a Review Modal with Photo Attachment and Star Rating" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-write-review-modal.webp"><img src="./assets/customer-pdp-write-review-modal.webp" alt="Product Write a Review Modal with Photo Attachment and Star Rating" /></a>
 
 | Form Field | Type | Requirement | Notes |
 | :--- | :---: | :---: | :--- |
@@ -17030,7 +17387,7 @@ In an open multi-vendor marketplace, shoppers buy goods directly from independen
 
 As a customer or guest visitor, you can report suspicious stores or problematic product listings with a few clicks. Your reports go directly to marketplace administrators, helping maintain top-tier catalog standards, protect buyers against counterfeit goods, and hold sellers accountable to marketplace policies.
 
-<a class="doc-image-link" href="./assets/customer-vendor-profile-report-button.png"><img src="./assets/customer-vendor-profile-report-button.png" alt="Report Vendor Button on Vendor Store Profile" /></a>
+<a class="doc-image-link" href="./assets/customer-flag-report-overview.webp"><img src="./assets/customer-flag-report-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Customer Flag and Report Overview" /></a>
 
 ---
 
@@ -17190,12 +17547,12 @@ When you experience problems with a seller's overall conduct, store information,
 ### 1. Locate the "Report Vendor" Link
 Visit the vendor's storefront (e.g., `/vendor/aurora-athletics/`). In the **About this Vendor** card on the right-hand side, look for the **Report Vendor** link marked with a flag icon (<span class="dashicons dashicons-flag"></span>).
 
-<a class="doc-image-link" href="./assets/customer-vendor-profile-report-button.png"><img src="./assets/customer-vendor-profile-report-button.png" alt="Report Vendor Button on Vendor Store Profile" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-profile-report-button.webp"><img src="./assets/customer-vendor-profile-report-button.webp" alt="Report Vendor Button on Vendor Store Profile" /></a>
 
 ### 2. Open the Report Modal
 Clicking **Report Vendor** opens an interactive modal centered on your screen.
 
-<a class="doc-image-link" href="./assets/customer-vendor-flag-modal.png"><img src="./assets/customer-vendor-flag-modal.png" alt="Vendor Flag Reporting Modal Form" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-flag-modal.webp"><img src="./assets/customer-vendor-flag-modal.webp" alt="Vendor Flag Reporting Modal Form" /></a>
 
 ### 3. Enter Your Details (Guest Shoppers)
 - **Logged-in Customers**: Your user account is recognized automatically. The modal skips name and email fields and links your registered profile to the report.
@@ -17217,7 +17574,7 @@ Select the radio button that best describes your grievance:
 ### 5. Writing a Custom Reason
 When you select the **Other** option, the modal automatically displays a text area with the placeholder: *Write a reason to report this seller.* Enter a brief explanation of the issue so marketplace managers can investigate effectively.
 
-<a class="doc-image-link" href="./assets/customer-vendor-flag-custom-reason.png"><img src="./assets/customer-vendor-flag-custom-reason.png" alt="Submitting Custom Reason in Vendor Flag Modal" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-flag-custom-reason.webp"><img src="./assets/customer-vendor-flag-custom-reason.webp" alt="Submitting Custom Reason in Vendor Flag Modal" /></a>
 
 ### 6. Submit Your Report
 Click the primary **Report** button. 
@@ -17234,12 +17591,12 @@ If you find an issue with a single item—such as misleading photographs, incorr
 ### 1. Locate the "Report Product" Button
 Open any vendor product page (e.g., `/product/aurora-pace-fitness-watch/`). The **Report Product** button appears directly within the main product summary area next to the purchase options.
 
-<a class="doc-image-link" href="./assets/customer-pdp-report-product-button.png"><img src="./assets/customer-pdp-report-product-button.png" alt="Report Product Button on Product Detail Page" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-report-product-button.webp"><img src="./assets/customer-pdp-report-product-button.webp" alt="Report Product Button on Product Detail Page" /></a>
 
 ### 2. Open the Product Flag Form
 Click **Report Product** to open the reporting popup modal.
 
-<a class="doc-image-link" href="./assets/customer-pdp-report-product-modal.png"><img src="./assets/customer-pdp-report-product-modal.png" alt="Product Flag Modal Overview on PDP" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-report-product-modal.webp"><img src="./assets/customer-pdp-report-product-modal.webp" alt="Product Flag Modal Overview on PDP" /></a>
 
 ### 3. Complete Reporter Information
 - For guest buyers, fill in **Your Name\*** and **Your Email\***.
@@ -17259,7 +17616,7 @@ Select the radio option that best reflects the issue with the listing:
 ### 5. Add Custom Product Notes
 If you choose **Other** (or want to specify additional details), write a brief note in the text box explaining why the product listing should be investigated.
 
-<a class="doc-image-link" href="./assets/customer-pdp-report-product-custom-reason.png"><img src="./assets/customer-pdp-report-product-custom-reason.png" alt="Product Report Modal with Custom Description Filled" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-report-product-custom-reason.webp"><img src="./assets/customer-pdp-report-product-custom-reason.webp" alt="Product Report Modal with Custom Description Filled" /></a>
 
 ### 6. Submit the Product Report
 Click **Report**. An inline confirmation message verifies that your submission was received, and the window closes automatically after a few seconds.
@@ -17270,7 +17627,7 @@ Click **Report**. An inline confirmation message verifies that your submission w
 
 It is important to understand when to write a **Product Review** and when to **Report / Flag** an item. Both features serve distinct roles in keeping the marketplace transparent:
 
-<a class="doc-image-link" href="./assets/customer-pdp-reviews-section.png"><img src="./assets/customer-pdp-reviews-section.png" alt="Product Reviews and Ratings Section on PDP" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-reviews-section.webp"><img src="./assets/customer-pdp-reviews-section.webp" alt="Product Reviews and Ratings Section on PDP" /></a>
 
 | Consideration | Product Review & Rating | Flag & Report Submission |
 | :--- | :--- | :--- |
@@ -17558,6 +17915,8 @@ The fastest way for vendors to launch a new product from scratch is using the **
 ### 1. Launch the Wizard
 From the **Seller Dashboard**, navigate to **Products**. Beside the standard **Add Product** button, click the blue **Create Product with AI** button.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-create-product-with-ai.webp"><img src="./assets/marketplace-vendor-create-product-with-ai.webp" alt="Create Product with AI Button in Seller Catalog" /></a>
+
 ### 2. Select Product Basics
 - **Category:** Choose one or more categories from the marketplace category multiselect list.
 - **Product Type:** Choose your product format:
@@ -17572,6 +17931,8 @@ From the **Seller Dashboard**, navigate to **Products**. Beside the standard **A
 - **Reference Photos (Optional):** Click to attach up to 3 photos. The vision model scans the images to identify materials, colors, textures, and form factors.
 - **Field Selection:** Toggle interactive pills for the fields you want the AI to draft (Product Name, Short Description, Long Description, Regular Price, Dimensions, Attributes).
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-create-product-with-ai-modal.webp"><img src="./assets/marketplace-vendor-create-product-with-ai-modal.webp" alt="Guided Creation Wizard Modal with Prompt and Field Selection" /></a>
+
 ### 4. Review & Create
 - Click **Generate**. Review each generated field marked with a **"new"** badge.
 - Click **Regenerate** beside any individual field if you want an alternative draft.
@@ -17585,10 +17946,16 @@ If you are already editing an existing product or prefer using the standard prod
 
 1. Navigate to **Products >> Add Product** or click **Edit** on an existing item.
 2. Click the prominent **Generate content** button at the top of the form.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-form-ai-launcher.webp"><img src="./assets/marketplace-vendor-product-form-ai-launcher.webp" alt="Generate Content Button on Seller Product Form Header" /></a>
+
 3. Enter your product brief in the prompt area.
 4. (Optional) Upload reference product photos.
 5. Select which fields you want drafted (Title, Short Description, Product Description, Price, SKU, Attributes).
 6. Click **Generate** and review the drafted suggestions in the review list.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-form-ai-modal.webp"><img src="./assets/marketplace-vendor-product-form-ai-modal.webp" alt="Seller Product Form Magic AI Assistant Modal" /></a>
+
 7. Click **Apply fields** to insert the values directly into your active form controls.
 8. Make any manual edits and click **Save Product** or **Update Product**.
 
@@ -17602,7 +17969,11 @@ When you only need help drafting or polishing one specific field:
 - **Above Short Description:** Composes quick bulleted key benefits.
 - **Above Long Description:** Expands notes into a comprehensive product overview.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-inline-ai-buttons.webp"><img src="./assets/marketplace-vendor-product-inline-ai-buttons.webp" alt="Inline Magic AI Content Generation Buttons on Seller Product Form" /></a>
+
 Clicking an inline button opens a mini-prompt where you can enter an instruction (e.g., *"Make it sound more athletic"*), review the single output, and click **Apply** to fill that exact field immediately.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-inline-ai-modal.webp"><img src="./assets/marketplace-vendor-product-inline-ai-modal.webp" alt="Inline Field Magic AI Mini Prompt Modal" /></a>
 
 ---
 
@@ -17655,6 +18026,8 @@ The Image Enhancer is located right where sellers manage their product visuals:
 > **Location on Form:**  
 > In the seller **Product Image** panel, directly below the main uploaded product thumbnail preview, vendors see the dedicated **[ Enhance image with AI ]** button.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-image-enhancer-trigger.webp"><img src="./assets/marketplace-vendor-product-image-enhancer-trigger.webp" alt="Enhance Image with AI Button on Seller Product Form" /></a>
+
 ::: tip Image Upload Required
 You must have a base image uploaded in the thumbnail box before launching the enhancer. If the box is empty, upload your raw product photo first.
 :::
@@ -17683,15 +18056,22 @@ In the prompt field at the bottom of the modal, describe the environment, lighti
 | **Modern Lifestyle** | *"Place item naturally on a [surface] in a [setting] with soft ambient daylight."* | *"Place naturally on a rustic oak coffee table in a sunlit living room with subtle out-of-focus background greenery."* |
 | **Luxury / Premium** | *"Set on a [luxurious surface] with dramatic accent lighting and elegant reflections."* | *"Set on a polished dark marble tabletop with warm side lighting and subtle depth of field."* |
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-image-enhancer-modal-prompt.webp"><img src="./assets/marketplace-vendor-image-enhancer-modal-prompt.webp" alt="Side-by-Side Image Enhancer Modal with Prompt Input" /></a>
+
 ### Step 3: Generate the Enhancement
-1. Click the blue **Enhance Image** button.
+1. Click the primary **Generate** button.
 2. The AI processes the image and returns a high-resolution preview in the right-hand panel in 10 to 20 seconds.
-3. Review the result. If you want adjustments, tweak your prompt and click **Enhance Image** again.
+3. Review the result. If you want adjustments, tweak your prompt and click **↺ Regenerate**.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-image-enhancer-modal-result.webp"><img src="./assets/marketplace-vendor-image-enhancer-modal-result.webp" alt="Side-by-Side Dual Comparison Showing Original vs AI Enhanced Image Preview" /></a>
 
 ### Step 4: Apply to Product
-1. When satisfied with the preview, click **Apply to Product**.
-2. The modal closes and automatically replaces the active image preview in your product form with the enhanced version.
-3. Click **Save Product** or **Update Product** on your dashboard to save the listing.
+1. When satisfied with the preview, click **Insert**.
+2. Confirm the thumbnail replacement prompt.
+3. The modal closes and automatically replaces the active image preview in your product form with the enhanced version, displaying the save reminder notice.
+4. Click **Update Product** (or **Save Product**) on your dashboard to save the listing.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-image-enhancer-applied.webp"><img src="./assets/marketplace-vendor-image-enhancer-applied.webp" alt="Enhanced Thumbnail Applied to Seller Product Form with Save Notice" /></a>
 
 ---
 
@@ -17758,6 +18138,8 @@ Defines the time window over which each seller's generations are counted before 
 | **Daily** | Resets every night at midnight (00:00 UTC) | High-volume stores encouraging regular daily product listing workflows. |
 | **Lifetime** | Permanent hard cap that never resets automatically | Trial accounts or initial vendor onboarding programs. |
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-limits-quotas.webp"><img src="./assets/marketplace-admin-magic-ai-mp-limits-quotas.webp" alt="Marketplace Admin Limits and Quotas Configuration Settings" /></a>
+
 ---
 
 ## Centralized Architecture & Vendor Quota Tracking
@@ -17785,6 +18167,8 @@ Vendors receive full transparency into their current usage directly inside the M
 | **Progress Indicator Bar** | Visual colored bar showing percentage of quota consumed within the active period. |
 | **Generation Safeguard** | When the limit is reached, the **Generate** button is disabled and displays an explanatory tooltip notice. |
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-magic-ai-usage-meter.webp"><img src="./assets/marketplace-vendor-magic-ai-usage-meter.webp" alt="Live Generation Quota Meter in Seller AI Creation Modal" /></a>
+
 ### In-Modal Meter Features
 - **Active Generation Counter:** Shows real-time usage (e.g., `12 / 25 generations used`). If the marketplace is configured for unlimited generations, it shows `12 generations used`.
 - **Dynamic Progress Bar:** Visual progress indicator displaying consumption percentage.
@@ -17793,6 +18177,8 @@ Vendors receive full transparency into their current usage directly inside the M
   - A descriptive tooltip informs the seller: *"You have reached your generation limit for this period"*.
   - Vendors can still manually edit, create, and publish products without any interruption.
   - The quota automatically renews once the active period expires.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-magic-ai-limit-reached.webp"><img src="./assets/marketplace-vendor-magic-ai-limit-reached.webp" alt="Generation Limit Reached Safeguard with Disabled Generate Action" /></a>
 
 ---
 
@@ -17819,6 +18205,8 @@ An ideal prompt covers four core elements:
 | **3. Target Audience** | Intended buyer persona and primary use cases | *"Remote professionals, frequent travelers, and daily commuters"* |
 | **4. Tone & Pricing** | Desired copy style and target pricing | *"Modern, premium, professional tone. Target price: $149"* |
 
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-prompt-anatomy.webp"><img src="./assets/marketplace-magic-ai-prompt-anatomy.webp" alt="Magic AI Prompt Formulation Interface with Core Specs and Target Fields" /></a>
+
 ---
 
 ## High-Converting Copy Templates
@@ -17831,6 +18219,8 @@ An ideal prompt covers four core elements:
 - **Product Name:** *AeroTune Pro Wireless Noise-Cancelling Over-Ear Headphones (45H Battery, Bluetooth 5.4)*
 - **Short Description:** *Block out distractions and immerse yourself in premium acoustic sound with 40mm titanium drivers, active noise cancellation, and a plush memory-foam travel design.*
 - **Long Description:** Comprehensive breakdown of acoustic engineering, battery longevity benchmarks, call clarity, and in-the-box contents.
+
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-generated-output-review.webp"><img src="./assets/marketplace-magic-ai-generated-output-review.webp" alt="Magic AI Review Screen Displaying Generated Product Fields and One-Click Application" /></a>
 
 ---
 
@@ -17863,6 +18253,8 @@ When uploading reference photos of physical items, combine your image with a foc
 - **State What the Photo Shows:** *"See attached 2 photos of our handcrafted leather messenger bag. Highlight the antique brass hardware, double-stitched corners, and laptop compartment shown in photo 2."*
 - **Clarify Hidden Features:** *"The photo shows the exterior matte black finish; please note that the interior features waterproof nylon lining with 3 slip pockets."*
 
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-multimodal-vision-prompt.webp"><img src="./assets/marketplace-magic-ai-multimodal-vision-prompt.webp" alt="Multimodal Vision AI Prompt with Reference Photo Attachments" /></a>
+
 ---
 
 ## Image Enhancer Prompt Templates
@@ -17870,7 +18262,7 @@ When uploading reference photos of physical items, combine your image with a foc
 When using the **Vendor Image Enhancer** below the product thumbnail, use these proven styling prompts:
 
 ### 1. Clean Studio & Pure White (Amazon & Marketplace Standard)
-> *"Remove the cluttered room background. Place the product on a seamless pure white studio surface with soft, diffused commercial lighting and subtle, natural contact shadows underneath."*
+> *"Remove the cluttered room background. Place the athletic training shirt on a seamless pure white studio surface with soft, diffused commercial lighting, smooth fabric drape, and subtle contact shadows underneath."*
 
 ### 2. Modern Lifestyle & Warm Interior
 > *"Keep the product completely unchanged, but place it naturally on a natural oak dining table in a sunlit Scandinavian apartment with gentle ambient daylight and blurred background greenery."*
@@ -17880,6 +18272,8 @@ When using the **Vendor Image Enhancer** below the product thumbnail, use these 
 
 ### 4. Outdoor / Adventure
 > *"Place the hiking boot on a rugged granite mountain ledge with warm sunrise sunlight casting long soft shadows."*
+
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-image-enhancer-prompt.webp"><img src="./assets/marketplace-magic-ai-image-enhancer-prompt.webp" alt="Vendor Product Image Enhancer Interface with Clean Studio Styling Prompt" /></a>
 
 ---
 
@@ -17891,6 +18285,8 @@ When using the **Vendor Image Enhancer** below the product thumbnail, use these 
 | **Do:** Specify your target customer (students, athletes, luxury buyers). | **Don't:** Don't ask the AI to guess technical standards without guidance. |
 | **Do:** Mention care and warranty details for richer descriptions. | **Don't:** Avoid conflicting instructions (e.g., "cheap but luxury"). |
 | **Do:** Use single-field inline buttons to tweak specific sections quickly. | **Don't:** Don't republish without reviewing pricing and stock numbers. |
+
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-inline-field-prompt.webp"><img src="./assets/marketplace-magic-ai-inline-field-prompt.webp" alt="Inline Single-Field AI Prompt Dialog for Quick Content Refinements" /></a>
 
 ---
 
@@ -18361,7 +18757,7 @@ Vendors can easily upload their KYC documents to get verified. This can be done 
 
 <a class="doc-image-link" href="./assets/upload-kyc.png"><img src="./assets/upload-kyc.png" alt="Vendor KYC Upload" /></a>
 
-<a class="doc-image-link" href="./assets/seller-kyc-page.png"><img src="./assets/seller-kyc-page.png" alt="Vendor KYC Upload from Profile" /></a>
+<a class="doc-image-link" href="./assets/seller-kyc-page.webp"><img src="./assets/seller-kyc-page.webp" alt="Vendor KYC Upload from Profile" /></a>
 
 ### Admin Review and Action
 Admins can review submitted documents from the admin vendor list. A dedicated KYC column and row action are available to streamline this process.

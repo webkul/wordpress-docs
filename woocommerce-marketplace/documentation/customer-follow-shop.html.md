@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-
 
 The **Follow Shop** feature allows marketplace buyers to follow their favorite vendor stores with a single click. By following a shop, customers can easily keep track of trusted sellers, return to their product collections quickly, and receive direct email notifications about new arrivals, seasonal promotions, and special discounts.
 
+<a class="doc-image-link" href="./assets/customer-follow-shop-overview.webp"><img src="./assets/customer-follow-shop-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Follow Favorite Vendor Shops Overview" /></a>
+
 ---
 
 ## Why Follow a Vendor Shop?
@@ -121,7 +123,7 @@ When browsing the product catalog, buyers can use the **Seller List** filter in 
 - **Product Counts**: Each vendor entry displays the count of currently available products.
 - **Clear Filters**: Reset filters at any time to return to the full marketplace catalog.
 
-<a class="doc-image-link" href="./assets/customer-filter-by-seller-list.png"><img src="./assets/customer-filter-by-seller-list.png" alt="Seller List Filter Widget on Marketplace Shop Page" /></a>
+<a class="doc-image-link" href="./assets/customer-filter-by-seller-list.webp"><img src="./assets/customer-filter-by-seller-list.webp" alt="Seller List Filter Widget on Marketplace Shop Page" /></a>
 
 ### 2. Vendor Attribution on Product Cards
 
@@ -133,7 +135,7 @@ On catalog pages and search results, each item shows a clickable **Vendor:** lin
 
 Following a vendor store is quick and seamless directly from any vendor's single product page.
 
-<a class="doc-image-link" href="./assets/customer-follow-vendor-product-page.png"><img src="./assets/customer-follow-vendor-product-page.png" alt="Customer Follow Vendor on Product Detail Page" /></a>
+<a class="doc-image-link" href="./assets/customer-follow-vendor-product-page.webp"><img src="./assets/customer-follow-vendor-product-page.webp" alt="Customer Follow Vendor on Product Detail Page" /></a>
 
 ### Step-by-Step Instructions:
 
@@ -168,7 +170,7 @@ The follow action uses AJAX. You do not need to refresh the page—the icon upda
 
 All the stores you follow are organized inside your customer account portal. This gives you a single place to review your favorite sellers, jump straight to their collections, or remove stores you no longer wish to follow.
 
-<a class="doc-image-link" href="./assets/customer-favorite-vendors-list.png"><img src="./assets/customer-favorite-vendors-list.png" alt="My Favorite Vendors Dashboard in Customer Account" /></a>
+<a class="doc-image-link" href="./assets/customer-favorite-vendors-list.webp"><img src="./assets/customer-favorite-vendors-list.webp" alt="My Favorite Vendors Dashboard in Customer Account" /></a>
 
 ### Accessing the Favorite Vendors Section
 
@@ -220,7 +222,7 @@ When you have no favorite vendors saved, the table displays a clear **"No Data F
 
 Clicking any store name under the **Vendor Collection** column takes you directly to the vendor's dedicated storefront.
 
-<a class="doc-image-link" href="./assets/customer-vendor-store-collection.png"><img src="./assets/customer-vendor-store-collection.png" alt="Vendor Store Collection Page" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-store-collection.webp"><img src="./assets/customer-vendor-store-collection.webp" alt="Vendor Store Collection Page" /></a>
 
 On the vendor store page, you can:
 

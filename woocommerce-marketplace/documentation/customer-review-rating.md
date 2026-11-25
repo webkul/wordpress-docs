@@ -11,6 +11,8 @@ The marketplace separates customer feedback into two distinct, specialized level
 1. **Vendor Store Reviews (Store-Level Feedback)**: Focuses on the seller's overall business service, customer support, dispatch speed, and fulfillment reliability across three dedicated criteria: **Price**, **Value**, and **Quality**.
 2. **Product Reviews (Item-Level Feedback)**: Focuses on the physical item purchased, its specifications, build quality, usability, and real-life performance—complete with customer photo uploads and verified owner status.
 
+<a class="doc-image-link" href="./assets/customer-review-rating-overview.webp"><img src="./assets/customer-review-rating-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Customer Reviews and Ratings Overview" /></a>
+
 ---
 
 ## Why Customer Feedback Matters
@@ -102,7 +104,7 @@ When visiting any seller's storefront (e.g., `/vendor/aurora-athletics/`), the v
 - **Direct Merchant Contacts**: Provides phone and email touchpoints for pre-order questions.
 - **Write a Review Button**: Appears for logged-in buyers right beside the star rating score.
 
-<a class="doc-image-link" href="./assets/customer-vendor-review-rating-header.png"><img src="./assets/customer-vendor-review-rating-header.png" alt="Vendor Store Header with Star Rating and Write a Review Button" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-review-rating-header.webp"><img src="./assets/customer-vendor-review-rating-header.webp" alt="Vendor Store Header with Star Rating and Write a Review Button" /></a>
 
 ::: tip Guest vs. Logged-in Customer View
 Guests can browse store ratings and read feedback submitted by others. To leave a store review, you must be signed in to your customer account.
@@ -125,7 +127,7 @@ Leaving seller feedback is straightforward and takes less than a minute:
 6. **Write Your Review**: Enter detailed comments in the textarea. Mention dispatch speed, product condition, or seller communication.
 7. **Click "Submit Review"**: Click the submit button to save your feedback.
 
-<a class="doc-image-link" href="./assets/customer-vendor-write-review-modal.png"><img src="./assets/customer-vendor-write-review-modal.png" alt="Customer Vendor Review Submission Modal with Multi-Pillar Ratings" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-write-review-modal.webp"><img src="./assets/customer-vendor-write-review-modal.webp" alt="Customer Vendor Review Submission Modal with Multi-Pillar Ratings" /></a>
 
 | Form Field | Type | Requirement | Purpose |
 | :--- | :---: | :---: | :--- |
@@ -141,7 +143,7 @@ Leaving seller feedback is straightforward and takes less than a minute:
 
 To read what other buyers have experienced with a merchant, click the **View All Reviews** link on the store profile. This opens the dedicated seller feedback archive at `/vendor/vendor-feedbacks/{vendor-slug}`.
 
-<a class="doc-image-link" href="./assets/customer-vendor-feedbacks-page.png"><img src="./assets/customer-vendor-feedbacks-page.png" alt="Vendor All Reviews and Feedback Archive Page" /></a>
+<a class="doc-image-link" href="./assets/customer-vendor-feedbacks-page.webp"><img src="./assets/customer-vendor-feedbacks-page.webp" alt="Vendor All Reviews and Feedback Archive Page" /></a>
 
 This archive page provides deep transparency into the merchant's service history:
 
@@ -172,7 +174,7 @@ On any single product page (e.g., `/product/aurora-pace-fitness-watch/`), scroll
    - The prominent **Write a Review** button (`.wkfashion-review-rating-form-toggle`).
    - Customer review cards containing buyer impressions, star ratings, and verified owner tags.
 
-<a class="doc-image-link" href="./assets/customer-pdp-reviews-section.png"><img src="./assets/customer-pdp-reviews-section.png" alt="Expanded Product Reviews Section on PDP with Rating Summary and Reviews List" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-reviews-section.webp"><img src="./assets/customer-pdp-reviews-section.webp" alt="Expanded Product Reviews Section on PDP with Rating Summary and Reviews List" /></a>
 
 ---
 
@@ -194,7 +196,7 @@ Submitting a review for a product is quick and lets you add helpful real-life ph
    - **Guest Visitors**: Enter your **Name** and **Email** address (your email address is kept private and will never be published publicly). You may also check the optional cookie consent box to save your details for future reviews.
 9. **Click "Submit it"**: Submit your review.
 
-<a class="doc-image-link" href="./assets/customer-pdp-write-review-modal.png"><img src="./assets/customer-pdp-write-review-modal.png" alt="Product Write a Review Modal with Photo Attachment and Star Rating" /></a>
+<a class="doc-image-link" href="./assets/customer-pdp-write-review-modal.webp"><img src="./assets/customer-pdp-write-review-modal.webp" alt="Product Write a Review Modal with Photo Attachment and Star Rating" /></a>
 
 | Form Field | Type | Requirement | Notes |
 | :--- | :---: | :---: | :--- |

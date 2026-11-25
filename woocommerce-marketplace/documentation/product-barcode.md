@@ -9,6 +9,8 @@ In modern retail and warehouse fulfillment, physical barcodes are vital for fast
 
 This guide covers supported barcode formats, assigning barcodes to simple and variable products, batch PDF printing for thermal label printers, and staff permissions.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-catalog.webp"><img src="./assets/marketplace-vendor-product-barcode-catalog.webp" alt="Vendor Catalog Products Table with Barcode Column and Download PNG Actions" /></a>
+
 ---
 
 ## Supported Barcode Formats
@@ -36,15 +38,7 @@ Vendors can assign barcodes to individual products or generate them in bulk acro
 4. Click **Save Product** (or **Submit for Approval**).
 5. The system automatically creates and renders the crisp vector barcode graphic below the field.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ GTIN, UPC, EAN, or ISBN: [ 8901234567890                  ] │
-│                                                             │
-│   || | |||| || ||||| ||| |||| | ||||| || ||| |||| ||        │
-│                     8901234567890                           │
-│   [ Download PNG ]                                          │
-└─────────────────────────────────────────────────────────────┘
-```
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-single-item.webp"><img src="./assets/marketplace-vendor-product-barcode-single-item.webp" alt="Single Product Edit Barcode Field and Vector Barcode Preview" /></a>
 
 6. Click **Download PNG** to save the standalone high-resolution barcode image for product packaging, hangtags, or catalog design.
 
@@ -56,6 +50,8 @@ For products with multiple variations (e.g., sizes or colors):
 - Each variation contains its own unique **GTIN / Barcode** input field.
 - Vendors can assign distinct barcode numbers to each variation item (e.g., *Small/Red*, *Medium/Red*, *Large/Blue*).
 - On the main **Products** list table, click **Show variations** in the Barcode column to view and download barcodes for every variation individually.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-variations.webp"><img src="./assets/marketplace-vendor-product-barcode-variations.webp" alt="Variable Product Barcodes List and Variations Download Actions" /></a>
 
 ---
 
@@ -105,6 +101,8 @@ Navigate to: **Catalog > Products** (`/seller/vendor-products/`)
 3. Choose the target symbology: **Code 128**, **EAN-13**, or **UPC-A**.
 4. Click **Apply**. The engine generates and associates vector barcodes across all selected items.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-bulk-generate.webp"><img src="./assets/marketplace-vendor-product-barcode-bulk-generate.webp" alt="Bulk Barcode Generation Menu with Code 128, EAN-13, and UPC-A Symbology Options" /></a>
+
 ---
 
 ### 2. Printing Barcode Label Sheets (PDF)
@@ -118,6 +116,8 @@ Navigate to: **Catalog > Products** (`/seller/vendor-products/`)
    - **Alphanumeric Code:** Human-readable text beneath the bars.
 4. Send the document directly to your thermal barcode printer (e.g., *Zebra*, *Rollo*, *DYMO*) or standard adhesive Avery label sheets.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-print-labels-pdf.webp"><img src="./assets/marketplace-vendor-product-barcode-print-labels-pdf.webp" alt="Generated Barcode Labels Printable PDF Sheet" /></a>
+
 ---
 
 ## Filtering the Catalog by Barcode
@@ -129,6 +129,8 @@ Vendors can find specific products instantly using physical handheld barcode sca
 3. Scan the physical product label using any USB or Bluetooth barcode scanner (or type the code).
 4. Click **Apply Filters**. The catalog table updates immediately to display the exact matching item.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-filter-drawer.webp"><img src="./assets/marketplace-vendor-product-barcode-filter-drawer.webp" alt="Catalog Filter Drawer with Barcode and GTIN Input Field" /></a>
+
 ---
 
 ## Staff Permissions & Barcode Access Control
@@ -139,3 +141,5 @@ Store owners who employ team members can control who is authorized to view, gene
 - Toggle the **Print Barcodes** permission:
   - **Enabled:** Staff members can generate barcode graphics and print label sheets during warehouse packing workflows.
   - **Disabled:** Hides barcode download and bulk printing tools from the staff member's interface.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-staff-permissions.webp"><img src="./assets/marketplace-vendor-product-barcode-staff-permissions.webp" alt="Vendor Staff Permissions Settings for Barcode Generation and Printing" /></a>

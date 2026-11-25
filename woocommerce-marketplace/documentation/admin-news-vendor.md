@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-new
 
 The **Admin News** section allows vendors to stay updated with important announcements shared by the marketplace admin.
 
+<a class="doc-image-link" href="./assets/vendor-admin-news-overview.webp"><img src="./assets/vendor-admin-news-overview.webp" alt="Vendor Admin News Announcements Overview" /></a>
+
 ::: tip Administrator Guide
 If you are a store administrator looking to create news posts, set expiration dates, or configure seller visibility, please refer to the [Admin News Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-news.html) documentation.
 :::
@@ -35,6 +37,8 @@ Breadcrumb navigation:
 
 The updated vendor panel presents announcements in an organized table with instant search capability.
 
+<a class="doc-image-link" href="./assets/vendor-admin-news-feed.webp"><img src="./assets/vendor-admin-news-feed.webp" alt="Vendor Admin News Feed Table and Search Toolbar" /></a>
+
 #### Key Interface Elements
 
 - **Search by News Title**: A dedicated search input located at the top right of the table. Enter any keyword or title term (for example, "Payouts" or "Policy") and press **Enter** to instantly filter matching news items.
@@ -54,7 +58,7 @@ The updated vendor panel presents announcements in an organized table with insta
 - By tapping on any news item, the vendor can view the complete description and details of that news.
 - This helps vendors stay informed about marketplace updates, policies, or announcements.
 
-<a class="doc-image-link" href="./assets/vendor-admin-news-detail-live.png"><img src="./assets/vendor-admin-news-detail-live.png" alt="Vendor Admin News Detail View" /></a>
+<a class="doc-image-link" href="./assets/vendor-admin-news-detail.webp"><img src="./assets/vendor-admin-news-detail.webp" alt="Vendor Admin News Detail View" /></a>
 
 ### News Detail Screen Elements
 

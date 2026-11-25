@@ -26,6 +26,8 @@ The Image Enhancer is located right where sellers manage their product visuals:
 > **Location on Form:**  
 > In the seller **Product Image** panel, directly below the main uploaded product thumbnail preview, vendors see the dedicated **[ Enhance image with AI ]** button.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-product-image-enhancer-trigger.webp"><img src="./assets/marketplace-vendor-product-image-enhancer-trigger.webp" alt="Enhance Image with AI Button on Seller Product Form" /></a>
+
 ::: tip Image Upload Required
 You must have a base image uploaded in the thumbnail box before launching the enhancer. If the box is empty, upload your raw product photo first.
 :::
@@ -54,15 +56,22 @@ In the prompt field at the bottom of the modal, describe the environment, lighti
 | **Modern Lifestyle** | *"Place item naturally on a [surface] in a [setting] with soft ambient daylight."* | *"Place naturally on a rustic oak coffee table in a sunlit living room with subtle out-of-focus background greenery."* |
 | **Luxury / Premium** | *"Set on a [luxurious surface] with dramatic accent lighting and elegant reflections."* | *"Set on a polished dark marble tabletop with warm side lighting and subtle depth of field."* |
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-image-enhancer-modal-prompt.webp"><img src="./assets/marketplace-vendor-image-enhancer-modal-prompt.webp" alt="Side-by-Side Image Enhancer Modal with Prompt Input" /></a>
+
 ### Step 3: Generate the Enhancement
-1. Click the blue **Enhance Image** button.
+1. Click the primary **Generate** button.
 2. The AI processes the image and returns a high-resolution preview in the right-hand panel in 10 to 20 seconds.
-3. Review the result. If you want adjustments, tweak your prompt and click **Enhance Image** again.
+3. Review the result. If you want adjustments, tweak your prompt and click **↺ Regenerate**.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-image-enhancer-modal-result.webp"><img src="./assets/marketplace-vendor-image-enhancer-modal-result.webp" alt="Side-by-Side Dual Comparison Showing Original vs AI Enhanced Image Preview" /></a>
 
 ### Step 4: Apply to Product
-1. When satisfied with the preview, click **Apply to Product**.
-2. The modal closes and automatically replaces the active image preview in your product form with the enhanced version.
-3. Click **Save Product** or **Update Product** on your dashboard to save the listing.
+1. When satisfied with the preview, click **Insert**.
+2. Confirm the thumbnail replacement prompt.
+3. The modal closes and automatically replaces the active image preview in your product form with the enhanced version, displaying the save reminder notice.
+4. Click **Update Product** (or **Save Product**) on your dashboard to save the listing.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-image-enhancer-applied.webp"><img src="./assets/marketplace-vendor-image-enhancer-applied.webp" alt="Enhanced Thumbnail Applied to Seller Product Form with Save Notice" /></a>
 
 ---
 

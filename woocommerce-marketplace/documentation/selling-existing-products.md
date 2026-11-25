@@ -9,6 +9,8 @@ In high-volume multi-vendor marketplaces, multiple merchants frequently offer id
 
 **Selling Existing Products** (powered by **Select and Sell**) solves this by enabling multiple approved vendors to attach their own pricing, stock, and offer notes to a single master product in the marketplace catalog. Customers enjoy a clean storefront with side-by-side merchant comparisons, while vendors easily list catalog items without re-entering descriptions or uploading media.
 
+<a class="doc-image-link" href="./assets/vendor-select-and-sell-overview.webp"><img src="./assets/vendor-select-and-sell-overview.webp" alt="Selling Existing Products Overview" /></a>
+
 ---
 
 ## How It Works
@@ -51,6 +53,8 @@ Select the taxonomy and architecture of the product you wish to sell:
   - **Variable product:** Products with variations (e.g., sizes or colors).
 - Click **Next Step** to proceed.
 
+<a class="doc-image-link" href="./assets/vendor-select-and-sell-step1.webp"><img src="./assets/vendor-select-and-sell-step1.webp" alt="Select and Sell Step 1 Category and Product Type Selection" /></a>
+
 ---
 
 ### Step 2: Select Product & Configure Offer Details
@@ -81,6 +85,8 @@ Status:          [ Draft / Publish ]
 | **Description** | Text Area (0/300) | Enter specific condition or offer details (*"Shown to customers below your price, for example the condition or what is included."*). Includes a live character counter. |
 | **Status** | Selector | Choose **Draft** (saves privately in your vendor console to review later) or **Publish** (activates the offer immediately or submits it to the admin approval queue). |
 
+<a class="doc-image-link" href="./assets/vendor-select-and-sell-add-product.webp"><img src="./assets/vendor-select-and-sell-add-product.webp" alt="Vendor Select and Sell Step 2 Offer Configuration" /></a>
+
 Click **Save** to finalize your offer.
 
 ---
@@ -88,6 +94,8 @@ Click **Save** to finalize your offer.
 ## Managing Your Offers (`/seller/select-and-sell/`)
 
 Vendors manage all active offers under **Catalog > Search Products** (`/seller/select-and-sell/`):
+
+<a class="doc-image-link" href="./assets/vendor-select-and-sell-offers-list.webp"><img src="./assets/vendor-select-and-sell-offers-list.webp" alt="Vendor Select and Sell Manage Offers Table" /></a>
 
 - **Offer Data Table:**
   - **Image:** Master product thumbnail.
@@ -123,7 +131,7 @@ Navigate to: **Marketplace > MP Select and Sell**
 For comprehensive instructions on managing Global vs Non-Global catalog items, search and filter controls, and administrative offer moderation, refer to the [Admin MP Select and Sell Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-select-and-sell.html).
 :::
 
-<a class="doc-image-link" href="./assets/product-settings.webp"><img src="./assets/product-settings.webp" alt="Select and Sell Admin Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-select-and-sell-products.webp"><img src="./assets/admin-select-and-sell-products.webp" alt="Admin MP Select and Sell Products Management" /></a>
 
 ### Key Administrator Settings:
 

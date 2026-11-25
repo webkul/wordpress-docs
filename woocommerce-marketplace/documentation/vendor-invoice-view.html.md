@@ -9,7 +9,7 @@ In **WooCommerce Multi-Vendor Marketplace**, vendors can generate, preview, and 
 
 Vendors can print the invoice immediately for packing slips, save it as a digital PDF file, or upload their own company-branded tax invoices directly to the order.
 
-<a class="doc-image-link" href="./assets/vendor-invoice-view-full.png"><img src="./assets/vendor-invoice-view-full.png" alt="Vendor Order Invoice View Full Page" /></a>
+<a class="doc-image-link" href="./assets/vendor-invoice-view-full.webp"><img src="./assets/vendor-invoice-view-full.webp" alt="Vendor Order Invoice View Full Page" /></a>
 
 ---
 
@@ -104,7 +104,7 @@ Follow these simple steps to view and generate an invoice for any order:
 4. On the **Order Details** screen (for example, `/seller/vendor-orders/1171/`), look at the top-right header section.
 5. Click the **Print Invoice** button.
 
-<a class="doc-image-link" href="./assets/vendor-order-invoice-actions.png"><img src="./assets/vendor-order-invoice-actions.png" alt="Vendor Order Details Header with Print Invoice Button" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-invoice-actions.webp"><img src="./assets/vendor-order-invoice-actions.webp" alt="Vendor Order Details Header with Print Invoice Button" /></a>
 
 The invoice view opens automatically in a clean, dedicated browser tab at `/vendor/invoice/{encoded_order_id}`.
 
@@ -160,7 +160,7 @@ The itemized product table displays every item belonging to the seller within th
 
 Below the items table, the invoice shows an accurate summary of order financials:
 
-<a class="doc-image-link" href="./assets/vendor-invoice-view-full.png"><img src="./assets/vendor-invoice-view-full.png" alt="Itemized Table and Financial Summary on Vendor Invoice" /></a>
+<a class="doc-image-link" href="./assets/vendor-invoice-financial-summary.webp"><img src="./assets/vendor-invoice-financial-summary.webp" alt="Itemized Table and Financial Summary on Vendor Invoice" /></a>
 
 The financial summary includes:
 
@@ -189,7 +189,7 @@ At the bottom of the invoice, the customer's delivery details are displayed in a
 
 The invoice view includes a built-in print action button:
 
-<a class="doc-image-link" href="./assets/vendor-invoice-header-action.png"><img src="./assets/vendor-invoice-header-action.png" alt="Print Invoice Button on Vendor Invoice View" /></a>
+<a class="doc-image-link" href="./assets/vendor-invoice-header-action.webp"><img src="./assets/vendor-invoice-header-action.webp" alt="Print Invoice Button on Vendor Invoice View" /></a>
 
 ### Printing a Paper Copy
 
@@ -218,7 +218,7 @@ In addition to viewing and printing the system-generated invoice, vendors can up
 
 On the single order details page (`/seller/vendor-orders/{order_id}/`), locate the **Vendor Invoices** box positioned directly below the order status banner:
 
-<a class="doc-image-link" href="./assets/vendor-invoice-upload-box.png"><img src="./assets/vendor-invoice-upload-box.png" alt="Vendor Invoices Custom Upload Meta Box" /></a>
+<a class="doc-image-link" href="./assets/vendor-invoice-upload-box.webp"><img src="./assets/vendor-invoice-upload-box.webp" alt="Vendor Invoices Custom Upload Meta Box" /></a>
 
 ### How to Upload a Custom Invoice
 

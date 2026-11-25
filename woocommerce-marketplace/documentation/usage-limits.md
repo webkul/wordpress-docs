@@ -52,6 +52,8 @@ Defines the time window over which each seller's generations are counted before 
 | **Daily** | Resets every night at midnight (00:00 UTC) | High-volume stores encouraging regular daily product listing workflows. |
 | **Lifetime** | Permanent hard cap that never resets automatically | Trial accounts or initial vendor onboarding programs. |
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-mp-limits-quotas.webp"><img src="./assets/marketplace-admin-magic-ai-mp-limits-quotas.webp" alt="Marketplace Admin Limits and Quotas Configuration Settings" /></a>
+
 ---
 
 ## Centralized Architecture & Vendor Quota Tracking
@@ -79,6 +81,8 @@ Vendors receive full transparency into their current usage directly inside the M
 | **Progress Indicator Bar** | Visual colored bar showing percentage of quota consumed within the active period. |
 | **Generation Safeguard** | When the limit is reached, the **Generate** button is disabled and displays an explanatory tooltip notice. |
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-magic-ai-usage-meter.webp"><img src="./assets/marketplace-vendor-magic-ai-usage-meter.webp" alt="Live Generation Quota Meter in Seller AI Creation Modal" /></a>
+
 ### In-Modal Meter Features
 - **Active Generation Counter:** Shows real-time usage (e.g., `12 / 25 generations used`). If the marketplace is configured for unlimited generations, it shows `12 generations used`.
 - **Dynamic Progress Bar:** Visual progress indicator displaying consumption percentage.
@@ -87,3 +91,5 @@ Vendors receive full transparency into their current usage directly inside the M
   - A descriptive tooltip informs the seller: *"You have reached your generation limit for this period"*.
   - Vendors can still manually edit, create, and publish products without any interruption.
   - The quota automatically renews once the active period expires.
+
+<a class="doc-image-link" href="./assets/marketplace-vendor-magic-ai-limit-reached.webp"><img src="./assets/marketplace-vendor-magic-ai-limit-reached.webp" alt="Generation Limit Reached Safeguard with Disabled Generate Action" /></a>

@@ -15,7 +15,7 @@ Understanding customer data allows sellers to:
 - **Compare Historical Timeframes:** Benchmark your current customer acquisition against prior periods to track progress.
 - **Export Data for Business Reviews:** Download clean customer reports in **CSV** or **PDF** format for customer relationship management (CRM) and record-keeping.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-dashboard.png"><img src="./assets/vendor-customer-reporting-dashboard.png" alt="Vendor Customer Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-dashboard.webp"><img src="./assets/vendor-customer-reporting-dashboard.webp" alt="Vendor Customer Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 
@@ -47,7 +47,7 @@ The Customer Reporting dashboard organizes your buyer information into four spec
 
 The **Total Customers** card displays the total number of unique buyers who completed orders containing your products within the selected timeframe.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-chart-card.png"><img src="./assets/vendor-customer-reporting-chart-card.png" alt="Total Customers Chart Card with Line, Bar, and Area Display Types" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-chart-card.webp"><img src="./assets/vendor-customer-reporting-chart-card.webp" alt="Total Customers Chart Card with Line, Bar, and Area Display Types" /></a>
 
 - **Stat & Growth Percentage:** Shows the count of unique customers (e.g., `1`) and a color-coded percentage badge (e.g., `↑ 100%`) comparing current growth against the preceding benchmark period.
 - **Calculation Rule:** Includes all buyers who ordered your products, including guest checkouts. Each customer is counted once during the selected timeframe. Only orders in **Processing** and **Completed** status are included, based on the order placement date.
@@ -87,7 +87,7 @@ Customer reviews build trust and credibility across the marketplace. This card h
 
 By default, the Customer Reporting dashboard displays data for the **Last 30 days**, along with an automatic comparison against the preceding 30 days.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-filter-drawer.png"><img src="./assets/vendor-customer-reporting-filter-drawer.png" alt="Date Range Filter Drawer with Quick Presets and Custom Date Pickers" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-filter-drawer.webp"><img src="./assets/vendor-customer-reporting-filter-drawer.webp" alt="Date Range Filter Drawer with Quick Presets and Custom Date Pickers" /></a>
 
 ### How to Select a Time Period
 
@@ -149,7 +149,7 @@ Clicking **View details** on any of the four reporting cards opens a dedicated b
 
 This view presents a day-by-day, month-by-month, or year-by-year log of orders and unique buyers.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-total-customers-detail.png"><img src="./assets/vendor-customer-reporting-total-customers-detail.png" alt="Detailed Total Customers Table with Interval Grouping" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-total-customers-detail.webp"><img src="./assets/vendor-customer-reporting-total-customers-detail.webp" alt="Detailed Total Customers Table with Interval Grouping" /></a>
 
 - **Time Interval Switcher:** Toggle between **Day**, **Month**, and **Year** buttons in the toolbar to aggregate data by your preferred time scale.
 - **Table Columns:**
@@ -161,7 +161,7 @@ This view presents a day-by-day, month-by-month, or year-by-year log of orders a
 
 This view ranks every customer who bought from your store according to total spending.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-sales.png"><img src="./assets/vendor-customer-reporting-top-sales.png" alt="Customers With Most Sales Tabular Report" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-sales.webp"><img src="./assets/vendor-customer-reporting-top-sales.webp" alt="Customers With Most Sales Tabular Report" /></a>
 
 - **Customer:** Full name of the registered customer or guest buyer.
 - **Email:** The customer's billing email address for direct communication or follow-up.
@@ -172,7 +172,7 @@ This view ranks every customer who bought from your store according to total spe
 
 This view ranks buyers by purchase frequency, showing who visits and orders from your shop most often.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-orders.png"><img src="./assets/vendor-customer-reporting-top-orders.png" alt="Customers With Most Orders Tabular Report" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-orders.webp"><img src="./assets/vendor-customer-reporting-top-orders.webp" alt="Customers With Most Orders Tabular Report" /></a>
 
 - **Customer:** Full name of the customer.
 - **Email:** Customer email address.
@@ -183,7 +183,7 @@ This view ranks buyers by purchase frequency, showing who visits and orders from
 
 This view provides an overview of customer reviews, showing who has reviewed your store and products.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-reviews.png"><img src="./assets/vendor-customer-reporting-top-reviews.png" alt="Customers With Most Reviews Tabular Report" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-top-reviews.webp"><img src="./assets/vendor-customer-reporting-top-reviews.webp" alt="Customers With Most Reviews Tabular Report" /></a>
 
 - **Customer:** Name of the reviewer.
 - **Email:** Reviewer's email address.
@@ -201,7 +201,7 @@ To return to the main dashboard from any detail table, click the **Customers Rep
 
 Vendors can export customer reports to share data with colleagues, import into spreadsheets, or keep offline records.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-export-menu.png"><img src="./assets/vendor-customer-reporting-export-menu.png" alt="Export Customer Reporting Dropdown Menu with CSV and PDF Options" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-export-menu.webp"><img src="./assets/vendor-customer-reporting-export-menu.webp" alt="Export Customer Reporting Dropdown Menu with CSV and PDF Options" /></a>
 
 ### How to Download Customer Data
 
@@ -239,7 +239,7 @@ For complete instructions on browsing your full customer directory and viewing b
 
 The Customer Reporting interface is designed to work smoothly on mobile smartphones and tablets.
 
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-mobile.png"><img src="./assets/vendor-customer-reporting-mobile.png" alt="Mobile Responsive View of Customer Reporting Interface" /></a>
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-mobile.webp"><img src="./assets/vendor-customer-reporting-mobile.webp" alt="Mobile Responsive View of Customer Reporting Interface" /></a>
 
 - **Single-Column Responsive Layout:** All four report cards stack vertically for easy scrolling on smaller screens.
 - **Touch-Friendly Charts:** Tap directly on chart points or bars to view dates and values.

@@ -78,7 +78,7 @@ Bookmark this screen in your browser for quick access during weekly accounting, 
 
 At the top of the Vendors Payout dashboard, four real-time summary cards provide an instant snapshot of your marketplace's financial obligations and commission earnings:
 
-<a class="doc-image-link" href="./assets/admin-vendor-payout-overview.png"><img src="./assets/admin-vendor-payout-overview.png" alt="Vendors Payout Overview and Metrics Cards" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-payout-overview.webp"><img src="./assets/admin-vendor-payout-overview.webp" alt="Vendors Payout Overview and Metrics Cards" /></a>
 
 | Metric Card | Value Display | Business Meaning & Purpose |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@ At the top of the Vendors Payout dashboard, four real-time summary cards provide
 
 The filter bar is positioned between the summary cards and the payout data table. It gives administrators full control to locate and audit specific payout entries:
 
-<a class="doc-image-link" href="./assets/admin-vendor-payout-filters.png"><img src="./assets/admin-vendor-payout-filters.png" alt="Vendors Payout Filter Bar Breakdown" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-payout-filters.webp"><img src="./assets/admin-vendor-payout-filters.webp" alt="Vendors Payout Filter Bar Breakdown" /></a>
 
 ### Filter Controls Overview
 
@@ -150,7 +150,7 @@ For external bookkeeping, tax preparation, or spreadsheet reconciliations:
 
 The central table displays all withdrawal requests with clear, sortable financial columns:
 
-<a class="doc-image-link" href="./assets/admin-vendor-payout-paid-records.png"><img src="./assets/admin-vendor-payout-paid-records.png" alt="Vendors Payout Historical Paid Records" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-payout-paid-records.webp"><img src="./assets/admin-vendor-payout-paid-records.webp" alt="Vendors Payout Historical Paid Records" /></a>
 
 ### Table Column Directory
 
@@ -179,7 +179,7 @@ The central table displays all withdrawal requests with clear, sortable financia
 
 When handling payouts individually, administrators can review each request with an explicit confirmation step before committing the ledger update.
 
-<a class="doc-image-link" href="./assets/admin-vendor-payout-confirm-modal.png"><img src="./assets/admin-vendor-payout-confirm-modal.png" alt="Confirm Payment Modal Dialog" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-payout-confirm-modal.webp"><img src="./assets/admin-vendor-payout-confirm-modal.webp" alt="Confirm Payment Modal Dialog" /></a>
 
 ### Step-by-Step Walkthrough
 

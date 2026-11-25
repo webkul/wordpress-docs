@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-sh
 
 The **Vendor Shop Followers** feature allows vendors to engage directly with buyers who follow their shop by sending notifications and updates.
 
+<a class="doc-image-link" href="./assets/vendor-shop-followers-overview.webp"><img src="./assets/vendor-shop-followers-overview.webp" alt="Vendor Shop Followers Management Overview" /></a>
+
 Building a loyal customer base is essential for marketplace success. With this feature, buyers can follow their favorite marketplace stores with a single click, while vendors gain a direct communication channel to broadcast new arrivals, seasonal promotions, and shop announcements.
 
 ---
@@ -27,7 +29,7 @@ To follow a vendor's shop, buyers interact with the product page:
    - The heart icon immediately highlights to indicate the followed status.
 4. **Click to Unfollow**: Clicking the highlighted heart icon again removes the vendor from the buyer's favorite list.
 
-<a class="doc-image-link" href="./assets/customer-follow-vendor-product-page.png"><img src="./assets/customer-follow-vendor-product-page.png" alt="Customer Follow Vendor on Product Page" /></a>
+<a class="doc-image-link" href="./assets/customer-follow-vendor-product-page.webp"><img src="./assets/customer-follow-vendor-product-page.webp" alt="Customer Follow Vendor on Product Page" /></a>
 
 ---
 
@@ -57,7 +59,7 @@ Vendors can manage their follower community directly from the seller console:
 2. From the sidebar navigation, select **Shop Followers** (accessible at `/seller/vendor-shop-followers/`).
 3. The page presents a dedicated management table with quick actions, real-time search, and sorting controls.
 
-<a class="doc-image-link" href="./assets/vendor-shop-followers-dashboard.png"><img src="./assets/vendor-shop-followers-dashboard.png" alt="Vendor Shop Followers Dashboard" /></a>
+<a class="doc-image-link" href="./assets/vendor-shop-followers-dashboard.webp"><img src="./assets/vendor-shop-followers-dashboard.webp" alt="Vendor Shop Followers Dashboard" /></a>
 
 ---
 
@@ -129,7 +131,7 @@ If you click **Send Notification** without checking any follower box, an alert p
 - After entering the required information:
   - Click **Send Mail** to dispatch the notification email to the selected followers.
 
-<a class="doc-image-link" href="./assets/vendor-shop-followers-notification-modal.png"><img src="./assets/vendor-shop-followers-notification-modal.png" alt="Send Notification Popup Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-shop-followers-notification-modal.webp"><img src="./assets/vendor-shop-followers-notification-modal.webp" alt="Send Notification Popup Modal" /></a>
 
 ### Modal Fields and Features
 

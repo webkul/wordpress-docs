@@ -7,7 +7,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-si
 
 The **Site Setting** page (`/seller/seller-site-setting/`) allows vendors to personalize their product authoring workflow, selecting between stepper wizards and single-page forms, and adjusting layout modes when enabled by marketplace administrators.
 
-<a class="doc-image-link" href="./assets/seller-site-setting-overview.png"><img src="./assets/seller-site-setting-overview.png" alt="Vendor Site Setting Overview in Seller Panel" /></a>
+<a class="doc-image-link" href="./assets/seller-site-setting-overview.webp"><img src="./assets/seller-site-setting-overview.webp" alt="Vendor Site Setting Overview in Seller Panel" /></a>
 
 ::: tip Personal Workflow Preferences
 The options configured on the **Site Setting** screen apply exclusively to your personal vendor dashboard session. Adjusting these settings tailors your product editing workspace to match your preferred data-entry style without altering how products appear to buyers on the live storefront.
@@ -52,7 +52,7 @@ To open and manage your product form preferences:
 The breadcrumb trail at the top of your screen will confirm your location:  
 `Dashboard > Settings > Site Setting`
 
-<a class="doc-image-link" href="./assets/seller-site-setting-card.png"><img src="./assets/seller-site-setting-card.png" alt="Vendor Site Setting Product Form Options" /></a>
+<a class="doc-image-link" href="./assets/seller-site-setting-card.webp"><img src="./assets/seller-site-setting-card.webp" alt="Vendor Site Setting Product Form Options" /></a>
 
 ---
 
@@ -107,7 +107,7 @@ flowchart LR
 - **Default Status**: Enabled.
 - **Description**: Displays an interactive quality score card and progress bar on the **Edit Product** screen.
 
-<a class="doc-image-link" href="./assets/seller-listing-completeness-gauge.png"><img src="./assets/seller-listing-completeness-gauge.png" alt="Vendor Listing Completeness Score Card and Missing Fields Jump Links" /></a>
+<a class="doc-image-link" href="./assets/seller-listing-completeness-gauge.webp"><img src="./assets/seller-listing-completeness-gauge.webp" alt="Vendor Listing Completeness Score Card and Missing Fields Jump Links" /></a>
 
 The **Listing Completeness** widget acts as a real-time listing assistant:
 
@@ -150,7 +150,7 @@ Choosing the right navigation mode streamlines your day-to-day listing workflow.
 
 In **Horizontal Tabs** mode, product sections are organized into a row of horizontal tabs across the top of the editor.
 
-<a class="doc-image-link" href="./assets/seller-product-edit-horizontal.png"><img src="./assets/seller-product-edit-horizontal.png" alt="Product Edit Screen with Horizontal Tabs Layout" /></a>
+<a class="doc-image-link" href="./assets/seller-product-edit-horizontal.webp"><img src="./assets/seller-product-edit-horizontal.webp" alt="Product Edit Screen with Horizontal Tabs Layout" /></a>
 
 - **Visual Arrangement**: Tabs (`Edit`, `Inventory`, `Shipping`, `Linked Products`, `Attributes`, `Tags & Brand`, `Status`) sit horizontally above the active card. Previous (`<`) and Next (`>`) arrow buttons allow easy scrolling across wide tab lists.
 - **Display Behavior**: Only the selected section card is visible at any given moment. Clicking another tab smoothly swaps the visible container.
@@ -162,7 +162,7 @@ In **Horizontal Tabs** mode, product sections are organized into a row of horizo
 
 In **Vertical Tabs** mode, product navigation tabs are arranged into a vertical column on the left side of the product editor.
 
-<a class="doc-image-link" href="./assets/seller-product-edit-vertical.png"><img src="./assets/seller-product-edit-vertical.png" alt="Product Edit Screen with Vertical Tabs Layout" /></a>
+<a class="doc-image-link" href="./assets/seller-product-edit-vertical.webp"><img src="./assets/seller-product-edit-vertical.webp" alt="Product Edit Screen with Vertical Tabs Layout" /></a>
 
 - **Visual Arrangement**: The navigation menu stays fixed along the left margin, while the active section content occupies the main workspace on the right.
 - **Display Behavior**: Clicking a vertical tab instantly loads the corresponding panel in the main content card.
@@ -174,7 +174,7 @@ In **Vertical Tabs** mode, product navigation tabs are arranged into a vertical 
 
 In **Stacked Form** mode, all tab bars are removed. Every product section is rendered continuously down a single, scrollable page.
 
-<a class="doc-image-link" href="./assets/seller-product-edit-stacked.png"><img src="./assets/seller-product-edit-stacked.png" alt="Product Edit Screen with Stacked Form Layout" /></a>
+<a class="doc-image-link" href="./assets/seller-product-edit-stacked.webp"><img src="./assets/seller-product-edit-stacked.webp" alt="Product Edit Screen with Stacked Form Layout" /></a>
 
 - **Visual Arrangement**: All section cards (`Edit`, `Inventory`, `Shipping`, `Status`, `Linked Products`, `Attributes`, `Tags & Brand`, `Variations`) are fully visible and stacked sequentially.
 - **Display Behavior**: You can scroll through the entire product definition from top to bottom without clicking tabs.
@@ -212,7 +212,7 @@ Follow these steps to update and verify your product authoring settings:
 
 Your choice in **Site Setting** works together with the main **Vendor Products** catalog screen (`/seller/vendor-products/`), where you manage existing items and use the advanced filter drawer.
 
-<a class="doc-image-link" href="./assets/seller-products-filter-drawer.png"><img src="./assets/seller-products-filter-drawer.png" alt="Vendor Products Catalog with Slide-out Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/seller-products-filter-drawer.webp"><img src="./assets/seller-products-filter-drawer.webp" alt="Vendor Products Catalog with Slide-out Filter Drawer" /></a>
 
 ### Using the Slide-Out Filter Drawer
 

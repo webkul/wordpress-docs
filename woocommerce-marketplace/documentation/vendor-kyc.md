@@ -26,7 +26,7 @@ Vendors can easily upload their KYC documents to get verified. This can be done 
 
 <a class="doc-image-link" href="./assets/upload-kyc.png"><img src="./assets/upload-kyc.png" alt="Vendor KYC Upload" /></a>
 
-<a class="doc-image-link" href="./assets/seller-kyc-page.png"><img src="./assets/seller-kyc-page.png" alt="Vendor KYC Upload from Profile" /></a>
+<a class="doc-image-link" href="./assets/seller-kyc-page.webp"><img src="./assets/seller-kyc-page.webp" alt="Vendor KYC Upload from Profile" /></a>
 
 ### Admin Review and Action
 Admins can review submitted documents from the admin vendor list. A dedicated KYC column and row action are available to streamline this process.

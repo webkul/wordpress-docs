@@ -15,7 +15,7 @@ Vendors can access their store pickup dashboard directly from the seller portal 
 
 **Direct Seller Navigation URL**: `/seller/store-pickup/`
 
-<a class="doc-image-link" href="./assets/vendor-store-pickup-orders-list.png"><img src="./assets/vendor-store-pickup-orders-list.png" alt="Vendor Store Pickup Orders Management Dashboard" /></a>
+<a class="doc-image-link" href="./assets/vendor-store-pickup-orders-list.webp"><img src="./assets/vendor-store-pickup-orders-list.webp" alt="Vendor Store Pickup Orders Management Dashboard" /></a>
 
 ---
 
@@ -63,7 +63,7 @@ The main table on `/seller/store-pickup/` provides key operational information f
 
 During busy trading hours, front-counter staff need to locate arriving customers quickly. The store pickup interface provides both quick search and an advanced slide-out filter drawer.
 
-<a class="doc-image-link" href="./assets/vendor-store-pickup-filter-drawer.png"><img src="./assets/vendor-store-pickup-filter-drawer.png" alt="Vendor Store Pickup Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-store-pickup-filter-drawer.webp"><img src="./assets/vendor-store-pickup-filter-drawer.webp" alt="Vendor Store Pickup Filter Drawer" /></a>
 
 ### 1. Quick Keyword Search
 Located immediately above the table, the **Search** input allows instant lookups:
@@ -109,7 +109,7 @@ To protect both the seller and the customer against lost packages or disputed co
 
 When a customer comes to collect their package, follow these step-by-step instructions on the order details page (`/seller/vendor-orders/{order_id}/`).
 
-<a class="doc-image-link" href="./assets/vendor-store-pickup-verification-box.png"><img src="./assets/vendor-store-pickup-verification-box.png" alt="Vendor Store Pickup Verification Card" /></a>
+<a class="doc-image-link" href="./assets/vendor-store-pickup-verification-box.webp"><img src="./assets/vendor-store-pickup-verification-box.webp" alt="Vendor Store Pickup Verification Card" /></a>
 
 ### The 5-Step Counter Handover Workflow
 
@@ -121,7 +121,7 @@ When a customer comes to collect their package, follow these step-by-step instru
 | **04** | **Verify Code at Counter** | Store Staff | Staff enters the code into the verification input and clicks **Verify**. |
 | **05** | **Hand Over Goods & Complete** | Store Staff | Staff hands over items and updates order status to **Completed**. |
 
-<a class="doc-image-link" href="./assets/vendor-order-1171-pickup-detail.png"><img src="./assets/vendor-order-1171-pickup-detail.png" alt="Vendor Order Details with Store Pickup Verification" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-1171-pickup-detail.webp"><img src="./assets/vendor-order-1171-pickup-detail.webp" alt="Vendor Order Details with Store Pickup Verification" /></a>
 
 ### Detailed Handover Procedure:
 
@@ -175,7 +175,7 @@ This guardrail guarantees that:
 
 If you employ store managers, warehouse workers, or counter cashiers, you do not need to share your main seller account login. You can create dedicated staff accounts with specific store pickup permissions.
 
-<a class="doc-image-link" href="./assets/vendor-store-pickup-orders-list.png"><img src="./assets/vendor-store-pickup-orders-list.png" alt="Vendor Staff Pickup Access" /></a>
+<a class="doc-image-link" href="./assets/vendor-staff-pickup-access.webp"><img src="./assets/vendor-staff-pickup-access.webp" alt="Vendor Staff Pickup Access" /></a>
 
 ### Store Pickup Staff Capabilities
 

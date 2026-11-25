@@ -7,9 +7,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/ask-to-ad
 
 The **Ask To Admin** feature allows vendors to directly communicate with the marketplace admin for queries, clarifications, or support.
 
-Clear communication between vendors and marketplace administrators is essential for smooth store operations. Whether a vendor needs help with payouts, order processing, commission rates, or account settings, the **Ask To Admin** module provides a dedicated helpdesk system right inside the vendor dashboard.
+<a class="doc-image-link" href="./assets/vendor-asktoadmin-overview.webp"><img src="./assets/vendor-asktoadmin-overview.webp" alt="Vendor Ask To Admin Management Dashboard" /></a>
 
-<a class="doc-image-link" href="./assets/vendor-asktoadmin-list-view.png"><img src="./assets/vendor-asktoadmin-list-view.png" alt="Vendor Ask To Admin Dashboard" /></a>
+Clear communication between vendors and marketplace administrators is essential for smooth store operations. Whether a vendor needs help with payouts, order processing, commission rates, or account settings, the **Ask To Admin** module provides a dedicated helpdesk system right inside the vendor dashboard.
 
 ---
 
@@ -62,7 +62,7 @@ Vendors can open any query conversation by clicking directly on either the **Dat
 
 When clicking the **Ask Query** button, a clean popup modal appears with the intro message: *"Send your question to the store admin and we will get back to you shortly."*
 
-<a class="doc-image-link" href="./assets/vendor-ask-query-modal.png"><img src="./assets/vendor-ask-query-modal.png" alt="Vendor Ask Query Modal Popup" /></a>
+<a class="doc-image-link" href="./assets/vendor-ask-query-modal.webp"><img src="./assets/vendor-ask-query-modal.webp" alt="Vendor Ask Query Modal Popup" /></a>
 
 Vendors need to fill in two required fields:
 
@@ -88,7 +88,7 @@ Both **Subject** and **Message** are mandatory. If a vendor attempts to submit a
 
 Clicking on any query from the table opens the dedicated conversation view (`?view_query=<query_id>`). This interface offers a chat-like messaging experience that keeps the communication history intact.
 
-<a class="doc-image-link" href="./assets/vendor-asktoadmin-thread-view.png"><img src="./assets/vendor-asktoadmin-thread-view.png" alt="Vendor Ask to Admin Conversation Thread View" /></a>
+<a class="doc-image-link" href="./assets/vendor-asktoadmin-thread-view.webp"><img src="./assets/vendor-asktoadmin-thread-view.webp" alt="Vendor Ask to Admin Conversation Thread View" /></a>
 
 ### Features of the Thread View
 

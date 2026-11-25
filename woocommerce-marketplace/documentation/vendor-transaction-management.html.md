@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-tr
 
 The **Vendor Transaction Management** section provides marketplace sellers with an intuitive financial center to track order earnings, view marketplace commissions, monitor payout statuses, configure payment withdrawal methods, and submit withdrawal requests directly from the dedicated seller portal.
 
+<a class="doc-image-link" href="./assets/vendor-transactions-dashboard.webp"><img src="./assets/vendor-transactions-dashboard.webp" alt="Vendor Transactions and Earnings Dashboard" /></a>
+
 ---
 
 ## Access Transactions & Earnings
@@ -15,8 +17,6 @@ Vendors can access their financial records at any time:
 1. Log in to the **Seller Dashboard**.
 2. From the left navigation menu, expand **Sales** and select **Transactions & Earnings** (`/seller/vendor-transactions/`).
 3. You can click the **Proceed to Withdraw** button in the top header to navigate directly to the withdrawal management section.
-
-<a class="doc-image-link" href="./assets/vendor-transactions-dashboard.png"><img src="./assets/vendor-transactions-dashboard.png" alt="Vendor Transactions and Earnings Dashboard" /></a>
 
 ::: tip Classic My Account Layout
 **Using the traditional WooCommerce My Account interface?**  
@@ -28,6 +28,8 @@ If your store operates on the classic tabbed portal (**My Account → Transactio
 ## Financial Overview Cards
 
 At the top of the dashboard, five real-time summary cards provide a quick snapshot of the vendor's financial standing:
+
+<a class="doc-image-link" href="./assets/vendor-transactions-financial-cards.webp"><img src="./assets/vendor-transactions-financial-cards.webp" alt="Financial Overview Metric Cards" /></a>
 
 | Metric Card | Description |
 | :--- | :--- |
@@ -49,11 +51,15 @@ Vendors can filter their transaction records to locate specific payout entries o
   - **Price - Low to high**: Displays entries starting from lowest amounts (including fee deductions) to highest.
   - **Price - High to low**: Displays highest-earning transactions first.
 
+<a class="doc-image-link" href="./assets/vendor-transactions-search-and-sort.webp"><img src="./assets/vendor-transactions-search-and-sort.webp" alt="Searching and Sorting Transactions Toolbar" /></a>
+
 ---
 
 ## Transaction History Table
 
 The transactions table displays all financial credits and debits logged for the seller's store:
+
+<a class="doc-image-link" href="./assets/vendor-transactions-list.webp"><img src="./assets/vendor-transactions-list.webp" alt="Vendor Transactions History Table" /></a>
 
 | Column | Description |
 | :--- | :--- |
@@ -87,12 +93,12 @@ When viewing an order transaction, sellers can verify:
   - **Discount**: Applied promotional discounts, if any.
   - **Subtotal**: Final net earnings credited to the seller's balance.
 
-<a class="doc-image-link" href="./assets/vendor-transaction-order-breakdown.png"><img src="./assets/vendor-transaction-order-breakdown.png" alt="Vendor Order Transaction Detail Breakdown" /></a>
+<a class="doc-image-link" href="./assets/vendor-transaction-order-breakdown.webp"><img src="./assets/vendor-transaction-order-breakdown.webp" alt="Vendor Order Transaction Detail Breakdown" /></a>
 
 ### 2. Withdrawal Fee Transaction
 When an administrator charges a processing or transfer fee for a withdrawal, a dedicated debit transaction is recorded with a negative amount (e.g., `-$6.35`). This gives vendors complete transparency into bank transfer or payment gateway processing fees.
 
-<a class="doc-image-link" href="./assets/vendor-transaction-fee-breakdown.png"><img src="./assets/vendor-transaction-fee-breakdown.png" alt="Vendor Withdrawal Fee Transaction Detail" /></a>
+<a class="doc-image-link" href="./assets/vendor-transaction-fee-breakdown.webp"><img src="./assets/vendor-transaction-fee-breakdown.webp" alt="Vendor Withdrawal Fee Transaction Detail" /></a>
 
 ---
 
@@ -100,7 +106,7 @@ When an administrator charges a processing or transfer fee for a withdrawal, a d
 
 Vendors can access withdrawal settings either by clicking **Proceed to Withdraw** from the transactions dashboard or visiting `/seller/vendor-withdrawal/`.
 
-<a class="doc-image-link" href="./assets/vendor-withdrawal-dashboard.png"><img src="./assets/vendor-withdrawal-dashboard.png" alt="Vendor Withdrawal Management Dashboard" /></a>
+<a class="doc-image-link" href="./assets/vendor-withdrawal-dashboard.webp"><img src="./assets/vendor-withdrawal-dashboard.webp" alt="Vendor Withdrawal Management Dashboard" /></a>
 
 ### Adding Withdrawal Payment Methods
 Before requesting payouts, vendors must configure at least one active withdrawal method from the **Add Withdrawal Method** dropdown:
@@ -110,17 +116,20 @@ Before requesting payouts, vendors must configure at least one active withdrawal
    - Enter Account Holder Name, Account Number, Bank Name, Bank Address, IFSC Code, SWIFT Code, Bank IBAN, and Routing Number.
    - Click **Submit** to store the banking credentials securely.
 
-<a class="doc-image-link" href="./assets/vendor-withdrawal-bank-modal.png"><img src="./assets/vendor-withdrawal-bank-modal.png" alt="Add Bank Details Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-withdrawal-bank-modal.webp"><img src="./assets/vendor-withdrawal-bank-modal.webp" alt="Add Bank Details Modal" /></a>
 
 2. **UPI**:
    - Opens the **Add UPI Method** dialog.
    - Enter your valid UPI ID (Virtual Payment Address).
    - Click **Submit** to save.
 
-<a class="doc-image-link" href="./assets/vendor-withdrawal-upi-modal.png"><img src="./assets/vendor-withdrawal-upi-modal.png" alt="Add UPI Method Modal" /></a>
+<a class="doc-image-link" href="./assets/vendor-withdrawal-upi-modal.webp"><img src="./assets/vendor-withdrawal-upi-modal.webp" alt="Add UPI Method Modal" /></a>
 
 3. **PayPal**:
    - Enter your PayPal registered email address to receive direct payouts.
+   - Displays your configured PayPal withdrawal email address with controls to manage default status or remove credentials.
+
+<a class="doc-image-link" href="./assets/vendor-withdrawal-paypal.webp"><img src="./assets/vendor-withdrawal-paypal.webp" alt="Configured PayPal Withdrawal Method" /></a>
 
 ### Managing Saved Payment Methods
 For every configured payment method, vendors can:
@@ -133,6 +142,8 @@ For every configured payment method, vendors can:
 ## Tracking Recent Withdrawals
 
 The **Recent Withdrawals** table logs all submitted payout requests and their lifecycle statuses:
+
+<a class="doc-image-link" href="./assets/vendor-withdrawal-recent-table.webp"><img src="./assets/vendor-withdrawal-recent-table.webp" alt="Recent Withdrawals Tracking Table" /></a>
 
 | Column | Description |
 | :--- | :--- |
@@ -156,7 +167,7 @@ To request a payout of available order earnings:
 5. Click **Make Withdrawal Requests** to confirm and transmit the payout request to the marketplace administrator.
 6. Once submitted, return to **Recent Withdrawals** to monitor status updates as the administrator processes your payment.
 
-<a class="doc-image-link" href="./assets/vendor-withdrawal-requests-table.png"><img src="./assets/vendor-withdrawal-requests-table.png" alt="Make Withdrawal Requests Screen" /></a>
+<a class="doc-image-link" href="./assets/vendor-withdrawal-requests-table.webp"><img src="./assets/vendor-withdrawal-requests-table.webp" alt="Make Withdrawal Requests Screen" /></a>
 
 ---
 

@@ -7,7 +7,7 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-or
 
 In **WooCommerce Multi-Vendor Marketplace**, vendors have complete control over their incoming orders. Vendors can track new orders, filter them by fulfillment status, inspect line items and commission breakdowns, upload personalized tax invoices, update order statuses, verify store pickup security codes, and process refunds directly from their seller panel.
 
-<a class="doc-image-link" href="./assets/vendor-orders-list-new.png"><img src="./assets/vendor-orders-list-new.png" alt="Vendor Order History List" /></a>
+<a class="doc-image-link" href="./assets/vendor-orders-list-new.webp"><img src="./assets/vendor-orders-list-new.webp" alt="Vendor Order History List" /></a>
 
 ---
 
@@ -65,7 +65,7 @@ Use the **Sort By** dropdown menu to reorder your order list:
 ### Advanced Filter Drawer
 Click the **Filter** button to open the slide-out filter drawer. This drawer allows vendors to combine multiple criteria:
 
-<a class="doc-image-link" href="./assets/vendor-orders-filter-drawer.png"><img src="./assets/vendor-orders-filter-drawer.png" alt="Advanced Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-orders-filter-drawer.webp"><img src="./assets/vendor-orders-filter-drawer.webp" alt="Advanced Filter Drawer" /></a>
 
 | Filter Field | Description |
 | :--- | :--- |
@@ -125,7 +125,7 @@ The single order view (`/seller/vendor-orders/{order_id}/`) provides comprehensi
 
 The items table displays each purchased item, associated SKU, quantity, and marketplace commission breakdown:
 
-<a class="doc-image-link" href="./assets/vendor-order-items-summary.png"><img src="./assets/vendor-order-items-summary.png" alt="Order Items and Commission Summary" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-items-summary.webp"><img src="./assets/vendor-order-items-summary.webp" alt="Order Items and Commission Summary" /></a>
 
 - **Product & SKU**: Product title, variation, SKU, item quantity (`× 1`), and seller attribution.
 - **Subtotal**: Product total before deductions.
@@ -198,7 +198,7 @@ Vendors can update the fulfillment status of their orders directly from the **Or
 
 For orders placed with the **Store Pickup** shipping method, vendors verify customer collection directly from the order details page:
 
-<a class="doc-image-link" href="./assets/vendor-order-pickup-verification.png"><img src="./assets/vendor-order-pickup-verification.png" alt="Store Pickup Verification Section" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-pickup-verification.webp"><img src="./assets/vendor-order-pickup-verification.webp" alt="Store Pickup Verification Section" /></a>
 
 1. Locate the **Pickup verification** section on the order page.
 2. Review the store location address (e.g., *Aurora Athletics · 1420 SE Water Avenue, Suite 3, Portland, OR*).
@@ -225,7 +225,7 @@ Vendors can generate refund requests for eligible orders directly from the order
 1. Open the order in **View** mode (`/seller/vendor-orders/{order_id}/`).
 2. Click the **Refund** button in the top action bar. The button toggles to **Cancel**, and refund input columns appear in the items table.
 
-<a class="doc-image-link" href="./assets/vendor-order-refund-interface.png"><img src="./assets/vendor-order-refund-interface.png" alt="Vendor Order Refund Interface" /></a>
+<a class="doc-image-link" href="./assets/vendor-order-refund-interface.webp"><img src="./assets/vendor-order-refund-interface.webp" alt="Vendor Order Refund Interface" /></a>
 
 3. Configure the refund details:
    - **Refund Quantity**: Enter the number of units to refund for each product line. The refund amount updates automatically.

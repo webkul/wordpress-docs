@@ -14,7 +14,7 @@ The Account Health report evaluates real store performance using three core crit
 
 In addition to the overall health score, sellers can review key operational insights—including **Refund Rates**, **Product Reviews**, and **Fulfillment Completion Times**—and experiment with an interactive **Live Calculator** to simulate how operational improvements will boost their overall score.
 
-<a class="doc-image-link" href="./assets/vendor-account-health-dashboard.png"><img src="./assets/vendor-account-health-dashboard.png" alt="Vendor Account Health Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+<a class="doc-image-link" href="./assets/vendor-account-health-dashboard.webp"><img src="./assets/vendor-account-health-dashboard.webp" alt="Vendor Account Health Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 
@@ -31,7 +31,7 @@ Vendors can access their Account Health console using two quick methods from the
    - Locate the **Account Health** KPI card among your operational metrics.
    - Click the card to view the complete breakdown and report.
 
-<a class="doc-image-link" href="./assets/vendor-account-health-stat-card.png"><img src="./assets/vendor-account-health-stat-card.png" alt="Vendor Dashboard Account Health KPI Stat Card" /></a>
+<a class="doc-image-link" href="./assets/vendor-account-health-stat-card.webp"><img src="./assets/vendor-account-health-stat-card.webp" alt="Vendor Dashboard Account Health KPI Stat Card" /></a>
 
 | Access Method | Location / Path | Purpose |
 | :--- | :--- | :--- |
@@ -217,7 +217,7 @@ Below the core score cards, the **More insights** section provides additional di
 
 By default, Account Health uses standard rolling windows (30 days for orders and fulfillment; 90 days for reviews and flags). Sellers can adjust this to evaluate performance over specific seasonal campaigns, promotional periods, or quarters.
 
-<a class="doc-image-link" href="./assets/vendor-account-health-filter-drawer.png"><img src="./assets/vendor-account-health-filter-drawer.png" alt="Account Health Period Filter Drawer with Presets and Date Range" /></a>
+<a class="doc-image-link" href="./assets/vendor-account-health-filter-drawer.webp"><img src="./assets/vendor-account-health-filter-drawer.webp" alt="Account Health Period Filter Drawer with Presets and Date Range" /></a>
 
 ### How to Use the Filter Drawer
 
@@ -246,7 +246,7 @@ When you select a custom period, every metric evaluates data across that chosen 
 
 To understand the exact mechanics behind your score, click the **"How is this calculated?"** link in the top header. This opens the dedicated **Health Calculation Guide** (`?wkmp_view=guide`).
 
-<a class="doc-image-link" href="./assets/vendor-account-health-guide-calculator.png"><img src="./assets/vendor-account-health-guide-calculator.png" alt="Account Health Calculation Guide and Interactive Live Calculator" /></a>
+<a class="doc-image-link" href="./assets/vendor-account-health-guide-calculator.webp"><img src="./assets/vendor-account-health-guide-calculator.webp" alt="Account Health Calculation Guide and Interactive Live Calculator" /></a>
 
 ### Practical Seller Recommendations
 

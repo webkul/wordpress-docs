@@ -15,7 +15,7 @@ Vendors can navigate to this screen from the vendor panel menu under **Settings 
 
 Marketplace vendors often rely on charts and graphs to quickly monitor their store performance, sales revenue, customer growth, and product catalog quality. With **Graph Setting**, each vendor can customize color palettes and chart types to fit their personal visual preferences or brand colors.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-overview.png"><img src="./assets/vendor-graph-setting-overview.png" alt="Vendor Graph Setting Cards Overview" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-overview.webp"><img src="./assets/vendor-graph-setting-overview.webp" alt="Vendor Graph Setting Cards Overview" /></a>
 
 The Graph Setting hub organizes all customizable visual elements into five dedicated cards:
 
@@ -35,7 +35,7 @@ Each card page is designed with an intuitive two-column layout:
 - **Left Column (Live Preview)**: Displays an interactive, real-time preview of the actual card or chart widget as it appears in the seller panel.
 - **Right Column (Graph Settings)**: Provides chart type selections and individual color pickers.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-dashboard.png"><img src="./assets/vendor-graph-setting-dashboard.png" alt="Vendor Graph Setting Dashboard Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-dashboard.webp"><img src="./assets/vendor-graph-setting-dashboard.webp" alt="Vendor Graph Setting Dashboard Configuration" /></a>
 
 ### Key Controls & Actions:
 
@@ -98,7 +98,7 @@ Each summary card at the top of the vendor dashboard contains a subtle sparkline
 
 Vendors can access this section by selecting **Reports** on the hub or visiting `/seller/seller-graph-setting/?wkmp_card=reports`.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-reports.png"><img src="./assets/vendor-graph-setting-reports.png" alt="Vendor Graph Setting Reports Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-reports.webp"><img src="./assets/vendor-graph-setting-reports.webp" alt="Vendor Graph Setting Reports Configuration" /></a>
 
 This section controls 10 charts used across the marketplace sales, product, and customer analytics screens:
 
@@ -122,7 +122,7 @@ This section controls 10 charts used across the marketplace sales, product, and 
 
 Vendors can access this section by selecting **Transactions** on the hub or visiting `/seller/seller-graph-setting/?wkmp_card=transactions`.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-transactions.png"><img src="./assets/vendor-graph-setting-transactions.png" alt="Vendor Graph Setting Transactions Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-transactions.webp"><img src="./assets/vendor-graph-setting-transactions.webp" alt="Vendor Graph Setting Transactions Configuration" /></a>
 
 The transactions page (`vendor-transactions`) provides financial summaries for seller earnings and withdrawal requests. Vendors can configure the sparkline stroke color (Default `#00a63e`) for each card:
 
@@ -138,7 +138,7 @@ The transactions page (`vendor-transactions`) provides financial summaries for s
 
 Vendors can access this section by selecting **Performance** on the hub or visiting `/seller/seller-graph-setting/?wkmp_card=performance`.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-performance.png"><img src="./assets/vendor-graph-setting-performance.png" alt="Vendor Graph Setting Performance Health Score Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-performance.webp"><img src="./assets/vendor-graph-setting-performance.webp" alt="Vendor Graph Setting Performance Health Score Configuration" /></a>
 
 This section customizes the visual gauge for the vendor's **Account Health Score** (`seller-account-health`):
 
@@ -158,7 +158,7 @@ The colors chosen in this section are also shared by the interactive score calcu
 
 Vendors can access this section by selecting **Products** on the hub or visiting `/seller/seller-graph-setting/?wkmp_card=products`.
 
-<a class="doc-image-link" href="./assets/vendor-graph-setting-products.png"><img src="./assets/vendor-graph-setting-products.png" alt="Vendor Graph Setting Products Listing Completeness Configuration" /></a>
+<a class="doc-image-link" href="./assets/vendor-graph-setting-products.webp"><img src="./assets/vendor-graph-setting-products.webp" alt="Vendor Graph Setting Products Listing Completeness Configuration" /></a>
 
 This section controls the visual styling of the **Listing Completeness** progress bar:
 

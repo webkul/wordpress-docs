@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-va
 
 The **Vacation Mode** allows vendors to temporarily close their store when they are unavailable. When enabled, the storefront displays a vacation notice with the vendor's custom message and blocks customer purchases.
 
+<a class="doc-image-link" href="./assets/vendor-vacation-overview.webp"><img src="./assets/vendor-vacation-overview.webp" alt="Vacation Mode Overview" /></a>
+
 ::: tip Store Administration Note
 If you are a marketplace administrator looking to configure global vacation policies, button labels, or backend overrides, please refer to the [Configuration – Vacation Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-vacation-setting.html) guide.
 :::
@@ -27,7 +29,7 @@ Vendors can manage their holiday schedules directly from the seller panel:
 
 The Vacation dashboard displays all scheduled, active, and past store breaks in an organized table.
 
-<a class="doc-image-link" href="./assets/vacation-list.png"><img src="./assets/vacation-list.png" alt="Vacation List" /></a>
+<a class="doc-image-link" href="./assets/vendor-vacation-list.webp"><img src="./assets/vendor-vacation-list.webp" alt="Vacation List" /></a>
 
 ### Status Filter Tabs
 
@@ -75,7 +77,7 @@ Vendors can manage multiple vacation records at once using the bulk action bar:
 
 To schedule a new break or close your store temporarily, click the **+ Add Vacation** button located at the top right of the vacation page.
 
-<a class="doc-image-link" href="./assets/add-vacation.png"><img src="./assets/add-vacation.png" alt="Add Vacation" /></a>
+<a class="doc-image-link" href="./assets/vendor-add-vacation.webp"><img src="./assets/vendor-add-vacation.webp" alt="Add Vacation" /></a>
 
 The vacation settings form allows vendors to configure the following settings:
 
@@ -112,7 +114,7 @@ Vendors can update an existing vacation schedule at any time:
 1. From the Vacation list, find the vacation entry and click **Edit** under the **Actions** column.
 2. The **Edit Vacation** page opens (`?section=settings&vacation_id=<id>`) with all previous details pre-filled.
 
-<a class="doc-image-link" href="./assets/edit-vacation.png"><img src="./assets/edit-vacation.png" alt="Edit Vacation" /></a>
+<a class="doc-image-link" href="./assets/vendor-edit-vacation.webp"><img src="./assets/vendor-edit-vacation.webp" alt="Edit Vacation" /></a>
 
 Vendors can modify existing schedules at any time:
 - Adjust vacation start or return dates if plans change.
