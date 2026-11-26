@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-
 
 Store administrators, merchandisers, and catalog managers can generate, polish, and optimize product listings directly within the native WooCommerce catalog workflow on **Add New Product** (`Products > Add New`), **Edit Product** (`Products > Edit`), and **Category** (`Products > Categories`) screens.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-content-generation-overview.webp"><img src="./assets/marketplace-admin-magic-ai-content-generation-overview.webp" alt="Magic AI Admin Product Content Generation Overview" /></a>
+
 | 1. AI Assistant Modal | 2. Inline WYSIWYG Editor AI | 3. AI Product Image Generator |
 |---|---|---|
 | • **"Generate content"** top launch button<br>• Multi-field catalog drafting<br>• Interactive review modal<br>• Selective field application | • **"Magic AI"** button on editor toolbar<br>• Targeted text drafting and copy refinement<br>• Custom prompts per editor<br>• 1-Click editor insertion | • **"Generate Image"** button on editor toolbar<br>• Custom AI artwork creation<br>• Multiple aspect ratios (1:1, 2:3, 3:2)<br>• 1-Click set as Product Featured Image |

@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-uplo
 
 Manually entering products one by one can be time-consuming for brand distributors and high-volume merchants. WooCommerce Multi-Vendor Marketplace includes a high-performance **Bulk Upload** importer that enables vendors to create hundreds of new products or attach offers to existing catalog items in minutes using a single CSV spreadsheet.
 
+<a class="doc-image-link" href="./assets/vendor-bulk-upload-hub.webp"><img src="./assets/vendor-bulk-upload-hub.webp" alt="Seller Bulk Upload Hub Selection" /></a>
+
 This guide explains both bulk upload workflows, column mapping, file specifications, and catalog export for offline batch editing.
 
 ---
@@ -16,8 +18,6 @@ This guide explains both bulk upload workflows, column mapping, file specificati
 Vendors access bulk management by opening:
 
 **Catalog > Bulk Upload** (`/seller/seller-bulk-upload/`)
-
-<a class="doc-image-link" href="./assets/vendor-bulk-upload-hub.webp"><img src="./assets/vendor-bulk-upload-hub.webp" alt="Seller Bulk Upload Hub Selection" /></a>
 
 The console presents two specialized pathways:
 

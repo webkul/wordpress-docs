@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/fulfilmen
 
 The **Fulfilment Carriers** settings tab allows marketplace administrators to configure the delivery carriers available across the marketplace. When orders are placed using non-integrated delivery methods—such as **Free Shipping** or **Flat Rate**—vendors can assign an authorized courier and add tracking identifiers during order dispatch.
 
+<a class="doc-image-link" href="./assets/admin-fulfilment-carriers-settings.webp"><img src="./assets/admin-fulfilment-carriers-settings.webp" alt="Admin Fulfilment Carriers Settings" /></a>
+
 Administrators have full centralized control over the carrier catalog and can customize the built-in manual **Self Ship** fallback label shown to sellers.
 
 The marketplace administrator can access and configure this section from:
@@ -15,8 +17,6 @@ The marketplace administrator can access and configure this section from:
 
 **Direct Admin Navigation URL**:
 - `wp-admin/admin.php?page=wk-marketplace-settings&tab=fulfilment_carriers`
-
-<a class="doc-image-link" href="./assets/admin-fulfilment-carriers-settings.webp"><img src="./assets/admin-fulfilment-carriers-settings.webp" alt="Admin Fulfilment Carriers Settings" /></a>
 
 ---
 
@@ -93,5 +93,5 @@ The Carriers table allows administrators to curate a standardized list of courie
 - **Historical Data Safety**: Each scheduled pickup saves a complete snapshot of the carrier's name directly with the order. Renaming or removing a carrier never alters historical records or previously sent customer tracking emails.
 
 ::: note Vendor Order Fulfillment
-Detailed vendor-side instructions for scheduling pickups and entering tracking numbers will be covered in the Vendor Orders documentation.
+For detailed vendor-side instructions on scheduling carrier pickups, assigning couriers, and adding shipment tracking numbers, see the [Vendor Order Management Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html#vendor-order-details).
 :::

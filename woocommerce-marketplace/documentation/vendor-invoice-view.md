@@ -7,9 +7,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-in
 
 In **WooCommerce Multi-Vendor Marketplace**, vendors can generate, preview, and print clean invoices for every order they receive. The **Vendor Invoice** acts as an official record of the transaction. It provides sellers with itemized order data, buyer contact details, shipping and billing addresses, and an exact financial breakdown showing platform commissions and net seller earnings.
 
-Vendors can print the invoice immediately for packing slips, save it as a digital PDF file, or upload their own company-branded tax invoices directly to the order.
-
 <a class="doc-image-link" href="./assets/vendor-invoice-view-full.webp"><img src="./assets/vendor-invoice-view-full.webp" alt="Vendor Order Invoice View Full Page" /></a>
+
+Vendors can print the invoice immediately for packing slips, save it as a digital PDF file, or upload their own company-branded tax invoices directly to the order.
 
 ---
 

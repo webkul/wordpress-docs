@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-cu
 
 In **WooCommerce Multi-Vendor Marketplace**, the **Customer Reporting** dashboard provides sellers with clear insights into their customer base, purchasing habits, and buyer engagement. Instead of looking only at general sales numbers, this dashboard helps you see *who* is buying your products, how often they return, and how much they spend in your store.
 
+<a class="doc-image-link" href="./assets/vendor-customer-reporting-dashboard.webp"><img src="./assets/vendor-customer-reporting-dashboard.webp" alt="Vendor Customer Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+
 Understanding customer data allows sellers to:
 - **Track Customer Growth:** See how many unique buyers purchased from your shop during any selected timeframe.
 - **Identify Top Buyers by Sales:** Discover which customers generate the highest revenue for your business.
@@ -14,8 +16,6 @@ Understanding customer data allows sellers to:
 - **Monitor Customer Feedback:** Review which buyers write approved reviews for your store profile and products.
 - **Compare Historical Timeframes:** Benchmark your current customer acquisition against prior periods to track progress.
 - **Export Data for Business Reviews:** Download clean customer reports in **CSV** or **PDF** format for customer relationship management (CRM) and record-keeping.
-
-<a class="doc-image-link" href="./assets/vendor-customer-reporting-dashboard.webp"><img src="./assets/vendor-customer-reporting-dashboard.webp" alt="Vendor Customer Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 

@@ -123,7 +123,7 @@ The marketplace provides a two-way ticketing system connecting the vendor front 
 
 The queries console organizes vendor communications into three distinct status tabs located above the data table. Each tab provides an immediate count badge displaying the total number of inquiries in that state.
 
-<a class="doc-image-link" href="./assets/admin-queries-all-view.png"><img src="./assets/admin-queries-all-view.png" alt="All Queries List View" /></a>
+<a class="doc-image-link" href="./assets/admin-queries-all-view.webp"><img src="./assets/admin-queries-all-view.webp" alt="All Queries List View" /></a>
 
 ### Status Tabs Breakdown
 
@@ -137,7 +137,7 @@ The queries console organizes vendor communications into three distinct status t
 
 The **Open** tab is the primary operational queue for support staff. It isolates active vendor requests that are waiting for an initial response or follow-up clarification.
 
-<a class="doc-image-link" href="./assets/admin-queries-open-view.png"><img src="./assets/admin-queries-open-view.png" alt="Open Queries View" /></a>
+<a class="doc-image-link" href="./assets/admin-queries-open-view.webp"><img src="./assets/admin-queries-open-view.webp" alt="Open Queries View" /></a>
 
 - **Key Objective**: Identify pending questions quickly without scrolling through resolved conversations.
 - **Priority Indicator**: Inquiries listed here have not received a response since the vendor's last message.
@@ -147,7 +147,7 @@ The **Open** tab is the primary operational queue for support staff. It isolates
 
 The **Answered** tab maintains a historical log of all inquiries where an administrator has already replied.
 
-<a class="doc-image-link" href="./assets/admin-queries-answered-view.png"><img src="./assets/admin-queries-answered-view.png" alt="Answered Queries View" /></a>
+<a class="doc-image-link" href="./assets/admin-queries-answered-view.webp"><img src="./assets/admin-queries-answered-view.webp" alt="Answered Queries View" /></a>
 
 - **Key Objective**: Review past answers, verify commitments made to merchants, and reference previous guidance on store policies or technical settings.
 - **Continuous Conversation**: Administrators can still open any answered query via **View & Reply** to append additional notes or provide further clarification.

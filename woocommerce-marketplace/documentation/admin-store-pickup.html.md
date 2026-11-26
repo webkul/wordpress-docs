@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-sto
 
 The **Store Pickup Orders** registry provides marketplace administrators with a centralized operational dashboard to supervise, audit, and track all in-store customer collections across every registered marketplace vendor. 
 
+<a class="doc-image-link" href="./assets/admin-seller-store-pickup.webp"><img src="./assets/admin-seller-store-pickup.webp" alt="Admin Store Pickup Orders Management Dashboard" /></a>
+
 From this screen, administrators can quickly inspect which vendor orders have been successfully verified and picked up, which orders are currently awaiting collection, search for specific customer orders, and filter orders by seller or order fulfillment status.
 
 The marketplace administrator can access this screen from:
@@ -14,8 +16,6 @@ The marketplace administrator can access this screen from:
 **Marketplace > Store Pickup Orders**
 
 **Direct Admin Navigation URL**: `wp-admin/admin.php?page=wk-marketplace-store-pickup`
-
-<a class="doc-image-link" href="./assets/admin-seller-store-pickup.webp"><img src="./assets/admin-seller-store-pickup.webp" alt="Admin Store Pickup Orders Management Dashboard" /></a>
 
 ---
 
@@ -112,7 +112,7 @@ The **Filter by order status** dropdown (`wkmp_status`) allows filtering orders 
 
 In addition to the central registry, marketplace administrators have full operational control over individual store collections directly inside the WooCommerce order edit screen (`wp-admin/admin.php?page=wc-orders&action=edit&id={order_id}` in HPOS or `wp-admin/post.php?post={order_id}&action=edit`).
 
-<a class="doc-image-link" href="./assets/admin-store-pickup-metabox.png"><img src="./assets/admin-store-pickup-metabox.png" alt="WooCommerce Order Screen Store Pickup Meta Box" /></a>
+<a class="doc-image-link" href="./assets/admin-store-pickup-metabox.webp"><img src="./assets/admin-store-pickup-metabox.webp" alt="WooCommerce Order Screen Store Pickup Meta Box" /></a>
 
 ### Features of the Store Pickup Meta Box:
 1. **Pickup Location Summary**: Displays each participating seller's registered shop name and physical collection address (e.g., *Aurora Athletics · 1420 SE Water Avenue, Suite 3, Portland, OR 97214*).
@@ -137,18 +137,16 @@ Marketplace vendors often employ store assistants, cashiers, or warehouse person
 
 **Marketplace > Vendor Staffs** (`wp-admin/admin.php?page=wk-marketplace-vendor-staffs`)
 
-<a class="doc-image-link" href="./assets/admin-vendor-staffs-store-pickup.png"><img src="./assets/admin-vendor-staffs-store-pickup.png" alt="Admin Vendor Staffs Management" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-staffs-store-pickup.webp"><img src="./assets/admin-vendor-staffs-store-pickup.webp" alt="Admin Vendor Staffs Management" /></a>
 
 ### Store Pickup Staff Capabilities:
-In **Marketplace > Settings > Staffs** (`wp-admin/admin.php?page=wk-marketplace-settings&tab=staff`), administrators configure which capabilities vendors are permitted to delegate:
+Store pickup orders are managed through the standard **Orders** permission rather than separate custom capabilities:
 
-| Capability Name | Internal Slug | Description |
-| :--- | :--- | :--- |
-| **View store pickup orders** | `store_pickup_view` | Enables the staff member to access the **Store Pickup Orders** list in their seller dashboard to review arriving customers and pending pickups. |
-| **Send and verify pickup codes** | `store_pickup_verify` | Authorizes counter staff to click **Generate OTP**, dispatch the verification code to the customer, and validate the customer's 6-digit PIN during physical handovers. |
+- **Orders Permission**: When administrators enable the **Orders** permission (`orders_view`) in **Marketplace > Settings > Staffs**, vendors can delegate order management to their staff sub-accounts.
+- **Store Pickup Access**: Staff members with order access can review incoming customer orders, access the **Store Pickup Orders** list, trigger 6-digit OTP verification codes, and validate codes upon physical collection at the retail desk.
 
 ::: tip Whitelist Enforcement
-Staff members can only be assigned these capabilities if the marketplace administrator has checked them in the global permissions matrix under **Marketplace > Settings > Staffs**. For a full guide on staff quotas and role privileges, see the [Admin Staff Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html).
+Staff members can only inspect and verify pickup orders if the marketplace administrator has permitted the **Orders** permission in the global master whitelist under **Marketplace > Settings > Staffs**, and the vendor has granted their staff account the corresponding order view access. For a full guide on staff quotas and role privileges, see the [Admin Staff Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) and [Vendor Staff Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 :::
 
 ---

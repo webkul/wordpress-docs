@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-sel
 
 The **MP Select and Sell** module enables multiple approved marketplace vendors to sell the same catalog product. Instead of having redundant, duplicate listings for identical products, marketplace administrators can maintain a single, clean master catalog product while allowing various sellers to attach their individual selling prices, sale discounts, stock quantities, and condition descriptions.
 
+<a class="doc-image-link" href="./assets/admin-select-and-sell-products.webp"><img src="./assets/admin-select-and-sell-products.webp" alt="Admin MP Select and Sell Products Management" /></a>
+
 From the WordPress administration dashboard, administrators have complete oversight to configure global behavior, designate which catalog products are available for vendors to claim, inspect competing vendor offers, and moderate prices or inventory.
 
 The marketplace administrator can access and configure this section from:
@@ -18,8 +20,6 @@ The marketplace administrator can access and configure this section from:
 - **Configuration Tab**: `wp-admin/admin.php?page=wkmp-select-and-sell&tab=config`
 - **Associated Sellers View**: `wp-admin/admin.php?page=wkmp-select-and-sell&action=show-seller&product_id=[PRODUCT_ID]`
 
-<a class="doc-image-link" href="./assets/admin-select-and-sell-products.webp"><img src="./assets/admin-select-and-sell-products.webp" alt="Admin MP Select and Sell Products Management" /></a>
-
 ---
 
 ## MP Select and Sell Overview
@@ -30,6 +30,9 @@ The marketplace administrator can access and configure this section from:
 - **Dedicated Seller Offer Registry**: Access a detailed list of all competing vendors attached to each product, showing their individual prices, stock levels, and publication statuses.
 - **Administrative Moderation**: Modify any seller's regular price, sale discount, stock count, or switch their offer between *Draft* and *Publish* with a single click.
 - **Customizable Endpoints**: Adjust vendor dashboard slugs and navigation labels to match your marketplace branding.
+
+> [!NOTE] Administrator-Created Products Only
+> Currently, the marketplace administrator can only offer products for Select and Sell that are created by the administrator. Vendor-created products cannot be offered for Select and Sell.
 
 ::: tip Vendor Guide Reference
 To learn how marketplace merchants search for catalog items and list their competing offers from the seller panel, refer to the [Selling Existing Products (Select & Sell) Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-existing-products.html).
@@ -57,7 +60,7 @@ The Select and Sell module operates on a multi-layer catalog model:
 └─────────────────────────┘       └─────────────────────────┘
 ```
 
-1. **Master Catalog Listing**: Created by the marketplace administrator or the initial vendor author. It establishes the canonical images, taxonomy categories, attributes, and base description.
+1. **Master Catalog Listing**: Created by the marketplace administrator. It establishes the canonical images, taxonomy categories, attributes, and base description.
 2. **Global Availability**: When set as **Global**, any approved marketplace vendor can search for this product in their seller dashboard and add their own selling offer.
 3. **Offer Layer**: Each vendor specifies their custom regular price, optional sale price, available stock units, and condition notes.
 4. **Storefront Presentation**: On the single product page, the marketplace displays the **lowest active offer** by default. Shoppers can view all other participating vendors through an interactive popup modal or an inline list.
@@ -166,7 +169,7 @@ The **Configuration** tab allows marketplace managers to define global operating
 - **Default State**: Enabled (Checked)
 - **Tooltip**: *"Enable/Disable to show other seller in as popup"*
 - **How It Works**:
-  - When **Enabled**: Clicking the *"More Sellers"* or *"Other Sellers"* button on the product detail page opens an interactive modal popup displaying all competing merchant offers with prices, conditions, and Add to Cart buttons.
+  - When **Enabled**: Clicking the *"Select a store to see availability and price"* (or *"More Sellers"*) button on the product detail page opens an interactive modal popup displaying all competing merchant offers with prices, conditions, and Add to Cart buttons.
   - When **Disabled**: Competing vendor offers are rendered as an inline list directly on the single product page below the main product details.
 
 ##### Enable Seller Email Notification

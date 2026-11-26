@@ -7,13 +7,13 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-pan
 
 After installing the **WooCommerce Marketplace plugin**, store administrators can easily manage all marketplace products from WordPress admin to maintain complete control over multi-vendor inventory.
 
+<a class="doc-image-link" href="./assets/Product-mangement.webp"><img src="./assets/Product-mangement.webp" alt="Product List – All Products" /></a>
+
 From the **Marketplace → Products** console, admins can review vendor submissions, filter items by seller, approve new drafts, mass-assign catalog items, and set custom order purchase limits for shoppers.
 
 ::: tip Centralized Catalog Control
 The **Marketplace Products** console gives the store administrator complete visibility over the entire multi-vendor catalog. Store owners can oversee vendor inventory, approve or reject new product submissions, assign unallocated products to specific vendors, and enforce marketplace purchasing policies.
 :::
-
-<a class="doc-image-link" href="./assets/Product-mangement.webp"><img src="./assets/Product-mangement.webp" alt="Product List – All Products" /></a>
 
 ---
 
@@ -167,8 +167,28 @@ If the admin has configured **Allow Vendor to Publish** as **unchecked**:
 <a class="doc-image-link" href="./assets/allow-seller-woocommerce-marketplace.webp"><img src="./assets/allow-seller-woocommerce-marketplace.webp" alt="Allow Vendor to Publish Setting" /></a>
 
 ::: note Setting Configuration Location
-To enforce manual product approval, navigate to **Marketplace → Settings → General Settings** and ensure **Allow Vendor to Publish** is unchecked. For more details on global marketplace switches, see the [General Configuration Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-general-settings.html).
+To enforce manual product approval, navigate to **Marketplace → Settings → Product Settings** and ensure **Allow Vendor to Publish** is unchecked. For more details on global marketplace switches, see the [Product Configuration Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-settings.html).
 :::
+
+---
+
+## Dedicated Product Approval Queue & Workflow
+
+In addition to editing draft products directly from the standard products list, marketplace administrators can manage pending vendor submissions from the dedicated moderation queue:
+
+**Marketplace > Product Approval** (`wp-admin/admin.php?page=wk-marketplace-product-approval`)
+
+<a class="doc-image-link" href="./assets/Product-mangement.webp"><img src="./assets/Product-mangement.webp" alt="Marketplace Admin Product Approval Workflow" /></a>
+
+### End-to-End Approval Lifecycle:
+
+1. **Vendor Submission**: When a vendor creates a new product or updates an existing listing (if edit moderation is enabled), the product enters the approval queue with a status of **Waiting for Approval** / **Draft**, remaining hidden from customer catalog searches.
+2. **Administrative Moderation**: The administrator navigates to **Marketplace > Product Approval** to inspect all pending submissions in one central location. The queue lists the product title, thumbnail, assigned vendor name, category, price, and submission timestamp.
+3. **Product Inspection**: Clicking on the product title or **Edit** allows the administrator to review all product fields, description accuracy, pricing, tax status, and compliance with store policies.
+4. **Instant Approval**: If the product meets marketplace criteria, clicking **Approve** updates the product status to **Published**, instantly making it live and purchasable on the storefront.
+5. **Rejection with Feedback**: If the product violates quality guidelines or is missing required details, the administrator clicks **Reject** and enters specific corrective feedback in the rejection modal. The vendor receives an automated notification detailing the reason for rejection, allowing them to make the required adjustments and resubmit.
+
+For more details on vendor-side submission and rejection notifications, refer to the [Vendor Product Management Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html#product-approval-rejection-workflow).
 
 ---
 

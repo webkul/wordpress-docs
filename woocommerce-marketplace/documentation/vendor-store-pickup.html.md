@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-st
 
 In **WooCommerce Multi-Vendor Marketplace**, vendors can offer local in-store pickup to customers who prefer collecting their purchases directly from the vendor's physical store or warehouse. Store pickup eliminates shipping fees for buyers, provides faster access to goods, and drives direct foot traffic into the vendor's retail location.
 
+<a class="doc-image-link" href="./assets/vendor-store-pickup-orders-list.webp"><img src="./assets/vendor-store-pickup-orders-list.webp" alt="Vendor Store Pickup Orders Management Dashboard" /></a>
+
 To make local fulfillment smooth and secure, the seller portal includes a dedicated **Store Pickup Orders** management section. From here, vendors and their authorized store staff can track pickup queues in real time, filter incoming collections, send secure one-time verification codes (OTP) to buyers, verify customer identity at the counter, and safely finalize order handovers.
 
 Vendors can access their store pickup dashboard directly from the seller portal menu:
@@ -14,8 +16,6 @@ Vendors can access their store pickup dashboard directly from the seller portal 
 **Store Pickup > Store Pickup Orders**
 
 **Direct Seller Navigation URL**: `/seller/store-pickup/`
-
-<a class="doc-image-link" href="./assets/vendor-store-pickup-orders-list.webp"><img src="./assets/vendor-store-pickup-orders-list.webp" alt="Vendor Store Pickup Orders Management Dashboard" /></a>
 
 ---
 

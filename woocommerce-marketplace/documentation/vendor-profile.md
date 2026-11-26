@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-pr
 
 The **Vendor Profile** displays essential information about a vendor's shop, helping buyers learn about the store, view products, review store policies, and verify vendor credibility.
 
+<a class="doc-image-link" href="./assets/seller-store-edit-overview.webp"><img src="./assets/seller-store-edit-overview.webp" alt="Store Edit Page Overview" /></a>
+
 In the modern seller dashboard, vendor profile management is handled on the **Store Edit** page (`/seller/vendor-profile/`). Unlike older tab-based layouts, the new setup organizes all profile configurations into a **single, scrollable two-column card layout**. Vendors can view and manage their entire store configuration in one unified workspace without clicking between tabs.
 
 ::: tip Using the classic layout?
@@ -19,7 +21,7 @@ If your marketplace uses the older **My Account** tabbed layout (**My Account â†
 
 Vendors can access their profile editor directly from the seller dashboard sidebar by clicking **Store Edit** (`/seller/vendor-profile/`).
 
-<a class="doc-image-link" href="./assets/seller-store-edit-overview.png"><img src="./assets/seller-store-edit-overview.png" alt="Store Edit Page Overview" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-overview.webp"><img src="./assets/seller-store-edit-overview.webp" alt="Store Edit Page Overview" /></a>
 
 ---
 
@@ -33,7 +35,7 @@ The main column contains the core store configurations, media assets, business h
 
 The **Images** card manages the visual branding of the vendor's store across both the seller dashboard and customer-facing pages.
 
-<a class="doc-image-link" href="./assets/seller-store-edit-images-card.png"><img src="./assets/seller-store-edit-images-card.png" alt="Store Edit Images Card" /></a>
+<a class="doc-image-link" href="./assets/seller-store-edit-images-card.webp"><img src="./assets/seller-store-edit-images-card.webp" alt="Store Edit Images Card" /></a>
 
 - **Allowed File Formats**: Supports `jpg`, `jpeg`, `png`, `webp`, and `gif`.
 - **User Image**: The personal profile avatar of the vendor. Includes **Upload** and **Remove** buttons with instant image preview.
@@ -55,6 +57,7 @@ The **Shop** card contains store contact details, payout preferences, analytics 
 - **Shop Name**: The public display name of the store.
 - **Shop Slug**: The URL slug representing the store (for example, `/vendor/aurora-athletics`). This field is read-only after initial creation to protect permanent store links and SEO indexing.
 - **Phone Number**: Customer service or store contact telephone number (accepts 4 to 15 characters).
+- **Fulfillment Text**: Custom fulfillment policy note, dispatch timeframe, or special shipping message displayed to customers on the storefront.
 - **Payment Information**: Vendor payout details (such as direct bank account numbers, SWIFT/IBAN codes, or PayPal address) used by the admin to disburse earnings after deducting commission.
 
 #### Google Analytics Tracking:
@@ -71,11 +74,10 @@ Vendors can track customer traffic and engagement on their own store pages:
   - **VAT** (Value Added Tax)
 - **Tax Identification Number**: Input field corresponding to the selected tax system (e.g., GSTIN number, VAT registration, or SSN). This ID is displayed on store receipts and verified by the marketplace.
 
-#### Store Address & Interactive Location Map:
+#### Store Address & Location Coordinates:
 - **Country**: Dropdown list to choose the country of operation.
 - **Shop Address**: Street address and office/building number.
-- **Interactive Map**: Vendors can search their location or drag the map pin to mark their physical shop.
-- **Shop Latitude & Longitude**: Automatically populated by the map pin, ensuring the store appears accurately on marketplace store locator maps.
+- **Shop Latitude & Longitude**: Precise coordinates ensuring the store appears accurately on marketplace store locator maps.
 - **City, State, and Postal Code**: Specific regional address details.
 
 #### Store Policies & Bio:
@@ -241,7 +243,7 @@ When shoppers visit a vendor's public store link (`/vendor/[shop-slug]`), they s
 - **About this Vendor**: Store biography and brand story.
 - **Store Policies**: Dedicated tabs displaying the vendor's Return Policy, Shipping Policy, and Privacy Policy.
 - **Product Catalog**: Paginated grid of all published products with search, sorting, and price filtering.
-- **Customer Reviews & Inquiry**: Review submission form, average customer rating, and "Ask a Question" / "Report Vendor" links.
+- **Customer Reviews & Inquiry**: Review submission form, average customer rating, and "Report Vendor" links.
 
 ---
 

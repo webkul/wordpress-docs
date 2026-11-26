@@ -7,11 +7,11 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-
 
 In a multi-vendor marketplace, a single customer order frequently contains products fulfilled by different independent merchants. Ensuring clear **Order Details & Seller Visibility** is essential for building buyer trust, reducing support inquiries, and maintaining smooth fulfillment operations.
 
+<a class="doc-image-link" href="./assets/customer-order-tracking-overview.webp"><img src="./assets/customer-order-tracking-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Order Details and Seller Visibility Overview" /></a>
+
 The **WooCommerce Multi-Vendor Marketplace** provides end-to-end transparency:
 - **For Customers**: Every order clearly identifies **who sells each item**, provides direct links to the merchant's storefront, and displays real-time carrier tracking information and store pickup updates.
 - **For Vendors**: Each seller receives a private, secure view of **only their portion of the order**, showing their sold items, calculated marketplace commission, net earnings, and tools to update statuses, add shipments, issue refunds, and print invoices.
-
-<a class=doc-image-link href="./assets/customer-order-tracking-overview.webp"><img src="./assets/customer-order-tracking-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Order Details and Seller Visibility Overview" /></a>
 
 ---
 

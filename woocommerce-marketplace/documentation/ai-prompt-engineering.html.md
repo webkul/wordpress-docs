@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/ai-prompt
 
 Crafting clear, specific prompts helps **Magic AI** generate polished, accurate, and high-converting product listings. This guide provides recommended prompt structures, best practices, and copy templates for both store administrators and marketplace vendors.
 
+<a class="doc-image-link" href="./assets/marketplace-magic-ai-prompt-engineering-overview.webp"><img src="./assets/marketplace-magic-ai-prompt-engineering-overview.webp" alt="Magic AI Prompt Formulation and Engineering Interface" /></a>
+
 ::: tip Golden Rule of AI Prompts
 The more specific and descriptive your starting input (materials, dimensions, target audience, brand tone), the more complete and accurate the generated product listing will be.
 :::

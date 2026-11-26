@@ -7,11 +7,11 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/customer-
 
 In **WooCommerce Multi-Vendor Marketplace**, customer reviews and star ratings empower buyers to share authentic shopping experiences, evaluate seller reliability, and make well-informed purchasing decisions. 
 
+<a class="doc-image-link" href="./assets/customer-review-rating-overview.webp"><img src="./assets/customer-review-rating-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Customer Reviews and Ratings Overview" /></a>
+
 The marketplace separates customer feedback into two distinct, specialized levels:
 1. **Vendor Store Reviews (Store-Level Feedback)**: Focuses on the seller's overall business service, customer support, dispatch speed, and fulfillment reliability across three dedicated criteria: **Price**, **Value**, and **Quality**.
 2. **Product Reviews (Item-Level Feedback)**: Focuses on the physical item purchased, its specifications, build quality, usability, and real-life performance—complete with customer photo uploads and verified owner status.
-
-<a class="doc-image-link" href="./assets/customer-review-rating-overview.webp"><img src="./assets/customer-review-rating-overview.webp" alt="WooCommerce Multi-Vendor Marketplace Customer Reviews and Ratings Overview" /></a>
 
 ---
 

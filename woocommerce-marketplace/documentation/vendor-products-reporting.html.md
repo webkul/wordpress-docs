@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-pr
 
 In **WooCommerce Multi-Vendor Marketplace**, the **Products Reporting** console gives vendors a real-time analytics suite to assess catalog performance, product demand, and inventory velocity. Instead of manually tallying sales figures across separate orders, sellers can view top-level volume statistics, interactive trend graphs, and itemized leaderboards highlighting which items generate the highest revenue and transaction volume.
 
+<a class="doc-image-link" href="./assets/vendor-products-reporting-dashboard.webp"><img src="./assets/vendor-products-reporting-dashboard.webp" alt="Vendor Products Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+
 Understanding product-level reporting allows sellers to:
 - **Track Catalog Velocity:** Monitor the total quantity of units sold across your entire product catalog, including item variations.
 - **Identify Revenue Champions:** Discover which products generate the highest gross earnings for your store.
@@ -14,8 +16,6 @@ Understanding product-level reporting allows sellers to:
 - **Monitor Product Sentiment & Reviews:** Track customer review counts and star ratings on individual catalog items.
 - **Compare Historical Timeframes:** Benchmark product demand against previous periods with automated comparison series.
 - **Export Actionable Data:** Download granular product reports in **CSV** or **PDF** format for inventory planning and supply chain forecasting.
-
-<a class="doc-image-link" href="./assets/vendor-products-reporting-dashboard.webp"><img src="./assets/vendor-products-reporting-dashboard.webp" alt="Vendor Products Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 

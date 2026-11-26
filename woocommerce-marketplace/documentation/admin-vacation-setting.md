@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-vac
 
 The **Vacation Settings** tab allows marketplace administrators to configure global vacation policies, customize closed-store button labels, control product visibility, and manage seller vacation schedules.
 
+<a class="doc-image-link" href="./assets/admin-seller-vacation-settings.webp"><img src="./assets/admin-seller-vacation-settings.webp" alt="Admin Vacation Settings" /></a>
+
 The marketplace admin can access and configure this section from:
 
 **Marketplace > Settings > Vacation**
@@ -14,8 +16,6 @@ The marketplace admin can access and configure this section from:
 **Direct Admin Navigation URLs**:
 - **Vacation Settings Tab**: `wp-admin/admin.php?page=wk-marketplace-settings&tab=seller_vacation`
 - **Vendors on Vacation Management**: `wp-admin/admin.php?page=wk-marketplace-vacations`
-
-<a class="doc-image-link" href="./assets/admin-seller-vacation-settings.png"><img src="./assets/admin-seller-vacation-settings.png" alt="Admin Vacation Settings" /></a>
 
 ---
 
@@ -135,7 +135,7 @@ Marketplace administrators can monitor all seller vacations from:
 wp-admin/admin.php?page=wk-marketplace-vacations
 ```
 
-<a class="doc-image-link" href="./assets/admin-vacations-list.png"><img src="./assets/admin-vacations-list.png" alt="Admin Vendors on Vacation List" /></a>
+<a class="doc-image-link" href="./assets/admin-vacations-list.webp"><img src="./assets/admin-vacations-list.webp" alt="Admin Vendors on Vacation List" /></a>
 
 #### List Features:
 - **Status Filter Tabs**: Filter vacation records by **Active**, **Expired**, or **All**.
@@ -161,7 +161,7 @@ Administrators can directly inspect and modify any vendor's vacation schedule by
 wp-admin/admin.php?page=wk-marketplace-vacations&section=edit&vacation_id={ID}
 ```
 
-<a class="doc-image-link" href="./assets/admin-vacation-edit.png"><img src="./assets/admin-vacation-edit.png" alt="Admin Edit Vacation" /></a>
+<a class="doc-image-link" href="./assets/admin-vacation-edit.webp"><img src="./assets/admin-vacation-edit.webp" alt="Admin Edit Vacation" /></a>
 
 The Edit Vacation screen provides full administrative control over a seller's vacation dates, sales behavior, and customer-facing notice.
 

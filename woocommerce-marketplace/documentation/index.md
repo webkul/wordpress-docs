@@ -40,6 +40,11 @@ This plugin converts your WooCommerce store into a **multi-seller platform** whe
 - Vendors can **set store hours & vacations**
 - Vendors can **monitor account health**
 - Vendors can **engage shop followers**
+- Vendors can **bulk-upload products to their stores**
+- Vendors can **access sales, product, and customer reports**
+- Vendors can **view their store's customers**
+- Vendors can **configure and manage shipping settings for their stores**
+- Vendors can **directly manage inventory and pricing**
 
 ---
 
@@ -49,7 +54,7 @@ This plugin converts your WooCommerce store into a **multi-seller platform** whe
 
 <div class="ai-showcase-intro">
 
-The marketplace includes built-in generative AI to help store owners and sellers create rich, high-converting product listings in seconds using leading AI models (Google Gemini, OpenAI, Anthropic Claude, Groq, and local Ollama):
+The marketplace includes built-in generative AI to help store owners and sellers create rich, high-converting product listings in seconds using leading AI models (Google Gemini, OpenAI, Anthropic Claude, Groq, DeepSeek, Mistral AI, and local Ollama). It also supports configured WordPress AI Connectors.
 
 </div>
 
@@ -66,10 +71,10 @@ The marketplace includes built-in generative AI to help store owners and sellers
 ### Admin AI Controls
 
 <ul class="ai-feature-list">
-  <li><strong>Multi-Provider Support:</strong> Connect Google Gemini, OpenAI, Claude, Groq, DeepSeek, or Mistral.</li>
+  <li><strong>Multi-Provider Support:</strong> Connect Google Gemini, OpenAI, Claude, Groq, DeepSeek, or Mistral AI, or use the default WordPress AI Connectors.</li>
   <li><strong>Local AI with Ollama:</strong> Run 100% private, self-hosted models with zero API token costs.</li>
   <li><strong>WordPress Integration:</strong> Native compatibility with WordPress background workers and transients.</li>
-  <li><strong>Vendor Usage Quotas:</strong> Set monthly generation limits per vendor to prevent API overages.</li>
+  <li><strong>Vendor Usage Quotas:</strong> Set global periodic generation limits (monthly, weekly, daily, or lifetime) for all sellers to prevent API overages.</li>
   <li><strong>Model Controls:</strong> Assign separate high-speed text models and vision models for sellers.</li>
   <li><strong>Admin Catalog AI:</strong> Generate product text, category banners, and store descriptions.</li>
 </ul>
@@ -88,7 +93,7 @@ The marketplace includes built-in generative AI to help store owners and sellers
 
 <ul class="ai-feature-list">
   <li><strong>Instant Product Publish:</strong> Sellers describe a product, and AI creates the complete listing ready to publish instantly.</li>
-  <li><strong>Product Photo Vision:</strong> Upload up to 3 product photos and vision AI extracts specs, colors, and attributes.</li>
+  <li><strong>Product Photo Vision:</strong> Upload product photos (up to the maximum number allowed by the admin) and vision AI extracts specs, colors, and attributes.</li>
   <li><strong>Automated Copywriting:</strong> Generates SEO titles, short summaries, full descriptions, and tags.</li>
   <li><strong>AI Image Enhancer:</strong> Transform product photos with clean studio backgrounds and soft lighting.</li>
   <li><strong>Field-by-Field Generation:</strong> Generate or polish individual product fields right inside the edit form.</li>
@@ -141,6 +146,7 @@ Once registered, vendors get access to a **frontend dashboard** where they can:
 - Manage vendor staff
 - Reach shop followers
 - Switch dashboard views
+- Configure Graphs and Site Settings
 
 ---
 
@@ -169,6 +175,11 @@ Marketplace owners (admins) can:
 - Monitor seller account health
 - Track vendors on vacation
 - Customize marketplace URL endpoints
+- Publish news and respond to vendors' queries
+- Assign badges to vendors
+- Manage feedback and reviews
+- Manage vendor staff permissions
+- Manage module licenses
 
 <a class="doc-image-link" href="./assets/general-settings.webp"><img src="./assets/general-settings.webp" alt="Admin Panel" /></a>
 

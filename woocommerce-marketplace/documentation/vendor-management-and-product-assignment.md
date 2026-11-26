@@ -104,7 +104,7 @@ Administrators can navigate through seven dedicated management tabs:
 2. **[Orders](#vendor-orders)**: Order items, commission deductions, seller totals, and order payment processing.
 3. **[Transactions](#transactions-in-woocommerce-marketplace)**: Complete payout records and itemized settlement receipts.
 4. **[Commission](#commission-management)**: Seller-specific fixed and percentage commission rates, plus cumulative revenue stats.
-5. **[Miscellaneous](#miscellaneous-settings-vendor-level)**: Category restrictions, order approval, "Sold by" visibility, dynamic SKU prefixes, and vendor staff permissions.
+5. **[Miscellaneous](#miscellaneous-settings-vendor-level)**: Category restrictions, order approval, dynamic SKU prefixes, WPML product translations, and vendor staff permissions.
 6. **[Flags](#reported-flags)**: Grievance reports and violation complaints submitted by shoppers.
 7. **[Withdrawals](#withdrawal-requests-management)**: Payout requests submitted by vendors, fees, and disbursement execution.
 
@@ -119,7 +119,7 @@ From the **Details** section, the admin can:
   - Email
   - Display name
   - Shop address
-- Enter and update vendor **payment details**
+- View the vendor's configured **payment details** (read-only; displays payout information configured by the vendor)
 
 <a class="doc-image-link" href="./assets/admin-end-seller-details.webp"><img src="./assets/admin-end-seller-details.webp" alt="Admin Vendor Details" /></a>
 
@@ -161,7 +161,7 @@ The **Orders** tab (`tab=orders&tab-action=manage&seller-id=X`) lists every mark
 | **Discount** | Coupon or promotional discount deducted from the vendor's line items. |
 | **Total Commission** | Marketplace admin commission retained from this order. |
 | **Total Vendor Amount** | Net payable amount due to the vendor. |
-| **Action** | Displays a primary **Pay** button for unpaid orders, or a green **Paid** badge once settled. |
+| **Action** | Displays a primary **Pay** button for unpaid orders, or a **Paid** badge once settled. |
 
 #### Batch Order Payouts
 Administrators can select multiple orders using the row checkboxes, select **Pay** from the **Bulk actions** dropdown, and click **Apply** to disburse payouts in a single batch operation. For storefront order workflows, see [Vendor Order Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html) and [Vendor Payout Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-payout-management.html).
@@ -261,17 +261,6 @@ The admin can configure vendor-specific settings.
 
 ---
 
-### Vendor Info Visibility (Customer Display)
-
-The administrator can override whether vendor attribution appears to customers for this specific seller:
-
-- **Display "Sold by" Info to Customers**:
-  - **Default (Global setting)**: Inherits the marketplace storewide setting configured in [Configuration – General Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-general-settings.html).
-  - **Show**: Always display the **Sold by [Vendor Name]** banner, shop link, and badge on product pages and in the cart.
-  - **Hide**: Suppress vendor identity across product listings, catalog cards, and checkout.
-
----
-
 ### Vendor Staff Access
 
 Administrators can control whether this specific vendor is permitted to delegate duties to staff sub-accounts:
@@ -293,7 +282,7 @@ Administrators can control whether this specific vendor is permitted to delegate
 > This option appears only when the **WPML plugin** is installed and activated.
 
 ::: tip Saving Miscellaneous Configurations
-After modifying Allowed Categories, Order Approval, Vendor Info Visibility, Dynamic SKU, or Vendor Staff settings, click the **Save Changes** button at the bottom of the form to update the vendor profile.
+After modifying Allowed Categories, Order Approval, Dynamic SKU, or Vendor Staff settings, click the **Save Changes** button at the bottom of the form to update the vendor profile.
 :::
 
 ---
@@ -326,9 +315,7 @@ Administrators can use grievance flags to investigate counterfeit claims or inac
 ## Withdrawal Requests Management
 
 - Admin can manage vendor withdrawal requests:
-  - Approve
-  - Reject
-  - Process payments
+  - Disburse payouts by clicking the **Pay** action button
 - Actions depend on the vendor’s available balance
 
 <a class="doc-image-link" href="./assets/withdrawal-request.webp"><img src="./assets/withdrawal-request.webp" alt="withdrawal request" /></a>

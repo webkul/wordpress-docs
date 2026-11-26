@@ -23,8 +23,6 @@ Vendors can register on the marketplace using multiple methods provided by the W
 - Clicking **Login Here** redirects to the vendor login page.
 - Clicking **Register** redirects to the vendor registration page.
 
-<a class="doc-image-link" href="./assets/vendor-menu.webp"><img src="./assets/vendor-menu.webp" alt="Vendor Menu" /></a>
-
 ---
 
 ## Method 2: Registration via Seller Central Page
@@ -58,7 +56,7 @@ If the admin enables **Allow Vendor Registration on My Account**:
 - The user selects the **“I am a Vendor”** radio button during registration.
 - Additional **vendor-specific registration fields** are displayed automatically.
 
-<a class="doc-image-link" href="./assets/seller-registration-page.webp"><img src="./assets/seller-registration-page.webp" alt="Seller Registration Page" /></a>
+<a class="doc-image-link" href="./assets/vendor-menu.webp"><img src="./assets/vendor-menu.webp" alt="Seller Registration Page" /></a>
 
 ---
 
@@ -71,7 +69,7 @@ The vendor must enter the following details:
 - First Name
 - Last Name
 - Shop Name
-- Shop URL
+- Shop Slug
 - Phone Number
 - Accept Terms & Conditions
 
@@ -94,17 +92,17 @@ Admins can easily customize registration form subtitles, field labels, placehold
 
 ---
 
-## Shop URL Availability Check
+## Shop Slug Availability Check
 
-- The **Shop URL** field uses an **AJAX-based availability check**.
-- Displays **“Available”** if the URL is unused.
-- Displays **“Already Exists”** if the URL already exists.
+- The **Shop Slug** field uses an **AJAX-based availability check**.
+- Displays **“Available”** if the URL slug is unused.
+- Displays **“Already Exists”** if the URL slug already exists.
 
-<a class="doc-image-link" href="./assets/registration-details.webp"><img src="./assets/registration-details.webp" alt="Shop URL Availability" /></a>
+<a class="doc-image-link" href="./assets/registration-details.webp"><img src="./assets/registration-details.webp" alt="Shop Slug Availability" /></a>
 
 ### Real-Time Validation Feedback
 
-When the vendor types a shop slug into the **Shop URL** input field, the marketplace performs an instant real-time AJAX check:
+When the vendor types a shop slug into the **Shop Slug** input field, the marketplace performs an instant real-time AJAX check:
 
 - **If the slug is free**: Displays `This shop URl is available, kindly proceed.` in green confirmation text.
 - **If the slug is already registered**: Displays `This shop URl already EXISTS, please try different shop url.` in warning text.
@@ -119,8 +117,6 @@ If the marketplace admin sets **Shop Name on Registration** or **Shop Slug on Re
 
 - Vendor registration is completed using **email and password**.
 - Vendor access is granted based on admin approval settings.
-
-<a class="doc-image-link" href="./assets/register-as-vendor.webp"><img src="./assets/register-as-vendor.webp" alt="Register as Vendor" /></a>
 
 ---
 
@@ -140,7 +136,7 @@ When registered customers want to sell products on your marketplace:
 2. A prominent **Become a Vendor** banner card invites them to register as a seller with the message:
    > *"Submit the request form in the next step and get approval to list and sell your products."*
 3. Clicking **Become a Vendor** opens the vendor registration form with the customer's existing name and email address already filled in.
-4. The customer provides their **Shop Name**, **Shop URL**, contact telephone number, and optional KYC documents.
+4. The customer provides their **Shop Name**, **Shop Slug**, contact telephone number, and optional KYC documents.
 5. All previous customer purchase history, billing addresses, and order details are safely retained while adding vendor capabilities to the account.
 
 ---
@@ -173,8 +169,8 @@ Once a vendor submits the registration form, the account follows one of two appr
 | :--- | :--- | :--- |
 | **Initial Status** | Active / Approved Immediately | Pending Review |
 | **On-Screen Confirmation** | *"Congratulations!! Your request has been accepted. Now you are a vendor on the site..."* | *"Your request has been successfully sent to Administrator. You will be notified via Email once it is processed."* |
-| **Admin Action Needed** | None (Automated) | Administrator manual review and approval under **Users > All Users** |
-| **Vendor Access** | Immediate redirection to the **Seller Dashboard** (`/seller/vendor-dashboard/`) | Login restricted until approved by email notification |
+| **Admin Action Needed** | None (Automated) | Administrator manual review and approval under **Marketplace > Vendors** |
+| **Vendor Access** | Immediate redirection to the **Seller Dashboard** (`/seller/vendor-dashboard/`) | Vendor features remain restricted until the admin approves the vendor. |
 | **Email Triggers** | Welcome / Activation email sent to vendor | Notification sent to Admin (`New Vendor Request`), followed by approval email to vendor upon activation |
 
 ### 1. Instant Approval Flow (Auto Approve Enabled)
@@ -187,5 +183,5 @@ Once a vendor submits the registration form, the account follows one of two appr
 - The vendor account is placed into a pending status.
 - A notice is displayed to the applicant:
   > *"Your request has been successfully sent to Administrator. You will be notified via Email once it is processed."*
-- Marketplace administrators receive an email notification (`New Vendor Request`) and can approve or decline the vendor under **Users > All Users** (filtered by the `Seller` role).
-- Once approved by the admin, the vendor receives an approval email and can log in to access the seller panel.
+- Marketplace administrators receive an email notification (`New Vendor Request`) and can review and approve or decline the vendor under **Marketplace > Vendors**.
+- Once approved by the admin, the vendor receives an approval email and vendor features are activated in their portal.

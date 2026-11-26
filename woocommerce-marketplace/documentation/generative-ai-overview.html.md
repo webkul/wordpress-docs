@@ -41,6 +41,10 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generativ
         <span>Groq</span>
       </li>
       <li class="ai-provider-pill">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 2h4.84l4.24 6.06L15.82 2H20.6l-6.73 9.62L21.5 22h-4.84l-4.75-6.8L7.1 22H2.32l7.24-10.35L2.5 2z"/></svg>
+        <span>xAI (Grok)</span>
+      </li>
+      <li class="ai-provider-pill">
         <svg viewBox="0 0 24 24" fill="#0284c7"><circle cx="12" cy="12" r="9"></circle><path d="m8 12 2.5 2.5 5-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         <span>DeepSeek</span>
       </li>
@@ -162,7 +166,7 @@ Magic AI operates on a strictly non-destructive model: generated suggestions pop
       </div>
     </div>
     <span class="feature-card-item__title">Control Usage per Seller</span>
-    <span class="feature-card-item__desc">Define daily, weekly, monthly, or lifetime generation quotas per vendor, protect platform budgets from overages, and track usage meters.</span>
+    <span class="feature-card-item__desc">Define a global daily, weekly, monthly, or lifetime generation quota for all sellers, protect platform budgets from overages, and track usage meters.</span>
     <div class="feature-card-item__chips">
       <span class="feature-card-chip">Monthly Quotas</span>
       <span class="feature-card-chip">Live Meter</span>
@@ -226,7 +230,7 @@ The Magic AI module is organized into three core areas accessible from the left-
 - **Accelerates Seller Onboarding & Catalog Growth:** Vendors can create complete product listings from brief descriptions or supplier spec sheets in less than 60 seconds.
 - **Maintains Storewide Catalog Quality:** Built-in prompt engineering ensures consistent grammar, structured attribute extraction, and high-converting marketing descriptions.
 - **Full Commercial Cost Governance:** Store administrators choose which AI models are used, which fields AI can write to, and how many generations vendors receive.
-- **Zero Third-Party SaaS Markups:** Magic AI connects directly to major foundation AI providers (OpenAI, Google Gemini, Anthropic, Groq, DeepSeek, Mistral, xAI) or self-hosted Ollama using your own API credentials.
+- **Zero Third-Party SaaS Markups:** Magic AI connects directly to major foundation AI providers (OpenAI, Google Gemini, Anthropic, Groq, DeepSeek, Mistral, xAI (Grok)) or self-hosted Ollama using your own API credentials.
 
 ---
 
@@ -321,7 +325,7 @@ Protecting your third-party API credentials is built directly into Magic AI:
 
 ## Who uses it
 
-- **Admins** set it up under **Marketplace >> Magic AI** and control it per seller on the seller's record. See [Admin Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-admin-settings.html) and [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
+- **Admins** set it up and configure global limits for all sellers under **Marketplace >> Magic AI**. See [Admin Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-admin-settings.html) and [Usage Limits](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-limits.html).
 - **Sellers** use it on the edit page of the products they own, in the Seller Panel. Team members need the **Generate Content With Magic AI** permission in their role. See [Vendor Staff](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 - **Customers** don't see it. They see the product once the seller has saved it and, if required, you have approved it.
 

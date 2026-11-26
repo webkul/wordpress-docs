@@ -11,12 +11,12 @@ The admin can configure this from:
 
 **Marketplace > Settings > Withdrawal**
 
+<a class="doc-image-link" href="./assets/withdrawal-settings.webp"><img src="./assets/withdrawal-settings.webp" alt="Admin Withdrawal Settings" /></a>
+
 **Direct Admin URL**:
 ```text
 wp-admin/admin.php?page=wk-marketplace-settings&tab=seller_withdrawal
 ```
-
-<a class="doc-image-link" href="./assets/withdrawal-settings.webp"><img src="./assets/withdrawal-settings.webp" alt="Admin Withdrawal Settings" /></a>
 
 ---
 

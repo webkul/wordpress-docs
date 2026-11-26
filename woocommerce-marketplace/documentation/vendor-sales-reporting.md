@@ -7,14 +7,14 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-sa
 
 In **WooCommerce Multi-Vendor Marketplace**, the **Sales Reporting** console gives vendors a powerful, real-time analytics hub to evaluate store performance, revenue growth, and customer purchasing patterns. Instead of guessing how your shop is performing, you can view clear metrics, interactive trend graphs, and detailed breakdown tables for every transaction.
 
+<a class="doc-image-link" href="./assets/vendor-sales-reporting-dashboard.webp"><img src="./assets/vendor-sales-reporting-dashboard.webp" alt="Vendor Sales Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+
 Sales Reporting helps sellers:
 - **Track Net Revenue:** Monitor your actual take-home earnings after marketplace commissions are deducted.
 - **Review Commission Deductions:** Keep an accurate record of marketplace commission fees across any timeframe.
 - **Analyze Purchasing Habits:** Understand your average order value (AOV), total order count, and most popular payment methods.
 - **Compare Historical Performance:** Benchmark current sales against previous timeframes to identify growth trends or seasonal shifts.
 - **Export Accounting Data:** Download granular sales tables in **CSV** or **PDF** format for bookkeeping and tax preparation.
-
-<a class="doc-image-link" href="./assets/vendor-sales-reporting-dashboard.webp"><img src="./assets/vendor-sales-reporting-dashboard.webp" alt="Vendor Sales Reporting Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 

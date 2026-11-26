@@ -7,9 +7,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-pr
 
 In **WooCommerce Multi-Vendor Marketplace**, customer reviews on individual products provide direct proof of buyer satisfaction and product quality. Positive product reviews help boost your catalog ranking, build shopper confidence, and drive higher sales conversion.
 
-The **Product Reviews** console in the Seller Dashboard gives vendors a dedicated place to monitor all customer ratings and written feedback left for specific items in their catalog. Sellers can quickly find reviews with keyword search, sort feedback by newest or oldest, and apply detailed filters by customer, star rating, moderation status, or date ranges.
+<a class="doc-image-link" href="./assets/vendor-product-reviews-list.webp"><img src="./assets/vendor-product-reviews-list.webp" alt="Vendor Product Reviews Dashboard in WooCommerce Multi-Vendor Marketplace" /></a>
 
-<a class="doc-image-link" href="./assets/vendor-product-reviews-list.png"><img src="./assets/vendor-product-reviews-list.png" alt="Vendor Product Reviews Dashboard in WooCommerce Multi-Vendor Marketplace" /></a>
+The **Product Reviews** console in the Seller Dashboard gives vendors a dedicated place to monitor all customer ratings and written feedback left for specific items in their catalog. Sellers can quickly find reviews with keyword search, sort feedback by newest or oldest, and apply detailed filters by customer, star rating, moderation status, or date ranges.
 
 ---
 
@@ -37,14 +37,14 @@ When browsing the seller dashboard on a mobile phone or tablet, tap the **Open m
 
 At the top of the Product Reviews list, you have quick controls to organize your view and locate specific buyer feedback without opening the full filter drawer:
 
-<a class="doc-image-link" href="./assets/vendor-product-reviews-list.png"><img src="./assets/vendor-product-reviews-list.png" alt="Product Reviews List Controls" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-reviews-list.webp"><img src="./assets/vendor-product-reviews-list.webp" alt="Product Reviews List Controls" /></a>
 
 ### 1. Search Reviews Bar
 The search box allows you to find feedback instantly:
 - **Search terms:** Type a customer name (e.g., *Demo Customer*), a product title keyword (e.g., *Tee*, *Watch*, *Runner*), or specific words mentioned in the review description (e.g., *breathable*, *comfortable*, *quality*).
 - **Press Enter:** Hit **Enter** on your keyboard to run the search. The table updates immediately to display only matching reviews.
 
-<a class="doc-image-link" href="./assets/vendor-product-reviews-search-result.png"><img src="./assets/vendor-product-reviews-search-result.png" alt="Product Reviews Search Results" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-reviews-search-result.webp"><img src="./assets/vendor-product-reviews-search-result.webp" alt="Product Reviews Search Results" /></a>
 
 ### 2. Items Per Page Selector
 Choose how many review records you want to see per page. Available display densities include:
@@ -93,7 +93,7 @@ You can click the product name directly in the **Product / Date / Status** colum
 
 When you have multiple products and numerous reviews, the slide-out filter drawer helps you quickly find reviews matching specific criteria:
 
-<a class="doc-image-link" href="./assets/vendor-product-reviews-filter-drawer.png"><img src="./assets/vendor-product-reviews-filter-drawer.png" alt="Product Reviews Slide-Out Filter Drawer" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-reviews-filter-drawer.webp"><img src="./assets/vendor-product-reviews-filter-drawer.webp" alt="Product Reviews Slide-Out Filter Drawer" /></a>
 
 To use the filter drawer:
 1. Click the **Filter** button above the reviews table.
@@ -137,7 +137,7 @@ Filter reviews by customer satisfaction level:
 - **2 stars**: Below average feedback requiring seller attention.
 - **1 star**: Critical feedback highlighting quality or fulfillment issues.
 
-<a class="doc-image-link" href="./assets/vendor-product-reviews-filtered-5stars.png"><img src="./assets/vendor-product-reviews-filtered-5stars.png" alt="Product Reviews Filtered by 5 Stars" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-reviews-filtered-5stars.webp"><img src="./assets/vendor-product-reviews-filtered-5stars.webp" alt="Product Reviews Filtered by 5 Stars" /></a>
 
 ### 7. Description Keyword
 Type specific keywords into the **Description** field to isolate reviews mentioning particular product attributes, such as *"sizing"*, *"battery"*, *"fabric"*, or *"delivery"*.
@@ -152,7 +152,7 @@ Type specific keywords into the **Description** field to isolate reviews mention
 
 If you search for a term or apply filter criteria that do not match any existing reviews, the table presents a helpful empty state:
 
-<a class="doc-image-link" href="./assets/vendor-product-reviews-empty.png"><img src="./assets/vendor-product-reviews-empty.png" alt="Product Reviews Empty Search Results" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-reviews-empty.webp"><img src="./assets/vendor-product-reviews-empty.webp" alt="Product Reviews Empty Search Results" /></a>
 
 - **Notice:** `No reviews match your search or filters.`
 - **Quick Action:** Click the **Clear filters** button to immediately reset all filters and return to your full product reviews list.
@@ -174,7 +174,7 @@ When your store accumulates more reviews than your selected display limit (for e
 
 The Product Reviews workspace is fully responsive and designed to work smoothly on mobile phones, tablets, and desktop computers:
 
-<a class="doc-image-link" href="./assets/vendor-product-reviews-mobile.png"><img src="./assets/vendor-product-reviews-mobile.png" alt="Product Reviews Mobile Interface" /></a>
+<a class="doc-image-link" href="./assets/vendor-product-reviews-mobile.webp"><img src="./assets/vendor-product-reviews-mobile.webp" alt="Product Reviews Mobile Interface" /></a>
 
 - **Mobile Navigation:** Tap the hamburger menu in the top bar to open the navigation drawer and switch between dashboard sections.
 - **Compact Table View:** The table cleanly reorganizes columns on mobile devices, ensuring review text, buyer badges, and star ratings remain clear and readable.

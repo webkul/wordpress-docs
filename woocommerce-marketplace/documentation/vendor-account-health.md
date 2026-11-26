@@ -7,14 +7,14 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-ac
 
 In **WooCommerce Multi-Vendor Marketplace**, **Account Health** provides sellers with an immediate, transparent view of their standing and operational quality across the marketplace. Maintaining high account health builds customer confidence, increases sales conversion, and helps sellers maintain good standing with marketplace administrators.
 
+<a class="doc-image-link" href="./assets/vendor-account-health-dashboard.webp"><img src="./assets/vendor-account-health-dashboard.webp" alt="Vendor Account Health Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
+
 The Account Health report evaluates real store performance using three core criteria:
 1. **Order Cancellation Rate** (preventing cancelled orders after payment)
 2. **Customer Feedback** (average rating across store reviews)
 3. **Flags Raised** (complaints or policy reports submitted against your shop or products)
 
 In addition to the overall health score, sellers can review key operational insights—including **Refund Rates**, **Product Reviews**, and **Fulfillment Completion Times**—and experiment with an interactive **Live Calculator** to simulate how operational improvements will boost their overall score.
-
-<a class="doc-image-link" href="./assets/vendor-account-health-dashboard.webp"><img src="./assets/vendor-account-health-dashboard.webp" alt="Vendor Account Health Dashboard Overview in WooCommerce Multi-Vendor Marketplace" /></a>
 
 ---
 

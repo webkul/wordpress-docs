@@ -7,9 +7,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-se
 
 The **Separate WP-Admin Dashboard** provides marketplace sellers with a dedicated, isolated WordPress backend environment. When enabled, vendors manage their products, orders, transactions, store profile, and customer communication directly within a secure, custom-tailored WordPress administration interface.
 
-This separate interface keeps vendor operations completely independent from platform administration, ensuring that sellers only access features relevant to their store.
-
 <a class="doc-image-link" href="./assets/vendor-separate-wp-admin-dashboard-overview.webp"><img src="./assets/vendor-separate-wp-admin-dashboard-overview.webp" alt="WooCommerce Marketplace Separate WP-Admin Vendor Dashboard Overview" /></a>
+
+This separate interface keeps vendor operations completely independent from platform administration, ensuring that sellers only access features relevant to their store.
 
 ---
 
@@ -42,7 +42,7 @@ To prevent accidental changes to core site configuration, general site settings 
 
 Vendors have access only to the store-specific tools required for day-to-day operations:
 
-- **Dashboard**: Welcome screen and high-level store overview.
+- **Dashboard**: Displays the default WordPress dashboard welcome screen.
 - **Products**: Catalog management restricted to the vendor's own items:
   - **All Products**: View, search, and edit published products.
   - **Add new product**: Create new physical, variable, virtual, or downloadable products.

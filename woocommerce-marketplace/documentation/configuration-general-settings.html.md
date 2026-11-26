@@ -233,33 +233,6 @@ The **Seller panel page** setting allows admins to designate a dedicated WordPre
 
 <a class="doc-image-link" href="./assets/seller-panel-dashboard.png"><img src="./assets/seller-panel-dashboard.png" alt="Seller Panel Dashboard" /></a>
 
-- **Detailed Guides**: See [Vendor Dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html) and [Seller Panel Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/seller-panel-overview.html).
-
----
-
-### Admin-Configurable Upload Restrictions
-
-Admins can set global upload restrictions for every vendor image, including:
-- Avatar
-- Logo
-- Fulfillment
-- Banner
-
-For each image type, admins can define:
-- Allowed file types
-- Optional file size limits
-- Optional dimension limits (width/height)
-
-<!-- <a class="doc-image-link" href="./assets/placeholder-upload-restrictions.png"><img src="./assets/placeholder-upload-restrictions.png" alt="Upload Restrictions" /></a> -->
-
----
-
-### "Sold by" Visibility Control
-
-Admins have full control over whether the "Sold by" text is visible to customers.
-- **Global Setting**: A master toggle to hide the vendor name and store links across the shop, cart, checkout, orders, emails, and invoices.
-- **Per-Vendor Override**: Admins can override the global setting on a per-vendor basis if certain vendors need their names displayed or hidden.
-
-<!-- <a class="doc-image-link" href="./assets/placeholder-sold-by-visibility.png"><img src="./assets/placeholder-sold-by-visibility.png" alt="Sold By Visibility Settings" /></a> -->
+- **Detailed Guides**: See [Vendor Dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html), [Seller Panel Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/seller-panel-overview.html), and [Assets Visibility](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/assets-visibility.html).
 
 ---

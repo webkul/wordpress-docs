@@ -30,8 +30,8 @@ Navigate to: **Marketplace > Settings > General**
 
 | Setting Option | Description & Best Practice |
 |---|---|
-| **New vendor dashboard** | Check this box to enable the modern dedicated full-screen seller workspace under `/seller/vendor-dashboard/`. When enabled, vendors logging in are routed directly to this console. |
-| **Separate Vendor Dashboard** | Controls whether vendor management activities are isolated from customer storefront screens. |
+| **New vendor dashboard** | Dropdown configuration that controls vendor interface rollout:<br>• **Disabled — every vendor uses the classic dashboard:** Keeps all vendors on the native My Account dashboard.<br>• **Optional — each vendor chooses:** Allows each vendor to freely switch between the classic view and the new seller panel.<br>• **Forced — every vendor uses the new dashboard:** Enforces the redesigned modern seller panel for all vendors. |
+| **Separate Vendor Dashboard** | Controls whether vendors get a separate dashboard similar to the admin dashboard. |
 | **Seller panel page** | Displays the live URL where the dedicated dashboard is hosted (default: `https://your-domain.com/seller/vendor-dashboard/`). |
 | **Vendor Page** | Selects the public page where all approved marketplace vendors are indexed in the store directory. |
 | **Seller Central Page** | Selects the public landing page that introduces prospective sellers to joining your multi-vendor platform. Learn more in [Seller Central Configuration](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-seller-central.html). |
@@ -139,8 +139,8 @@ The top bar remains pinned across all seller screens for quick navigation:
 - **Sidebar Toggle:** Collapses or expands the navigation sidebar to maximize screen space for tables and charts.
 - **Store Identity:** Displays the vendor's store logo and shop name (e.g., *Aurora Athletics*).
 - **Global Search:** Allows searching orders, products, and customer queries from anywhere in the panel.
-- **Notifications Bell:** Displays real-time alerts for incoming orders, customer inquiries, and administrator announcements.
-- **User Account Menu:** Direct dropdown to edit profile details, change passwords, or log out.
+- **Notifications Bell:** Displays real-time alerts related to order updates, product approvals, and vendor reviews.
+- **User Account Menu:** Direct dropdown to edit profile details and log out.
 
 ---
 
@@ -182,7 +182,7 @@ The sidebar organizes all marketplace operations into logical functional groups:
 - **Settings:**
   - *General:* Account credentials and password updates.
   - *Site Setting:* Product form navigation layouts (Horizontal Tabs, Vertical Tabs, Stacked Form).
-  - *Graph Setting:* Custom color palette picker for charts and graphs.
+  - *Graph Settings:* Allows customizing the color palette of charts and graphs and changing graph types.
 
 ---
 
@@ -208,7 +208,7 @@ Surfaces pressing operational roadblocks that require immediate attention:
 - **Pending Orders:** Orders waiting for seller review or payment confirmation.
 - **Orders to Ship:** Processing orders ready for packing and dispatch.
 - **Low Stock:** Products that have reached or dropped below their low-stock threshold.
-- **Notifications:** Unread administrative notices or customer queries.
+- **Notifications:** Order alerts, product status updates, and administrative announcements.
 
 Clicking any item in the queue filters and displays those records instantly.
 
@@ -271,11 +271,14 @@ Navigate to: **Settings > Graph Setting** (`/seller/seller-graph-setting/`)
 <a class="doc-image-link" href="./assets/vendor-graph-setting-dashboard.webp"><img src="./assets/vendor-graph-setting-dashboard.webp" alt="Vendor Dashboard Graph Settings - Chart Color Customization" /></a>
 
 Vendors can select a module and pick custom accent colors using the interactive color picker:
-1. **Dashboard:** Customize line, bar, and accent colors for sales, commission, and order status charts.
-2. **Reports:** Customize series colors for Sales, Product, and Customer reports.
-3. **Transactions:** Customize colors for withdrawal and payout charts.
-4. **Performance:** Customize Account Health gauge and rating breakdown charts.
-5. **Products:** Customize stock level and completeness graphs.
+1. **Dashboard:** Customize chart types (Bar, Line, Area, Doughnut, and Pie, wherever supported) and colors for Sales vs Commission, Customers vs Orders, Sales Trends, Order Trends, Order Status, Top Billing Countries, Profile Score, and dashboard stat card sparklines.
+2. **Reports:** Customize chart types (Line, Bar, Area, Horizontal Bar, and Doughnut, wherever supported) and series colors for Sales, Commission, Orders, Average Order Value, Tax Collected, Top Tax Rates, Refunds, Payment Methods, Units Sold, and Total Customers reports.
+3. **Transactions:** Customize the colors of sparklines displayed on earning cards, including Total Earning, Total Withdraw, Total Pending Withdraw, Total Refunded, and Last Withdraw.
+4. **Performance:** Customize the colors of the Account Health score indicator, including Unhealthy, At Risk, Healthy, and Marker indicators.
+5. **Products:** Customize the colors of the Listing Completeness graph, including the Filled and Track indicators.
+
+> [!NOTE] Default Graph Settings
+> Vendors can also restore the default graph settings using the **Reset Section to Default** option available in each section.
 
 ---
 
@@ -291,9 +294,8 @@ The **Default Dashboard** allows vendors to manage marketplace activities and ac
 
 ### Core Sections & Menu Links
 
-The default dashboard menu provides direct access to all essential merchant operations:
+The default dashboard menu provides direct access to essential merchant operations:
 
-- **Reports**: View quick infographic reports, lifetime sales, total payouts, remaining balance, and refunded totals.
 - **Order History**: Track complete customer order history, view order details, and follow dispatch statuses.
 - **Transactions**: Review detailed transaction records including Transaction IDs, dates, and disbursed amounts.
 - **Notifications**: Stay updated on order alerts, product status updates, and administrative announcements.

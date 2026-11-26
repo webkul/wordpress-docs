@@ -7,9 +7,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-b
 
 In modern retail and warehouse fulfillment, physical barcodes are vital for fast inventory check-in, error-free order picking, and automated checkout scanning. WooCommerce Multi-Vendor Marketplace includes a built-in barcode engine that generates crisp vector barcodes for every product and variation, allowing vendors to print thermal label sheets directly from the seller panel.
 
-This guide covers supported barcode formats, assigning barcodes to simple and variable products, batch PDF printing for thermal label printers, and staff permissions.
-
 <a class="doc-image-link" href="./assets/marketplace-vendor-product-barcode-catalog.webp"><img src="./assets/marketplace-vendor-product-barcode-catalog.webp" alt="Vendor Catalog Products Table with Barcode Column and Download PNG Actions" /></a>
+
+This guide covers supported barcode formats, assigning barcodes to simple and variable products, batch PDF printing for thermal label printers, and staff permissions.
 
 ---
 

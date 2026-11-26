@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-gr
 
 The **Graph Setting** page (`/seller/seller-graph-setting/`) allows vendors to personalize the appearance and visual styling of dashboard charts, analytics widgets, financial sparklines, and reporting graphs.
 
+<a class="doc-image-link" href="./assets/vendor-graph-setting-overview.webp"><img src="./assets/vendor-graph-setting-overview.webp" alt="Vendor Graph Setting Cards Overview" /></a>
+
 Vendors can navigate to this screen from the vendor panel menu under **Settings → Graph Setting**.
 
 ---
@@ -14,8 +16,6 @@ Vendors can navigate to this screen from the vendor panel menu under **Settings 
 ## Overview
 
 Marketplace vendors often rely on charts and graphs to quickly monitor their store performance, sales revenue, customer growth, and product catalog quality. With **Graph Setting**, each vendor can customize color palettes and chart types to fit their personal visual preferences or brand colors.
-
-<a class="doc-image-link" href="./assets/vendor-graph-setting-overview.webp"><img src="./assets/vendor-graph-setting-overview.webp" alt="Vendor Graph Setting Cards Overview" /></a>
 
 The Graph Setting hub organizes all customizable visual elements into five dedicated cards:
 

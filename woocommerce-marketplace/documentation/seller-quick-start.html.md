@@ -93,7 +93,7 @@ Building a recognizable brand identity is essential for converting store visitor
 - **Contact & Address**: Enter your official business address, contact telephone number, and customer support email.
 - **Social Profiles**: Connect your brand's social media accounts (Facebook, Twitter/X, Instagram, LinkedIn, YouTube) to display follow icons on your shop header.
 - **KYC Verification**: If required by the platform, submit your business registration, tax identification number, or government photo ID to unlock product publishing and payout privileges.
-- **Payment & Payout Details**: Configure your preferred withdrawal payout method (PayPal email address or direct bank transfer account details) so earnings can be disbursed promptly.
+- **Payment & Payout Details**: Configure your preferred withdrawal payout method (PayPal email address, UPI or direct bank transfer account details) so earnings can be disbursed promptly.
 
 </div>
 
@@ -177,6 +177,8 @@ Populate your storefront with merchandise across all supported WooCommerce produ
 - **Simple Products**: Standard physical products with defined regular prices, sale prices, inventory levels, and SKUs.
 - **Variable Products**: Complex items offering customer choices across sizes, colors, and styles, with variation-specific pricing and stock tracking.
 - **Virtual & Downloadable Products**: Digital eBooks, software downloads, access keys, or consulting services without physical shipping requirements.
+- **Group Products**: Create product listings that allow customers to purchase multiple products together as a single group offering.
+- **External/Affiliate Products**: List products available on external websites and redirect customers to the specified external URL to complete their purchases.
 - **Select & Sell (Existing Products)**: Join existing catalog listings already present on the marketplace to offer your items at your own price and stock without creating duplicate product listings.
 - **AI Product Content (Magic AI)**: Use built-in Generative AI prompts to generate engaging product titles, long descriptions, and feature bullet points with a single click.
 
@@ -202,7 +204,7 @@ Ensure your product listings adhere to marketplace catalog standards:
 
 <div class="qs-specs-list">
 
-- **Review Workflow**: If product approval is enabled by the platform, submitted items show a `Pending Review` status until approved by an administrator. Once reviewed, they are published directly to the public catalog.
+- **Review Workflow**: If product approval is enabled by the platform, submitted items show a `Waiting for Approval` status until approved by an administrator. Once reviewed, they are published directly to the public catalog.
 - **Immediate Publishing**: If auto-approval is active, your products appear immediately on your shop page and in marketplace search results.
 
 </div>
@@ -286,7 +288,7 @@ Keep total visibility over your finances and receive your earnings reliably:
 
 - **Commission Transparency**: The marketplace automatically deducts its agreed platform commission and credits the remainder to your vendor wallet.
 - **Transaction History**: Review a clear ledger of credited sales, commission fees, and completed payout disbursements.
-- **Withdrawal Requests**: When your balance reaches the marketplace's minimum withdrawal threshold, submit a payout request directly from your dashboard to receive funds via PayPal, Stripe, or Bank Transfer.
+- **Withdrawal Requests**: When your balance reaches the marketplace's minimum withdrawal threshold, submit a payout request directly from your dashboard to receive funds via PayPal, UPI, or Bank Transfer.
 
 </div>
 

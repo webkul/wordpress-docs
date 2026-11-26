@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 The **Google Analytics** feature allows the admin and vendors to track website and product performance using Google Analytics (GA-4).
 
+<a class="doc-image-link" href="./assets/admin-google-analytics-settings-overview.webp"><img src="./assets/admin-google-analytics-settings-overview.webp" alt="Admin Google Analytics and Map Configuration Settings" /></a>
+
 ---
 
 ## Google Analytics Overview

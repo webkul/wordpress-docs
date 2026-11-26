@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/usage-lim
 
 To keep marketplace operations predictable and protect store owners from unexpected third-party API bills, **Magic AI** includes built-in usage governance.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-usage-limits-overview.webp"><img src="./assets/marketplace-admin-magic-ai-usage-limits-overview.webp" alt="AI Usage Limits and Quotas Governance Administration Overview" /></a>
+
 Marketplace administrators configure a single, centralized global quota setting that governs how often each vendor can generate AI content across the store.
 
 ::: tip Budget Protection & Equal Access

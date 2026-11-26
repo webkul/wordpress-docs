@@ -9,7 +9,7 @@ Accurate stock control is vital for every marketplace seller. Running out of sto
 
 <a class="doc-image-link" href="./assets/vendor-inventory-dashboard.webp"><img src="./assets/vendor-inventory-dashboard.webp" alt="Vendor Manage Inventory Dashboard Overview" /></a>
 
-This guide explains how to navigate the inventory dashboard, configure single-item stock rules inline, execute rapid bulk stock updates, utilize the 4-parameter filter drawer, and manage variation-level inventory for variable products.
+This guide explains how to navigate the inventory dashboard, configure single-item stock rules inline, execute rapid bulk stock updates, utilize the filter drawer, and manage variation-level inventory for variable products.
 
 ---
 
@@ -118,7 +118,7 @@ When updating stock for multiple catalog items at once—such as receiving a sup
 
 ---
 
-## Granular Search & 4-Parameter Filter Drawer
+## Granular Search & Filter Drawer
 
 The Manage Inventory module includes instant search and a dedicated slide-out filter drawer to quickly isolate specific items within large product catalogs.
 
@@ -136,18 +136,20 @@ Click the **Filter** button in the upper toolbar to reveal the slide-out filter 
 
 | Filter Parameter | Control Type | Description & Usage |
 |---|---|---|
+| **Listing Status** | Dropdown select | Filter products by listing visibility status: *Active*, *Waiting for Approval*, or *Inactive*. |
+| **Product** | Text input | Filter products matching an exact or partial product name or title. |
 | **SKU** | Text input | Filter products matching an exact or partial SKU code. |
 | **Category** | Dropdown select | Select a catalog category (e.g., *Sports & Outdoors*, *Clothing*, *Accessories*, *Decor*) to view inventory for that department. |
-| **Product Type** | Dropdown select | Filter by product structure: *Simple product*, *Grouped product*, *External/Affiliate product*, or *Variable product*. |
+| **Type** | Dropdown select | Filter by product structure: *Simple product*, *Grouped product*, *External/Affiliate product*, or *Variable product*. |
 | **ID** | Numeric input | Filter directly by the unique numeric Product ID. |
 
-After setting your criteria, click **Apply Filters** to refresh the list. To clear filters, remove the input values or close the drawer with the close icon (`✕`).
+After setting your criteria, click **Apply Filters** to refresh the list. To clear the filters, remove the input values or click **Clear Filters**.
 
 ---
 
 ## Variable Products & Variation Inventory Management
 
-Variable products contain multiple options (such as sizes, colors, or materials), each requiring distinct inventory tracking.
+Variable products have multiple variations (such as different sizes, colors, or materials), each requiring separate inventory tracking.
 
 <a class="doc-image-link" href="./assets/vendor-inventory-variations-view.webp"><img src="./assets/vendor-inventory-variations-view.webp" alt="Variable Product Variation Inventory Management Suite" /></a>
 
@@ -158,7 +160,7 @@ On the main Manage Inventory list, variable products display a notification in t
 > *Settings below apply to all variations without manual stock management enabled.*
 
 - **Parent-Level Stock:** If you track stock at the parent level, all variations share a single combined stock pool.
-- **Variation-Level Stock:** If each color or size has separate warehouse stock, manage them individually through the variation suite.
+- **Variation-Level Stock:** If each variation has separate warehouse stock, manage it individually through the variation suite.
 
 ### Opening Variation Inventory
 
@@ -174,8 +176,7 @@ On the main Manage Inventory list, variable products display a notification in t
 
 The variation screen presents the parent product at the top, followed by each individual variation card (e.g., *Brushed Steel #77*, *Matte Black #78*, *Sand #79*, *Alpine Blue #80*):
 
-- **Independent Variation SKUs:** Assign distinct barcode and SKU identifiers to every variation.
-- **Variation Pricing Display:** View regular and active promotional sale prices for each specific option.
+- **Independent Variation SKUs:** Assign distinct GTIN, UPC, EAN, or ISBN and SKU identifiers to every variation.
 - **Specific Stock Quantities:** Manage exact stock counts for each size or color combination.
 - **Variation Backorders & Low Stock Alerts:** Define separate backorder permissions and low stock alert thresholds for individual variations.
 
@@ -197,7 +198,7 @@ The variation screen presents the parent product at the top, followed by each in
 In the seller dashboard, navigate to the left sidebar menu and click **Inventories > Manage Inventory** (URL route: `/seller/seller-manage-inventory/`).
 
 ### Can sellers update stock without opening the full product editor?
-Yes. Click the **Manage inventory** button on any product row. An inline panel opens immediately, allowing you to update stock quantity, SKU, barcodes, backorders, and thresholds with a single click on **Save**.
+Yes. Click the **Manage inventory** button on any product row. An inline panel opens immediately, allowing you to update stock quantity, SKU, barcodes (GTIN, UPC, EAN, or ISBN), backorders, and thresholds with a single click on **Save**.
 
 ### How does bulk stock adjustment work?
 Check the boxes next to the items you want to update, choose **Set to**, **Increase by**, or **Decrease by** from the bulk toolbar, enter the numeric value, and click **Apply**. Verify the changes in the preview banner, then click **Save Inventories** to confirm.
@@ -206,7 +207,7 @@ Check the boxes next to the items you want to update, choose **Set to**, **Incre
 A product is skipped if **Track stock quantity for this product** is turned off in its settings. To include it in bulk updates, expand the product's panel, enable stock management, and save.
 
 ### How do sellers manage stock for variable products like t-shirts with sizes?
-Click the **Manage [X] variations** link on the variable product row. This opens the dedicated **Inventory Variations** page (`/seller/seller-manage-inventory-variations/<id>/`), where you can set individual stock counts, SKUs, and barcodes for each specific size and color.
+Click the **Manage [X] variations** link on the variable product row. This opens the dedicated **Inventory Variations** page (`/seller/seller-manage-inventory-variations/<id>/`), where you can set individual stock counts, SKUs, and barcodes (GTIN, UPC, EAN, or ISBN) for each variation.
 
 ### Can customers order more than the maximum purchasable quantity?
 No. The **Maximum Purchasable Quantity** setting prevents any individual customer from adding more than the specified limit to their shopping cart in a single purchase.

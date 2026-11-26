@@ -45,11 +45,25 @@ The **Assets Visibility** settings allow the admin to control which vendor detai
 
 <a class="doc-image-link" href="./assets/marketplace-setting-assets-options.webp"><img src="./assets/marketplace-setting-assets-options.webp" alt="WooCommerce Marketplace Assets Settings Options" /></a>
 
-- **Show Legacy Vendor Profile**
-  - Enable to display the vendor profile using the legacy layout
-  - Disable to use the new optimized layout
-    - Includes Report Flag section
-    - Improved UI and performance
+::: tip Storefront Profile Layout (Legacy vs Modern)
+The layout selection for legacy vs modern storefront is configured directly by each vendor from their frontend dashboard under **Profile View** in [Vendor Profile Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html).
+:::
+
+---
+
+## Admin-Configurable Image Upload Restrictions
+
+Located in **Marketplace > Settings > Assets > Images** (`wp-admin/admin.php?page=wk-marketplace-settings&tab=assets&section=images`), administrators can set global upload restrictions for vendor media assets:
+
+- **Avatar**: Vendor user avatar image.
+- **Logo**: Vendor storefront logo displayed on shop banners, invoices, and product cards.
+- **Fulfillment**: Vendor fulfillment badges and carrier credentials.
+- **Banner**: Storefront header banner image.
+
+For each asset type, administrators can configure:
+- **Allowed File Types**: Check specific extensions (e.g., `PNG`, `JPG`, `JPEG`, `WEBP`).
+- **File Size Limits**: Define minimum and maximum allowed file size limits (in KB).
+- **Dimension Limits**: Set recommended or enforced width and height constraints (in pixels).
 
 ---
 

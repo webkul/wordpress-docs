@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-
 
 The administrative configuration center of **Magic AI** is located in your WordPress Dashboard under **Marketplace >> Magic AI**.
 
+<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-config-overview.webp"><img src="./assets/marketplace-admin-magic-ai-config-overview.webp" alt="Magic AI Admin Configuration Center Overview" /></a>
+
 The settings screen is organized into specialized configuration panels accessed through a vertical navigation sidebar:
 
 | Admin Tab | Tab Purpose & Configuration Scope |
@@ -17,8 +19,6 @@ The settings screen is organized into specialized configuration panels accessed 
 | **Marketplace Features** | Vendor permissions, text/vision models, usage quotas, inline buttons, and taxonomy scope. |
 
 This modular architecture allows store owners to configure store-level authoring tools independently from the permissions, limits, and field boundaries granted to marketplace vendors.
-
-<a class="doc-image-link" href="./assets/marketplace-admin-magic-ai-config-overview.webp"><img src="./assets/marketplace-admin-magic-ai-config-overview.webp" alt="Magic AI Admin Configuration Center Overview" /></a>
 
 ---
 

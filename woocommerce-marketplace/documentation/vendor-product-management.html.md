@@ -26,7 +26,7 @@ The catalog table displays all products owned by or assigned to the vendor, alon
 | Column | Information Displayed | Available Actions |
 |---|---|---|
 | **Image** | Product thumbnail image. | Visual identification of the catalog item. |
-| **Product Name** | Product title and permalink. | Hovering displays quick action links: **Edit**, **View**, and **Duplicate**. |
+| **Product Name** | Product title and permalink. | It displays quick action links: **Edit**, **View**, and **Delete**. |
 | **SKU** | Stock Keeping Unit code. | Unique inventory reference. |
 | **Stock** | Stock quantity and status badge (*In stock*, *Out of stock*, *On backorder*). | Real-time stock status check. |
 | **Type** | WooCommerce product type badge (*Simple*, *Variable*, *Grouped*, *External*). | Identifies product architecture. |
@@ -74,7 +74,8 @@ Vendors can perform batch operations on multiple products simultaneously to save
 2. Select an operation from the **Bulk Actions** dropdown menu:
    - **Delete:** Moves selected products to the trash.
    - **Assign Categories:** Batch assigns chosen store categories across all selected items.
-   - **Publish:** Submits selected draft items for immediate publication or administrative review.
+   - **Publish (Vendor Publication Allowed):** Submits the selected draft items for immediate publication.
+   - **Submit for Approval (Admin Approval Required):** Submits the selected draft items for administrative review.
    - **Generate Barcode:** Generates barcode graphics (*Code 128*, *EAN-13*, or *UPC-A*) for items with valid barcode numbers.
    - **Print Barcodes:** Compiles selected items into a formatted PDF label sheet ready for standard thermal label printers.
 3. Click **Apply** to execute the bulk action.
@@ -167,14 +168,12 @@ Vendors import or update hundreds of catalog listings or offers simultaneously:
 
 ---
 
-## Adding a New Product: 3-Step Wizard vs. "In One Go"
+## Adding a New Product: The 3-Step Wizard Flow
 
-When clicking **Create New Products**, the vendor is directed to the product creation interface.
-
-The product creation flow can operate in two distinct modes tailored to different seller workflows:
+When clicking **Create New Products**, the vendor is directed to the structured 3-step product creation wizard. The marketplace guides sellers sequentially through three progressive stages to ensure completeness before publishing:
 
 <div class="wkmp-mode-grid">
-  <div class="wkmp-mode-card">
+  <div class="wkmp-mode-card" style="grid-column: 1 / -1;">
     <div class="wkmp-mode-card__header">
       <div class="wkmp-mode-card__icon">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -186,39 +185,21 @@ The product creation flow can operate in two distinct modes tailored to differen
           <line x1="3" y1="18" x2="3.01" y2="18"></line>
         </svg>
       </div>
-      <span class="wkmp-mode-card__badge wkmp-mode-card__badge--recommended">Step-by-Step</span>
+      <span class="wkmp-mode-card__badge wkmp-mode-card__badge--recommended">Structured Milestones</span>
     </div>
-    <div class="wkmp-mode-card__title">Guided 3-Step Wizard</div>
+    <div class="wkmp-mode-card__title">Guided 3-Step Creation Wizard</div>
     <div class="wkmp-mode-card__summary">Guides vendors sequentially through structured milestones to ensure completeness before publishing.</div>
     <ul class="wkmp-mode-card__specs">
-      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Workflow:</strong> Basics &rarr; Details &rarr; Complete</li>
-      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Validation:</strong> Stage-by-stage data checkpoints</li>
-      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Best For:</strong> New sellers & complex product listings</li>
-    </ul>
-  </div>
-
-  <div class="wkmp-mode-card">
-    <div class="wkmp-mode-card__header">
-      <div class="wkmp-mode-card__icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
-          <polyline points="13 2 13 9 20 9"></polyline>
-        </svg>
-      </div>
-      <span class="wkmp-mode-card__badge">Single Sheet</span>
-    </div>
-    <div class="wkmp-mode-card__title">Single-Page ("In One Go")</div>
-    <div class="wkmp-mode-card__summary">Displays all form sections simultaneously on a continuous scrolling workspace for rapid entry.</div>
-    <ul class="wkmp-mode-card__specs">
-      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Workflow:</strong> Unified, full-page scrolling layout</li>
-      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Navigation:</strong> Direct keyboard tab jumping</li>
-      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Best For:</strong> Experienced power merchants & fast additions</li>
+      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Step 1: Product Basics:</strong> Select categories and WooCommerce product architecture.</li>
+      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Step 2: Product Details:</strong> Fill in product title, descriptions, thumbnail image, SKU, barcode, and pricing.</li>
+      <li class="wkmp-mode-card__spec"><span class="wkmp-mode-card__dot"></span><strong>Step 3: Complete Listing:</strong> Configure inventory controls, shipping parameters, linked items, attributes/variations, status, and publish.</li>
     </ul>
   </div>
 </div>
 
-::: tip Stepper Configuration
-Administrators configure whether the stepper is enabled globally under **Marketplace > Settings > Product**. When **Vendor Mode** is activated, each vendor can choose whether they prefer the 3-step stepper or the single-page form in their personal **Settings > Site Setting** panel.
+::: tip Stepper Banner Visibility vs. Form Navigation
+- **Product Stepper Toggle:** In **Settings > Site Setting**, toggling the **Product Stepper** on or off only shows or hides the Step 1–3 progress banner UI. It does not convert the creation workflow into a single-page form; creation always follows the structured 3-step sequence.
+- **Form Navigation Layouts:** The **Form navigation** setting (Horizontal Tabs, Vertical Tabs, or Stacked Form) controls how the multiple cards and sections are arranged on the **Step 3 (Complete Listing / Product Editor)** form.
 :::
 
 ---
@@ -331,7 +312,7 @@ The initial step establishes catalog taxonomy and architectural product structur
   </div>
 </div>
 
-3. Click **Next Step** (or scroll directly down if in single-page mode).
+3. Click **Next** to proceed to Step 2.
 
 ---
 
@@ -365,30 +346,27 @@ The initial step establishes catalog taxonomy and architectural product structur
 
 <a class="doc-image-link" href="./assets/vendor-product-step2-details.webp"><img src="./assets/vendor-product-step2-details.webp" alt="Add Product Step 2 - Product Details" /></a>
 
-The second stage captures product information, merchandising content, pricing, and logistics:
+The second stage captures baseline product information, descriptions, media, identifiers, and pricing:
 
 1. **Product Name & Magic AI Generation:**
    - **Product Name:** Enter a clear, keyword-rich title.
-   - **Generate content (Magic AI):** Click the **Generate Content** button to open the Magic AI prompt dialog, allowing AI to draft compelling product titles, bullet points, and descriptions in seconds.
-   - **Permalink Slug:** Vendors can review and customize the auto-generated URL slug.
-2. **Descriptions:**
-   - **Short Description:** Highlights displayed above the fold next to the primary image.
-   - **Long Description:** Comprehensive specifications, materials, care guides, and warranty terms.
-3. **Pricing:**
-   - **Regular Price ($):** Standard retail price.
-   - **Sale Price ($):** Optional promotional price with optional date schedule.
-4. **Inventory & Identifiers:**
-   - **SKU:** Unique merchant stock keeping unit.
-   - **GTIN / UPC / EAN / ISBN:** Global barcode identifier. When populated, the system automatically renders the scannable vector barcode.
-   - **Manage Stock:** Check to track numeric inventory counts.
-   - **Stock Quantity:** Current on-hand quantity.
-   - **Backorders:** Choose *Do not allow*, *Allow, but notify customer*, or *Allow*.
-   - **Sold Individually:** Restricts customer purchases to 1 item per order.
-   - **Maximum Purchasable Quantity:** Sets a quantity ceiling per customer cart.
-5. **Media Uploads:**
-   - **Featured Image:** Primary storefront image.
-   - **Product Gallery:** Supplemental angles, packaging details, and lifestyle photography.
-6. Click **Next Step**.
+   - **Generate content (Magic AI):** Click **Generate Content** to launch the Magic AI assistant and auto-draft titles, bullet points, and descriptions.
+2. **About Product (Long Description):**
+   - Rich WYSIWYG editor for comprehensive product details, materials, care guides, and specifications (with **Generate Content** AI button).
+3. **Product Thumbnail:**
+   - Upload the primary featured image for storefront catalog and product detail pages.
+4. **Product Identifiers:**
+   - **Product SKU:** Unique merchant Stock Keeping Unit code.
+   - **GTIN, UPC, EAN, or ISBN:** Global retail barcode identifier. When populated, the system automatically renders the scannable vector barcode.
+5. **Pricing & Scheduling:**
+   - **Regular Price ($):** Standard retail selling price.
+   - **Sale Price ($):** Optional promotional price. Click **Schedule** to define **Sale start date** and **Sale end date**.
+6. **Product Short Description:**
+   - Highlights displayed above the fold next to the primary image (with **Generate Content** AI button).
+7. Click **Save** to create the product record and advance to Step 3.
+
+> [!NOTE] Stock & Inventory Placement
+> Inventory tracking parameters (Manage Stock checkbox, Stock quantity, Backorders, Low stock threshold, Sold individually, and Maximum Purchasable Quantity) are configured in **Step 3 (Complete Listing)**, not Step 2.
 
 ---
 
@@ -420,13 +398,20 @@ The second stage captures product information, merchandising content, pricing, a
   </div>
 </div>
 
-The final stage confirms configuration and initiates publication:
+In the final stage, vendors configure rich catalog metadata and operational fulfillment settings:
 
-- **Review Summary:** Validates category assignments, pricing, and inventory settings.
+- **Review Summary:** Validates category assignments, pricing, and basic product details established in Steps 1 and 2.
+- **Comprehensive Product Sections:** Structured into dedicated cards or navigation tabs:
+  - **Manage Stock (Inventory):** Enable stock management at product level, set stock quantity, choose backorder permissions, configure low stock threshold, define stock status, toggle sold individually, and specify maximum purchasable quantity.
+  - **Shipping:** Define shipping weight, parcel dimensions (Length, Width, Height), and assign applicable shipping classes.
+  - **Linked Products:** Configure Up-sells and Cross-sells.
+  - **Attributes & Variations:** Manage custom attributes and variation matrices for variable products.
+  - **Tags & Brand:** Assign customer discoverability tags and brand classifications.
+  - **External / Affiliate Details:** Set outbound product URL and button text (for external products).
+  - **Status & Visibility:** Configure product status (*Online* or *Draft*), mark items as *Virtual* or *Downloadable* (with file uploads, download limits, and expiry dates), and manage the full Image Gallery.
 - **Publication Action:**
-  - **Direct Publishing Enabled:** Click **Publish** to make the product live on the public storefront immediately.
-  - **Admin Approval Required:** Click **Submit for Approval**. The product is saved in `Waiting for Approval` status until screened by the marketplace administrator.
-- **Confirmation & Editor Transition:** Upon clicking Publish or Submit for Approval, the marketplace displays a confirmation alert and smoothly redirects the vendor to the comprehensive product editing workspace:
+  - **Publish (Vendor Publication Allowed):** Publishes the listing live on the storefront immediately.
+  - **Submit for Approval (Admin Approval Required):** Submits the listing into the administrative moderation queue in `Waiting for Approval` status.
 
 <div class="wkmp-system-notice wkmp-system-notice--success">
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -483,7 +468,7 @@ When editing existing catalog items, vendors work within a specialized workspace
 
 ### 1. Header Quick Actions
 - **Generate content (Magic AI):** Launches the AI generator to refresh descriptions, suggest attributes, or generate product images.
-- **View:** Opens the live storefront product page in a new browser tab to inspect customer presentation.
+- **Preview:** Opens the live storefront product page in a new browser tab to inspect customer presentation.
 
 ---
 
@@ -507,36 +492,36 @@ The **Listing Completeness** gauge evaluates your product data in real time agai
 
 ### 3. Comprehensive Form Sections
 
-The product editor organizes all WooCommerce product data into 7 structured sections:
+The product editor organizes all WooCommerce product data into structured sections and cards:
 
 <div class="form-sections-grid">
   <div class="section-pill-card">
     <div class="section-pill-card__header">
-      <span class="section-pill-card__badge">Tab 1</span>
+      <span class="section-pill-card__badge">Section 1</span>
       <h4 class="section-pill-card__title">Edit (General)</h4>
     </div>
-    <p class="section-pill-card__desc">Product type selector, Product Name (with Magic AI Generate button), editable permalink slug, Short Description, and Long Description WYSIWYG editor.</p>
+    <p class="section-pill-card__desc">Product type, Product Name, permalink slug, About Product description, Categories, Thumbnail, SKU, GTIN/UPC/EAN/ISBN barcode, Regular price, Sale price with schedule, and Short description.</p>
   </div>
 
   <div class="section-pill-card">
     <div class="section-pill-card__header">
-      <span class="section-pill-card__badge">Tab 2</span>
-      <h4 class="section-pill-card__title">Inventory</h4>
+      <span class="section-pill-card__badge">Section 2</span>
+      <h4 class="section-pill-card__title">Manage Stock (Inventory)</h4>
     </div>
-    <p class="section-pill-card__desc">SKU, Manage stock checkbox, Stock quantity, Allow backorders, Low stock threshold, Sold individually, Maximum purchase limit, and GTIN/UPC/EAN barcode.</p>
+    <p class="section-pill-card__desc">Enable stock management at product level, Stock quantity, Allow backorders, Low stock threshold, Stock status, Sold individually, and Maximum purchasable quantity.</p>
   </div>
 
   <div class="section-pill-card">
     <div class="section-pill-card__header">
-      <span class="section-pill-card__badge">Tab 3</span>
+      <span class="section-pill-card__badge">Section 3</span>
       <h4 class="section-pill-card__title">Shipping</h4>
     </div>
-    <p class="section-pill-card__desc">Weight (kg/lbs), 3D parcel dimensions (Length × Width × Height), and assigned shipping class for rate calculations.</p>
+    <p class="section-pill-card__desc">Weight (kg/lbs), 3D parcel dimensions (Length × Width × Height), and assigned shipping class for delivery rate calculations.</p>
   </div>
 
   <div class="section-pill-card">
     <div class="section-pill-card__header">
-      <span class="section-pill-card__badge">Tab 4</span>
+      <span class="section-pill-card__badge">Section 4</span>
       <h4 class="section-pill-card__title">Linked Products</h4>
     </div>
     <p class="section-pill-card__desc">Cross-sells for checkout cart recommendations and Upsells for premium storefront product page recommendations.</p>
@@ -544,15 +529,15 @@ The product editor organizes all WooCommerce product data into 7 structured sect
 
   <div class="section-pill-card">
     <div class="section-pill-card__header">
-      <span class="section-pill-card__badge">Tab 5</span>
-      <h4 class="section-pill-card__title">Attributes</h4>
+      <span class="section-pill-card__badge">Section 5</span>
+      <h4 class="section-pill-card__title">Attributes & Variations</h4>
     </div>
-    <p class="section-pill-card__desc">Custom merchant attributes and global marketplace taxonomies (e.g., Color, Size). Flag attributes as visible or used for variations.</p>
+    <p class="section-pill-card__desc">Custom merchant attributes and global marketplace taxonomies (e.g., Color, Size). Flag attributes as visible on the product page or used for variations, and manage individual variation details.</p>
   </div>
 
   <div class="section-pill-card">
     <div class="section-pill-card__header">
-      <span class="section-pill-card__badge">Tab 6</span>
+      <span class="section-pill-card__badge">Section 6</span>
       <h4 class="section-pill-card__title">Tags & Brand</h4>
     </div>
     <p class="section-pill-card__desc">Product search keywords for customer discoverability and brand taxonomy association.</p>
@@ -560,24 +545,25 @@ The product editor organizes all WooCommerce product data into 7 structured sect
 
   <div class="section-pill-card">
     <div class="section-pill-card__header">
-      <span class="section-pill-card__badge">Tab 7</span>
-      <h4 class="section-pill-card__title">Status</h4>
+      <span class="section-pill-card__badge">Section 7</span>
+      <h4 class="section-pill-card__title">Status & Visibility</h4>
     </div>
-    <p class="section-pill-card__desc">Publication status (Draft, Pending Review, Published), catalog visibility scope (Shop, Search, Hidden), and Admin review notes.</p>
+    <p class="section-pill-card__desc">Publication status (Online, Draft), Virtual checkbox, Downloadable Product settings (files, limit, expiry), and Image Gallery uploads.</p>
   </div>
 </div>
 
 #### Detailed Section Breakdown
 
-| Section Tab | Configuration Options & Field Data |
+| Section Tab / Card | Configuration Options & Field Data |
 |---|---|
-| **Edit (General)** | Product type selector, Product Name (with Magic AI Generate button), editable permalink slug, Short Description, and Long Description WYSIWYG editor. |
-| **Inventory** | SKU, Manage stock checkbox, Stock quantity, Allow backorders, Low stock threshold, Sold individually, Maximum purchase limit, and GTIN/UPC/EAN/ISBN barcode identifier. |
+| **Edit (General)** | Product type selector, Product Name (with Magic AI Generate button), editable permalink slug, About Product long description, Product Category, Thumbnail, Product SKU, GTIN/UPC/EAN/ISBN barcode identifier, Regular Price, Sale Price (with schedule start and end dates), and Short Description. |
+| **Manage Stock (Inventory)** | Enable stock management at product level checkbox, Stock quantity, Allow backorders (*Do not allow*, *Allow, but notify customer*, *Allow*), Low stock threshold, Stock status (*In stock*, *Out of stock*, *On backorder*), Sold individually checkbox, and Maximum Purchasable Quantity. |
 | **Shipping** | Weight (kg/lbs), Dimensions (Length × Width × Height), and assigned Shipping Class. |
-| **Linked Products** | Cross-sells (cart recommendations) and Upsells (product page premium upgrades). |
-| **Attributes** | Custom merchant attributes and global marketplace taxonomies (e.g., Color, Size). Flag attributes as **Visible on the product page** and **Used for variations**. |
-| **Tags & Brand** | Product tags for search discoverability, and brand taxonomy association. |
-| **Status** | Publication status (*Draft*, *Pending Review*, *Published*), Catalog visibility (*Shop and search results*, *Shop only*, *Search results only*, *Hidden*), and Admin review notes. |
+| **Linked Products** | Up-sells (product page premium recommendations) and Cross-sells (cart drawer recommendations). |
+| **Attributes & Variations** | Custom merchant attributes and global marketplace taxonomies (e.g., Color, Size). Mark attributes as **Visible on the product page** and **Used for variations**, and configure variation items for variable products. |
+| **Tags & Brand** | Product tags for catalog search discoverability, and brand taxonomy association. |
+| **External / Affiliate** | External product destination URL and custom button call-to-action text (shown when External product type is selected). |
+| **Status & Visibility** | Product Status (*Online*, *Draft*), Virtual toggle, Downloadable Product controls (file uploads, download limit, expiry), and multi-image Product Gallery. |
 
 ---
 
@@ -646,7 +632,7 @@ Vendors can choose how the 7 sections of their product editing workspace are vis
 - **Description:** *"Show the Step 1–3 progress on the add and edit product screens."*
 - **Usage:**
   - **Checked (Enabled):** Displays the guided Step 1, Step 2, and Step 3 progress bar on product creation and editing screens.
-  - **Unchecked (Disabled):** Removes step banners and allows vendors to add products **in one go** on a unified page.
+  - **Unchecked (Disabled):** Removes step banners from the product creation and editing forms.
 
 ### 2. Listing Completeness Toggle
 - **Field Label:** `Listing Completeness`
@@ -677,14 +663,14 @@ Click **Save Changes** to apply preferences immediately across all product manag
 When creating or editing a **Variable Product**, vendors can configure attribute matrices and manage individual variations:
 
 1. In the **Attributes** tab, add attribute terms (e.g., *Color: Red, Blue, Green* or *Size: S, M, L, XL*). Check **Used for variations** and click **Save Attributes**.
-2. In the **Variations** tab, click **Add Variation** or choose **Create variations from all attributes** to generate every possible combination automatically.
+2. In the **Variations** tab, click **Add Variation** and enter the variation details.
 3. For each variation, customize:
    - Unique variation image
    - Variation SKU
    - Regular and sale pricing
    - Stock management and inventory count
-   - Weight, dimensions, and shipping class
-   - Unique GTIN / Barcode number *(See [Product Barcodes](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-barcode.html))*
+   - Weight and dimensions
+   - Unique GTIN, UPC, EAN, or ISBN. *(See [Product Barcodes](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/product-barcode.html))*
 
 ---
 

@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-sta
 
 The **Staff Settings** tab allows marketplace administrators to govern the sub-account (vendor staff) ecosystem. Admins can globally enable or disable the staff feature, set quotas on the maximum number of assistants each vendor may employ, define the global whitelist of delegatable capabilities across all marketplace modules (including Seller Dashboard, Products, Select And Sell, Bulk Upload, Orders, and more), and directly oversee, edit, or remove all vendor staff accounts across the marketplace.
 
+<a class="doc-image-link" href="./assets/admin-staff-settings.webp"><img src="./assets/admin-staff-settings.webp" alt="Admin Staff Settings" /></a>
+
 The marketplace admin can access and configure this section from:
 
 **Marketplace > Settings > Staffs**
@@ -14,8 +16,6 @@ The marketplace admin can access and configure this section from:
 **Direct Admin Navigation URLs**:
 - **Staff Settings Tab**: `wp-admin/admin.php?page=wk-marketplace-settings&tab=staff`
 - **Vendor Staffs Management List**: `wp-admin/admin.php?page=wk-marketplace-vendor-staffs`
-
-<a class="doc-image-link" href="./assets/admin-staff-settings.webp"><img src="./assets/admin-staff-settings.webp" alt="Admin Staff Settings" /></a>
 
 ---
 
@@ -63,7 +63,7 @@ The table below provides a quick reference for each setting available on the **S
 #### How It Works:
 - **When Enabled**: Every registered marketplace vendor gains access to the **Vendor Staff** menu in their front-end seller dashboard. Vendors can create sub-accounts, invite store assistants, and delegate daily operations.
 - **When Disabled**: The **Vendor Staff** tab is hidden from seller dashboards across the marketplace. Existing staff members cannot log in to perform restricted seller actions.
-- **Per-Vendor Exception Mode**: If the global setting is disabled, administrators can still selectively allow trusted or enterprise vendors to create staff accounts by enabling the permission within the vendor's individual **Seller Details** settings under **Marketplace > Sellers**.
+- **Per-Vendor Exception Mode**: If the global setting is disabled, administrators can still selectively allow trusted or enterprise vendors to create staff accounts by enabling the permission within the vendor's individual **Seller Details** settings under **Marketplace > Vendors**.
 
 ---
 
@@ -77,7 +77,7 @@ The table below provides a quick reference for each setting available on the **S
 - **Unlimited Quota (`0`)**: Vendors can register as many staff members as their operations require without system restriction.
 - **Numeric Limit (`1, 2, 5, etc.`)**: Caps the number of active staff accounts a vendor can maintain. 
 - When a vendor reaches the configured limit, the seller dashboard disables the **Add Staff** action and notifies the vendor that their account allocation is exhausted.
-- This setting is valuable for marketplace owners offering tiered membership plans (e.g., Free sellers receive 1 staff account, while Premium sellers enjoy expanded allocations).
+- **Global Setting Scope**: This is a single marketplace-wide setting that applies uniformly across all vendors; individual staff account limits cannot be assigned to specific vendors.
 
 ---
 
@@ -98,14 +98,14 @@ The matrix is organized into clean functional cards matching the marketplace arc
 
 | Functional Section | Capability Name | Sensitivity & Default Status | Operational Description |
 | :--- | :--- | :--- | :--- |
-| **Seller Dashboard** | Access New Seller Panel | Standard (Checked) | Grants access to log in and use the modernized [Seller Dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/seller-panel-overview.html) interface and primary metrics. |
-| | Performance | Standard (Checked) | Allows staff to view store performance charts, visitor trends, and conversion analytics. |
-| | Reporting | Standard (Checked) | Authorizes viewing detailed sales reporting, top product revenue, and customer metrics. |
-| | Customers | Standard (Checked) | Gives access to view customer contact lists and customer purchase history. |
+| **Seller Dashboard** | Access New Seller Panel | Standard (Checked) | Grants access to log in and use the modernized [Seller Dashboard](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-dashboard.html) interface and primary metrics. |
+| | Performance | Standard (Checked) | Allows staff to view store performance, seller and product reviews. See [Vendor Reviews & Ratings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-reviews.html). |
+| | Reporting | Standard (Checked) | Authorizes viewing detailed sales reporting, top product revenue, and customer metrics. See [Vendor Sales Reporting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-sales-reporting.html). |
+| | Customers | Standard (Checked) | Gives access to view customer contact lists and customer purchase history. See [Vendor Customer List](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-customer-list.html). |
 | | Magic AI | Standard (Checked) | Authorizes staff to use AI-assisted product and content generation tools. For details, see [Generative AI Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generative-ai-overview.html). |
-| | General Setting | Standard (Checked) | Allows updating core seller profile details, shop address, and contact information. See [Vendor General Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-general-setting.html). |
-| | Graph Setting | Standard (Checked) | Allows customizing the visual color schemes of sales analytics charts. See [Vendor Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html). |
-| | Site Setting | Standard (Checked) | Permits adjusting vendor storefront appearance, banners, and layout options. See [Vendor Site Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-site-setting.html). |
+| | General Setting | Standard (Checked) | Allows updating core seller profile details. See [Vendor Profile](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html). |
+| | Graph Setting | Standard (Checked) | Allows customization of graph color schemes and graph types across the new Seller Panel, including the Dashboard, Reports, Transactions, Performance, and other pages. See [Vendor Graph Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-graph-setting.html). |
+| | Site Setting | Standard (Checked) | Allows adjustments to the vendor storefront product form. See [Vendor Site Setting](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-site-setting.html). |
 | **Products** | View products | Standard (Checked) | Allows staff to view the vendor's catalog product list. See [Vendor Product Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-product-management.html). |
 | | Add product | Standard (Checked) | Enables creation of new product listings. |
 | | Edit product | Standard (Checked) | Allows updating existing product details, pricing, inventory, and images. |
@@ -117,7 +117,7 @@ The matrix is organized into clean functional cards matching the marketplace arc
 | | Add product | Standard (Checked) | Authorizes staff to assign existing products to the vendor's store catalog. |
 | | Edit product | Standard (Checked) | Allows modifying vendor-specific stock, condition, and pricing on assigned catalog items. |
 | | Delete product | Standard (Checked) | Permits removing assigned products from the vendor's active offerings. |
-| **Bulk Upload** | Normal Products | Standard (Checked) | Authorizes importing and exporting standard marketplace catalog items in bulk via CSV/XML spreadsheets. See [Bulk Upload Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html). |
+| **Bulk Upload** | Normal Products | Standard (Checked) | Authorizes importing and exporting standard marketplace catalog items in bulk via CSV spreadsheets. See [Bulk Upload Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/bulk-upload.html). |
 | | Select And Sell | Standard (Checked) | Permits batch claiming and assigning existing catalog products via CSV spreadsheets. |
 | **Orders** | View orders | Standard (Checked) | Grants visibility into customer orders containing the vendor's items. See [Vendor Order Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html). |
 | | Change order status | Standard (Checked) | Allows updating fulfillment progress (e.g., Processing to Completed). |
@@ -147,8 +147,6 @@ The matrix is organized into clean functional cards matching the marketplace arc
 | | Manage shipping classes | Standard (Checked) | Permits creating and adjusting shipping classes and delivery fees. |
 | **Admin News** | View news list | Standard (Checked) | Grants access to read marketplace announcements and news broadcasts. See [Admin News Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-news.html). |
 | | View news details | Standard (Checked) | Allows reading complete news articles and policy bulletins. |
-| **Store Pickup** *(Modular)* | View store pickup orders | Standard (Checked) | Displays local store collection orders placed by shoppers when the Store Pickup module is active. See [Store Pickup Settings](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/store-pickup-settings.html) and [Admin Store Pickup Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-store-pickup.html). |
-| | Send and verify pickup codes | Standard (Checked) | Authorizes validating one-time customer pickup verification PINs at the store collection counter. |
 
 ::: warning Sensitive Capabilities Safeguard
 Capabilities displayed with red text (**Edit payment information** and **Manage KYC documents**) represent elevated financial and legal risks. They are deliberately excluded from default permissions. Only enable these if your marketplace workflow requires vendor accountants or legal staff to manage payout channels and verification paperwork.
@@ -162,9 +160,9 @@ Marketplace administrators can override the global **Enable Vendor Staff** setti
 
 ### How to Configure Per-Vendor Staff Access:
 
-1. Navigate to **Marketplace > Sellers** in the WordPress admin panel.
-2. Hover over the target seller and click **Edit**.
-3. Under the seller details form, locate the **Vendor Staff** field:
+1. Navigate to **Marketplace > Vendors** in the WordPress admin panel.
+2. Hover over the target seller and click **Manage**.
+3. Under the seller details form, locate the **Miscellaneous** field:
    - **Default (Global setting)**: Follows the global toggle set in **Marketplace > Settings > Staffs**.
    - **Enabled**: Explicitly grants this vendor permission to manage staff members and assign delegated roles, regardless of the global marketplace setting.
    - **Disabled**: Explicitly revokes staff management for this vendor, preventing them from adding or using staff sub-accounts even if the global marketplace setting is active.
@@ -272,7 +270,7 @@ For more details on managing dashboard URL routing, consult the [Endpoints Confi
    Allowing staff to access **Bulk Upload** and **Select And Sell** can accelerate seller onboarding, but ensure only trusted assistants have permission to delete items or perform mass imports.
 
 4. **Leverage Per-Vendor Overrides**:
-   If you wish to test staff management with a small group of sellers, leave the global **Enable Vendor Staff** option turned off and enable staff access selectively for individual vendors under **Marketplace > Sellers**.
+   If you wish to test staff management with a small group of sellers, leave the global **Enable Vendor Staff** option turned off and enable staff access selectively for individual vendors under **Marketplace > Vendors**.
 
 5. **Audit Staff Permissions Regularly**:
    Periodically review the **Marketplace > Vendor Staffs** list to check which assistants have broad capabilities, especially *Refund order* and *Publish product*.

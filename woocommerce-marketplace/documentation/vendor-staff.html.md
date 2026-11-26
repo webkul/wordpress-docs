@@ -160,6 +160,8 @@ Here is the complete breakdown of all available permission cards and what each c
 ### 10. My Profile
 - **View profile**: View public store profile details and settings.
 - **Edit profile**: Update store biography, avatar, banner image, contact information, and social links.
+- **Edit payment information**: Configure or update vendor bank details, PayPal address, and payout options.
+- **Manage KYC documents**: Upload, replace, and submit identity verification and compliance documents.
 
 ### 11. Ask Admin
 - **View query list**: Browse support inquiries sent to marketplace administrators.
@@ -175,10 +177,6 @@ Here is the complete breakdown of all available permission cards and what each c
 ### 13. Admin News
 - **View news list**: Browse marketplace updates and announcements published by the admin.
 - **View news details**: Read the full text of policy changes and marketplace news articles.
-
-### 14. Storefront Design
-- **View storefront layouts and variations**: Preview custom shop page designs and themes.
-- **Customize and publish storefront designs**: Customize layout blocks, visual elements, and publish shop designs.
 
 ::: tip Fast Selection with "Select all"
 Each capability card includes a **Select all** button in its header. Clicking this button instantly selects all permissions in that card. Clicking it again deselects all items, allowing vendors to quickly configure access.

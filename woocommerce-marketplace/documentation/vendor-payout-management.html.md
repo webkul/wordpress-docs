@@ -236,7 +236,7 @@ Vendor funds progress through a clear lifecycle from customer purchase to final 
 **Net Vendor Payout (`Total Amt`)** = `(Product Total + Eligible Shipping + Eligible Tax) − Admin Commission`
 
 - **Product Total**: Gross sales value of the vendor's line items.
-- **Admin Commission**: Platform fee configured under [Commission Management](https://wpdoc.webkul.com/documentation/commission-management.html).
+- **Admin Commission**: Platform fee configured under [Commission Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/commission-management.html).
 - **Shipping & Tax**: Distributed according to the marketplace's configured shipping and tax policies.
 :::
 
@@ -250,7 +250,7 @@ When clicking **Export CSV**, the generated spreadsheet contains complete financ
 | :--- | :--- | :--- |
 | `Withdrawal ID` | `7` | Unique reference number of the withdrawal. |
 | `Date` | `2026-10-04 09:12:00` | Timestamp when the withdrawal was submitted. |
-| `Seller Name` | `Volt & Vine` | Display name of the marketplace seller. |
+| `Vendor Name` | `Volt & Vine` | Display name of the marketplace seller. |
 | `Product Total` | `$1132.00` | Gross subtotal of products sold in the associated orders. |
 | `Tax` | `$0.00` | Tax allocated to the vendor. |
 | `Shipping` | `$0.00` | Shipping fees allocated to the vendor. |
@@ -264,7 +264,7 @@ When clicking **Export CSV**, the generated spreadsheet contains complete financ
 
 ## Related Documentation
 
-- [Configuration – Withdrawal](https://wpdoc.webkul.com/documentation/configuration-withdrawal.html): Set up minimum withdrawal limits, automated schedules, and payment gateways.
-- [Commission Management](https://wpdoc.webkul.com/documentation/commission-management.html): Configure fixed and percentage commission rates for marketplace vendors.
-- [Vendor Management](https://wpdoc.webkul.com/documentation/vendor-mangement.html): Manage seller profiles, review vendor registrations, and audit individual balances.
-- [Vendor Order Management](https://wpdoc.webkul.com/documentation/vendor-order-management.html): Review marketplace orders, customer payments, and fulfillment statuses.
+- [Configuration – Withdrawal](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-withdrawal.html): Set up minimum withdrawal limits, automated schedules, and payment gateways.
+- [Commission Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/commission-management.html): Configure fixed and percentage commission rates for marketplace vendors.
+- [Vendor Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-management-and-product-assignment.html): Manage seller profiles, review vendor registrations, and audit individual balances.
+- [Vendor Order Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-order-management.html): Review marketplace orders, customer payments, and fulfillment statuses.

@@ -7,13 +7,13 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/store-pic
 
 The **Store Pickup Settings** tab enables marketplace administrators to configure local store pickup across the entire marketplace. Store Pickup allows buyers to place orders online and physically collect their items directly from a vendor's retail shop or warehouse address. 
 
+<a class="doc-image-link" href="./assets/admin-store-pickup-settings.webp"><img src="./assets/admin-store-pickup-settings.webp" alt="Admin Store Pickup Settings" /></a>
+
 Administrators can activate the feature globally, enforce mandatory one-time password (OTP) verification before handovers can be marked complete, define secure verification code lifetimes, and delegate store pickup operations to authorized vendor staff members.
 
 The marketplace admin can access and configure this section from:
 
 **Marketplace > Settings > Store Pickup**
-
-<a class="doc-image-link" href="./assets/admin-store-pickup-settings.png"><img src="./assets/admin-store-pickup-settings.png" alt="Admin Store Pickup Settings" /></a>
 
 ---
 
@@ -65,7 +65,7 @@ The table below provides a quick reference for each option available on the **St
 - **When Enabled**: 
   - The **Store Pickup** shipping method (`wkmp_store_pickup`) becomes available to add within WooCommerce shipping zones.
   - In vendor shipping mode, sellers can add Store Pickup to their individual shipping zones directly from their front-end seller dashboard.
-  - The **Store Pickup Orders** menu endpoint (`store-pickup/orders`) is accessible on seller dashboards and within the WordPress admin.
+  - The **Store Pickup Orders** menu endpoint (`store-pickup`) is accessible on seller dashboards and within the WordPress admin.
 - **When Disabled**:
   - The Store Pickup shipping rate is removed from the checkout page and cannot be selected by shoppers.
   - Existing pickup orders placed prior to disabling remain intact, preserving historical pickup snapshots, timestamps, and order notes.
@@ -111,7 +111,7 @@ The table below provides a quick reference for each option available on the **St
 
 Once **Enable Store Pickup** is activated, administrators or vendors must add the method to the appropriate WooCommerce Shipping Zones.
 
-<a class="doc-image-link" href="./assets/admin-wc-shipping-store-pickup.png"><img src="./assets/admin-wc-shipping-store-pickup.png" alt="WooCommerce Shipping Zones Store Pickup" /></a>
+<a class="doc-image-link" href="./assets/admin-wc-shipping-store-pickup.webp"><img src="./assets/admin-wc-shipping-store-pickup.webp" alt="WooCommerce Shipping Zones Store Pickup" /></a>
 
 ### Step-by-Step Configuration:
 
@@ -145,21 +145,17 @@ Marketplace admins can oversee vendor staff members directly from:
 
 **Marketplace > Vendor Staffs** (`wp-admin/admin.php?page=wk-marketplace-vendor-staffs`)
 
-<a class="doc-image-link" href="./assets/admin-vendor-staffs-store-pickup.png"><img src="./assets/admin-vendor-staffs-store-pickup.png" alt="Admin Vendor Staffs Management" /></a>
+<a class="doc-image-link" href="./assets/admin-vendor-staffs-store-pickup.webp"><img src="./assets/admin-vendor-staffs-store-pickup.webp" alt="Admin Vendor Staffs Management" /></a>
 
 ### Store Pickup Staff Capabilities
 
-In the global permissions matrix located in **Marketplace > Settings > Staffs** (`wp-admin/admin.php?page=wk-marketplace-settings&tab=staff`), the **Store Pickup** module provides two key operational permissions:
+Store pickup orders are managed through the standard **Orders** permission rather than separate custom capabilities.
 
-<a class="doc-image-link" href="./assets/admin-staff-store-pickup-capabilities.png"><img src="./assets/admin-staff-store-pickup-capabilities.png" alt="Vendor Staff Store Pickup Permissions" /></a>
-
-| Capability Name | Internal Slug | Sensitivity & Default | Operational Function |
-| :--- | :--- | :--- | :--- |
-| **View store pickup orders** | `store_pickup_view` | Standard (Checked) | Allows staff members to open the **Store Pickup Orders** list in their seller dashboard to check collection queues and order details. |
-| **Send and verify pickup codes** | `store_pickup_verify` | Standard (Checked) | Authorizes counter staff to trigger the 6-digit customer verification code and validate the code upon physical package handover. |
+- **Orders Permission**: When vendors grant their staff the standard **View orders** permission (governed under **Marketplace > Settings > Staffs**), authorized staff members can inspect both regular shipping and store pickup orders from their seller dashboard.
+- **Counter Operations**: Counter staff with order access can open arriving customer pickup orders, review items, click **Generate OTP** to dispatch the 6-digit code to the buyer's email, and validate the code upon physical package handover.
 
 ### How Store Staff Complete Handovers:
-1. The store assistant logs into their staff account and opens the **Store Pickup Orders** section.
+1. The store assistant logs into their staff account and opens the **Orders** section (or the **Store Pickup Orders** tab).
 2. When the customer arrives, the assistant searches for the order number or customer name.
 3. The assistant opens the order view, where the **Pickup Verification** box is visible.
 4. The assistant clicks **Generate OTP**, which emails the verification PIN to the buyer.
@@ -167,7 +163,7 @@ In the global permissions matrix located in **Marketplace > Settings > Staffs** 
 6. The system records the assistant's user ID and timestamp, marks the pickup verified, and allows the assistant to change the order status to **Completed**.
 
 ::: tip Delegatable Permissions Master Whitelist
-Vendors can only delegate Store Pickup permissions to their staff if the marketplace administrator has checked these capabilities in **Marketplace > Settings > Staffs**. For a full walkthrough of staff quotas and whitelist configuration, refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html).
+Staff members can only inspect and verify pickup orders if the marketplace administrator has permitted the **Orders** permission in the global master whitelist under **Marketplace > Settings > Staffs**, and the vendor has granted their staff account the corresponding order view access. For a full walkthrough of staff quotas and whitelist configuration, refer to the [Admin Staff Settings Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/admin-staff-setting.html) and the [Vendor Staff Guide](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-staff.html).
 :::
 
 ---
@@ -178,7 +174,7 @@ Administrators can review and manage every store pickup transaction across the m
 
 **Marketplace > Store Pickup Orders** (`wp-admin/admin.php?page=wk-marketplace-store-pickup`)
 
-<a class="doc-image-link" href="./assets/admin-store-pickup-orders.png"><img src="./assets/admin-store-pickup-orders.png" alt="Admin Store Pickup Orders List" /></a>
+<a class="doc-image-link" href="./assets/admin-store-pickup-orders.webp"><img src="./assets/admin-store-pickup-orders.webp" alt="Admin Store Pickup Orders List" /></a>
 
 ### Registry Data Columns:
 

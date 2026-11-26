@@ -7,9 +7,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/classic-v
 
 The **Classic Vendor Profile** is the vendor profile as it appears inside the **My Account** area. It displays important information about a vendor and helps customers understand the vendor's store, policies, and credibility.
 
-Vendors reach it from **My Account → My Profile**. It contains the same information as the new Store Edit page, but shown within the classic WooCommerce My Account layout (alongside Orders, Downloads, Addresses, and Account details).
-
 <a class="doc-image-link" href="./assets/profile.webp"><img src="./assets/profile.webp" alt="Vendor Profile Settings" /></a>
+
+Vendors reach it from **My Account → My Profile**. It contains the same information as the new Store Edit page, but shown within the classic WooCommerce My Account layout (alongside Orders, Downloads, Addresses, and Account details).
 
 ::: tip Looking for the new layout?
 If your marketplace uses the admin-like seller dashboard, see the [Vendor Profile (Store Edit)](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-profile.html) documentation for the newer **Store Edit** page.
@@ -23,17 +23,30 @@ If your marketplace uses the admin-like seller dashboard, see the [Vendor Profil
 - The profile contains essential vendor and shop-related information divided into multiple tabs for easier navigation.
 
 ## 1. General Tab
-The **General** tab contains the vendor's basic information:
-- **Personal Details**: Username, First Name, Last Name, and E-Mail.
-- **Read-only Applied Commission**: Vendors can view their currently applied commission rate (falling back to the global default if no specific commission is set).
+The **General** tab contains the vendor's basic personal profile information:
+- **Personal Details**: Username, First Name, Last Name, and E-Mail address.
 
 <a class="doc-image-link" href="./assets/general.webp"><img src="./assets/general.webp" alt="Seller Profile General Tab" /></a>
 
 ---
 
 ## 2. Shop Tab
-The **Shop** tab allows the vendor to configure their store details, policies, and SEO settings.
-- Vendors can define their shop title, description, and contact information.
+The **Shop** tab allows vendors to configure their store identity, contact info, fulfillment details, tax compliance, policies, and address.
+
+> [!NOTE] Form Field Parity
+> All store profile fields available in the classic My Account interface (`/my-account/seller-profile/`) are identical to the options provided on the modern `/seller/vendor-profile/` (Store Edit) panel.
+
+### Shop Information & Details:
+- **Shop Title / Name**: The public display name of the vendor store.
+- **Shop Slug**: The unique URL slug representing the store (e.g., `/vendor/aurora-athletics`). Read-only after initial creation to protect search indexing and permanent links.
+- **Phone Number**: Customer support or store contact telephone number.
+- **Fulfillment Text**: Custom delivery timeline, packaging note, or dispatch information shown to customers.
+- **Read-only Applied Commission**: Vendors can view their currently applied commission rate (falling back to the global default if no specific commission is configured).
+- **Payment Information**: Vendor payout details (bank account details, SWIFT/IBAN, or PayPal address) used by the administrator to disburse earnings after deducting marketplace commission.
+- **Store Address & Coordinates**: Country, Street Address, City, State, Postal Code, and Latitude/Longitude coordinates.
+- **Tax System Compliance**: Choose tax authority (**GSTIN**, **SSN**, or **VAT**) and enter the corresponding **Tax Identification Number**.
+- **Google Analytics Tracking**: Google Analytics Measurement ID (`G-XXXXXXXXXX`) and event tracking toggles (**Enable view item event**, **Enable purchase event**).
+- **Store Policies & Bio**: Rich WYSIWYG editors for **About Shop**, **Return Policy**, **Shipping Policy**, and **Privacy Policy**.
 
 <a class="doc-image-link" href="./assets/shop.webp"><img src="./assets/shop.webp" alt="Seller Profile Shop Tab" /></a>
 
@@ -91,6 +104,15 @@ Vendors can choose how their public store page looks from a dedicated **Profile 
 - **Spotlight**: Features a full-width hero banner with your products front and center, and an "About this Vendor" panel.
 
 <a class="doc-image-link" href="./assets/profile-view.webp"><img src="./assets/profile-view.webp" alt="Profile View Selection" /></a>
+
+---
+
+## 8. SEO Information Tab
+
+Vendors can optimize their shop's organic search visibility directly from the **SEO Information** tab:
+- **Meta Title**: The title tag displayed on search engine result pages (SERPs) and browser title bars.
+- **Meta Keywords**: Targeted keywords describing the store and catalog specialties, separated by commas.
+- **Meta Description**: A compelling summary (150–160 characters) shown below the search link to encourage customer click-throughs.
 
 ---
 

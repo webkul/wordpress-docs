@@ -92,7 +92,7 @@ Control how inventory is added to your marketplace catalog:
 <div class="qs-specs-list">
 
 - **Product Approval**: Choose whether vendor products publish instantly or require admin review before appearing on the storefront.
-- **Allowed Product Types**: Enable or disable specific WooCommerce product types for vendors (Simple, Variable, Virtual, Downloadable, Grouped, External).
+- **Allowed Product Types**: Enable or disable specific WooCommerce product types for vendors (Simple, Variable, Grouped, External).
 - **Select & Sell**: Allow multiple sellers to list offers against existing catalog items, avoiding duplicate listings.
 
 </div>
@@ -146,7 +146,7 @@ Set up built-in capabilities tailored to your marketplace business model:
 - **Vendor Shipping Zones**: Allow sellers to configure custom table rates, flat rates, shipping classes, or store pickup with OTP verification. See [Vendor Shipping Zone Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-shipping-zone-management.html).
 - **Vendor KYC Verification**: Require merchants to submit business registration, photo ID, or tax certificates before listing items or requesting payouts. See [Vendor KYC](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-kyc.html).
 - **Generative AI (Magic AI)**: Connect AI providers to give sellers one-click AI product title, description, and image generation directly in their dashboard. See [Generative AI Overview](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generative-ai-overview.html).
-- **Branded Invoices**: Customize marketplace invoice prefixes, tax identification numbers, and downloadable seller PDF invoices. See [Configuration Vendor Invoice](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-vendor-invoice.html).
+- **Vendor Invoice Settings**: Enable invoice access for vendors, attach invoices to emails, and configure the allowed file types and maximum file size for invoice attachments. See [Configuration Vendor Invoice](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configuration-vendor-invoice.html).
 
 </div>
 
@@ -170,7 +170,7 @@ Review pending merchant applications from the WordPress admin panel. Verify busi
 
 <div class="qs-guide-footer">
 
-- **Detailed Guide**: See [Vendor Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-mangement.html).
+- **Detailed Guide**: See [Vendor Management](https://wpdoc.webkul.com/woocommerce-marketplace/documentation/vendor-management-and-product-assignment.html).
 
 </div>
 
@@ -231,7 +231,7 @@ Disburse merchant earnings after orders reach completed status:
 
 <div class="qs-specs-list">
 
-- **Payment Requests**: Review vendor withdrawal requests, verify completed orders, and release payouts via PayPal Payouts, Stripe, or Bank Transfer.
+- **Payment Requests**: Review vendor withdrawal requests, verify completed orders, and release payouts via PayPal Payouts, UPI, or Bank Transfer.
 - **Audit Trail**: Maintain transparent accounting records of all platform fees, vendor commissions, and transaction logs.
 
 </div>

@@ -7,9 +7,9 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/selling-e
 
 In high-volume multi-vendor marketplaces, multiple merchants frequently offer identical brand-name goods, consumer electronics, books, or standard apparel. Creating separate product listings for every seller clutters the catalog, dilutes search engine ranking, and confuses shoppers with redundant duplicate pages.
 
-**Selling Existing Products** (powered by **Select and Sell**) solves this by enabling multiple approved vendors to attach their own pricing, stock, and offer notes to a single master product in the marketplace catalog. Customers enjoy a clean storefront with side-by-side merchant comparisons, while vendors easily list catalog items without re-entering descriptions or uploading media.
-
 <a class="doc-image-link" href="./assets/vendor-select-and-sell-overview.webp"><img src="./assets/vendor-select-and-sell-overview.webp" alt="Selling Existing Products Overview" /></a>
+
+**Selling Existing Products** (powered by **Select and Sell**) solves this by enabling multiple approved vendors to attach their own pricing, stock, and offer notes to a single master product in the marketplace catalog. Customers enjoy a clean storefront with side-by-side merchant comparisons, while vendors easily list catalog items without re-entering descriptions or uploading media.
 
 ---
 
@@ -18,7 +18,7 @@ In high-volume multi-vendor marketplaces, multiple merchants frequently offer id
 <div class="creation-modes-banner" style="margin: 20px 0 24px 0;">
   <div class="creation-modes-banner__item">
     <h4><span>📦</span> Master Catalog Product</h4>
-    <p>A single canonical catalog listing created by the marketplace administrator or an approved merchant, establishing master titles, product images, categories, and attributes.</p>
+    <p>A single canonical catalog listing created by the marketplace administrator, establishing master titles, product images, categories, and attributes.</p>
   </div>
   <div class="creation-modes-banner__item">
     <h4><span>🏷️</span> Multi-Seller Offer Layer</h4>
@@ -116,7 +116,7 @@ On single product pages, customers can explore all participating merchants:
 
 - **Primary Buy Box:** Displays the lowest price among all active sellers, along with that vendor's custom description note.
 - **Other Sellers View:**
-  - **Popup Modal Mode:** Clicking *"More Sellers"* opens an interactive modal window displaying merchant names, prices, feedback ratings, and individual **Add to Cart** buttons.
+  - **Popup Modal Mode:** Clicking *"Select a store to see availability and price"* opens an interactive modal window displaying merchant names, prices, feedback ratings, and individual **Add to Cart** buttons.
   - **List Table Mode:** An inline comparison table renders directly beneath the primary product details on the page.
 
 ---
@@ -124,6 +124,9 @@ On single product pages, customers can explore all participating merchants:
 ## Admin Configuration & Governance
 
 Marketplace administrators configure global Select & Sell settings, designate Global products, audit competing merchant offers, and moderate seller pricing from the WordPress dashboard:
+
+> [!NOTE] Administrator-Created Products Only
+> Currently, the marketplace administrator can only offer products for Select and Sell that are created by the administrator. Admin cannot offer vendor-created products for Select and Sell.
 
 Navigate to: **Marketplace > MP Select and Sell**
 

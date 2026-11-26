@@ -28,7 +28,7 @@ From this section, administrators can configure global news visibility settings,
 
 When navigating to **Marketplace → Admin News**, the administrator lands on the **Admin News Settings** configuration page.
 
-<a class="doc-image-link" href="./assets/admin-news-settings-live.png"><img src="./assets/admin-news-settings-live.png" alt="Admin News Settings" /></a>
+<a class="doc-image-link" href="./assets/admin-news-settings-live.webp"><img src="./assets/admin-news-settings-live.webp" alt="Admin News Settings" /></a>
 
 ### Quick Action Header Buttons
 
@@ -65,7 +65,7 @@ The settings form allows administrators to manage news visibility across the ent
   - **From last 1 year**: Displays announcements published within the last 365 days.
   - **From a custom date**: Enables an exact cutoff date picker.
 
-<a class="doc-image-link" href="./assets/admin-news-custom-date.png"><img src="./assets/admin-news-custom-date.png" alt="Admin News Custom Date Filter" /></a>
+<a class="doc-image-link" href="./assets/admin-news-custom-date.webp"><img src="./assets/admin-news-custom-date.webp" alt="Admin News Custom Date Filter" /></a>
 
 #### 3. Select the custom date
 - Appears dynamically when **From a custom date** is selected.
@@ -89,7 +89,7 @@ After adjusting these fields, click **Save Changes** to apply the configuration.
 - Click **Publish** to make the news live.
 - Admin can also **edit previously published news** at any time.
 
-<a class="doc-image-link" href="./assets/admin-news-create-new-live.png"><img src="./assets/admin-news-create-new-live.png" alt="Add New News Screen" /></a>
+<a class="doc-image-link" href="./assets/admin-news-create-new-live.webp"><img src="./assets/admin-news-create-new-live.webp" alt="Add New News Screen" /></a>
 
 ### Step-by-Step Announcement Creation Process
 
@@ -151,7 +151,7 @@ While creating or editing news, the admin can control which sellers can see the 
   - Hidden news
   - Previously published announcements
 
-<a class="doc-image-link" href="./assets/admin-news-all-posts-live.png"><img src="./assets/admin-news-all-posts-live.png" alt="All News List" /></a>
+<a class="doc-image-link" href="./assets/admin-news-all-posts-live.webp"><img src="./assets/admin-news-all-posts-live.webp" alt="All News List" /></a>
 
 ### News Management Interface Dimensions
 
@@ -198,7 +198,7 @@ Clicking **Quick Edit** on any news row opens an inline editing drawer without l
   - View the announcement title
   - Read the full news content
 
-<a class="doc-image-link" href="./assets/vendor-admin-news-table-live.png"><img src="./assets/vendor-admin-news-table-live.png" alt="Vendor News View" /></a>
+<a class="doc-image-link" href="./assets/vendor-admin-news-table-live.webp"><img src="./assets/vendor-admin-news-table-live.webp" alt="Vendor News View" /></a>
 
 ### Vendor Dashboard Interface
 

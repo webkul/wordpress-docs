@@ -19,7 +19,7 @@ Marketplace > Settings > Product
 - **Allow Vendor to Publish**
   - Enable to auto-approve and publish vendor products.
   - Disable to require admin approval for all vendor-added or edited products.
-  - *Flow:* Vendor adds/edits product → Status becomes **Draft** → Admin reviews and publishes.
+  - *Flow:* Vendor adds/edits product → Status becomes **Waiting for Approval** → Admin reviews and approves or rejects the product.
 
 - **Allow Vendors to Translate Products (WPML)**
   - Enables vendors to translate products from their dashboard.

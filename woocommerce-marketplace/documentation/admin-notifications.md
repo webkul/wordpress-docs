@@ -91,13 +91,13 @@ The Orders tab provides sub-filters to narrow down high-volume order feeds:
 
 When clicking **Processing**, the system filters the table to show orders requiring fulfillment or currently in preparation:
 
-<a class="doc-image-link" href="./assets/admin-notifications-orders-processing.png"><img src="./assets/admin-notifications-orders-processing.png" alt="Admin Notifications - Orders Processing Filter" /></a>
+<a class="doc-image-link" href="./assets/admin-notifications-orders-processing.webp"><img src="./assets/admin-notifications-orders-processing.webp" alt="Admin Notifications - Orders Processing Filter" /></a>
 
 #### Completed Section View
 
 When clicking **Completed**, the admin can review all orders that reached terminal fulfillment:
 
-<a class="doc-image-link" href="./assets/admin-notifications-orders-completed.png"><img src="./assets/admin-notifications-orders-completed.png" alt="Admin Notifications - Orders Completed Filter" /></a>
+<a class="doc-image-link" href="./assets/admin-notifications-orders-completed.webp"><img src="./assets/admin-notifications-orders-completed.webp" alt="Admin Notifications - Orders Completed Filter" /></a>
 
 ### Order Notification Message Formats
 

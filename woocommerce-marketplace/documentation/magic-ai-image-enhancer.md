@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/magic-ai-
 
 The **Product Image Enhancer** is an artificial intelligence tool engineered specifically for product thumbnails. It transforms ordinary photos into studio-grade e-commerce imagery while preserving the physical authenticity of the product.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-image-enhancer-overview.webp"><img src="./assets/marketplace-vendor-image-enhancer-overview.webp" alt="Product Image Enhancer AI Studio Transformation Overview" /></a>
+
 | Raw Vendor Photo | AI-Enhanced Thumbnail |
 |---|---|
 | • Dim or uneven home lighting<br>• Distracting messy background<br>• Flat mobile camera angles | • Balanced professional studio lighting<br>• Crisp, pure white or styled scene<br>• High-converting lifestyle presentation |

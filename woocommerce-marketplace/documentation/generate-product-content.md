@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/generate-
 
 Generative AI (branded as **Magic AI**) allows marketplace vendors to create complete, search-optimized WooCommerce product listings from a few brief bullet points, a short working title, or reference photos in seconds.
 
+<a class="doc-image-link" href="./assets/marketplace-vendor-generate-product-content-overview.webp"><img src="./assets/marketplace-vendor-generate-product-content-overview.webp" alt="Vendor Product Content Generation Overview with Magic AI Launcher" /></a>
+
 Users can review each generated suggestion, regenerate individual fields if desired, apply the fields they want to the product form, and save the product as usual.
 
 ::: tip Non-Destructive Workflow

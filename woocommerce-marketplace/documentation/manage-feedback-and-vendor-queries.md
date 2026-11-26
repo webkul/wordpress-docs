@@ -110,7 +110,15 @@ Rather than relying on a single, generalized star rating, the WooCommerce Multi-
 
 The marketplace calculates the vendor's overall storefront score by averaging all three approved criteria:
 
-$$\text{Overall Vendor Rating} = \frac{\text{Average Price} + \text{Average Value} + \text{Average Quality}}{3}$$
+<div class="rating-formula-card" style="background: var(--c-bg-light, #f8fafc); border: 1px solid var(--c-border, #e2e8f0); border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1.25rem 0; display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap; text-align: center;">
+  <span style="font-weight: 600; font-size: 1.05rem; color: var(--c-text, #1e293b);">Overall Vendor Rating =</span>
+  <div style="display: inline-flex; flex-direction: column; align-items: center; vertical-align: middle;">
+    <span style="border-bottom: 2px solid var(--c-text, #334155); padding: 0 0.75rem 0.25rem; font-weight: 600; font-size: 0.98rem; color: var(--c-text-accent, #0284c7);">Average Price + Average Value + Average Quality</span>
+    <span style="padding-top: 0.25rem; font-weight: 700; font-size: 1.05rem; color: var(--c-text, #1e293b);">3</span>
+  </div>
+</div>
+
+- **Calculation Formula**: `Overall Vendor Rating = (Average Price + Average Value + Average Quality) ÷ 3`
 
 - **Automatic Recalculation**: The overall score updates automatically whenever an administrator approves or disapproves reviews in the moderation queue.
 - **Storefront Display**: The calculated average is presented as star graphics on the vendor's public store banner, vendor badge, and customer-facing store profile.

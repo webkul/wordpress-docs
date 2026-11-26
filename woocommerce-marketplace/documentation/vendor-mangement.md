@@ -28,8 +28,6 @@ Admins can manage all vendor badges from the marketplace admin panel.
 - Assign priority using badge ranking
 - Upload custom badge images for visual recognition
 
-<a class="doc-image-link" href="./assets/admin-marketplace-badges-list.png"><img src="./assets/admin-marketplace-badges-list.png" alt="Badges Management Central Console" /></a>
-
 ### Badges List Table & Column Breakdown
 
 From **Marketplace → Badges**, the administrator can view all configured badges in a clean overview table.
@@ -146,8 +144,6 @@ Admins can update badge details at any time:
 
 This ensures badge criteria remain relevant as the marketplace evolves.
 
-<a class="doc-image-link" href="./assets/admin-update-badge-form.png"><img src="./assets/admin-update-badge-form.png" alt="Update Badge Form Screen" /></a>
-
 ### How to Edit an Existing Badge
 
 1. Go to **Marketplace → Badges**.
@@ -175,7 +171,7 @@ If you only need to pause or activate a badge without modifying its details, use
 **Example:**
 A vendor completing **10,000+ successful sales** can be awarded the **Gold Badge**.
 
-<a class="doc-image-link" href="./assets/admin-vendor-details-assigned-badges.png"><img src="./assets/admin-vendor-details-assigned-badges.png" alt="Assigned Badges in Vendor Details Tab" /></a>
+<a class="doc-image-link" href="./assets/marketplace-admin-setting-vendor-assigned-badge.webp"><img src="./assets/marketplace-admin-setting-vendor-assigned-badge.webp" alt="Marketplace Admin Setting Vendor Assigned Badge" /></a>
 
 ### Comparing Badge Assignment Methods
 

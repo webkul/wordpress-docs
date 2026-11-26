@@ -7,6 +7,8 @@ source: https://wpdoc.webkul.com/woocommerce-marketplace/documentation/configura
 
 The **Endpoints** configuration allows the admin to manage dynamic URL segments used across the vendor dashboard and related pages in the WooCommerce Multi-Vendor Marketplace.
 
+<a class="doc-image-link" href="./assets/admin-endpoints-settings-overview.webp"><img src="./assets/admin-endpoints-settings-overview.webp" alt="Admin Endpoints Configuration Overview" /></a>
+
 ---
 
 ## Endpoints Overview
@@ -50,7 +52,6 @@ The **Endpoints** configuration allows the admin to manage dynamic URL segments 
 - Each endpoint URL can be customized
 - Endpoints must be **unique** to avoid conflicts
 - Any changes reflect immediately in vendor dashboard URLs
-- **Hide Dashboard Sections**: Admins can easily hide individual vendor dashboard sections directly from the Endpoints settings by disabling their respective endpoints.
 - Recommended practice:
   - Use a prefix such as **`vendor-`** to avoid collisions
 
@@ -99,6 +100,7 @@ The **Endpoints** configuration allows the admin to manage dynamic URL segments 
 - `add-payment-method`
 - `delete-payment-method`
 - `set-default-payment-method`
+- `stripe-dashboard`
 
 ### Behavior
 
